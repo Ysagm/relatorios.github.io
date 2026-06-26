@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Manutenção Aeronáutica</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <style>
+    :root {
+      --bg:               #ffffff;
+      --surface-1:        #f4f4f5;
+      --surface-2:        #fafafa;
+      --border:           #e4e4e7;
+      --border-strong:    #d4d4d8;
+      --border-stronger:  #a1a1aa;
+      --text-primary:     #09090b;
+      --text-secondary:   #52525b;
+      --text-muted:       #a1a1aa;
+      --text-danger:      #dc2626;
+      --text-warning:     #d97706;
+      --text-accent:      #2563eb;
+      --text-success:     #16a34a;
+      --bg-danger:        #fef2f2;
+      --bg-warning:       #fffbeb;
+      --bg-accent:        #eff6ff;
+      --bg-success:       #f0fdf4;
+      --border-danger:    #fecaca;
+      --radius:           6px;
+      --font-mono:        'Menlo', 'Monaco', 'Consolas', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+    }
+
+    /* ── Login ── */
+    #login-screen {
+      display: flex; align-items: center; justify-content: center;
+      min-height: 100vh; background: var(--surface-1);
+    }
+    .login-card {
+      background: var(--bg); border: 0.5px solid var(--border);
+      border-radius: 12px; padding: 2.5rem; width: 100%; max-width: 360px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+    .login-card h1 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
+    .login-card p  { font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem; }
+    .login-card input {
+      width: 100%; padding: 10px 12px; border: 0.5px solid var(--border-strong);
+      border-radius: var(--radius); font-size: 14px; margin-bottom: 10px;
+      background: var(--surface-2); color: var(--text-primary); outline: none;
+    }
+    .login-card input:focus { border-color: var(--border-stronger); }
+    .login-card button {
+      width: 100%; padding: 10px; background: var(--text-primary); color: #fff;
+      border: none; border-radius: var(--radius); font-size: 14px;
+      font-weight: 500; cursor: pointer;
+    }
+    .login-card button:hover { opacity: 0.85; }
+    .login-error { font-size: 12px; color: var(--text-danger); margin-top: 8px; display: none; }
+
+    /* ── App ── */
+    #app { display: none; max-width: 1100px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+
+    .header { padding: 1.5rem 0 1rem; border-bottom: 0.5px solid var(--border); margin-bottom: 1.5rem; }
+    .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+    .header-left { display: flex; align-items: center; gap: 12px; }
+    .aircraft-title { font-size: 20px; font-weight: 500; }
+    .aircraft-sub   { font-size: 13px; color: var(--text-secondary); }
+    .logout-btn {
+      font-size: 12px; color: var(--text-muted); background: none;
+      border: 0.5px solid var(--border); border-radius: var(--radius);
+      padding: 4px 10px; cursor: pointer;
+    }
+    .logout-btn:hover { color: var(--text-secondary); }
+
+    .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 10px; margin-bottom: 1.5rem; }
+    .stat-card  { background: var(--surface-1); border-radius: var(--radius); padding: 12px 14px; }
+    .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 4px; }
+    .stat-value { font-size: 22px; font-weight: 500; }
+    .stat-value.danger { color: var(--text-danger); }
+    .stat-sub   { font-size: 11px; color: var(--text-secondary); margin-top: 2px; }
+
+    .filters      { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; align-items: center; }
+    .filter-label { font-size: 12px; color: var(--text-secondary); margin-right: 4px; }
+    .pill {
+      padding: 4px 12px; border-radius: 20px; font-size: 12px;
+      border: 0.5px solid var(--border-strong); background: var(--surface-2);
+      color: var(--text-secondary); cursor: pointer; transition: all .15s; white-space: nowrap;
+    }
+    .pill.active { background: var(--bg-danger); color: var(--text-danger); border-color: var(--border-danger); font-weight: 500; }
+    .pill:hover:not(.active) { background: var(--surface-1); }
+
+    .section-title { font-size: 13px; font-weight: 500; color: var(--text-secondary); margin-bottom: 10px; text-transform: uppercase; letter-spacing: .05em; }
+
+    .task-table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+    .task-table th {
+      font-size: 11px; color: var(--text-muted); text-transform: uppercase;
+      letter-spacing: .04em; padding: 6px 10px; text-align: left;
+      border-bottom: 0.5px solid var(--border); font-weight: 400;
+    }
+    .task-table td { padding: 10px; border-bottom: 0.5px solid var(--border); vertical-align: top; line-height: 1.4; }
+    .task-table tr:last-child td { border-bottom: none; }
+    .task-table tr:hover td { background: var(--surface-1); }
+    .task-code  { font-family: var(--font-mono); font-size: 11px; color: var(--text-secondary); display: block; margin-bottom: 2px; }
+    .desc-text  { font-size: 12px; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; margin: 1px; }
+    .badge-hours  { background: var(--bg-warning); color: var(--text-warning); }
+    .badge-days   { background: var(--bg-accent);   color: var(--text-accent); }
+    .badge-cycles { background: var(--bg-success);  color: var(--text-success); }
+    .sheet-tag {
+      display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px;
+      background: var(--surface-1); color: var(--text-muted); border: 0.5px solid var(--border);
+    }
+    .due-text { font-family: var(--font-mono); font-size: 12px; color: var(--text-danger); font-weight: 500; }
+
+    .col-task  { width: 32%; }
+    .col-sheet { width: 11%; }
+    .col-due   { width: 30%; }
+    .col-type  { width: 27%; }
+
+    .acft-selector { display: flex; gap: 8px; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .acft-btn {
+      padding: 6px 14px; border-radius: var(--radius); font-size: 13px;
+      border: 0.5px solid var(--border-strong); background: var(--surface-2);
+      color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 6px;
+    }
+    .acft-btn.active { border-color: var(--border-stronger); color: var(--text-primary); font-weight: 500; background: var(--surface-1); }
+    .acft-btn .dot  { width: 7px; height: 7px; border-radius: 50%; background: var(--text-danger); flex-shrink: 0; }
+
+    .upload-zone {
+      border: 1px dashed var(--border-strong); border-radius: 12px; padding: 2rem;
+      text-align: center; color: var(--text-muted); font-size: 13px;
+      margin-bottom: 1.5rem; cursor: pointer; transition: all .15s;
+    }
+    .upload-zone:hover { background: var(--surface-1); border-color: var(--border-stronger); }
+    .upload-zone i { font-size: 28px; display: block; margin-bottom: 8px; color: var(--text-secondary); }
+    .upload-btn {
+      display: inline-block; margin-top: 10px; padding: 6px 16px;
+      border-radius: var(--radius); border: 0.5px solid var(--border-strong);
+      font-size: 13px; color: var(--text-secondary); cursor: pointer; background: var(--surface-2);
+    }
+    .progress-bar  { height: 3px; background: var(--surface-1); border-radius: 2px; margin: 8px 0; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--text-danger); border-radius: 2px; transition: width .3s; }
+
+    .empty-state { text-align: center; padding: 3rem 1rem; color: var(--text-muted); font-size: 14px; }
+
+    .data-source-note {
+      font-size: 11px; color: var(--text-muted); margin-bottom: 1rem;
+      padding: 6px 10px; background: var(--surface-1); border-radius: var(--radius);
+      display: flex; align-items: center; gap: 6px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── LOGIN ─────────────────────────────────────────────────── -->
+<div id="login-screen">
+  <div class="login-card">
+    <h1>✈ Manutenção</h1>
+    <p>Painel de controle de frota</p>
+    <input type="password" id="pwd-input" placeholder="Senha de acesso" onkeydown="if(event.key==='Enter')doLogin()">
+    <button onclick="doLogin()">Entrar</button>
+    <div class="login-error" id="login-error">Senha incorreta.</div>
+  </div>
+</div>
+
+<!-- ── APP ───────────────────────────────────────────────────── -->
+<div id="app">
+  <div class="header">
+    <div class="header-top">
+      <div class="header-left">
+        <i class="ti ti-plane" style="font-size:20px;color:var(--text-secondary);"></i>
+        <span class="aircraft-title" id="main-title">Painel de manutenção</span>
+      </div>
+      <button class="logout-btn" onclick="doLogout()">Sair</button>
+    </div>
+    <div class="aircraft-sub" id="main-sub">Carregue os relatórios Excel para visualizar os alertas</div>
+  </div>
+
+  <div id="data-mode-upload">
+    <div class="upload-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
+      <i class="ti ti-file-spreadsheet"></i>
+      <div style="font-weight:500;color:var(--text-primary);margin-bottom:4px;">Arraste os arquivos Excel aqui</div>
+      <div>ou clique para selecionar — múltiplos arquivos suportados</div>
+      <div style="font-size:11px;margin-top:6px;color:var(--text-muted);">.xls e .xlsx • um arquivo = uma aeronave</div>
+      <label class="upload-btn" for="file-input" onclick="event.stopPropagation()">
+        <i class="ti ti-upload"></i> Selecionar arquivos
+      </label>
+    </div>
+    <input type="file" id="file-input" multiple accept=".xls,.xlsx" style="display:none">
+    <div id="loading-status" style="display:none;font-size:13px;color:var(--text-secondary);padding:8px 0;">
+      <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+      <span id="loading-text">Lendo arquivos...</span>
+    </div>
+  </div>
+
+  <div id="dashboard-section" style="display:none;">
+    <div id="data-source-note" class="data-source-note" style="display:none;">
+      <i class="ti ti-refresh" style="font-size:13px;"></i>
+      <span id="data-source-text"></span>
+    </div>
+    <div id="acft-selector-wrap" class="acft-selector"></div>
+    <div class="stats-grid" id="stats-grid"></div>
+    <div class="filters" style="margin-bottom:8px;">
+      <span class="filter-label">Aba:</span>
+      <span class="pill active" data-tab="all"         onclick="setTab('all',this)">Todas</span>
+      <span class="pill"        data-tab="Manutenção"  onclick="setTab('Manutenção',this)">Manutenção</span>
+      <span class="pill"        data-tab="Componentes" onclick="setTab('Componentes',this)">Componentes</span>
+      <span class="pill"        data-tab="DIR"         onclick="setTab('DIR',this)">DIR</span>
+      <span class="pill"        data-tab="DIR MOTOR"   onclick="setTab('DIR MOTOR',this)">DIR Motor</span>
+      <span class="pill"        data-tab="DIR APU"     onclick="setTab('DIR APU',this)">DIR APU</span>
+    </div>
+    <div class="filters">
+      <span class="filter-label">Validade:</span>
+      <span class="pill active" data-validity="all"    onclick="setValidity('all',this)">Todas</span>
+      <span class="pill"        data-validity="hours"  onclick="setValidity('hours',this)">&lt; 30 horas</span>
+      <span class="pill"        data-validity="days"   onclick="setValidity('days',this)">&lt; 30 dias</span>
+      <span class="pill"        data-validity="cycles" onclick="setValidity('cycles',this)">&lt; 30 ciclos</span>
+    </div>
+    <div id="table-wrap"></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="./data.js"></script>
+<script>
+// ── CONFIG ────────────────────────────────────────────────────────────────
+// Hash SHA-256 da senha (não fica em texto puro no código).
+// Para gerar um novo hash: abra o console do navegador e rode
+//   crypto.subtle.digest('SHA-256', new TextEncoder().encode('NOVASENHA')).then(b=>console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
+const SENHA_HASH = '224c9fa0091233cb89b9c9794cedc820ee7656d44a9a4df0ef99bbd67f2a7c0e';
+
+// Se existir um data.json gerado pelo script Python, o dashboard carrega
+// automaticamente em vez de pedir upload. Deixe null para usar só upload.
+const JSON_PATH = './data.json';
+
+// ── AUTH ──────────────────────────────────────────────────────────────────
+async function sha256Hex(text) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
+}
+async function doLogin() {
+  const val = document.getElementById('pwd-input').value;
+  const hash = await sha256Hex(val);
+  if (hash === SENHA_HASH) {
+    sessionStorage.setItem('auth', '1');
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    tryLoadJSON();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+  }
+}
+function doLogout() {
+  sessionStorage.removeItem('auth');
+  location.reload();
+}
+// Manter sessão ao recarregar a página
+if (sessionStorage.getItem('auth') === '1') {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+  tryLoadJSON();
+}
+
+// ── CARREGAR JSON (modo automático) ───────────────────────────────────────
+function applyJSON(json) {
+  // json = { generated_at: "...", aircraft: { "PP-AGN": { info:{}, tasks:[] }, ... } }
+  Object.entries(json.aircraft).forEach(([name, data]) => {
+    allData[name] = data;
+  });
+  document.getElementById('data-mode-upload').style.display = 'none';
+  document.getElementById('dashboard-section').style.display = 'block';
+  if (json.generated_at) {
+    document.getElementById('data-source-note').style.display = 'flex';
+    document.getElementById('data-source-text').textContent =
+      'Dados gerados automaticamente em ' + json.generated_at;
+  }
+  currentAcft = Object.keys(allData)[0];
+  renderAcftSelector();
+  renderDashboard();
+}
+
+function tryLoadJSON() {
+  // Modo 1: dados embutidos via data.js (funciona abrindo o arquivo direto, sem servidor)
+  if (window.EMBEDDED_DATA) {
+    applyJSON(window.EMBEDDED_DATA);
+    return;
+  }
+  // Modo 2: fetch de data.json (só funciona servindo via http://, não file://)
+  if (!JSON_PATH) return;
+  fetch(JSON_PATH)
+    .then(r => { if (!r.ok) throw new Error('sem json'); return r.json(); })
+    .then(applyJSON)
+    .catch(() => { /* sem json — mostra upload normal */ });
+}
+
+// ── STATE ─────────────────────────────────────────────────────────────────
+let allData        = {};
+let currentAcft    = null;
+let currentTab     = 'all';
+let currentValidity = 'all';
+
+// ── UPLOAD (modo manual) ──────────────────────────────────────────────────
+const dropZone = document.getElementById('drop-zone');
+const fileInput = document.getElementById('file-input');
+dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.style.background='var(--surface-1)'; });
+dropZone.addEventListener('dragleave', () => { dropZone.style.background=''; });
+dropZone.addEventListener('drop', e => { e.preventDefault(); dropZone.style.background=''; handleFiles(Array.from(e.dataTransfer.files)); });
+fileInput.addEventListener('change', e => handleFiles(Array.from(e.target.files)));
+
+function handleFiles(files) {
+  const xls = files.filter(f => f.name.match(/\.(xlsx?|xls)$/i));
+  if (!xls.length) return;
+  document.getElementById('loading-status').style.display = 'block';
+  document.getElementById('upload-section').style.pointerEvents = 'none';
+  let done = 0;
+  xls.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = ev => {
+      try {
+        const wb   = XLSX.read(ev.target.result, { type:'array', cellDates:true });
+        const name = extractAcftName(file.name);
+        allData[name] = parseWorkbook(wb, name);
+      } catch(err) { console.error('Erro:', file.name, err); }
+      done++;
+      document.getElementById('progress-fill').style.width = (done/xls.length*100)+'%';
+      document.getElementById('loading-text').textContent  = `Lendo ${done} de ${xls.length} arquivo(s)...`;
+      if (done === xls.length) {
+        setTimeout(() => {
+          document.getElementById('data-mode-upload').style.display  = 'none';
+          document.getElementById('dashboard-section').style.display = 'block';
+          currentAcft = Object.keys(allData)[0];
+          renderAcftSelector();
+          renderDashboard();
+        }, 300);
+      }
+    };
+    reader.readAsArrayBuffer(file);
+  });
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────────
+function normalize(v) {
+  return String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim().toUpperCase();
+}
+function isAlert(v) { const n=normalize(v); return n==='ATENCAO'||n==='ATTENTION'; }
+
+function excelDateToJS(serial) {
+  if (!serial || typeof serial !== 'number') return null;
+  return new Date((serial - 25569) * 86400000);
+}
+function dateDiffDays(val) {
+  let d;
+  if (val instanceof Date)      d = val;
+  else if (typeof val==='number') d = excelDateToJS(val);
+  else if (typeof val==='string') d = new Date(val);
+  else return null;
+  if (!d || isNaN(d)) return null;
+  const today = new Date(); today.setHours(0,0,0,0);
+  return Math.round((d - today) / 86400000);
+}
+function extractAcftName(filename) {
+  const base = filename.replace(/\.(xlsx?|xls)$/i,'');
+  // Padrão "XX-XXX" já no nome (ex: "PP-AGN")
+  const m = base.match(/\b([A-Z]{2}-[A-Z0-9]{3})\b/i);
+  if (m) return m[1].toUpperCase();
+  // Padrão sem hífen entre underscores (ex: __PPAGN__)
+  const b = base.match(/__([A-Z0-9]{5})__/i);
+  if (b) { const c=b[1].toUpperCase(); return c.slice(0,2)+'-'+c.slice(2); }
+  return base.split(/[_\-\s]+/)[0].toUpperCase();
+}
+
+// ── PARSER ────────────────────────────────────────────────────────────────
+function parseWorkbook(wb, acftName) {
+  const TARGET = ['Manutenção','Manutenao','Componentes','DIR','DIR MOTOR','DIR APU'];
+  const tasks  = [];
+  let info     = {};
+
+  wb.SheetNames.forEach(sheetName => {
+    const sn = sheetName.trim();
+    if (!TARGET.some(t => sn===t || sn.startsWith(t))) return;
+
+    const ws   = wb.Sheets[sheetName];
+    const rows = XLSX.utils.sheet_to_json(ws, { header:1, defval:null });
+
+    // Cabeçalho da aeronave
+    if (!info.totalHours) {
+      for (let i = 0; i < Math.min(15, rows.length); i++) {
+        const row = rows[i] || [];
+        for (let j = 0; j < row.length - 1; j++) {
+          const v = normalize(row[j]);
+          if (v==='HORAS TOTAIS')  info.totalHours    = Number(row[j+1]);
+          if (v==='POUSOS TOTAIS') info.totalLandings = Number(row[j+1]);
+          if (v==='CICLOS TOTAIS') info.totalCycles   = Number(row[j+1]);
+          if (!info.registration) {
+            const rm = String(row[j]||'').match(/^([A-Z]{2}-[A-Z0-9]{3})$/i);
+            if (rm) info.registration = rm[1].toUpperCase();
+          }
+        }
+      }
+    }
+
+    const isDIR = sn.startsWith('DIR');
+
+    if (isDIR) {
+      let hdr = -1;
+      for (let i = 0; i < rows.length; i++) {
+        const rs = (rows[i]||[]).map(v=>normalize(v)).join('|');
+        if (rs.includes('AIRWORTHINESS')||rs.includes('DIRETRIZ')||rs.includes('AD/DA')||rs.includes('AD DA')) {
+          hdr = i; break;
+        }
+      }
+      if (hdr < 0) return;
+      for (let i = hdr+1; i < rows.length; i++) {
+        const row = rows[i] || [];
+        const alertH = isAlert(row[14]);
+        const alertD = isAlert(row[15]);
+        if (!alertH && !alertD) continue;
+        const ad=String(row[1]||'').trim(), sb=String(row[2]||'').trim(), desc=String(row[3]||'').trim();
+        if (!ad&&!sb&&!desc) continue;
+        const alertTypes=[];
+        let dueHoursStr=null, dueDaysStr=null;
+        if (alertH && row[12]!=null) {
+          const h=Number(row[12]);
+          if (!isNaN(h)) { dueHoursStr=h.toFixed(1)+'h'; alertTypes.push('hours'); }
+        }
+        if (alertD) {
+          const days=dateDiffDays(row[13]);
+          if (days!=null) { dueDaysStr=days+' dias'; alertTypes.push('days'); }
+          else if (row[13]!=null) { const n=Number(row[13]); if(!isNaN(n)){dueDaysStr=Math.round(n)+' dias';alertTypes.push('days');} }
+        }
+        tasks.push({ id:String(row[0]||'').trim(), task:ad||sb||'', description:desc||ad||'AD',
+          pn:sb||'', sheet:sn, dueHoursStr, dueDaysStr, dueCyclesStr:null, alertTypes });
+      }
+    } else {
+      let hdr = -1;
+      for (let i = 0; i < rows.length; i++) {
+        const rs = (rows[i]||[]).map(v=>normalize(v)).join('|');
+        if (rs.includes('TASK')||(rs.includes('ID')&&(rs.includes('INSPECTIONS')||rs.includes('NOMENCLATURA')))) {
+          hdr=i; break;
+        }
+      }
+      if (hdr < 0) return;
+      const alertCol = sn==='Componentes' ? 19 : 18;
+      for (let i = hdr+1; i < rows.length; i++) {
+        const row = rows[i] || [];
+        if (!isAlert(row[alertCol])) continue;
+        const taskId=String(row[1]||'').trim(), desc=String(row[2]||'').trim();
+        if (!taskId&&!desc) continue;
+        const alertTypes=[]; let dueHoursStr=null,dueDaysStr=null,dueCyclesStr=null;
+        // Horas: col[14] (saldo calculado pelo Excel por componente)
+        const saldoH=row[14];
+        if (saldoH!=null&&saldoH!=='-'&&saldoH!=='') {
+          const h=Number(saldoH);
+          if (!isNaN(h)) { dueHoursStr=h.toFixed(1)+'h'; alertTypes.push('hours'); }
+        }
+        // Dias: recalcular com col[13] (Date)
+        const nextDate=row[13];
+        if (nextDate!=null&&nextDate!=='-') {
+          const days=dateDiffDays(nextDate);
+          if (days!=null) { dueDaysStr=days+' dias'; alertTypes.push('days'); }
+          else { const sd=row[16]; if(sd!=null&&sd!=='-'){const n=Number(sd);if(!isNaN(n)){dueDaysStr=Math.round(n)+' dias';alertTypes.push('days');}}}
+        } else { const sd=row[16]; if(sd!=null&&sd!=='-'&&sd!==''){const n=Number(sd);if(!isNaN(n)){dueDaysStr=Math.round(n)+' dias';alertTypes.push('days');}}}
+        // Ciclos: col[15]
+        const saldoC=row[15];
+        if (saldoC!=null&&saldoC!=='-'&&saldoC!=='') {
+          const c=Number(saldoC);
+          if (!isNaN(c)) { dueCyclesStr=Math.round(c)+' ciclos'; alertTypes.push('cycles'); }
+        }
+        if (!alertTypes.length) alertTypes.push('days');
+        tasks.push({ id:String(row[0]||'').trim(), task:taskId, description:desc,
+          pn:String(row[3]||'').trim(), sheet:sn, dueHoursStr, dueDaysStr, dueCyclesStr, alertTypes });
+      }
+    }
+  });
+  return { tasks, info, name:acftName };
+}
+
+// ── FILTROS ───────────────────────────────────────────────────────────────
+function setTab(v,el) {
+  currentTab=v;
+  document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab===v));
+  renderTable();
+}
+function setValidity(v,el) {
+  currentValidity=v;
+  document.querySelectorAll('[data-validity]').forEach(p=>p.classList.toggle('active',p.dataset.validity===v));
+  renderTable();
+}
+
+// ── RENDER ────────────────────────────────────────────────────────────────
+function renderAcftSelector() {
+  const wrap=document.getElementById('acft-selector-wrap');
+  const names=Object.keys(allData);
+  if (names.length<=1){wrap.style.display='none';return;}
+  wrap.innerHTML=names.map(n=>{
+    const cnt=allData[n].tasks.length;
+    return `<button class="acft-btn ${n===currentAcft?'active':''}" onclick="switchAcft('${n}')">
+      <span class="dot"></span>${n} <span style="font-size:11px;color:var(--text-muted);">(${cnt})</span>
+    </button>`;
+  }).join('');
+}
+function switchAcft(name) {
+  currentAcft=name; currentTab='all'; currentValidity='all';
+  document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab==='all'));
+  document.querySelectorAll('[data-validity]').forEach(p=>p.classList.toggle('active',p.dataset.validity==='all'));
+  renderAcftSelector(); renderDashboard();
+}
+function renderDashboard() {
+  const data=allData[currentAcft]; if(!data)return;
+  const info=data.info;
+  document.getElementById('main-title').textContent=currentAcft;
+  const sub=[
+    info.totalHours!=null?info.totalHours.toFixed(1)+' horas totais':null,
+    info.totalLandings!=null?info.totalLandings+' pousos':null,
+    info.totalCycles!=null?info.totalCycles+' ciclos':null,
+  ].filter(Boolean).join(' · ');
+  document.getElementById('main-sub').textContent=sub||'Relatório de manutenção';
+  const tasks=data.tasks;
+  document.getElementById('stats-grid').innerHTML=`
+    <div class="stat-card"><div class="stat-label">Total de alertas</div><div class="stat-value danger">${tasks.length}</div><div class="stat-sub">tarefas em atenção</div></div>
+    <div class="stat-card"><div class="stat-label"><i class="ti ti-clock"></i> &lt; 30 horas</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('hours')).length}</div><div class="stat-sub">alertas por horas</div></div>
+    <div class="stat-card"><div class="stat-label"><i class="ti ti-calendar"></i> &lt; 30 dias</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('days')).length}</div><div class="stat-sub">alertas por data</div></div>
+    <div class="stat-card"><div class="stat-label"><i class="ti ti-repeat"></i> &lt; 30 ciclos</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('cycles')).length}</div><div class="stat-sub">alertas por ciclos</div></div>`;
+  renderTable();
+}
+function renderTable() {
+  const data=allData[currentAcft]; if(!data)return;
+  let tasks=data.tasks;
+  if (currentTab!=='all') tasks=tasks.filter(t=>{const s=t.sheet.trim();if(currentTab==='DIR')return s==='DIR';return s===currentTab||s.startsWith(currentTab);});
+  if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity));
+  const wrap=document.getElementById('table-wrap');
+  if (!tasks.length){wrap.innerHTML=`<div class="empty-state"><i class="ti ti-circle-check" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhum alerta nesta categoria</div>`;return;}
+  const countLabel=`<div class="section-title">${tasks.length} tarefa${tasks.length!==1?'s':''} em alerta</div>`;
+  const rows=tasks.map(t=>{
+    const typeBadges=t.alertTypes.map(type=>{
+      if(type==='hours') return `<span class="badge badge-hours"><i class="ti ti-clock"></i> &lt; 30 horas</span>`;
+      if(type==='days')  return `<span class="badge badge-days"><i class="ti ti-calendar"></i> &lt; 30 dias</span>`;
+      if(type==='cycles')return `<span class="badge badge-cycles"><i class="ti ti-repeat"></i> &lt; 30 ciclos</span>`;
+      return '';
+    }).join(' ');
+    const dueParts=[];
+    if(t.dueHoursStr) dueParts.push(t.dueHoursStr);
+    if(t.dueCyclesStr)dueParts.push(t.dueCyclesStr);
+    if(t.dueDaysStr)  dueParts.push(t.dueDaysStr);
+    const dueStr=dueParts.length?`<span class="due-text">${dueParts.join(' | ')}</span>`:'<span style="color:var(--text-muted);font-size:12px;">—</span>';
+    const descText=t.description.length>80?t.description.slice(0,80)+'…':t.description;
+    const pn=t.pn?`<span class="task-code">P/N: ${t.pn}</span>`:'';
+    return `<tr>
+      <td class="col-task"><span class="task-code">${t.task||t.id||'—'}</span><span class="desc-text">${descText}</span>${pn}</td>
+      <td class="col-sheet"><span class="sheet-tag">${t.sheet.trim()}</span></td>
+      <td class="col-due">${dueStr}</td>
+      <td class="col-type">${typeBadges}</td>
+    </tr>`;
+  }).join('');
+  wrap.innerHTML=`${countLabel}<div style="overflow-x:auto;"><table class="task-table">
+    <thead><tr>
+      <th class="col-task">Tarefa / Descrição</th>
+      <th class="col-sheet">Aba</th>
+      <th class="col-due">Saldo restante</th>
+      <th class="col-type">Tipo de validade</th>
+    </tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+</script>
+</body>
+</html>
