@@ -1,0 +1,54 @@
+name: Atualizar dados do dashboard
+
+on:
+  schedule:
+    # 09:00 UTC = 06:00 horario de Brasilia (ajuste se necessario)
+    - cron: '0 9 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar rclone
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rclone
+
+      - name: Restaurar configuracao do rclone (OneDrive)
+        run: |
+          mkdir -p ~/.config/rclone
+          printf '%s' "${{ secrets.RCLONE_CONF }}" > ~/.config/rclone/rclone.conf
+
+      - name: Baixar planilhas do OneDrive
+        run: |
+          mkdir -p onedrive_sync
+          rclone copy "onedrive:Planilhas 2026 - PP-AGN" "onedrive_sync/Planilhas 2026 - PP-AGN" --max-age 60d
+          rclone copy "onedrive:Planilhas 2026 - PP-VEL" "onedrive_sync/Planilhas 2026 - PP-VEL" --max-age 60d
+          rclone copy "onedrive:Planilhas 2026 - PS-FLC" "onedrive_sync/Planilhas 2026 - PS-FLC" --max-age 60d
+          rclone copy "onedrive:Planilhas 2026 - PS-NFA" "onedrive_sync/Planilhas 2026 - PS-NFA" --max-age 60d
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install xlrd openpyxl
+
+      - name: Rodar parser.py
+        env:
+          ONEDRIVE_BASE: ${{ github.workspace }}/onedrive_sync
+        run: python parser.py
+
+      - name: Publicar no Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: ${{ secrets.CF_PROJECT_NAME }}
+          directory: site
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
