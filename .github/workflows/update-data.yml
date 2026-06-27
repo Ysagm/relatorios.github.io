@@ -25,6 +25,17 @@ jobs:
           mkdir -p ~/.config/rclone
           printf '%s' "$RCLONE_CONF_CONTENT" > ~/.config/rclone/rclone.conf
 
+      - name: Diagnostico do rclone.conf (sem expor segredos)
+        run: |
+          echo "Tamanho do arquivo (bytes):"
+          wc -c ~/.config/rclone/rclone.conf
+          echo "Numero de linhas:"
+          wc -l ~/.config/rclone/rclone.conf
+          echo "Primeiros 64 bytes em hex (detecta BOM/caracteres invisiveis):"
+          head -c 64 ~/.config/rclone/rclone.conf | xxd
+          echo "Nomes das chaves de cada linha (sem mostrar valores):"
+          sed -E 's/^([^=]*=).*/\1 <valor omitido>/' ~/.config/rclone/rclone.conf | cat -A | head -20
+
       - name: Baixar planilhas do OneDrive
         run: |
           mkdir -p onedrive_sync
