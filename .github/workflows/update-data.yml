@@ -49,6 +49,8 @@ jobs:
 
       - name: Publicar no Cloudflare Pages
         uses: cloudflare/pages-action@v1
+        env:
+          CI: 'true'
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
