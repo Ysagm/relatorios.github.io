@@ -26,10 +26,12 @@ jobs:
       - name: Diagnostico do rclone.conf (sem expor segredos)
         run: |
           rclone version
-          echo "Primeiros 64 bytes em hex:"
-          head -c 64 ~/.config/rclone/rclone.conf | xxd
-          echo "Teste de parsing (sem listar arquivos):"
-          rclone config show onedrive | sed -E 's/^([^=]*=).*/\1 <valor omitido>/'
+          echo "SHA256 do arquivo (compare com o hash local):"
+          sha256sum ~/.config/rclone/rclone.conf
+          echo "Tamanho em bytes:"
+          wc -c ~/.config/rclone/rclone.conf
+          echo "SHA256 de cada linha individualmente:"
+          while IFS= read -r linha; do printf '%s' "$linha" | sha256sum; done < ~/.config/rclone/rclone.conf
 
       - name: Baixar planilhas do OneDrive
         run: |
