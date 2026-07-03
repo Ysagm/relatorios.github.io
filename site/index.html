@@ -1,33 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard de Manutenção Aeronáutica</title>
+  <title>Aerobyte | Relatórios de Manutenção</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
   <style>
+    /* ── Light mode ── */
     :root {
-      --bg:               #ffffff;
-      --surface-1:        #f4f4f5;
-      --surface-2:        #fafafa;
-      --border:           #e4e4e7;
-      --border-strong:    #d4d4d8;
-      --border-stronger:  #a1a1aa;
-      --text-primary:     #09090b;
-      --text-secondary:   #52525b;
-      --text-muted:       #a1a1aa;
-      --text-danger:      #dc2626;
-      --text-warning:     #d97706;
-      --text-accent:      #2563eb;
-      --text-success:     #16a34a;
-      --bg-danger:        #fef2f2;
-      --bg-warning:       #fffbeb;
-      --bg-accent:        #eff6ff;
-      --bg-success:       #f0fdf4;
-      --border-danger:    #fecaca;
-      --radius:           6px;
-      --font-mono:        'Menlo', 'Monaco', 'Consolas', monospace;
+      --bg:              #ffffff;
+      --surface-1:       #f4f4f5;
+      --surface-2:       #fafafa;
+      --border:          #e4e4e7;
+      --border-strong:   #d4d4d8;
+      --border-stronger: #a1a1aa;
+      --text-primary:    #09090b;
+      --text-secondary:  #52525b;
+      --text-muted:      #a1a1aa;
+      --text-danger:     #dc2626;
+      --text-warning:    #d97706;
+      --text-accent:     #2563eb;
+      --text-success:    #16a34a;
+      --bg-danger:       #fef2f2;
+      --bg-warning:      #fffbeb;
+      --bg-accent:       #eff6ff;
+      --bg-success:      #f0fdf4;
+      --border-danger:   #fecaca;
+      --radius:          6px;
+      --font-mono:       'Menlo', 'Monaco', 'Consolas', monospace;
+      --navy:            #1B2A6B;
+      --navbar-bg:       #1B2A6B;
+      --login-bg:        #f0f1f4;
+      --footer-bg:       #f4f4f5;
     }
+
+    /* ── Dark mode ── */
+    [data-theme="dark"] {
+      --bg:              #0f1117;
+      --surface-1:       #1a1d27;
+      --surface-2:       #13161f;
+      --border:          rgba(255,255,255,0.08);
+      --border-strong:   rgba(255,255,255,0.12);
+      --border-stronger: rgba(255,255,255,0.22);
+      --text-primary:    #f0f1f4;
+      --text-secondary:  #8b92a8;
+      --text-muted:      #4b5168;
+      --text-danger:     #ef4444;
+      --text-warning:    #fbbf24;
+      --text-accent:     #60a5fa;
+      --text-success:    #34d399;
+      --bg-danger:       rgba(239,68,68,0.13);
+      --bg-warning:      rgba(251,191,36,0.13);
+      --bg-accent:       rgba(96,165,250,0.13);
+      --bg-success:      rgba(52,211,153,0.13);
+      --border-danger:   rgba(239,68,68,0.3);
+      --navbar-bg:       #111827;
+      --login-bg:        #0b0d14;
+      --footer-bg:       #13161f;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -36,46 +67,90 @@
       min-height: 100vh;
     }
 
+    /* ── Navbar ── */
+    #navbar {
+      display: none;
+      background: var(--navbar-bg);
+      padding: 0 1.5rem;
+      height: 56px;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    #navbar img { height: 34px; display: block; }
+    .navbar-right { display: flex; align-items: center; gap: 8px; }
+    .theme-btn {
+      background: rgba(255,255,255,0.1); border: 0.5px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.85); border-radius: var(--radius);
+      padding: 5px 10px; cursor: pointer; font-size: 12px;
+      display: flex; align-items: center; gap: 5px; transition: background .15s;
+    }
+    .theme-btn:hover { background: rgba(255,255,255,0.18); }
+    .navbar-sair {
+      background: none; border: 0.5px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.7); border-radius: var(--radius);
+      padding: 5px 12px; cursor: pointer; font-size: 12px; transition: all .15s;
+    }
+    .navbar-sair:hover { color: #fff; border-color: rgba(255,255,255,0.45); }
+
     /* ── Login ── */
     #login-screen {
-      display: flex; align-items: center; justify-content: center;
-      min-height: 100vh; background: var(--surface-1);
+      display: flex; flex-direction: column;
+      min-height: 100vh; background: var(--login-bg);
+    }
+    .login-content {
+      flex: 1; display: flex; align-items: center; justify-content: center;
+      padding: 2.5rem 1rem;
     }
     .login-card {
       background: var(--bg); border: 0.5px solid var(--border);
       border-radius: 12px; padding: 2.5rem; width: 100%; max-width: 360px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+      box-shadow: 0 4px 32px rgba(0,0,0,0.10);
     }
-    .login-card h1 { font-size: 18px; font-weight: 600; margin-bottom: 4px; }
-    .login-card p  { font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem; }
+    .login-logo { display: block; width: 150px; margin: 0 auto 1.75rem; }
+    .login-card h1 {
+      font-size: 15px; font-weight: 600; margin-bottom: 4px;
+      text-align: center; color: var(--text-primary);
+    }
+    .login-card p { font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem; text-align: center; }
     .login-card input {
       width: 100%; padding: 10px 12px; border: 0.5px solid var(--border-strong);
       border-radius: var(--radius); font-size: 14px; margin-bottom: 10px;
       background: var(--surface-2); color: var(--text-primary); outline: none;
+      transition: border-color .15s;
     }
-    .login-card input:focus { border-color: var(--border-stronger); }
+    .login-card input:focus { border-color: var(--navy); }
     .login-card button {
-      width: 100%; padding: 10px; background: var(--text-primary); color: #fff;
+      width: 100%; padding: 10px; background: var(--navy); color: #fff;
       border: none; border-radius: var(--radius); font-size: 14px;
-      font-weight: 500; cursor: pointer;
+      font-weight: 500; cursor: pointer; transition: opacity .15s;
     }
-    .login-card button:hover { opacity: 0.85; }
+    .login-card button:hover { opacity: 0.88; }
     .login-error { font-size: 12px; color: var(--text-danger); margin-top: 8px; display: none; }
 
+    /* ── Footer ── */
+    .site-footer {
+      padding: 10px 1.5rem; font-size: 11px; color: var(--text-muted);
+      border-top: 0.5px solid var(--border); background: var(--footer-bg);
+      display: flex; align-items: center; justify-content: center;
+      gap: 20px; flex-wrap: wrap;
+    }
+    .site-footer a {
+      color: var(--text-muted); text-decoration: none;
+      display: flex; align-items: center; gap: 4px; transition: color .15s;
+    }
+    .site-footer a:hover { color: var(--text-secondary); }
+
     /* ── App ── */
-    #app { display: none; max-width: 1100px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+    #app { display: none; max-width: 1100px; margin: 0 auto; padding: 0 1.5rem 2rem; }
 
     .header { padding: 1.5rem 0 1rem; border-bottom: 0.5px solid var(--border); margin-bottom: 1.5rem; }
     .header-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
     .header-left { display: flex; align-items: center; gap: 12px; }
     .aircraft-title { font-size: 20px; font-weight: 500; }
     .aircraft-sub   { font-size: 13px; color: var(--text-secondary); }
-    .logout-btn {
-      font-size: 12px; color: var(--text-muted); background: none;
-      border: 0.5px solid var(--border); border-radius: var(--radius);
-      padding: 4px 10px; cursor: pointer;
-    }
-    .logout-btn:hover { color: var(--text-secondary); }
 
     .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 10px; margin-bottom: 1.5rem; }
     .stat-card  { background: var(--surface-1); border-radius: var(--radius); padding: 12px 14px; }
@@ -109,8 +184,8 @@
     .desc-text  { font-size: 12px; }
     .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; margin: 1px; }
     .badge-hours  { background: var(--bg-warning); color: var(--text-warning); }
-    .badge-days   { background: var(--bg-accent);   color: var(--text-accent); }
-    .badge-cycles { background: var(--bg-success);  color: var(--text-success); }
+    .badge-days   { background: var(--bg-accent);  color: var(--text-accent); }
+    .badge-cycles { background: var(--bg-success); color: var(--text-success); }
     .sheet-tag {
       display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px;
       background: var(--surface-1); color: var(--text-muted); border: 0.5px solid var(--border);
@@ -128,7 +203,7 @@
       border: 0.5px solid var(--border-strong); background: var(--surface-2);
       color: var(--text-secondary); cursor: pointer; display: flex; align-items: center; gap: 6px;
     }
-    .acft-btn.active { border-color: var(--border-stronger); color: var(--text-primary); font-weight: 500; background: var(--surface-1); }
+    .acft-btn.active { border-color: var(--navy); color: var(--text-primary); font-weight: 500; background: var(--surface-1); }
     .acft-btn .dot  { width: 7px; height: 7px; border-radius: 50%; background: var(--text-danger); flex-shrink: 0; }
 
     .upload-zone {
@@ -153,19 +228,42 @@
       padding: 6px 10px; background: var(--surface-1); border-radius: var(--radius);
       display: flex; align-items: center; gap: 6px;
     }
+
+    /* ── App footer wrapper ── */
+    #app-footer-wrap { display: none; }
   </style>
 </head>
 <body>
 
+<!-- ── NAVBAR (shown after login) ────────────────────────────── -->
+<nav id="navbar">
+  <img src="./logo-header.png" alt="Aerobyte Consultoria Aeronáutica">
+  <div class="navbar-right">
+    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">
+      <i class="ti ti-moon" id="theme-icon"></i>
+      <span id="theme-label">Escuro</span>
+    </button>
+    <button class="navbar-sair" onclick="doLogout()">Sair</button>
+  </div>
+</nav>
+
 <!-- ── LOGIN ─────────────────────────────────────────────────── -->
 <div id="login-screen">
-  <div class="login-card">
-    <h1>✈ Manutenção</h1>
-    <p>Painel de controle de frota</p>
-    <input type="password" id="pwd-input" placeholder="Senha de acesso" onkeydown="if(event.key==='Enter')doLogin()">
-    <button onclick="doLogin()">Entrar</button>
-    <div class="login-error" id="login-error">Senha incorreta.</div>
+  <div class="login-content">
+    <div class="login-card">
+      <img src="./logo-login.png" alt="Aerobyte" class="login-logo">
+      <h1>Aerobyte | Relatórios de Manutenção</h1>
+      <p>Acesse com sua senha</p>
+      <input type="password" id="pwd-input" placeholder="Senha de acesso" onkeydown="if(event.key==='Enter')doLogin()">
+      <button onclick="doLogin()">Entrar</button>
+      <div class="login-error" id="login-error"></div>
+    </div>
   </div>
+  <footer class="site-footer">
+    <a href="tel:+5511988770614"><i class="ti ti-phone" style="font-size:12px"></i> +55 11 98877-0614</a>
+    <a href="mailto:aerobyte@aerobyte.com.br"><i class="ti ti-mail" style="font-size:12px"></i> aerobyte@aerobyte.com.br</a>
+    <a href="https://aerobyte.com.br" target="_blank" rel="noopener"><i class="ti ti-world" style="font-size:12px"></i> aerobyte.com.br</a>
+  </footer>
 </div>
 
 <!-- ── APP ───────────────────────────────────────────────────── -->
@@ -173,10 +271,8 @@
   <div class="header">
     <div class="header-top">
       <div class="header-left">
-        <i class="ti ti-plane" style="font-size:20px;color:var(--text-secondary);"></i>
         <span class="aircraft-title" id="main-title">Painel de manutenção</span>
       </div>
-      <button class="logout-btn" onclick="doLogout()">Sair</button>
     </div>
     <div class="aircraft-sub" id="main-sub">Carregue os relatórios Excel para visualizar os alertas</div>
   </div>
@@ -225,8 +321,47 @@
   </div>
 </div>
 
+<!-- ── APP FOOTER ─────────────────────────────────────────────── -->
+<div id="app-footer-wrap">
+  <footer class="site-footer">
+    <a href="tel:+5511988770614"><i class="ti ti-phone" style="font-size:12px"></i> +55 11 98877-0614</a>
+    <a href="mailto:aerobyte@aerobyte.com.br"><i class="ti ti-mail" style="font-size:12px"></i> aerobyte@aerobyte.com.br</a>
+    <a href="https://aerobyte.com.br" target="_blank" rel="noopener"><i class="ti ti-world" style="font-size:12px"></i> aerobyte.com.br</a>
+  </footer>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
+// ── THEME ─────────────────────────────────────────────────────────────────
+(function() {
+  const saved = localStorage.getItem('aerobyte-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (prefersDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
+  updateThemeBtn(theme);
+})();
+
+function updateThemeBtn(theme) {
+  const icon  = document.getElementById('theme-icon');
+  const label = document.getElementById('theme-label');
+  if (!icon) return;
+  if (theme === 'dark') {
+    icon.className  = 'ti ti-sun';
+    label.textContent = 'Claro';
+  } else {
+    icon.className  = 'ti ti-moon';
+    label.textContent = 'Escuro';
+  }
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('aerobyte-theme', next);
+  updateThemeBtn(next);
+}
+
 // ── AUTH ──────────────────────────────────────────────────────────────────
 async function sha256Hex(text) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
@@ -273,8 +408,11 @@ function getSession() {
 }
 
 function showApp() {
-  document.getElementById('login-screen').style.display = 'none';
-  document.getElementById('app').style.display = 'block';
+  document.getElementById('login-screen').style.display    = 'none';
+  document.getElementById('navbar').style.display          = 'flex';
+  document.getElementById('app').style.display             = 'block';
+  document.getElementById('app-footer-wrap').style.display = 'block';
+  updateThemeBtn(document.documentElement.getAttribute('data-theme'));
 }
 
 // ── CARREGAR DADOS (autenticado) ──────────────────────────────────────────
@@ -311,9 +449,9 @@ const _existingSession = getSession();
 if (_existingSession) { showApp(); tryLoadData(); }
 
 // ── STATE ─────────────────────────────────────────────────────────────────
-let allData        = {};
-let currentAcft    = null;
-let currentTab     = 'all';
+let allData         = {};
+let currentAcft     = null;
+let currentTab      = 'all';
 let currentValidity = 'all';
 
 // ── UPLOAD (modo manual) ──────────────────────────────────────────────────
@@ -328,7 +466,6 @@ function handleFiles(files) {
   const xls = files.filter(f => f.name.match(/\.(xlsx?|xls)$/i));
   if (!xls.length) return;
   document.getElementById('loading-status').style.display = 'block';
-  document.getElementById('upload-section').style.pointerEvents = 'none';
   let done = 0;
   xls.forEach(file => {
     const reader = new FileReader();
@@ -357,7 +494,7 @@ function handleFiles(files) {
 
 // ── HELPERS ───────────────────────────────────────────────────────────────
 function normalize(v) {
-  return String(v ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim().toUpperCase();
+  return String(v ?? '').normalize('NFD').replace(/[̀-ͯ]/g,'').trim().toUpperCase();
 }
 function isAlert(v) { const n=normalize(v); return n==='ATENCAO'||n==='ATTENTION'; }
 
@@ -367,7 +504,7 @@ function excelDateToJS(serial) {
 }
 function dateDiffDays(val) {
   let d;
-  if (val instanceof Date)      d = val;
+  if (val instanceof Date)        d = val;
   else if (typeof val==='number') d = excelDateToJS(val);
   else if (typeof val==='string') d = new Date(val);
   else return null;
@@ -377,10 +514,8 @@ function dateDiffDays(val) {
 }
 function extractAcftName(filename) {
   const base = filename.replace(/\.(xlsx?|xls)$/i,'');
-  // Padrão "XX-XXX" já no nome (ex: "PP-AGN")
   const m = base.match(/\b([A-Z]{2}-[A-Z0-9]{3})\b/i);
   if (m) return m[1].toUpperCase();
-  // Padrão sem hífen entre underscores (ex: __PPAGN__)
   const b = base.match(/__([A-Z0-9]{5})__/i);
   if (b) { const c=b[1].toUpperCase(); return c.slice(0,2)+'-'+c.slice(2); }
   return base.split(/[_\-\s]+/)[0].toUpperCase();
@@ -473,20 +608,17 @@ function parseWorkbook(wb, acftName) {
         const taskId=String(row[1]||'').trim(), desc=String(row[2]||'').trim();
         if (!taskId&&!desc) continue;
         const alertTypes=[]; let dueHoursStr=null,dueDaysStr=null,dueCyclesStr=null;
-        // Horas: col[14] (saldo calculado pelo Excel por componente)
         const saldoH=row[14];
         if (saldoH!=null&&saldoH!=='-'&&saldoH!=='') {
           const h=Number(saldoH);
           if (!isNaN(h)) { dueHoursStr=h.toFixed(1)+'h'; alertTypes.push('hours'); }
         }
-        // Dias: recalcular com col[13] (Date)
         const nextDate=row[13];
         if (nextDate!=null&&nextDate!=='-') {
           const days=dateDiffDays(nextDate);
           if (days!=null) { dueDaysStr=days+' dias'; alertTypes.push('days'); }
           else { const sd=row[16]; if(sd!=null&&sd!=='-'){const n=Number(sd);if(!isNaN(n)){dueDaysStr=Math.round(n)+' dias';alertTypes.push('days');}}}
         } else { const sd=row[16]; if(sd!=null&&sd!=='-'&&sd!==''){const n=Number(sd);if(!isNaN(n)){dueDaysStr=Math.round(n)+' dias';alertTypes.push('days');}}}
-        // Ciclos: col[15]
         const saldoC=row[15];
         if (saldoC!=null&&saldoC!=='-'&&saldoC!=='') {
           const c=Number(saldoC);
