@@ -226,52 +226,60 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-<script src="./data.js"></script>
 <script>
-// ── CONFIG ────────────────────────────────────────────────────────────────
-// Hash SHA-256 da senha (não fica em texto puro no código).
-// Para gerar um novo hash: abra o console do navegador e rode
-//   crypto.subtle.digest('SHA-256', new TextEncoder().encode('NOVASENHA')).then(b=>console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
-const SENHA_HASH = '224c9fa0091233cb89b9c9794cedc820ee7656d44a9a4df0ef99bbd67f2a7c0e';
-
-// Se existir um data.json gerado pelo script Python, o dashboard carrega
-// automaticamente em vez de pedir upload. Deixe null para usar só upload.
-const JSON_PATH = './data.json';
-
 // ── AUTH ──────────────────────────────────────────────────────────────────
 async function sha256Hex(text) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
   return [...new Uint8Array(buf)].map(b => b.toString(16).padStart(2, '0')).join('');
 }
+
 async function doLogin() {
   const val = document.getElementById('pwd-input').value;
+  if (!val) return;
   const hash = await sha256Hex(val);
-  if (hash === SENHA_HASH) {
-    sessionStorage.setItem('auth', '1');
-    document.getElementById('login-screen').style.display = 'none';
-    document.getElementById('app').style.display = 'block';
-    tryLoadJSON();
-  } else {
-    document.getElementById('login-error').style.display = 'block';
+  try {
+    const res = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ hash }),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      showLoginError(err.error || 'Senha incorreta. Tente novamente.');
+      return;
+    }
+    const { token, session } = await res.json();
+    sessionStorage.setItem('_s', JSON.stringify({ token, ...session }));
+    showApp();
+    await tryLoadData();
+  } catch {
+    showLoginError('Erro de conexão. Tente novamente.');
   }
 }
+
 function doLogout() {
-  sessionStorage.removeItem('auth');
+  sessionStorage.removeItem('_s');
   location.reload();
 }
-// Manter sessão ao recarregar a página
-if (sessionStorage.getItem('auth') === '1') {
-  document.getElementById('login-screen').style.display = 'none';
-  document.getElementById('app').style.display = 'block';
-  tryLoadJSON();
+
+function showLoginError(msg) {
+  const el = document.getElementById('login-error');
+  el.textContent = msg;
+  el.style.display = 'block';
 }
 
-// ── CARREGAR JSON (modo automático) ───────────────────────────────────────
+function getSession() {
+  try { return JSON.parse(sessionStorage.getItem('_s')); } catch { return null; }
+}
+
+function showApp() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+}
+
+// ── CARREGAR DADOS (autenticado) ──────────────────────────────────────────
 function applyJSON(json) {
-  // json = { generated_at: "...", aircraft: { "PP-AGN": { info:{}, tasks:[] }, ... } }
-  Object.entries(json.aircraft).forEach(([name, data]) => {
-    allData[name] = data;
-  });
+  Object.entries(json.aircraft).forEach(([name, data]) => { allData[name] = data; });
   document.getElementById('data-mode-upload').style.display = 'none';
   document.getElementById('dashboard-section').style.display = 'block';
   if (json.generated_at) {
@@ -284,19 +292,23 @@ function applyJSON(json) {
   renderDashboard();
 }
 
-function tryLoadJSON() {
-  // Modo 1: dados embutidos via data.js (funciona abrindo o arquivo direto, sem servidor)
-  if (window.EMBEDDED_DATA) {
-    applyJSON(window.EMBEDDED_DATA);
-    return;
-  }
-  // Modo 2: fetch de data.json (só funciona servindo via http://, não file://)
-  if (!JSON_PATH) return;
-  fetch(JSON_PATH)
-    .then(r => { if (!r.ok) throw new Error('sem json'); return r.json(); })
-    .then(applyJSON)
-    .catch(() => { /* sem json — mostra upload normal */ });
+async function tryLoadData() {
+  const session = getSession();
+  if (!session) return;
+  const url = session.role === 'owner'
+    ? '/data/owner.json'
+    : `/data/${session.allowedAircraft}.json`;
+  try {
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${session.token}` } });
+    if (res.status === 401 || res.status === 403) { doLogout(); return; }
+    if (!res.ok) return;
+    applyJSON(await res.json());
+  } catch { /* network error — show upload fallback */ }
 }
+
+// Manter sessão ao recarregar a página
+const _existingSession = getSession();
+if (_existingSession) { showApp(); tryLoadData(); }
 
 // ── STATE ─────────────────────────────────────────────────────────────────
 let allData        = {};

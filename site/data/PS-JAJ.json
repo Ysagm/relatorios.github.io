@@ -1,0 +1,708 @@
+{
+  "generated_at": "03/07/2026 19:34",
+  "aircraft": {
+    "PS-JAJ": {
+      "info": {
+        "model": "EMBRAER PRAETOR 600",
+        "totalHours": 1568.3,
+        "totalLandings": 835.0,
+        "registration": "PS-JAJ",
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "380.0",
+          "task": "",
+          "description": "Cheque VOR\nFAR 91.171\n34 VOR-01",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "390.0",
+          "task": "",
+          "description": "Assinaturas \nPublicações\nEMBRAER",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-429 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "392.0",
+          "task": "",
+          "description": "Assinaturas \nAtualização FMS",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46205 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "393.0",
+          "task": "",
+          "description": "Assinatura \nCartas Jeppesen",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "401.0",
+          "task": "",
+          "description": "Normal Parking",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-15 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "402.0",
+          "task": "",
+          "description": "Prolonged Parking\nShort Out-of-Operation Time",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "403.0",
+          "task": "",
+          "description": "Prolonged Parking\nLong Out-of-Operation Time",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "404.0",
+          "task": "",
+          "description": "Engine perservation\n0 to 7 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-22 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "405.0",
+          "task": "",
+          "description": "Engine perservation\n7 to 28 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "406.0",
+          "task": "",
+          "description": "Engine perservation\n28 to 90 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "61 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "407.0",
+          "task": "",
+          "description": "Engine perservation\nmore than 90 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "61 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "849.0",
+          "task": "FAA AD 2025-26-06\nEASA AD 2025-0222",
+          "description": "ATA 35 – OXYGEN – PORTABLE BREATHING EQUIPMENT – OPERATIONAL INSTRUCTIONS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46345 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "850.0",
+          "task": "FAA AD 2026-03-09\nAD 2025-0297 R1",
+          "description": "ATA 35 – OXYGEN – PORTABLE BREATHING EQUIPMENT – REMOVAL FROM SERVICE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "850.0",
+          "task": "FAA AD 2026-08-52\nDA 2026-04-02",
+          "description": "PITCH TRIM ACTUATOR",
+          "pn": "550-27-0011",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "872.0",
+          "task": "AD 2025-0297 R1",
+          "description": "ATA 35 – OXYGEN – PORTABLE BREATHING EQUIPMENT – REMOVAL FROM SERVICE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "878.0",
+          "task": "550-00-0009 R7",
+          "description": "GENERAL· RECONFIGURATION FROM FAA TO ANAC (KG)",
+          "pn": "550-00-0009 R7",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "882.0",
+          "task": "550-21-0006",
+          "description": "AIR CONDITIONING - EMERGENCY RAM-AIR DUCT ASSEMBLY - REWORK",
+          "pn": "550-21-0006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "899.0",
+          "task": "550-25-0081",
+          "description": "EQUIPMENT/FURNISHINGS - PILOT AND COPILOT SEATS - OUTBOARD ARMPAD STOP DESIGN IMPROVEMENT",
+          "pn": "550-25-0081",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46274 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "928.0",
+          "task": "550-34-0018 R4",
+          "description": "NAVIGATION • IRS . INERTIAL \nREFERENCE SYSTEM INSTALLATION",
+          "pn": "550-34-0018 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "935.0",
+          "task": "550-34-0030 R1",
+          "description": "NAVIGATION - TRANSPONDER TSS-4100 REPLACEMENT",
+          "pn": "550-34-0030 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "936.0",
+          "task": "550-34-0031",
+          "description": "NAVIGATION - INERTIAL REFERENCE SYSTEM (IRS) - INSTALLATION IN THE FWD E-BAY",
+          "pn": "550-34-0031",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "937.0",
+          "task": "550-34-0032",
+          "description": "NAVIGATION - AHRS'S IDM - REPLACEMENT",
+          "pn": "550-34-0032",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "938.0",
+          "task": "550-34-0035",
+          "description": "NAVIGATION - SOFTWARE UPDATE OF GLOBAL POSITIONING SYSTEM RECEIVERS",
+          "pn": "550-34-0035",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46280 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "952.0",
+          "task": "550-42-0020 R2",
+          "description": "INTEGRATED MODULAR AVIONICS - LOAD 7.1 VERSION FOR PRO LINE FUSION FIELD-LOADABLE SOFTWARE SYSTEM",
+          "pn": "550-42-0020 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "954.0",
+          "task": "550-44-0007",
+          "description": "AD",
+          "pn": "550-44-0007",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1.0",
+          "task": "SB AS907-72-9001 R06",
+          "description": "AD",
+          "pn": "SB AS907-72-9001 R06",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2.0",
+          "task": "SB AS907-72-9070",
+          "description": "AD",
+          "pn": "SB AS907-72-9070",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "4.0",
+          "task": "ENGINE LH",
+          "description": "ENGINE - SERVICING - Reduce Time Interval for Oil Filter Replacement or Engine Fault Diagnostic Data\n(EEI) Download to Provide Enhanced Monitoring of Aft Sump Components",
+          "pn": "SB AS907-72-9084 R03",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46207 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "5.0",
+          "task": "SB AS907-72-9086",
+          "description": "AD",
+          "pn": "SB AS907-72-9086",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "7.0",
+          "task": "AS907-72-9091",
+          "description": "AD",
+          "pn": "AS907-72-9091",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "8.0",
+          "task": "AS907-72-9092",
+          "description": "AD",
+          "pn": "AS907-72-9092",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "10.0",
+          "task": "AS907-72-9094",
+          "description": "AD",
+          "pn": "AS907-72-9094",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "11.0",
+          "task": "AS907-72-9095",
+          "description": "AD",
+          "pn": "AS907-72-9095",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "12.0",
+          "task": "AS907-72-9096",
+          "description": "AD",
+          "pn": "AS907-72-9096",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "13.0",
+          "task": "AS907-72-9103",
+          "description": "AD",
+          "pn": "AS907-72-9103",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "14.0",
+          "task": "AS907-72-9106",
+          "description": "ENGINE - HIGH PRESSURE TURBINE SECTION - INSTALL IMPROVED HIGH PRESSURE TURBINE ROTATING INTERSTAGE SEAL, PN 70041752-1 OR PN 70041752-2, OR HIGH PRESSURE TURBINE STAGE 2 ROTOR ASSEMBLY, PN 3035135-8 ON AS907 MODEL ENGINES:",
+          "pn": "AS907-72-9106",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "15.0",
+          "task": "AS907-72-9113",
+          "description": "AD",
+          "pn": "AS907-72-9113",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "21.0",
+          "task": "AS907-76-9032",
+          "description": "AD",
+          "pn": "AS907-76-9032",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "22.0",
+          "task": "AS907-76-9034",
+          "description": "ENGINE CONTROLS - INSTALL SILICONE RUBBER SELF-FUSING TAPE TO SURGE BLEED VALVE ELECTRICAL CONNECTORS ON AS907 MODEL ENGINES",
+          "pn": "AS907-76-9034",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "24.0",
+          "task": "SB AS907-72-9001 R06",
+          "description": "AD",
+          "pn": "SB AS907-72-9001 R06",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "25.0",
+          "task": "SB AS907-72-9070",
+          "description": "AD",
+          "pn": "SB AS907-72-9070",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "27.0",
+          "task": "ENGINE RH",
+          "description": "ENGINE - SERVICING - Reduce Time Interval for Oil Filter Replacement or Engine Fault Diagnostic Data\n(EEI) Download to Provide Enhanced Monitoring of Aft Sump Components",
+          "pn": "SB AS907-72-9084 R03",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46207 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "28.0",
+          "task": "SB AS907-72-9086",
+          "description": "AD",
+          "pn": "SB AS907-72-9086",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "30.0",
+          "task": "AS907-72-9091",
+          "description": "AD",
+          "pn": "AS907-72-9091",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "31.0",
+          "task": "AS907-72-9092",
+          "description": "AD",
+          "pn": "AS907-72-9092",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "33.0",
+          "task": "AS907-72-9094",
+          "description": "AD",
+          "pn": "AS907-72-9094",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "34.0",
+          "task": "AS907-72-9095",
+          "description": "AD",
+          "pn": "AS907-72-9095",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "35.0",
+          "task": "AS907-72-9096",
+          "description": "AD",
+          "pn": "AS907-72-9096",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "36.0",
+          "task": "AS907-72-9103",
+          "description": "AD",
+          "pn": "AS907-72-9103",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "37.0",
+          "task": "AS907-72-9106",
+          "description": "ENGINE - HIGH PRESSURE TURBINE SECTION - INSTALL IMPROVED HIGH PRESSURE TURBINE ROTATING INTERSTAGE SEAL, PN 70041752-1 OR PN 70041752-2, OR HIGH PRESSURE TURBINE STAGE 2 ROTOR ASSEMBLY, PN 3035135-8 ON AS907 MODEL ENGINES:",
+          "pn": "AS907-72-9106",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "38.0",
+          "task": "AS907-72-9113",
+          "description": "AD",
+          "pn": "AS907-72-9113",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "44.0",
+          "task": "AS907-76-9032",
+          "description": "AD",
+          "pn": "AS907-76-9032",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "45.0",
+          "task": "AS907-76-9034",
+          "description": "ENGINE CONTROLS - INSTALL SILICONE RUBBER SELF-FUSING TAPE TO SURGE BLEED VALVE ELECTRICAL CONNECTORS ON AS907 MODEL ENGINES",
+          "pn": "AS907-76-9034",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1206.0",
+          "task": "SB 36-49-8116 R3",
+          "description": "AD",
+          "pn": "SB 36-49-8116 R3",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1208.0",
+          "task": "36-49-8255",
+          "description": "AD",
+          "pn": "36-49-8255",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1211.0",
+          "task": "36-49-8370 R1",
+          "description": "AD",
+          "pn": "36-49-8370 R1",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1215.0",
+          "task": "3880021-49-8206",
+          "description": "AD",
+          "pn": "3880021-49-8206",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1216.0",
+          "task": "3880021-49-8230",
+          "description": "AD",
+          "pn": "3880021-49-8230",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1221.0",
+          "task": "GTCP36-49-8227",
+          "description": "AD",
+          "pn": "GTCP36-49-8227",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1223.0",
+          "task": "GTCP36-49-8402 R1",
+          "description": "AIRBORNE AUXILIARY POWER - GAS TURBINE ENGINE - REPLACE SPRING WASHER PN S9479-45N WITH PN S9479-73 ON THE 36-150 AUXILIARY POWER UNIT (APU)",
+          "pn": "GTCP36-49-8402 R1",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    }
+  }
+}

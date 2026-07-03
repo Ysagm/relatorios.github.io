@@ -1,0 +1,1250 @@
+{
+  "generated_at": "03/07/2026 19:34",
+  "aircraft": {
+    "PP-AGN": {
+      "info": {
+        "model": "AGUSTA AW109SP",
+        "totalHours": 1361.9,
+        "totalLandings": 2796.0,
+        "registration": "PP-AGN",
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "57.0",
+          "task": "26-02",
+          "description": "Portable fire\nextinguisherPerform a\ngeneral visual\ninspection of\nthe portable\nfire\nextinguisher for\ndamage,\ncorrosion,\nleakage and\ncondition.",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "192.0",
+          "task": "",
+          "description": "Low cycle fatigue (LCF) counting",
+          "pn": "PW207C",
+          "sheet": "Manutenção",
+          "dueHoursStr": "4.1h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "218.0",
+          "task": "",
+          "description": "Compressor wash\nEngine 1",
+          "pn": "PW207C",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-96 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "220.0",
+          "task": "",
+          "description": "Low cycle fatigue (LCF) counting",
+          "pn": "PW207C",
+          "sheet": "Manutenção",
+          "dueHoursStr": "4.1h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "246.0",
+          "task": "",
+          "description": "Compressor wash\nEngine 2",
+          "pn": "PW207C",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-96 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "247.0",
+          "task": "",
+          "description": "First aid kit",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-98 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "248.0",
+          "task": "",
+          "description": "Jungle kit",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-97 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "255.0",
+          "task": "",
+          "description": "The flyable storage type A\n7 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-2 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "256.0",
+          "task": "",
+          "description": "The flyable storage type B\n7 - 28 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-2 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "259.0",
+          "task": "",
+          "description": "Engine preservation\n7 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-2 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "260.0",
+          "task": "",
+          "description": "Engine preservation\n8-28 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "261.0",
+          "task": "",
+          "description": "Engine preservation\n29-90 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "20 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "265.0",
+          "task": "",
+          "description": "Cheque VOR\nFAR 91.171",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "278.0",
+          "task": "",
+          "description": "Atualização Chelton",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "6 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "280.0",
+          "task": "",
+          "description": "Atualização Euronav",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-443 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "281.0",
+          "task": "",
+          "description": "Assinatura GPS Aera 795",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-130 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "282.0",
+          "task": "",
+          "description": "Atualização GPS Aera 795",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "6 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "448.0",
+          "task": "AD 2012-02-08",
+          "description": "TCAS units from dropping tracks",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "449.0",
+          "task": "AD 2012-14-15",
+          "description": "Model KGS200 Mercury2 wide area augmentation system (WAAS)\nglobal navigation satellite sensor units (GNSSU)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "450.0",
+          "task": "AD 2012-26-15",
+          "description": "Honeywell International Inc. Air Data Pressure \nTransducers",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "451.0",
+          "task": "AD 2013-10-01",
+          "description": "Spectrolab Nightsun XP Searchlight",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "452.0",
+          "task": "AD 2014-05-27",
+          "description": "ROCKWELL COLLINS, INC. TRANSPONDERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "453.0",
+          "task": "AD 2014-17-02",
+          "description": "HONEYWELL ASCA INC. EMERGENCY LOCATOR TRANSMITTERS INSTALLED ON VARIOUS TRANSPORT CATEGORY AIRPLANES",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "454.0",
+          "task": "AD 2015-10-51",
+          "description": "Avydine Integrated Flight Displays",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "455.0",
+          "task": "AD 2017-04-06",
+          "description": "UNITED INSTRUMENTS, INC. 5934 SERIES ALTIMETERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "456.0",
+          "task": "AD 2017-16-01",
+          "description": "Ameri-King Corporation Emergency Locator Transmitters",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "467.0",
+          "task": "AD 2024-26-02",
+          "description": "CRACKED BUCKLE HANDLES AND UPDATED MANUFACTURER MATERIAL",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "469.0",
+          "task": "AD 2011-27-08",
+          "description": "Elevator Structure",
+          "pn": "BT 109SP-032",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "470.0",
+          "task": "AD 2013-06-51",
+          "description": "Equipment/Furnishings",
+          "pn": "Goodrich \nASB 44301-10-15",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "471.0",
+          "task": "AD 2013-20-51",
+          "description": "JASC 6400 Tail rotor system",
+          "pn": "BT 109SP-069",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "472.0",
+          "task": "AD 2014-02-08",
+          "description": "Tail Rotor System",
+          "pn": "BT 109SP-051",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "",
+          "task": "AD 2023-25-08\nEASA AD 2022-0037",
+          "description": "ATA 62 – Inspection of Main Rotor Scissor Chain",
+          "pn": "BT109SP-149A",
+          "sheet": "DIR",
+          "dueHoursStr": "19.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "495.0",
+          "task": "AD 2025-07-07\nEASA AD 2023-0159",
+          "description": "ATA 62 – Main Rotor – Main Rotor Blade Tip Caps – Inspection / Replacement",
+          "pn": "BT109SP-158",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "496.0",
+          "task": "AD 2025-09-10\nEASA AD 2024-0193",
+          "description": "ATA 26 – Fire Protection – Engine Fire Extinguisher Bottle Connections – Inspection",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "546.0",
+          "task": "AD 2015-0226 R8",
+          "description": "Equipment / Furnishings – Hoist – Test / Replacement",
+          "pn": "BT 109SP-100",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "",
+          "task": "AD 2022-0037",
+          "description": "ATA 62 – Inspection of Main Rotor Scissor Chain",
+          "pn": "BT109SP-149A",
+          "sheet": "DIR",
+          "dueHoursStr": "19.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "588.0",
+          "task": "EASA AD 2026-0115",
+          "description": "ATA 55 – TORQUE TUBE ASSY INSPECTION",
+          "pn": "ASB 109SP-168",
+          "sheet": "DIR",
+          "dueHoursStr": "25.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "589.0",
+          "task": "DA 2011-09-01",
+          "description": "DA 2011-09-01",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "623.0",
+          "task": "BT109SP-031",
+          "description": "AD",
+          "pn": "BT109SP-031",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "646.0",
+          "task": "BT109SP-055",
+          "description": "AD",
+          "pn": "BT109SP-055",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "651.0",
+          "task": "BT109SP-060",
+          "description": "Upgrade of the servo actuators system",
+          "pn": "BT109SP-060",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "652.0",
+          "task": "BT109SP-061 Rev A",
+          "description": "Inspection of The Rescue Hoist",
+          "pn": "BT109SP-061 Rev A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "654.0",
+          "task": "BT109SP-063",
+          "description": "Cargo hook Cameras installation KIT P/N 109G9770F01 and P/N 109G9770F02",
+          "pn": "BT109SP-063",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "655.0",
+          "task": "BT109SP-064",
+          "description": "Installation of the 20 cells battery KIT P/N 109G2430F01-101",
+          "pn": "BT109SP-064",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "656.0",
+          "task": "BT109SP-065 Rev B",
+          "description": "Instaliation ar Utility Hydraulic \nSystem Retrofit Kit P/N 109G3206R01-101",
+          "pn": "BT109SP-065 Rev B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "657.0",
+          "task": "BT109SP-066",
+          "description": "Replacement of thr sliding window handle Part of the KIT P/N 109-0824-15 \nWith The new handle with lock Hook Part of the retromod P/N 109G5606R02",
+          "pn": "BT109SP-066",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "658.0",
+          "task": "BT109SP-067",
+          "description": "Rescue hoist assembly part replacement",
+          "pn": "BT109SP-067",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "659.0",
+          "task": "BT109SP-068",
+          "description": "Right And left Auxiliary Fuel Tanks structural provisions",
+          "pn": "BT109SP-068",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "661.0",
+          "task": "BT 109SP-071",
+          "description": "Inspection of hte tail rotor camera removable parts KIT P/N 109G9750F01-105",
+          "pn": "BT 109SP-071",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "664.0",
+          "task": "BT109SP-75",
+          "description": "Pilot collective stick retrofit KIT P/N 109G6711F01·101, installation of",
+          "pn": "BT109SP-75",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "665.0",
+          "task": "BT109SP-76",
+          "description": "GPS antenna support P/N 109-0370-68-501, installation of",
+          "pn": "BT109SP-76",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "666.0",
+          "task": "BT109SP-78",
+          "description": "Rescue Hoist 600 Lbs (272 Kg) Kit P/N 109-B810-16-101, lnstallation Of",
+          "pn": "BT109SP-78",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "667.0",
+          "task": "BT109SP-79",
+          "description": "lnstallation of lhe Tail rotor fairing gasket",
+          "pn": "BT109SP-79",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "669.0",
+          "task": "BT109SP-81 Rev B",
+          "description": "ESIS Meggitt integrated with secondary flight display\nP/N 40004·02-01",
+          "pn": "BT109SP-81 Rev B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "670.0",
+          "task": "BT109SP-82",
+          "description": "Passenger Rear Seat Transformation From 3 to 2 Plaees Kit PIN 109G2520F23-311",
+          "pn": "BT109SP-82",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "673.0",
+          "task": "BT109SP-85",
+          "description": "Satcom Kit InstaIlation",
+          "pn": "BT109SP-85",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "675.0",
+          "task": "BT109SP-88",
+          "description": "Cabin Ieft side and right side electrical step wilh single actuator",
+          "pn": "BT109SP-88",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "677.0",
+          "task": "BT109SP-90",
+          "description": "STROBE LIGHTS KIT PN 109-B810-92-101",
+          "pn": "BT109SP-90",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "678.0",
+          "task": "BT109SP-91",
+          "description": "PILOT MAP LiGHTS KIT P/N 109-B810-93-101 AND CO-PILOTS MAP LiGHTS KIT",
+          "pn": "BT109SP-91",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "679.0",
+          "task": "BT109SP-92",
+          "description": "TAIL FLOOD LIGHTS KIT (PN 109-B810-43-201)",
+          "pn": "BT109SP-92",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "681.0",
+          "task": "BT109SP-96",
+          "description": "33Ah Main Battcry Additional Cell Modification (conversion from 19-CELL into 20)",
+          "pn": "BT109SP-96",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "682.0",
+          "task": "BT109SP-97",
+          "description": "VHF/AM Antennas Relocation Variant (Fixed Parts)",
+          "pn": "BT109SP-97",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "683.0",
+          "task": "BT109SP-98",
+          "description": "Nose Landing Gear Doors Rework",
+          "pn": "BT109SP-98",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "684.0",
+          "task": "BT109SP-99",
+          "description": "Goodrich Rescue Hoist Overload Clutch",
+          "pn": "BT109SP-99",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "687.0",
+          "task": "BT109SP-103",
+          "description": "Removal of the FWO VHF/AM Antenna Structural Provision",
+          "pn": "BT109SP-103",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "688.0",
+          "task": "BT109SP-104",
+          "description": "OIL COOLlNG SYSTEM TRANSMISSION REPLACEMENT",
+          "pn": "BT109SP-104",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "689.0",
+          "task": "BT109SP-106",
+          "description": "Wire slrike proleclion system",
+          "pn": "BT109SP-106",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "692.0",
+          "task": "BT109SP-111",
+          "description": "Retrofit quick disconnect copilot pedaIs assy 109G6720R04",
+          "pn": "BT109SP-111",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "698.0",
+          "task": "BT109SP-121",
+          "description": "Flight data and cockpit voice recorder \ninstallation kit P/N 109-B810-94-101",
+          "pn": "BT109SP-121",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "704.0",
+          "task": "BT109SP-126A",
+          "description": "ATA 53 - LEFT AND RIGHT ALUMINUM ALLOY COUNTERTORQUE CROSSBEAM\nFITTING PLATE ASSEMBLIES P/N 109-0330-17, REPLACEMENT OF",
+          "pn": "BT109SP-126A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "705.0",
+          "task": "BT109SP-127",
+          "description": "ATA 29 - Hydraulic Tanks Supports Retro-Modification P/N 109G2906R10-101.",
+          "pn": "BT109SP-127",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "718.0",
+          "task": "BT109SP-140",
+          "description": "ATA 93 - INSTALLATION OF TRANSPONDER ADS-B RETROFIT KIT\nP/N 109G9340R01-101",
+          "pn": "BT109SP-140",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "724.0",
+          "task": "BT109SP-146",
+          "description": "ATA 63 - INSPECTION OF ROTOR BRAKE CONTROL CABLE P/N 109-0506-17-115",
+          "pn": "BT109SP-146",
+          "sheet": "DIR",
+          "dueHoursStr": "12.2h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "734.0",
+          "task": "BT109SP-156",
+          "description": "ATA 34 - RETROFIT TAS 620A KIT P/N 109G3440R03-101, INSTALLATION OF",
+          "pn": "BT109SP-156",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "738.0",
+          "task": "BT109SP-160A",
+          "description": "ATA 31 - INSTALLATION OF KIT COCKPIT VIDEO AND AUDIO RECORD DEVICE\nP/N 109G3130F06-103 AND P/N 109G3130F06-105 (AIRS-400)",
+          "pn": "BT109SP-160A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "740.0",
+          "task": "BT109SP-162",
+          "description": "ATA 31 - UPLOADING OF NEW SOFTWARE EFIS 9.0A",
+          "pn": "BT109SP-162",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "743.0",
+          "task": "BT109SP-165",
+          "description": "ATA 26 – ENGINE FIRE EXTINGUISHER BOTTLES ELECTRICAL CONNECTIONS\nINSPECTION",
+          "pn": "BT109SP-165",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "746.0",
+          "task": "BT109SP-168B",
+          "description": "ATA 55 – TORQUE TUBE ASSY INSPECTION",
+          "pn": "BT109SP-168B",
+          "sheet": "DIR",
+          "dueHoursStr": "25.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "748.0",
+          "task": "BT109SP-170",
+          "description": "ATA 31 – UPDATE OF MAGNETIC VARIATION FILE (WORLD MAGNETIC MODEL 2025)",
+          "pn": "BT109SP-170",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46496 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "751.0",
+          "task": "BT109SP-173",
+          "description": "ATA 25 – Collins Seat Upgrade",
+          "pn": "BT109SP-173",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "752.0",
+          "task": "BT109SP-174",
+          "description": "ATA 52 – ELECTRICAL STEP LEFT SIDE INSTALLATION",
+          "pn": "BT109SP-174",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "753.0",
+          "task": "BT109SP-175B",
+          "description": "ATA 26 – REPLACEMENT OF HALON PORTABLE FIRE EXTINGUISHERS",
+          "pn": "BT109SP-175B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "758.0",
+          "task": "AD 2013-03-21",
+          "description": "Power turbine (PT) disks",
+          "pn": "72-A28311 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "761.0",
+          "task": "AD 2013-03-21",
+          "description": "Power turbine (PT) disks",
+          "pn": "72-A28311 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "795.0",
+          "task": "SB 28339 R3",
+          "description": "AD",
+          "pn": "SB 28339 R3",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "796.0",
+          "task": "SB 28340 R6",
+          "description": "AD",
+          "pn": "SB 28340 R6",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "797.0",
+          "task": "SB 28341 R2",
+          "description": "AD",
+          "pn": "SB 28341 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "798.0",
+          "task": "SB 28372 R4",
+          "description": "AD",
+          "pn": "SB 28372 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "799.0",
+          "task": "SB 28375 R5",
+          "description": "AD",
+          "pn": "SB 28375 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "800.0",
+          "task": "SB 28380 R1",
+          "description": "AD",
+          "pn": "SB 28380 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "801.0",
+          "task": "SB 28384 R1",
+          "description": "AD",
+          "pn": "SB 28384 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "802.0",
+          "task": "SB 28385",
+          "description": "AD",
+          "pn": "SB 28385",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "803.0",
+          "task": "SB 28387 R1",
+          "description": "AD",
+          "pn": "SB 28387 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "804.0",
+          "task": "SB 28391",
+          "description": "AD",
+          "pn": "SB 28391",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "805.0",
+          "task": "SB 28353 R7",
+          "description": "AD",
+          "pn": "SB 28353 R7",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "806.0",
+          "task": "SB 28404 R1",
+          "description": "AD",
+          "pn": "SB 28404 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "835.0",
+          "task": "SB 28339 R3",
+          "description": "AD",
+          "pn": "SB 28339 R3",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "836.0",
+          "task": "SB 28340 R6",
+          "description": "AD",
+          "pn": "SB 28340 R6",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "837.0",
+          "task": "SB 28341 R2",
+          "description": "AD",
+          "pn": "SB 28341 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "838.0",
+          "task": "SB 28372 R4",
+          "description": "AD",
+          "pn": "SB 28372 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "839.0",
+          "task": "SB 28375 R5",
+          "description": "AD",
+          "pn": "SB 28375 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "840.0",
+          "task": "SB 28380 R1",
+          "description": "AD",
+          "pn": "SB 28380 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "841.0",
+          "task": "SB 28384 R1",
+          "description": "AD",
+          "pn": "SB 28384 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "842.0",
+          "task": "SB 28385",
+          "description": "AD",
+          "pn": "SB 28385",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "843.0",
+          "task": "SB 28387 R1",
+          "description": "AD",
+          "pn": "SB 28387 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "844.0",
+          "task": "SB 28391",
+          "description": "AD",
+          "pn": "SB 28391",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "845.0",
+          "task": "SB 28353 R7",
+          "description": "AD",
+          "pn": "SB 28353 R7",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "846.0",
+          "task": "SB 28404 R1",
+          "description": "AD",
+          "pn": "SB 28404 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "generated_at": "03/07/2026 19:34",
+  "aircraft": {
+    "N918LL": {
+      "info": {
+        "model": "GULFSTREAM G450",
+        "totalHours": null,
+        "totalLandings": null,
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "1385.0",
+          "task": "CB 201B",
+          "description": "CB 201 Modification - Main Landing Gear Doors, P/N 1159B42000 (Fokker SB RP-DGUP-25.10.1532)",
+          "pn": "CB 201B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1413.0",
+          "task": "ASC 020",
+          "description": "Navigation (ATA 34) Category II\nAnnunciation – Activation",
+          "pn": "ASC 020",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1414.0",
+          "task": "ASC 021B",
+          "description": "Navigation (ATA 34) – Lightning\nSensor System (LSS)\nInstallation",
+          "pn": "ASC 021B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1449.0",
+          "task": "ASC 072B",
+          "description": "Indicating / Recording (ATA 31) -\nData Link Recording",
+          "pn": "ASC 072B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1451.0",
+          "task": "ASC 074",
+          "description": "STABLIZERS (ATA 55) HORIZONTAL STABILIZER COVE PANELS – AV-DEC GASKET INSTALLATION",
+          "pn": "ASC 074",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46388 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1460.0",
+          "task": "ASC 084A",
+          "description": "COMMUNICATION / NAVIGATION \n(ATA 23 / 34) \nMANDATES PACKAGE \n(CPDLC / ADS-B OUT)",
+          "pn": "ASC 084A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1487.0",
+          "task": "ASC 109",
+          "description": "FUSELAGE STRUCTURE (ATA 53)\nWING TO BODY FAIRINGS AVDEC GASKET\nINSTALLATION",
+          "pn": "ASC 109",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46388 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1488.0",
+          "task": "ASC 113",
+          "description": "COMMUNICATIONS (ATA 23)\nCOMMUNICATION MANAGEMENT FUNCTION (CMF)\nSATCOM DIRECT (NON-SITA) DATALINK SERVICE PROVIDER",
+          "pn": "ASC 113",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1507.0",
+          "task": "D14383 Rev A",
+          "description": "Field Loadable Software\nCabin Telecommunications Router\nWAP/Router Firmware Update",
+          "pn": "D14383 Rev A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    }
+  }
+}

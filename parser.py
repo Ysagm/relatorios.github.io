@@ -49,8 +49,9 @@ def find_latest_spreadsheet(folder: Path):
     return max(candidates, key=lambda f: f.stat().st_mtime)
 
 SITE_DIR = Path(__file__).resolve().parent / "site"
-OUTPUT_PATH = SITE_DIR / "data.json"
-OUTPUT_JS_PATH = SITE_DIR / "data.js"
+DATA_DIR  = SITE_DIR / "data"       # per-aircraft JSON files served via Worker
+OUTPUT_PATH    = SITE_DIR / "data.json"   # kept for legacy / local testing
+OUTPUT_JS_PATH = SITE_DIR / "data.js"     # kept for legacy / local testing
 
 TARGET_SHEETS = ["Manutenção", "Manutenao", "Componentes", "DIR", "DIR MOTOR", "DIR APU"]
 
@@ -400,13 +401,25 @@ def main():
     }
 
     json_text = json.dumps(output, ensure_ascii=False, indent=2)
-    OUTPUT_PATH.write_text(json_text, encoding="utf-8")
-    print(f"\nGerado: {OUTPUT_PATH}")
 
-    OUTPUT_JS_PATH.write_text(
-        f"window.EMBEDDED_DATA = {json_text};\n", encoding="utf-8"
-    )
-    print(f"Gerado: {OUTPUT_JS_PATH}")
+    # Legacy files (kept for local testing / fallback)
+    OUTPUT_PATH.write_text(json_text, encoding="utf-8")
+    OUTPUT_JS_PATH.write_text(f"window.EMBEDDED_DATA = {json_text};\n", encoding="utf-8")
+    print(f"\nGerado (legado): {OUTPUT_PATH}")
+
+    # Per-aircraft files served via Cloudflare Worker auth
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    owner_path = DATA_DIR / "owner.json"
+    owner_path.write_text(json_text, encoding="utf-8")
+    print(f"Gerado: {owner_path}")
+
+    for reg, acft_data in output["aircraft"].items():
+        single = {"generated_at": output["generated_at"], "aircraft": {reg: acft_data}}
+        single_text = json.dumps(single, ensure_ascii=False, indent=2)
+        acft_path = DATA_DIR / f"{reg}.json"
+        acft_path.write_text(single_text, encoding="utf-8")
+        print(f"Gerado: {acft_path}")
 
 
 if __name__ == "__main__":

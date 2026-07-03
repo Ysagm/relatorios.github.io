@@ -1,0 +1,3555 @@
+{
+  "generated_at": "03/07/2026 19:34",
+  "aircraft": {
+    "PP-VEL": {
+      "info": {
+        "model": "DASSAULT FALCON 7X",
+        "totalHours": 2204.8,
+        "totalLandings": 646.0,
+        "registration": "PP-VEL",
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "21",
+          "task": "28-00-00-910-803-01\n28-00-00-910-803-02 \n28-00-00-910-803-03",
+          "description": "Treatment with a minimum\nfuel load",
+          "pn": "if the aircraft has performed more than 20FH since the\nlast treatment",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "22",
+          "task": "28-00-00-280-801-01",
+          "description": "FUEL CONTAMINATION DETECTION TEST -",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "23",
+          "task": "32-44-00-780-801",
+          "description": "Check the tire pressure",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "24",
+          "task": "",
+          "description": "Rotate the wheels by a 1/4 turn",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "25",
+          "task": "32-00-00-220-801\n32-00-00-220-802\n32-00-00-220-803",
+          "description": "Check the height of the shock absorbers",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "26",
+          "task": "",
+          "description": "Do an engine run-up",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "27",
+          "task": "",
+          "description": "Operational test of the flight controls during run-up\n Primary flight controls by fully actuating the LH pilot sidestick (101CK) or RH pilot\nsidestick (201CK) and the LH rudder/brake pedals (L201CL) or RH rudder/brake pedals\n(R201CL),",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "28",
+          "task": "27-60-00-710-801\n27-50-00-860-802",
+          "description": "Operational test of the flight controls during run-up\n Secondary flight controls",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "29",
+          "task": "",
+          "description": "Do the daily servicing operations (refer to ground servicing)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "40",
+          "task": "",
+          "description": "Engine Preservation",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "7 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "40",
+          "task": "",
+          "description": "APU Preservation",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-4 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "41",
+          "task": "",
+          "description": "APU Preservation",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "53 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "431",
+          "task": "25-64-21-220-801-01",
+          "description": "DETAILED INSPECTION OF THE FIRST-AID KIT AND FIRST-AID KIT STORAGE SYSTEM - DETAILED INSPECTION OF THE FIRST AID KIT",
+          "pn": "PKG 2",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-3 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "641",
+          "task": "28-00-00-910-803-01\n28-00-00-910-803-02 \n28-00-00-910-803-03",
+          "description": "Treatment with a minimum\nfuel load",
+          "pn": "FSA-28-00-013-R00-A",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "670",
+          "task": "28-30-00-680-804-01",
+          "description": "DRAINING OF THE FUEL TANKS / FUEL SAMPLING - FUEL TANK SUMP DRAINING",
+          "pn": "FSA-28-00-013-R00-A",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "9 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "936",
+          "task": "34-58-01-710-881-01",
+          "description": "TEST VOR EQUIPMENT FOR IFR OPERATIONS (FAR 91.171)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "22 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1874",
+          "task": "34-58-01-710-881-01",
+          "description": "Cheque VOR\nFAR 91.171",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "22 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1876",
+          "task": "D8CDF923BBC03A1",
+          "description": "Registro ELT\n406 MHz",
+          "pn": "406AFN2",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "13 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1880",
+          "task": "",
+          "description": "Assinatura TRAXXALL",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-274 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1881",
+          "task": "",
+          "description": "Assinaturas \nPublicações\nDassault",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-549 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1886",
+          "task": "",
+          "description": "Assinaturas \nAtualização HAPP",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-723 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1887",
+          "task": "",
+          "description": "Assinaturas \nAtualização FMS",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-706 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1888",
+          "task": "",
+          "description": "Assinatura \nCartas Jeppesen",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-706 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1890",
+          "task": "",
+          "description": "Voo Monitoramento \nRVSM",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-272.8h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "1895",
+          "task": "",
+          "description": "Validade LOA\nCPDLC",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1899",
+          "task": "",
+          "description": "NAV data base blue disk",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-37 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1900",
+          "task": "",
+          "description": "NAV data base red disk",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-23 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1901",
+          "task": "",
+          "description": "Kit Sobrevivência Selva",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-63 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "2530",
+          "task": "AD 2026-11-03\nEASA AD 2025-0092",
+          "description": "ATA 27 – Flight Controls – Maintenance and Avionics Interface Computer Software –\nModification",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2531",
+          "task": "AD 2026-13-02",
+          "description": "INTERFERENCE FROM WIRELESS BROADBAND OPERATIONS IN THE 3.7-3.98 GHZ FREQUENCY BAND (5G LOWER C-BAND), WHEN OPERATING IN CANADIAN AIRSPACE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2654",
+          "task": "035",
+          "description": "Equipment/furnishings - Emergency Vision \nAssistance System (EVAS) - Installation of EVAS",
+          "pn": "035",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2752",
+          "task": "126 R2",
+          "description": "Power plant - Engine maintenance system - Engine data \ncollection and transmission unit (DCTU/F.A.S.T.) installation",
+          "pn": "126 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2756",
+          "task": "130 R1",
+          "description": "Navigation - Runway Awareness \nAdvisory System (RAAS)",
+          "pn": "130 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2777",
+          "task": "154",
+          "description": "Navigation - Electronic Flight Bag (EFB) - \nLifting of airplane flight manual limitations",
+          "pn": "154",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2787",
+          "task": "165",
+          "description": "Landing gear - Main gear - Installation \nof a hard landing detector",
+          "pn": "165",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2815",
+          "task": "192-R3",
+          "description": "Landing gear - Main landing gear legs - \nInspection and addition of anti-corrosion \nprotective treatment of MLG pins",
+          "pn": "192-R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2822",
+          "task": "199 R2",
+          "description": "EQUIPMENT / FURNISHINGS\nMAINTENANCE LADDER\nTELESTEP MAINTENANCE LADDER",
+          "pn": "199 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2869",
+          "task": "247 R2",
+          "description": "ECS AIR CYCLE MACHINE IMPROVEMENT",
+          "pn": "247 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2873",
+          "task": "250-R4",
+          "description": "Equipment-furnishings - Carpet waviness prevention",
+          "pn": "250-R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2880",
+          "task": "258-R2",
+          "description": "Equipment - Furnishings - Forward lavatory - \nFixing tri-Fold door gap issues",
+          "pn": "258-R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2898",
+          "task": "277",
+          "description": "CABIN SEATS\nAISLE LIGHT WIRE ROUTING IMPROVEMENT",
+          "pn": "277",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2900",
+          "task": "280",
+          "description": "Improvement of Brake Control Unit Software Built-in-Test",
+          "pn": "280",
+          "sheet": "DIR",
+          "dueHoursStr": "-940.9h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "2912",
+          "task": "292 R3",
+          "description": "48,500 LB OPERATION LIMIT INDICATION",
+          "pn": "292 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2924",
+          "task": "303",
+          "description": "Navigation - EASy II - SMARTVIEW TM SVS - \nSynthetic Vision System",
+          "pn": "303",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2925",
+          "task": "304",
+          "description": "Navigation - EASy II - Automatic Descent Mode (ADM)",
+          "pn": "304",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2926",
+          "task": "305 R1",
+          "description": "Navigation - EASy II - Dual Jeppesen Charts",
+          "pn": "305 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2927",
+          "task": "306-R1",
+          "description": "Navigation - EASy II - XM Graphical WX",
+          "pn": "306-R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2929",
+          "task": "308-R4",
+          "description": "Communication - EASy II - Controller Pilot \nData Link Communication (CPDLC) ATN",
+          "pn": "308-R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2940",
+          "task": "321 R1",
+          "description": "Communications - EASy II - Full \nCapability for CPDLC - Fans 1/A",
+          "pn": "321 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2943",
+          "task": "326 R2",
+          "description": "ELECTRICAL POWER - INSTALLATION OF LEAD ACID BATTERIES (40 AH CAPACITY)",
+          "pn": "326 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2947",
+          "task": "332 R1",
+          "description": "Defueling System - Suction Defueling Time Improvement",
+          "pn": "332 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2949",
+          "task": "335",
+          "description": "Navigation - VOR-ILS-MARKER-DATALINK-GPS \nnavigation systems - Replacement of VIDL-G modules",
+          "pn": "335",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2966",
+          "task": "354 R1",
+          "description": "Communication - Satcom - \nAXXESS II satcom capable of fans 1/A",
+          "pn": "354 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2968",
+          "task": "355 R1",
+          "description": "Corrosion Risk Reduction On \nWing Lower Panel Trailing Edges",
+          "pn": "355 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2969",
+          "task": "357 R3",
+          "description": "Equipement/Furnishing - Interior Furnishing - \nEmergency Exit Handle Access Improvement",
+          "pn": "357 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-48639 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "2970",
+          "task": "358 R3",
+          "description": "EQUIPMENT/FURNISHINGS – INTERIOR FURNISHINGS– EMERGENCY EXIT DECOR PANEL IMPROVEMENT",
+          "pn": "358 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-48639 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "2971",
+          "task": "359 R4",
+          "description": "Equipement/Furnishing - Interior Furnishing - Emergency Exit Valance Panel Improvement",
+          "pn": "359 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2983",
+          "task": "377",
+          "description": "AIR CONDITIONING\nCABIN IPCS VALVE P/N 2119168-13",
+          "pn": "377",
+          "sheet": "DIR",
+          "dueHoursStr": "-940.9h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "2984",
+          "task": "378",
+          "description": "INSTALLATION OF LED LANDING LIGHTS",
+          "pn": "378",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2985",
+          "task": "MANDATÓRIO",
+          "description": "BOLT REPLACEMENT AT LH AND RH FRAME ROOTS 36 AND 39",
+          "pn": "379 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2986",
+          "task": "380",
+          "description": "Equipement Furnishing - Coffe maker - Suppression of Guiding Pin and Coffee Make",
+          "pn": "380",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2987",
+          "task": "381",
+          "description": "Replacement of Landing Gear Control Hydraulic Module (LGCHM) P/N 10-249501-003",
+          "pn": "381",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3002",
+          "task": "397 R1",
+          "description": "S-DUCT WATER DRAINING IMPROVEMENT",
+          "pn": "397 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3006",
+          "task": "403",
+          "description": "FLUID CIRCULATION IMPROVEMENT IN WING TANK",
+          "pn": "403",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3008",
+          "task": "413A",
+          "description": "PILOT SEATS\nBACKREST HYDROLOCK IMPROVEMENT",
+          "pn": "413A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46356 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "3009",
+          "task": "414",
+          "description": "Communications - SATCOM System MCS7120 - FalconConnect - First Installation",
+          "pn": "414",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3013",
+          "task": "431 R2",
+          "description": "INSTALLATION OF BRAKES P/N 90010325",
+          "pn": "431 R2",
+          "sheet": "DIR",
+          "dueHoursStr": "-268.2h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "3017",
+          "task": "438A",
+          "description": "INSTALLATION OF NEW DC GENERATORS",
+          "pn": "438A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3019",
+          "task": "441",
+          "description": "BAGGAGE COMPARTMENT LADDER\nREINFORCEMENT OF FOLDING LADDER",
+          "pn": "441",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3026",
+          "task": "448 R1",
+          "description": "UNDERWATER LOCATOR BEACON\nINSTALLATION OF 8.8 KHZ DK180 ULB",
+          "pn": "448 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3030",
+          "task": "451",
+          "description": "LANDING GEAR\nBRAKE CONTROL SYSTEM\nTAXI SINGLE SYSTEM IMPROVEMENT",
+          "pn": "451",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3031",
+          "task": "452",
+          "description": "ELECTRONIC FLIGHT BAG (NG-EFB) INSTALLATION",
+          "pn": "452",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3032",
+          "task": "454 R4",
+          "description": "INSTALLATION OF TRANSPARENT FIN TIP FAIRING\nFOR KA NETWORK",
+          "pn": "454 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3033",
+          "task": "455 R1",
+          "description": "INSTALLATION OF WING ANTI-COLLISION LIGHTS AND REAR NAVIGATION/ ANTI-COLLISION LIGHTS WITH LED TECHNOLOGY",
+          "pn": "455 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3034",
+          "task": "456",
+          "description": "NSTALLATION OF ANTI-COLLISION LIGHTS WITH LED TECHNOLOG",
+          "pn": "456",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3035",
+          "task": "457",
+          "description": "INSTALLATION OF WING ICE DETECTION LIGHTS WITH LED TECHNOLOGY",
+          "pn": "457",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3036",
+          "task": "458",
+          "description": "INSTALLATION OF LOGO LIGHTS WITH LED TECHNOLOGY",
+          "pn": "458",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3037",
+          "task": "459 R1",
+          "description": "INSTALLATION OF PYLON LIGHTS WITH LED TECHNOLOGY",
+          "pn": "459 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3054",
+          "task": "485",
+          "description": "CHECK OF THE FLAP OVER-RETRACTION DETECTION SYSTEM",
+          "pn": "485",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3058",
+          "task": "496",
+          "description": "Installation of MLG Harnesses P/N 10-237X01-003",
+          "pn": "496",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3063",
+          "task": "502",
+          "description": "REPLACEMENT OF QUADRAX CABLES AND HDMI PORTS",
+          "pn": "502",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-47392 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "3070",
+          "task": "514 R1",
+          "description": "NEW ESSENZA COFFEE MAKER INSTALLATION",
+          "pn": "514 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46387 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "3071",
+          "task": "517 R4",
+          "description": "Honeywell KA Band Jetwave Installation",
+          "pn": "517 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3076",
+          "task": "522 R1",
+          "description": "ENHANCED AVIONICS SYSTEM FASTER CHART DATABASE LOADING ACTIVATION",
+          "pn": "522 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3077",
+          "task": "523 R1 B",
+          "description": "ENHANCED AVIONICS SYSTEM \"PUSH-TO-LOAD\" FUNCTIONALITY",
+          "pn": "523 R1 B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3079",
+          "task": "525 R1",
+          "description": "EMERGENCY POWER SUPPLIES\nADDITION OF AN INSULATION SHIM UNDER EPS #2",
+          "pn": "525 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3081",
+          "task": "528",
+          "description": "LOW GAIN ANTENNA (LGA) INSTALLATION\nFOR IRIDIUM SATCOM SYSTEMS",
+          "pn": "528",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3082",
+          "task": "529",
+          "description": "RECORDER INDEPENDENT POWER SUPPLY (RIPS)\nINSTALLATION",
+          "pn": "529",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3083",
+          "task": "530",
+          "description": "COMMUNICATIONS\nSATCOM DIRECT ROUTER (SDR) INSTALLATION",
+          "pn": "530",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3084",
+          "task": "532 R1",
+          "description": "INSTALLATION OF LED TAXI LIGHT",
+          "pn": "532 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3086",
+          "task": "534",
+          "description": "INSTALLATION OF QAR P/N 200-E10-1110",
+          "pn": "534",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3091",
+          "task": "545",
+          "description": "COMMUNICATIONS\nSATELLITE COMMUNICATIONS (SATCOM) SYSTEM\nFALCONCONNECT WITH GDR: FIRST INSTALLATION",
+          "pn": "545",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3092",
+          "task": "546",
+          "description": "EFB - UPGRADE OF CMA-1310 TO WINDOWS 10",
+          "pn": "546",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3093",
+          "task": "547A",
+          "description": "IMPROVEMENT OF TECALAN HOSE INSTALLATION",
+          "pn": "547A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3094",
+          "task": "549 R1",
+          "description": "iPad Cockpit Mounts With 15W PD USB-C Charging",
+          "pn": "549 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3097",
+          "task": "554 R1",
+          "description": "ENGINE MONITORING SYSTEM INSTALLATION OF FAST BOX 4G",
+          "pn": "554 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3109",
+          "task": "568 R1",
+          "description": "EQUIPMENT - FURNISHINGS\nAIR LITE RECHARGEABLE LED FLASHLIGHTS\nINSTALLATION",
+          "pn": "568 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3113",
+          "task": "571",
+          "description": "REPLACEMENT OF ECS PACK COLD FLOW REGULATION VALVE P/N 30205046-4",
+          "pn": "571",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3132",
+          "task": "595",
+          "description": "CONICAL DEFLECTOR INSTALLATION AROUND FUEL BOOSTER PUMPS",
+          "pn": "595",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3134",
+          "task": "597 R1",
+          "description": "5G RADIO ALTIMETER FILTER INSTALLATION:",
+          "pn": "597 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46629 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "3137",
+          "task": "602A R1",
+          "description": "GENERAL ENHANCED AVIONICS SYSTEM EASY IV - LGIO AIRCRAFT",
+          "pn": "602A R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3155",
+          "task": "623",
+          "description": "COCKPIT TABLET MOUNT INSTALLATION PROVISION",
+          "pn": "623",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3156",
+          "task": "625 R1",
+          "description": "COMMUNICATIONS\nPLANE SIMPLE ANTENNA BRACKET INSTALLATION IN\nKU RADOME",
+          "pn": "625 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3157",
+          "task": "627",
+          "description": "REPLACEMENT OF THE PARK EMERGENCY VALVE",
+          "pn": "627",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3164",
+          "task": "635 R1",
+          "description": "ALTO DIGITAL AUDIO AMPLIFIER",
+          "pn": "635 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3165",
+          "task": "639",
+          "description": "REPLACEMENT OF THE RUDDER SERVO-ACTUATOR",
+          "pn": "639",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3169",
+          "task": "646 R3",
+          "description": "Starlink Antenna Provisions",
+          "pn": "646 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3170",
+          "task": "648",
+          "description": "FAST SOFTWARE UPDATE TO VERSION 3.2.0:",
+          "pn": "648",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3173",
+          "task": "652",
+          "description": "COCKPIT MILTOPE PRINTER REMOVAL",
+          "pn": "652",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3176",
+          "task": "660 R1",
+          "description": "INSTALLATION OF COCKPIT INTERNET SWITCH",
+          "pn": "660 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3177",
+          "task": "661",
+          "description": "ECS BAY THERMAL TEMPLATE INSTALLATION",
+          "pn": "661",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3179",
+          "task": "S012 R3",
+          "description": "COMMUNICATIONS\nGOGO AVANCE L5 INSTALLATION",
+          "pn": "S012 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3180",
+          "task": "S015 R5",
+          "description": "SATCOM DIRECT DLU SATCOM INSTALLATION",
+          "pn": "S015 R5",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3181",
+          "task": "S018 R4",
+          "description": "Go Direct Router (GDR) Installation with Wi-Fi Ac",
+          "pn": "S018 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3184",
+          "task": "S040 R2",
+          "description": "COMMUNICATIONS - PLANE SIMPLE ANTENNA BRACKET INSTALLATION IN KU RADOME",
+          "pn": "S040 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3185",
+          "task": "S043",
+          "description": "CABIN SYSTEMS  AVIATION CLEAN AIR (ACA) IONIZATION SYSTEM AIR PURIFICATION",
+          "pn": "S043",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3188",
+          "task": "S050",
+          "description": "INSTALLATION OF GARMIN GI 275 SECONDARY FLIGHT DISPLAY SYSTEM",
+          "pn": "S050",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3190",
+          "task": "S060 R2",
+          "description": "GOGO KA-BAND PLANE SIMPLE INSTALLATION",
+          "pn": "S060 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3191",
+          "task": "S061 R2",
+          "description": "STARLINK SATCOM SYSTEM",
+          "pn": "S061 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3366",
+          "task": "47180",
+          "description": "AD",
+          "pn": "47180",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3367",
+          "task": "47181",
+          "description": "AD",
+          "pn": "47181",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3368",
+          "task": "47182",
+          "description": "AD",
+          "pn": "47182",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3369",
+          "task": "47183",
+          "description": "AD",
+          "pn": "47183",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3370",
+          "task": "47184",
+          "description": "AD",
+          "pn": "47184",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3371",
+          "task": "47185",
+          "description": "AD",
+          "pn": "47185",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3372",
+          "task": "47186",
+          "description": "AD",
+          "pn": "47186",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3373",
+          "task": "47187",
+          "description": "AD",
+          "pn": "47187",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3374",
+          "task": "47188",
+          "description": "AD",
+          "pn": "47188",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3375",
+          "task": "47189",
+          "description": "AD",
+          "pn": "47189",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3376",
+          "task": "47190",
+          "description": "AD",
+          "pn": "47190",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3377",
+          "task": "47191",
+          "description": "AD",
+          "pn": "47191",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3378",
+          "task": "47192",
+          "description": "AD",
+          "pn": "47192",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3379",
+          "task": "47193",
+          "description": "AD",
+          "pn": "47193",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3380",
+          "task": "47194",
+          "description": "AD",
+          "pn": "47194",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3381",
+          "task": "47195 R1",
+          "description": "AD",
+          "pn": "47195 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3382",
+          "task": "47196 R1",
+          "description": "AD",
+          "pn": "47196 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3383",
+          "task": "47199",
+          "description": "AD",
+          "pn": "47199",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3384",
+          "task": "47200 R4",
+          "description": "AD",
+          "pn": "47200 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3385",
+          "task": "47201 R1",
+          "description": "AD",
+          "pn": "47201 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3387",
+          "task": "47202 R3",
+          "description": "AD",
+          "pn": "47202 R3",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3388",
+          "task": "47203 R4",
+          "description": "AD",
+          "pn": "47203 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3389",
+          "task": "47204",
+          "description": "AD",
+          "pn": "47204",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3390",
+          "task": "72-47205 R4",
+          "description": "AD",
+          "pn": "72-47205 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3391",
+          "task": "72- 47206",
+          "description": "AD",
+          "pn": "72- 47206",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3392",
+          "task": "72- 47207 R1",
+          "description": "AD",
+          "pn": "72- 47207 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3393",
+          "task": "72-47209",
+          "description": "AD",
+          "pn": "72-47209",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3395",
+          "task": "72-47211 R1",
+          "description": "AD",
+          "pn": "72-47211 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3397",
+          "task": "72-47214",
+          "description": "AD",
+          "pn": "72-47214",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3402",
+          "task": "72-47218 R2",
+          "description": "AD",
+          "pn": "72-47218 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3403",
+          "task": "72-47219 R1",
+          "description": "AD",
+          "pn": "72-47219 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3404",
+          "task": "72-47222 R2",
+          "description": "AD",
+          "pn": "72-47222 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3405",
+          "task": "72-47228",
+          "description": "AD",
+          "pn": "72-47228",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3406",
+          "task": "72-47229",
+          "description": "AD",
+          "pn": "72-47229",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3407",
+          "task": "72-47230 R1",
+          "description": "AD",
+          "pn": "72-47230 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3408",
+          "task": "72-47231 R1",
+          "description": "AD",
+          "pn": "72-47231 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3409",
+          "task": "72-47234 R2",
+          "description": "AD",
+          "pn": "72-47234 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3410",
+          "task": "72-47235 R2",
+          "description": "AD",
+          "pn": "72-47235 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3414",
+          "task": "72-47239 R5",
+          "description": "AD",
+          "pn": "72-47239 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3416",
+          "task": "72-47241",
+          "description": "AD",
+          "pn": "72-47241",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3417",
+          "task": "72-47242 R1",
+          "description": "AD",
+          "pn": "72-47242 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3420",
+          "task": "72-47245 R1",
+          "description": "AD",
+          "pn": "72-47245 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3421",
+          "task": "72-47246 R5",
+          "description": "AD",
+          "pn": "72-47246 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3422",
+          "task": "72-47247",
+          "description": "AD",
+          "pn": "72-47247",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3423",
+          "task": "72-47249 R1",
+          "description": "AD",
+          "pn": "72-47249 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3424",
+          "task": "72-47251 R1",
+          "description": "AD",
+          "pn": "72-47251 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3425",
+          "task": "72-47252 R2",
+          "description": "AD",
+          "pn": "72-47252 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3426",
+          "task": "72-47254 R1",
+          "description": "AD",
+          "pn": "72-47254 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3430",
+          "task": "72-47257 R1",
+          "description": "AD",
+          "pn": "72-47257 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3431",
+          "task": "72-47258 R1",
+          "description": "AD",
+          "pn": "72-47258 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3432",
+          "task": "72-47261 R2",
+          "description": "AD",
+          "pn": "72-47261 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3433",
+          "task": "72-47262",
+          "description": "AD",
+          "pn": "72-47262",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3434",
+          "task": "72-47266",
+          "description": "AD",
+          "pn": "72-47266",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3435",
+          "task": "72-47268",
+          "description": "AD",
+          "pn": "72-47268",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3436",
+          "task": "72-47270 R1",
+          "description": "AD",
+          "pn": "72-47270 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3437",
+          "task": "72-47271",
+          "description": "AD",
+          "pn": "72-47271",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3438",
+          "task": "72-47276",
+          "description": "AD",
+          "pn": "72-47276",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3439",
+          "task": "72-47277",
+          "description": "AD",
+          "pn": "72-47277",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3441",
+          "task": "72-47279 R1",
+          "description": "AD",
+          "pn": "72-47279 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3442",
+          "task": "72-47281",
+          "description": "AD",
+          "pn": "72-47281",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3443",
+          "task": "72-47283 R1",
+          "description": "AD",
+          "pn": "72-47283 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3444",
+          "task": "72-47284 R1",
+          "description": "AD",
+          "pn": "72-47284 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3445",
+          "task": "73-47269 R2",
+          "description": "AD",
+          "pn": "73-47269 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3446",
+          "task": "73-47272",
+          "description": "AD",
+          "pn": "73-47272",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3448",
+          "task": "79-47267 R2",
+          "description": "AD",
+          "pn": "79-47267 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3616",
+          "task": "47180",
+          "description": "AD",
+          "pn": "47180",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3617",
+          "task": "47181",
+          "description": "AD",
+          "pn": "47181",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3618",
+          "task": "47182",
+          "description": "AD",
+          "pn": "47182",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3619",
+          "task": "47183",
+          "description": "AD",
+          "pn": "47183",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3620",
+          "task": "47184",
+          "description": "AD",
+          "pn": "47184",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3621",
+          "task": "47185",
+          "description": "AD",
+          "pn": "47185",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3622",
+          "task": "47186",
+          "description": "AD",
+          "pn": "47186",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3623",
+          "task": "47187",
+          "description": "AD",
+          "pn": "47187",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3624",
+          "task": "47188",
+          "description": "AD",
+          "pn": "47188",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3625",
+          "task": "47189",
+          "description": "AD",
+          "pn": "47189",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3626",
+          "task": "47190",
+          "description": "AD",
+          "pn": "47190",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3627",
+          "task": "47191",
+          "description": "AD",
+          "pn": "47191",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3628",
+          "task": "47192",
+          "description": "AD",
+          "pn": "47192",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3629",
+          "task": "47193",
+          "description": "AD",
+          "pn": "47193",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3630",
+          "task": "47194",
+          "description": "AD",
+          "pn": "47194",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3631",
+          "task": "47195 R1",
+          "description": "AD",
+          "pn": "47195 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3632",
+          "task": "47196 R1",
+          "description": "AD",
+          "pn": "47196 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3633",
+          "task": "47199",
+          "description": "AD",
+          "pn": "47199",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3634",
+          "task": "47200 R4",
+          "description": "AD",
+          "pn": "47200 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3635",
+          "task": "47201 R1",
+          "description": "AD",
+          "pn": "47201 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3637",
+          "task": "47202 R3",
+          "description": "AD",
+          "pn": "47202 R3",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3638",
+          "task": "47203 R4",
+          "description": "AD",
+          "pn": "47203 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3639",
+          "task": "47204",
+          "description": "AD",
+          "pn": "47204",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3640",
+          "task": "72-47205 R4",
+          "description": "AD",
+          "pn": "72-47205 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3641",
+          "task": "72- 47206",
+          "description": "AD",
+          "pn": "72- 47206",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3642",
+          "task": "72- 47207 R1",
+          "description": "AD",
+          "pn": "72- 47207 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3643",
+          "task": "72-47209",
+          "description": "AD",
+          "pn": "72-47209",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3645",
+          "task": "72-47211 R1",
+          "description": "AD",
+          "pn": "72-47211 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3647",
+          "task": "72-47214",
+          "description": "AD",
+          "pn": "72-47214",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3652",
+          "task": "72-47218 R2",
+          "description": "AD",
+          "pn": "72-47218 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3653",
+          "task": "72-47219 R1",
+          "description": "AD",
+          "pn": "72-47219 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3654",
+          "task": "72-47222 R2",
+          "description": "AD",
+          "pn": "72-47222 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3655",
+          "task": "72-47228",
+          "description": "AD",
+          "pn": "72-47228",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3656",
+          "task": "72-47229",
+          "description": "AD",
+          "pn": "72-47229",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3657",
+          "task": "72-47230 R1",
+          "description": "AD",
+          "pn": "72-47230 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3658",
+          "task": "72-47231 R1",
+          "description": "AD",
+          "pn": "72-47231 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3659",
+          "task": "72-47234 R2",
+          "description": "AD",
+          "pn": "72-47234 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3660",
+          "task": "72-47235 R2",
+          "description": "AD",
+          "pn": "72-47235 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3664",
+          "task": "72-47239 R5",
+          "description": "AD",
+          "pn": "72-47239 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3666",
+          "task": "72-47241",
+          "description": "AD",
+          "pn": "72-47241",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3667",
+          "task": "72-47242 R1",
+          "description": "AD",
+          "pn": "72-47242 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3670",
+          "task": "72-47245 R1",
+          "description": "AD",
+          "pn": "72-47245 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3671",
+          "task": "72-47246 R5",
+          "description": "AD",
+          "pn": "72-47246 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3672",
+          "task": "72-47247",
+          "description": "AD",
+          "pn": "72-47247",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3673",
+          "task": "72-47249 R1",
+          "description": "AD",
+          "pn": "72-47249 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3674",
+          "task": "72-47251 R1",
+          "description": "AD",
+          "pn": "72-47251 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3675",
+          "task": "72-47252 R2",
+          "description": "AD",
+          "pn": "72-47252 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3676",
+          "task": "72-47254 R1",
+          "description": "AD",
+          "pn": "72-47254 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3680",
+          "task": "72-47257 R1",
+          "description": "AD",
+          "pn": "72-47257 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3681",
+          "task": "72-47258 R1",
+          "description": "AD",
+          "pn": "72-47258 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3682",
+          "task": "72-47261 R2",
+          "description": "AD",
+          "pn": "72-47261 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3683",
+          "task": "72-47262",
+          "description": "AD",
+          "pn": "72-47262",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3684",
+          "task": "72-47266",
+          "description": "AD",
+          "pn": "72-47266",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3685",
+          "task": "72-47268",
+          "description": "AD",
+          "pn": "72-47268",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3686",
+          "task": "72-47270 R1",
+          "description": "AD",
+          "pn": "72-47270 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3687",
+          "task": "72-47271",
+          "description": "AD",
+          "pn": "72-47271",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3688",
+          "task": "72-47276",
+          "description": "AD",
+          "pn": "72-47276",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3689",
+          "task": "72-47277",
+          "description": "AD",
+          "pn": "72-47277",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3691",
+          "task": "72-47279 R1",
+          "description": "AD",
+          "pn": "72-47279 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3692",
+          "task": "72-47281",
+          "description": "AD",
+          "pn": "72-47281",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3693",
+          "task": "72-47283 R1",
+          "description": "AD",
+          "pn": "72-47283 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3694",
+          "task": "72-47284 R1",
+          "description": "AD",
+          "pn": "72-47284 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3695",
+          "task": "73-47269 R2",
+          "description": "AD",
+          "pn": "73-47269 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3696",
+          "task": "73-47272",
+          "description": "AD",
+          "pn": "73-47272",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3698",
+          "task": "79-47267 R2",
+          "description": "AD",
+          "pn": "79-47267 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3866",
+          "task": "47180",
+          "description": "AD",
+          "pn": "47180",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3867",
+          "task": "47181",
+          "description": "AD",
+          "pn": "47181",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3868",
+          "task": "47182",
+          "description": "AD",
+          "pn": "47182",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3869",
+          "task": "47183",
+          "description": "AD",
+          "pn": "47183",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3870",
+          "task": "47184",
+          "description": "AD",
+          "pn": "47184",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3871",
+          "task": "47185",
+          "description": "AD",
+          "pn": "47185",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3872",
+          "task": "47186",
+          "description": "AD",
+          "pn": "47186",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3873",
+          "task": "47187",
+          "description": "AD",
+          "pn": "47187",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3874",
+          "task": "47188",
+          "description": "AD",
+          "pn": "47188",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3875",
+          "task": "47189",
+          "description": "AD",
+          "pn": "47189",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3876",
+          "task": "47190",
+          "description": "AD",
+          "pn": "47190",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3877",
+          "task": "47191",
+          "description": "AD",
+          "pn": "47191",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3878",
+          "task": "47192",
+          "description": "AD",
+          "pn": "47192",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3879",
+          "task": "47193",
+          "description": "AD",
+          "pn": "47193",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3880",
+          "task": "47194",
+          "description": "AD",
+          "pn": "47194",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3881",
+          "task": "47195 R1",
+          "description": "AD",
+          "pn": "47195 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3882",
+          "task": "47196 R1",
+          "description": "AD",
+          "pn": "47196 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3883",
+          "task": "47199",
+          "description": "AD",
+          "pn": "47199",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3884",
+          "task": "47200 R4",
+          "description": "AD",
+          "pn": "47200 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3885",
+          "task": "47201 R1",
+          "description": "AD",
+          "pn": "47201 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3887",
+          "task": "47202 R3",
+          "description": "AD",
+          "pn": "47202 R3",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3888",
+          "task": "47203 R4",
+          "description": "AD",
+          "pn": "47203 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3889",
+          "task": "47204",
+          "description": "AD",
+          "pn": "47204",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3890",
+          "task": "72-47205 R4",
+          "description": "AD",
+          "pn": "72-47205 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3891",
+          "task": "72- 47206",
+          "description": "AD",
+          "pn": "72- 47206",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3892",
+          "task": "72- 47207 R1",
+          "description": "AD",
+          "pn": "72- 47207 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3893",
+          "task": "72-47209",
+          "description": "AD",
+          "pn": "72-47209",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3895",
+          "task": "72-47211 R1",
+          "description": "AD",
+          "pn": "72-47211 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3897",
+          "task": "72-47214",
+          "description": "AD",
+          "pn": "72-47214",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3902",
+          "task": "72-47218 R2",
+          "description": "AD",
+          "pn": "72-47218 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3903",
+          "task": "72-47219 R1",
+          "description": "AD",
+          "pn": "72-47219 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3904",
+          "task": "72-47222 R2",
+          "description": "AD",
+          "pn": "72-47222 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3905",
+          "task": "72-47228",
+          "description": "AD",
+          "pn": "72-47228",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3906",
+          "task": "72-47229",
+          "description": "AD",
+          "pn": "72-47229",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3907",
+          "task": "72-47230 R1",
+          "description": "AD",
+          "pn": "72-47230 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3908",
+          "task": "72-47231 R1",
+          "description": "AD",
+          "pn": "72-47231 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3909",
+          "task": "72-47234 R2",
+          "description": "AD",
+          "pn": "72-47234 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3910",
+          "task": "72-47235 R2",
+          "description": "AD",
+          "pn": "72-47235 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3914",
+          "task": "72-47239 R5",
+          "description": "AD",
+          "pn": "72-47239 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3916",
+          "task": "72-47241",
+          "description": "AD",
+          "pn": "72-47241",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3917",
+          "task": "72-47242 R1",
+          "description": "AD",
+          "pn": "72-47242 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3920",
+          "task": "72-47245 R1",
+          "description": "AD",
+          "pn": "72-47245 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3921",
+          "task": "72-47246 R5",
+          "description": "AD",
+          "pn": "72-47246 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3922",
+          "task": "72-47247",
+          "description": "AD",
+          "pn": "72-47247",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3923",
+          "task": "72-47249 R1",
+          "description": "AD",
+          "pn": "72-47249 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3924",
+          "task": "72-47250",
+          "description": "AD",
+          "pn": "72-47250",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3925",
+          "task": "72-47251 R1",
+          "description": "AD",
+          "pn": "72-47251 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3926",
+          "task": "72-47252 R2",
+          "description": "AD",
+          "pn": "72-47252 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3927",
+          "task": "72-47254 R1",
+          "description": "AD",
+          "pn": "72-47254 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3931",
+          "task": "72-47257 R1",
+          "description": "AD",
+          "pn": "72-47257 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3932",
+          "task": "72-47258 R1",
+          "description": "AD",
+          "pn": "72-47258 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3933",
+          "task": "72-47261 R2",
+          "description": "AD",
+          "pn": "72-47261 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3934",
+          "task": "72-47262",
+          "description": "AD",
+          "pn": "72-47262",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3935",
+          "task": "72-47266",
+          "description": "AD",
+          "pn": "72-47266",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3936",
+          "task": "72-47268",
+          "description": "AD",
+          "pn": "72-47268",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3937",
+          "task": "72-47270 R1",
+          "description": "AD",
+          "pn": "72-47270 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3938",
+          "task": "72-47271",
+          "description": "AD",
+          "pn": "72-47271",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3939",
+          "task": "72-47276",
+          "description": "AD",
+          "pn": "72-47276",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3940",
+          "task": "72-47277",
+          "description": "AD",
+          "pn": "72-47277",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3942",
+          "task": "72-47279 R1",
+          "description": "AD",
+          "pn": "72-47279 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3943",
+          "task": "72-47281",
+          "description": "AD",
+          "pn": "72-47281",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3944",
+          "task": "72-47283 R1",
+          "description": "AD",
+          "pn": "72-47283 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3945",
+          "task": "72-47284 R1",
+          "description": "AD",
+          "pn": "72-47284 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3946",
+          "task": "73-47269 R2",
+          "description": "AD",
+          "pn": "73-47269 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3947",
+          "task": "73-47272",
+          "description": "AD",
+          "pn": "73-47272",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3949",
+          "task": "79-47267 R2",
+          "description": "AD",
+          "pn": "79-47267 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    }
+  }
+}

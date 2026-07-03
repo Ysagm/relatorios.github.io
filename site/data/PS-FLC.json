@@ -1,0 +1,3056 @@
+{
+  "generated_at": "03/07/2026 19:34",
+  "aircraft": {
+    "PS-FLC": {
+      "info": {
+        "model": "AGUSTA AW169",
+        "registration": "PS-FLC",
+        "totalHours": null,
+        "totalLandings": null,
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "1.0",
+          "task": "MI18-01",
+          "description": "Active Vibration\nControl System \n(Note 3) (Note 4)",
+          "pn": "MI18-01 is applicable only to Active Vibration Control System \nP/N 6F1830F00211, \nP/N 6F1830P00311\nand P/N 6F1830F00511.",
+          "sheet": "Manutenção",
+          "dueHoursStr": "14.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "6.0",
+          "task": "MI53-03",
+          "description": "AFT crossbeam\nSTA5525 and its\nattachment areas to\nstiffeners, frames and\nlongerons; frame\nSTA5470 (upper\ndeck area); tilt\nlongerons (upper\ndeck area); stiffeners",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "14.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "7.0",
+          "task": "MI53-04",
+          "description": "Frame STA5470 and\nits attachment area\n(cabin area); tilt\nlongerons (cabin\narea/rear fuselage\narea); omega",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "14.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "8.0",
+          "task": "MI53-05",
+          "description": "Engine rods and their\nattachments to the\ncabin (cabin area)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "29.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "9.0",
+          "task": "MI53-06",
+          "description": "Engine rods and their\nattachments to the\ncabin (upper deck\narea)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "29.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "26.0",
+          "task": "MI62-01",
+          "description": "Main rotor blade assy",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "49.0",
+          "task": "CM18-01",
+          "description": "Active Vibration\nControl System \nFunctional Check of Active\nVibration Control System\n(AVCS) (Note 3 and 4)",
+          "pn": "CM18-01 is applicable only to Active Vibration Control System P/N 6F1830F00211",
+          "sheet": "Manutenção",
+          "dueHoursStr": "14.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "53.0",
+          "task": "CM28-01",
+          "description": "Fuel\nOperational check of the\nFuel Transfer pump to\nverify correct operation in\nboth directions",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "19.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "61.0",
+          "task": "CM32-01",
+          "description": "Retractable\nlanding gear\nOperational check of\nlanding gear emergency\nextension function and\nindication",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "64.0",
+          "task": "CM46-01",
+          "description": "System\nintegration\nand display\nOperational check of\nprimary flight display (PFD)\nand multi-functional display\n(MFD) reversion capability",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "19.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "65.0",
+          "task": "CM46-02",
+          "description": "System\nintegration\nand displayOperational check of air data & attitude,\nheading reference system reversion\ncapability",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "19.7h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "70.0",
+          "task": "",
+          "description": "25 hour inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "13.9h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "71.0",
+          "task": "",
+          "description": "50 hour inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "72.0",
+          "task": "",
+          "description": "50 hour / 30d inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "50.0h",
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "73.0",
+          "task": "",
+          "description": "100 hour inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "76.0",
+          "task": "",
+          "description": "200 hour / 6MO inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "159.4h",
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "77.0",
+          "task": "",
+          "description": "200 hour / 1Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "78.0",
+          "task": "",
+          "description": "400 hour inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "79.0",
+          "task": "",
+          "description": "400 hour / 1Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "86.0",
+          "task": "",
+          "description": "1200 hour / 1Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "94.0",
+          "task": "",
+          "description": "30 D inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "97.0",
+          "task": "",
+          "description": "6 MO inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "98.0",
+          "task": "",
+          "description": "1 Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "111.0",
+          "task": "62-34",
+          "description": "(torque check) of the\ndamper link to the inboard\nattachment\n(Notes 76, 87)",
+          "pn": "Perform a functional check (torque\ncheck) to detect loss of torque loading\nin the damper link to inboard\nattachment bolt below the minimum\nadmissible value. One off check after\ninstallation",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-30.6h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "114.0",
+          "task": "72-01",
+          "description": "Visual check of the\nengine oil level (Note\n48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "12.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "115.0",
+          "task": "72-07",
+          "description": "Functional check\n(Power Assurance\nCheck) of the engine\n(Notes 92 and 93)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "13.9h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "116.0",
+          "task": "29-01",
+          "description": "Visual check of Power\nControl Module\n(PCM) 1 and 2 indicators\n(fluid level\nsight glass and differential\npop out indicators)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "117.0",
+          "task": "53-44",
+          "description": "Functional check\n(torque check) of all\nrear-tail joint corner\nhexagonal screws",
+          "pn": "One off check \nafter installation.",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "118.0",
+          "task": "62-36",
+          "description": "General visual inspection\nof the main\nrotor sliding ring",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "119.0",
+          "task": "62-37",
+          "description": "Detailed inspection\nof main rotor sliding\nring (Note 116)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "120.0",
+          "task": "63-01",
+          "description": "Visual check of the\nMain Gearbox\n(MGB) oil level",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "121.0",
+          "task": "65-01",
+          "description": "Visual check of the\nIntermediate Gearbox\n(IGB) oil level",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "122.0",
+          "task": "65-02",
+          "description": "Visual check of the\nTail Gearbox (TGB)\noil level",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "124.0",
+          "task": "72-02",
+          "description": "Functional check\n(power assurance\ncheck) of the\nengine (Notes 21\nand 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "125.0",
+          "task": "32-37",
+          "description": "Detailed inspection\nof the visible parts of\nthe up/down lock actuator\nplunger of\nnose landing gear\n(NLG) and main\nlanding gear (MLG)\n(Note 90)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "50.0h",
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "126.0",
+          "task": "32-38",
+          "description": "Lubrication of the\nvisible parts of the\nMain and Nose\nLanding Gear Lock\nActuator plungers\n(Note 90)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "50.0h",
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "127.0",
+          "task": "29-01",
+          "description": "Visual check of Power\nControl Module\n(PCM) 1 and 2 indicators\n(fluid level\nsight glass and differential\npop out indicators)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "129.0",
+          "task": "62-02",
+          "description": "General visual inspection\nof the main\nrotor lag damper\nbody",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "130.0",
+          "task": "63-01",
+          "description": "Visual check of the\nMain Gearbox\n(MGB) oil level",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "131.0",
+          "task": "65-01",
+          "description": "Visual check of the\nIntermediate Gearbox\n(IGB) oil level",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "132.0",
+          "task": "65-02",
+          "description": "Visual check of the\nTail Gearbox (TGB)\noil level",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "20.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "137.0",
+          "task": "32-41",
+          "description": "Functional check (dimensional\ncheck) of\nthe nose landing\ngear (NLG) and main\nlanding gear (MLG)\ndownstop buffers",
+          "pn": "K054, K153,\nK341, K422",
+          "sheet": "Manutenção",
+          "dueHoursStr": "159.4h",
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "138.0",
+          "task": "32-44",
+          "description": "General Visual Inspection\nof the Nose\nLanding Gear (NLG)\nand The Main Landing\nGear (MLG)\nbuffers",
+          "pn": "K054, K153,\nK341, K422",
+          "sheet": "Manutenção",
+          "dueHoursStr": "159.4h",
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "139.0",
+          "task": "62-04",
+          "description": "Lubrication (greasing)\nof main rotor\nswashplate assembly\nduplex bearing\n(Notes 1, 3)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "140.0",
+          "task": "22-01",
+          "description": "Operational check of\nthe fixed flight controls\nloads",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "141.0",
+          "task": "30-01",
+          "description": "Detailed inspection\nof the pilot and co-pilot\nwiper arms",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "142.0",
+          "task": "32-39",
+          "description": "Functional check\n(torque check) of\nnose landing gear\n(NLG) up lock supports\nbolts",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "143.0",
+          "task": "32-40",
+          "description": "General visual inspection\nof the nose\nlanding gear (NLG)\nup lock support assy",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "144.0",
+          "task": "55-01",
+          "description": "Operational check of\ntail plane for absence\nof play",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "145.0",
+          "task": "62-06",
+          "description": "Detailed inspection\nof the visible parts of\nmain rotor elastomeric\nspherical\nbearings",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "146.0",
+          "task": "62-07",
+          "description": "Detailed inspection\nof main rotor swashplate\nduplex\nbearing (Note 3)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "147.0",
+          "task": "62-08",
+          "description": "Operational check of\nmain rotor flap limiters",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "148.0",
+          "task": "62-09",
+          "description": "General visual inspection\nof main rotor\nhead assembly\nand components",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "149.0",
+          "task": "62-10",
+          "description": "Functional check\n(play check) of the\npitch link assemblies\nupper and lower\nbearing",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "150.0",
+          "task": "62-11",
+          "description": "Functional check\n(play check) of main\nrotor rotating scissor\nassemblies",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "151.0",
+          "task": "62-12",
+          "description": "Functional check\n(play check) of\nspherical pivot to\ncentering plate interface",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "152.0",
+          "task": "63-02",
+          "description": "General visual inspection\nof the main\ngearbox (including\nthe oil cooler exhaust\nduct drain)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "153.0",
+          "task": "63-27",
+          "description": "Detailed inspection\nof the visible part of\nthe upper surface of\nanti-torque beam assy",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "154.0",
+          "task": "64-03",
+          "description": "General visual inspection\nof tail rotor\nrotating controls\n(Note 4)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "155.0",
+          "task": "64-04",
+          "description": "General visual inspection\nof tail rotor\nhead assembly and\ncomponents (Note\n4)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "156.0",
+          "task": "64-05",
+          "description": "Functional check\n(play check) of tail rotor\nscissor assemblies\n(Note 5)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "157.0",
+          "task": "64-06",
+          "description": "Functional check\n(play check) of tail rotor\nslider bushing",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "158.0",
+          "task": "64-07",
+          "description": "Detailed inspection\nof the tail rotor duplex\nbearing",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "159.0",
+          "task": "64-24",
+          "description": "Functional check\n(torque check) of the\nbolts securing the\ndamper cantilever to\ntail rotor damper",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "160.0",
+          "task": "65-03",
+          "description": "General visual inspection\nof the tail rotor\ndrive system\ncomponents",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "161.0",
+          "task": "67-01",
+          "description": "General visual inspection\nof Main Rotor\nservo-Actuator\n(MRA) assy and installation",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "162.0",
+          "task": "67-02",
+          "description": "General visual inspection\nof Tail Rotor\nservo-Actuator\n(TRA) assy and installation",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-20.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "164.0",
+          "task": "20-01",
+          "description": "General visual inspection\nof the engines,\nengine compartments\n(internal),\nand engine\ncowlings (Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "165.0",
+          "task": "20-02",
+          "description": "General visual inspection\nof the nose\nlanding gear and\nnose landing gear\ncompartment \n(Note 11)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "166.0",
+          "task": "20-03",
+          "description": "General visual inspection\nof the main\nlanding gear and\nmain landing gear\nsponsons (internal),\nincluding visible\nparts of the bonding\nstrips (Note 12)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "167.0",
+          "task": "20-06",
+          "description": "General visual inspection\nof the EWIS\ninstalled in the engine\ncompartments\n(Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "168.0",
+          "task": "20-07",
+          "description": "General visual inspection\nof the engine\nbonding straps,\nthe bonding cables\nof engine fuel pipe,\nand the bonding cables\nof engine bleed\nair pipe installed in\nthe engine compartment\n(Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "169.0",
+          "task": "25-30",
+          "description": "General visual inspection\nof baggage\ncompartment liners",
+          "pn": "K064, K171",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "171.0",
+          "task": "25-43",
+          "description": "Detailed inspection\nof baggage compartment\ncargo net and\nretaining straps",
+          "pn": "K083",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "174.0",
+          "task": "32-01",
+          "description": "General visual inspection\nof Nose\nLanding Gear (NLG)\nshock strut assy\n(Note 11)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "175.0",
+          "task": "32-02",
+          "description": "General visual inspection\nof LH and\nRH Main Landing\nGear (MLG) leg assy\n(Note 12)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "176.0",
+          "task": "32-03",
+          "description": "Lubrication (greasing)\nof Nose Landing\nGear (NLG) and\nMain Landing Gear\n(MLG) wheel bearings\n(aircraft\njacked) (Note 13)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "177.0",
+          "task": "32-04",
+          "description": "Detailed inspection\nof Nose Landing\nGear (NLG) and\nMain Landing Gear\n(MLG) wheel bearings\n(aircraft\njacked) (Notes 2, 13)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "178.0",
+          "task": "32-05",
+          "description": "Lubrication (greasing)\nof Nose Landing\nGear (NLG) and\nMain Landing Gear\n(MLG) torque links\nattachments, and\nNose Landing Gear\n(NLG) turning support",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "179.0",
+          "task": "32-06",
+          "description": "Servicing (nitrogen\nadjustment) of Nose\nLanding Gear (NLG)\nand Main Landing\nGear (MLG) shock\nabsorbers",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "180.0",
+          "task": "32-08",
+          "description": "Operational check of\nlanding gear emergency\nextension\nfunction and indication\n(aircraft jacked)\n(Note 25)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "181.0",
+          "task": "32-09",
+          "description": "Operational check of\nthe Landing Gear\nControl Panel\n(LGCP) lever lock\nmechanism (aircraft\njacked) (Note 25)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "182.0",
+          "task": "32-10",
+          "description": "Operational check of\nthe “EMERG LDG\nFAIL” status signal\n(Notes 25, 82)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "183.0",
+          "task": "32-33",
+          "description": "Operational check of\nlanding gear emergency\nextension interlock\n(aircraft\njacked) (Note 25)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "184.0",
+          "task": "32-34",
+          "description": "Lubrication of the\nmain landing gear\n(MLG) pintle pin\n(Notes 84, 85)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "185.0",
+          "task": "32-36",
+          "description": "Functional check (integrity\ncheck) of the\nWOW support bracket\ninstallation (Note\n88)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "186.0",
+          "task": "32-42",
+          "description": "Detailed inspection\nof the up/down lock\nactuator plungers\nand receptacles of\nnose landing gear\n(NLG) and main\nlanding gear (MLG)\n(aircraft jacked)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "187.0",
+          "task": "32-43",
+          "description": "Lubrication of the up/\ndown lock actuator\nplungers and receptacles\nof nose landing\ngear (NLG) and\nmain landing gear\n(MLG) (aircraft\njacked)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "189.0",
+          "task": "62-05",
+          "description": "Detailed inspection\nof main rotor rotating\ncontrols (Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "190.0",
+          "task": "62-13",
+          "description": "General visual inspection\nof the main\nrotor assembly, including\nrotor blades\nand bonding straps",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "191.0",
+          "task": "62-14",
+          "description": "Functional check\n(continuity check) of\nmain rotor blade",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "192.0",
+          "task": "63-03",
+          "description": "Servicing (oil replacement)\nof main\ngearbox, including\ndetailed inspection\nof oil filter element\nand general visual\ninspection of oil level\nsight glass (Note 8)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "193.0",
+          "task": "63-04",
+          "description": "Detailed inspection\nof main gearbox oil\nfilter by-pass valve\n(Note 8)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "194.0",
+          "task": "63-05",
+          "description": "Detailed inspection\nof the MGB magnetic\ndetectors (Note 8)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "195.0",
+          "task": "64-02",
+          "description": "General visual inspection\nof the tail rotor\nassembly, including\nrotor blades and\nbonding straps",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "196.0",
+          "task": "64-08",
+          "description": "Functional check\n(continuity check) of\ntail rotor blade",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "197.0",
+          "task": "65-04",
+          "description": "Servicing (oil replacement)\nof intermediate\ngearbox including\nthe general\nvisual inspection of\nthe oil level sight\nglass (Note 9)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "198.0",
+          "task": "65-05",
+          "description": "Detailed inspection\nof intermediate gearbox\nmagnetic chip\ndetector (Note 9)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "199.0",
+          "task": "65-06",
+          "description": "Servicing (oil replacement)\nof Tail\nGearbox (TGB) including\nthe general\nvisual inspection of\nthe oil level sight\nglass (Note 10)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "200.0",
+          "task": "65-07",
+          "description": "Detailed inspection\nof Tail Gearbox\n(TGB) magnetic chip\ndetector (Note 10)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "201.0",
+          "task": "65-08",
+          "description": "General visual inspection\nof intermediate\ngearbox (Note\n9)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "202.0",
+          "task": "65-09",
+          "description": "General visual inspection\nof Tail\nGearbox (TGB)\n(Note 10)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "203.0",
+          "task": "71-01",
+          "description": "General visual inspection\nof the engines\nbay fire seals\n(Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "204.0",
+          "task": "71-02",
+          "description": "General visual inspection\nof the gimbal\nhalf flange and\ncollar (Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "205.0",
+          "task": "73-01",
+          "description": "General visual inspection\nof engine\nwiring harness (Note\n48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "206.0",
+          "task": "74-01",
+          "description": "General visual inspection\nof ignition\ncables (Note 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "207.0",
+          "task": "79-01",
+          "description": "Detailed inspection\nof engine chip detector\n(Notes 6, 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "208.0",
+          "task": "79-02",
+          "description": "Operational check\n(magnetism\nstrength) of engine\nchip detector (Notes\n6, 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "209.0",
+          "task": "79-03",
+          "description": "General visual inspection\nof engine\nair cooled oil cooler\n(Note 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "258.0",
+          "task": "26-03",
+          "description": "Operational check of\nTemperature Compensated\nPressure\nSwitch (TCPS) indication\ncircuits",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "355.0",
+          "task": "26-15",
+          "description": "Visual check of\nportable fire extinguisher\nwith gauge",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "363.0",
+          "task": "31-01",
+          "description": "Operational check of\nCockpit Voice\nRecorder (CVR) system",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "364.0",
+          "task": "31-02",
+          "description": "Functional check of\nFlight Data Recorder\n(FDR) Underwater\nLocator Beacon\n(ULB)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "365.0",
+          "task": "20-05",
+          "description": "General visual inspection\nof the forward\nupper deck fairing\ncompartment (internal),\nincluding\nEWIS",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "366.0",
+          "task": "20-08",
+          "description": "General visual inspection\nof the nose\ncompartments (internal),\nincluding EWIS\nand REPU1/REPU2\nharnesses",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "367.0",
+          "task": "20-09",
+          "description": "General visual inspection\nof all external\nairframe surfaces\nincluding the access\ndoors and windows\n(Note 69)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "368.0",
+          "task": "20-10",
+          "description": "Detailed inspection\nof the lightning cable\nof the Main Gearbox\n(MGB)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "374.0",
+          "task": "24-02",
+          "description": "Restoration (deep\ncycle) of main battery\n(off aircraft) (Notes\n1, 23)",
+          "pn": "33181-002",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "375.0",
+          "task": "24-03",
+          "description": "Restoration (deep\ncycle) of auxiliary\nbattery (off aircraft)\n(Notes 1, 24)",
+          "pn": "33296-001",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "376.0",
+          "task": "24-04",
+          "description": "Functional check of\nmain battery temperature\nsensor (off aircraft)\n(Note 23)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "377.0",
+          "task": "24-05",
+          "description": "Functional check of\nauxiliary battery temperature\nsensor (off\naircraft) (Note 24)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "379.0",
+          "task": "25-01",
+          "description": "Operational check of\nEmergency Locator\nTransmitter (ELT)\n(Note 26)",
+          "pn": "K008",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "380.0",
+          "task": "25-02",
+          "description": "Operational check of\nEmergency Locator\nTransmitter (ELT) Gswitch\n(off aircraft)\n(Note 26)",
+          "pn": "K008",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "384.0",
+          "task": "25-06",
+          "description": "Detailed inspection\nof first aid kit",
+          "pn": "K010, K109",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "385.0",
+          "task": "25-07",
+          "description": "Detailed inspection\nof pilot/ co-pilot seat\nbelt, including operational\ncheck of the\nseat belt locking\nmechanism and of\nthe inertial mechanism",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "386.0",
+          "task": "25-08",
+          "description": "Detailed inspection\nof cabin seat belts,\nincluding operational\ncheck of the seat belt\nlocking mechanism\nand of the inertial\nmechanism",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "395.0",
+          "task": "26-01",
+          "description": "Detailed inspection\nof portable fire extinguishers\ndischarge\nvalve",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "396.0",
+          "task": "26-02",
+          "description": "Operational check of\nengines fire extinguishing\nfiring circuits",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "397.0",
+          "task": "26-04",
+          "description": "Operational check of\nfire detection and extinguishing\ncontrol\npanel arming circuits\nand fuel/bleed air\nshut off valves",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "398.0",
+          "task": "26-05",
+          "description": "General visual inspection\nof engine\nfire protection LH/RH\ndistribution pipe system",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "399.0",
+          "task": "26-14",
+          "description": "Functional check\n(weight check) of\nportable fire extinguisher\n(off aircraft)\n(Note 97)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "400.0",
+          "task": "31-03",
+          "description": "Operational check of\nFlight Data Recorder\n(FDR) automatic\nstop recording logic",
+          "pn": "D51701-001",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "401.0",
+          "task": "32-11",
+          "description": "Detailed inspection\nof the accessible\nparts of the LH/RH\nMLG sliding rods, including\naxle nut (aircraft\njacked) (Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "402.0",
+          "task": "32-12",
+          "description": "Detailed inspection\nof the accessible\nparts of the NLG sliding\nrod, including\naxle nuts (aircraft\njacked) (Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "403.0",
+          "task": "32-13",
+          "description": "Detailed inspection\nof the visible part of\nthe NLG wheels\n(Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "405.0",
+          "task": "33-02",
+          "description": "Operational check of\nemergency lights\nsystem",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "408.0",
+          "task": "55-02",
+          "description": "General visual inspection\nof the external\nsurface of\ntailplane assy (Note\n69)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "409.0",
+          "task": "67-06",
+          "description": "General visual inspection\nof ball bearing\ncable bellow",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "410.0",
+          "task": "71-07",
+          "description": "General visual inspection\nof the engine\nair particle separator\n(EAPS) panel\nexternal surface\n(Note 1)",
+          "pn": "K096",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "411.0",
+          "task": "73-03",
+          "description": "General visual inspection\nof engine\nfuel distribution components\n(Note 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "412.0",
+          "task": "79-04",
+          "description": "General visual inspection\nof engine oil\nsystem\ncomponents (Note\n48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "518.0",
+          "task": "63-32",
+          "description": "Visual check of the\nMGB oil color\nPerform a visual check of MGB oil\ncolor through the MGB sight glass",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "-320.3h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "569.0",
+          "task": "72-02",
+          "description": "Power Assurance Check",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "570.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\noil system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "571.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\nfuel system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "578.0",
+          "task": "",
+          "description": "Do a visual inspection of the Air\nCooled Oil Cooler.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "581.0",
+          "task": "72-01",
+          "description": "Do a visual check of the engine oil\nquantity.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "12.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "582.0",
+          "task": "",
+          "description": "Do a visual Inspection of the chip\ndetector.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "583.0",
+          "task": "",
+          "description": "Do an operational check of the chip detector",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "584.0",
+          "task": "",
+          "description": "Inspect the main engine harness and connectors for damage and if loosely secured.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "585.0",
+          "task": "",
+          "description": "Inspect the chip detector for damage",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "592.0",
+          "task": "",
+          "description": "Do a visual Inspection of the ignition cables",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "597.0",
+          "task": "72-02",
+          "description": "Power Assurance Check",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "598.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\noil system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "599.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\nfuel system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "606.0",
+          "task": "",
+          "description": "Do a visual inspection of the Air\nCooled Oil Cooler.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "609.0",
+          "task": "72-01",
+          "description": "Do a visual check of the engine oil quantity.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "12.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "610.0",
+          "task": "",
+          "description": "Do a visual Inspection of the chip\ndetector.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "611.0",
+          "task": "",
+          "description": "Do an operational check of the chip detector",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "612.0",
+          "task": "",
+          "description": "Inspect the main engine harness and connectors for damage and if loosely secured.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "613.0",
+          "task": "",
+          "description": "Inspect the chip detector for damage",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "620.0",
+          "task": "",
+          "description": "Do a visual Inspection of the ignition cables",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "625.0",
+          "task": "",
+          "description": "First aid kit",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-2 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "637.0",
+          "task": "",
+          "description": "The flyable storage\n7 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-5 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "640.0",
+          "task": "",
+          "description": "Engine preservation\n7 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-5 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "641.0",
+          "task": "",
+          "description": "Engine preservation\n8-28 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-4 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "642.0",
+          "task": "",
+          "description": "Engine preservation\n29-90 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "17 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "644.0",
+          "task": "",
+          "description": "ANNUAL INSPECTION (CVA)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "646.0",
+          "task": "",
+          "description": "VOR CHECK\nFAR 91.171",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-71 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "647.0",
+          "task": "",
+          "description": "ELT INSPECTION\nFAR 91.207",
+          "pn": "453-5061-710",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "656.0",
+          "task": "",
+          "description": "Leonardo Publication Subscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-571 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "657.0",
+          "task": "",
+          "description": "Pratt & Whitney Publication Subscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1604 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "658.0",
+          "task": "",
+          "description": "FMS SUBSCRIPTION",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "659.0",
+          "task": "",
+          "description": "JEPPESEN SUBSCRIPTION",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "923.0",
+          "task": "CO95-03",
+          "description": "Life jacket",
+          "pn": "",
+          "sheet": "Componentes",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46205 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "924.0",
+          "task": "CO95-03",
+          "description": "Life jacket",
+          "pn": "",
+          "sheet": "Componentes",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46205 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "979.0",
+          "task": "AD 2012-02-08",
+          "description": "TCAS units from dropping tracks",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "980.0",
+          "task": "AD 2012-14-15",
+          "description": "Model KGS200 Mercury2 wide area augmentation system (WAAS) global navigation satellite sensor units (GNSSU)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "981.0",
+          "task": "AD 2012-26-15",
+          "description": "Honeywell International Inc. Air Data Pressure \nTransducers",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "983.0",
+          "task": "AD 2013-10-01",
+          "description": "Spectrolab Nightsun XP Searchlight",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "984.0",
+          "task": "AD 2014-05-27",
+          "description": "ROCKWELL COLLINS, INC. TRANSPONDERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "985.0",
+          "task": "AD 2014-17-02",
+          "description": "HONEYWELL ASCA INC. EMERGENCY LOCATOR TRANSMITTERS INSTALLED ON VARIOUS TRANSPORT CATEGORY AIRPLANES",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "986.0",
+          "task": "AD 2015-10-51",
+          "description": "Avydine Integrated Flight Displays",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "987.0",
+          "task": "AD 2017-04-06",
+          "description": "UNITED INSTRUMENTS, INC. 5934 SERIES ALTIMETERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "988.0",
+          "task": "AD 2017-16-01",
+          "description": "Ameri-King Corporation Emergency Locator Transmitters",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "989.0",
+          "task": "AD 2019-12-09",
+          "description": "ROCKWELL COLLINS Flight Display System Application FDSA-6500",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "990.0",
+          "task": "AD 2019-13-03",
+          "description": "TRIG AVIONICS LIMITED TRANSPONDERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "991.0",
+          "task": "AD 2019-14-05",
+          "description": "B/E AEROSPACE FISCHER GMBH SEATS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "992.0",
+          "task": "AD 2019-15-10",
+          "description": "SAFRAN AEROSYSTEMS LIFE JACKETS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "",
+          "task": "AD 2021-20-17 \nEASA AD 2020-0197",
+          "description": "AD 2021-20-17 \nEASA AD 2020-0197",
+          "pn": "SB 169-178\nPART II",
+          "sheet": "DIR",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "",
+          "task": "AD 2021-20-17 \nEASA AD 2020-0197",
+          "description": "AD 2021-20-17 \nEASA AD 2020-0197",
+          "pn": "SB 169-178\nPART II",
+          "sheet": "DIR",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "1022.0",
+          "task": "AD 2025-21-04\nEASA AD 2023-0188-E",
+          "description": "ATA 25 – Equipment / Furnishings – Float Assemblies – Replacement",
+          "pn": "169-257",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "",
+          "task": "EASA AD 2020-0197",
+          "description": "EASA AD 2020-0197",
+          "pn": "SB 169-178\nPART II",
+          "sheet": "DIR",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "",
+          "task": "EASA AD 2020-0197",
+          "description": "EASA AD 2020-0197",
+          "pn": "SB 169-178\nPART II",
+          "sheet": "DIR",
+          "dueHoursStr": "9.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "1126.0",
+          "task": "169-060A",
+          "description": "ATA 71 - INSTALLATION OF KIT ENGINE AIR\nPARTICLE SEPARATOR",
+          "pn": "169-060A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1128.0",
+          "task": "169-063A",
+          "description": "ATA 28 - INSTALLATION OF KIT FUEL\nTRANSFER PUMP",
+          "pn": "169-063A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1134.0",
+          "task": "169-068",
+          "description": "ATA 71 – KIT ENGINE COMPRESSOR\nWASHING",
+          "pn": "169-068",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1149.0",
+          "task": "169-087",
+          "description": "ATA 62 - ALTERNATIVE CONICAL RING AND\nLOCKNUT",
+          "pn": "169-087",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1165.0",
+          "task": "169-101",
+          "description": "ATA 62 – DAMPER LINKS INSPECTION",
+          "pn": "169-101",
+          "sheet": "DIR",
+          "dueHoursStr": "14.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "1167.0",
+          "task": "169-103",
+          "description": "ATA 95 - KIT COMPLETE CABLE CUTTER PROTECTION INSTALLATION",
+          "pn": "169-103",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1185.0",
+          "task": "169-121A",
+          "description": "ATA 53 - Upper Deck Engine Bays Repair",
+          "pn": "169-121A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1194.0",
+          "task": "169-131",
+          "description": "ATA 11 - REPLACEMENT OF LIFERAFT DECALS",
+          "pn": "169-131",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1196.0",
+          "task": "169-133",
+          "description": "ATA 71 - INSTALLATION OF ECOLOGIC BOX",
+          "pn": "169-133",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1205.0",
+          "task": "169-141",
+          "description": "ATA 23 - INSTALLATION OF VHF/FM \nNAT NTX 138 (EDCU CONTROL)",
+          "pn": "169-141",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1212.0",
+          "task": "169-150A",
+          "description": "ATA 32 – MAXIMUM LANDING GEAR OPERATION AIRSPEED (VLO) ENHANCEMENT",
+          "pn": "169-150A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1224.0",
+          "task": "169-163",
+          "description": "ATA 95 - KIT COMPLETE CABLE CUTTER PROTECTION INSTALLATION",
+          "pn": "169-163",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1226.0",
+          "task": "169-165A",
+          "description": "ATA 62 – MAIN ROTOR SLIDING RING ASSY INSTALLATION CHECK",
+          "pn": "169-165A",
+          "sheet": "DIR",
+          "dueHoursStr": "14.4h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "1232.0",
+          "task": "169-172",
+          "description": "ATA 25 - GOODRICH RESCUE HOIST CORE 50M INSTALLATION",
+          "pn": "169-172",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1251.0",
+          "task": "169-198B",
+          "description": "ATA 97 - KIT HD TAIL CAMERA INSTALLATION",
+          "pn": "169-198B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1252.0",
+          "task": "169-199",
+          "description": "ATA 00 - IMPROVEMENT OF CORROSION PROTECTION",
+          "pn": "169-199",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1256.0",
+          "task": "169-204",
+          "description": "ATA 63 – CORROSION PROTECTION IMPROVEMENT FOR MGB",
+          "pn": "169-204",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-47277 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1262.0",
+          "task": "169-209A",
+          "description": "ATA 34 – 3RD GPS AND 2 WAY SPLITTER INSTALLATION",
+          "pn": "169-209A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1263.0",
+          "task": "169-210A",
+          "description": "ATA 34 - DMAP INSTALLATION",
+          "pn": "169-210A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1266.0",
+          "task": "169-213",
+          "description": "ATA 78 - EJECTOR DUCT LH AND DEFLECTOR IMPROVEMENT",
+          "pn": "169-213",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1267.0",
+          "task": "169-214",
+          "description": "ATA 53 - VAPOR BARRIER ACCESSIBILITY MODIFICATION",
+          "pn": "169-214",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1270.0",
+          "task": "169-218",
+          "description": "ATA 62 – MAIN ROTOR BLADE PAINT FINISHING IMPROVEMENT",
+          "pn": "169-218",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1279.0",
+          "task": "169-229 REV A",
+          "description": "ATA 62 - MAIN ROTOR BLADE EROSION SHIELDS REPAIR / MODIFICATION",
+          "pn": "169-229 REV A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1280.0",
+          "task": "169-230",
+          "description": "ATA 00 – ANTI-CORROSION IMPROVEMENT",
+          "pn": "169-230",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46946 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1283.0",
+          "task": "169-233",
+          "description": "ATA 52 – EXTENDED MAIN FOOTSTEP KIT INSTALLATION",
+          "pn": "169-233",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1285.0",
+          "task": "169-236",
+          "description": "HEELS INSTALLATION",
+          "pn": "169-236",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1286.0",
+          "task": "169-237A",
+          "description": "ATA 62 - PITCH CONTROL LEVER REPAIR",
+          "pn": "169-237A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1289.0",
+          "task": "169-241",
+          "description": "ATA 31 - SAVE CONNECTORS KITS INSTALLATION",
+          "pn": "169-241",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1290.0",
+          "task": "169-242A",
+          "description": "ATA 53 - UPPER DECK POWER CONTROL MODULE AREA REINFORCEMENT INSTALLATION",
+          "pn": "169-242A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1293.0",
+          "task": "169-249",
+          "description": "ATA 33 – DOME LIGHT ELETRICAL VARIANT",
+          "pn": "169-249",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1294.0",
+          "task": "169-250",
+          "description": "ATA 11 - ADDITIONAL MARKINGS FOR CS26 AMDT 4 KIT INSTALLATION",
+          "pn": "169-250",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1296.0",
+          "task": "169-252",
+          "description": "ATA 34 - KIT ADF INSTALLATION",
+          "pn": "169-252",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1297.0",
+          "task": "169-253",
+          "description": "ATA 24 - KIT MAIN BATTERY UPGRADE INSTALLATION",
+          "pn": "169-253",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1298.0",
+          "task": "169-256 REV B",
+          "description": "ATA 62 - MAIN ROTOR HUB ASSY REPAIR",
+          "pn": "169-256 REV B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1301.0",
+          "task": "169-260",
+          "description": "ATA 53 – ANTITORQUE BEAM FITTINGS CORROSION PROTECTION",
+          "pn": "169-260",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1305.0",
+          "task": "169-268",
+          "description": "ATA 28 – LOCKABLE FUEL CAP RHS/LHS INSTALLATION",
+          "pn": "169-268",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1307.0",
+          "task": "169-271",
+          "description": "ATA 71 – ENGINE MOUNT BOLT REPLACEMENT",
+          "pn": "169-271",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1309.0",
+          "task": "169-273",
+          "description": "ATA 56 – STORM WINDOW INSTALLATION",
+          "pn": "169-273",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1318.0",
+          "task": "169-284",
+          "description": "ATA 24 – KIT ADDITIONAL CONNECTOR 60A RH INSTALLATION",
+          "pn": "169-284",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1320.0",
+          "task": "169-286A",
+          "description": "ATA 63 - MGB UPGRADE",
+          "pn": "169-286A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1321.0",
+          "task": "169-287",
+          "description": "ATA 31 – TRACKING CAMERA UPGRADE INSTALLATION",
+          "pn": "169-287",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1322.0",
+          "task": "169-288",
+          "description": "ATA 33 – NVIS CONTROLLER INSTALLATION",
+          "pn": "169-288",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1324.0",
+          "task": "169-291",
+          "description": "ATA 06 – INTERSEAT CONSOLE VARIANT",
+          "pn": "169-291",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    }
+  }
+}

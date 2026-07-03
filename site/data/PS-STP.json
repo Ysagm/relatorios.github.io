@@ -1,0 +1,636 @@
+{
+  "generated_at": "03/07/2026 19:34",
+  "aircraft": {
+    "PS-STP": {
+      "info": {
+        "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
+        "registration": "PS-STP",
+        "totalHours": null,
+        "totalLandings": null,
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "1174.0",
+          "task": "AD 2016-01-12 \nCF-2014-25",
+          "description": "Doors - Fuel Ingress into Aft Equipment Bay",
+          "pn": "700-52-5007",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1177.0",
+          "task": "AD 2016-15-03 \nCF-2015-03",
+          "description": "DOORS - PASSENGER DOOR EXTERNAL HANDLE DETENT SEIZURE",
+          "pn": "700-52-5008 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1187.0",
+          "task": "AD 2018-21-03\nAD CF-2017-31",
+          "description": "Fuselage - Replacement of Attachments for Belly Fairing Access Panels",
+          "pn": "700-53-5009 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1193.0",
+          "task": "AD 2020-02-15\nCF-2019-18",
+          "description": "Oxygen System – Insufficient Accessibility to the Portable Oxygen Bottle",
+          "pn": "SB 700-35-5003 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "",
+          "task": "700-53-5011",
+          "description": "Modification - Aft Fuselage - Replacement and Reinforcement of the Rudder Quadrant Box Assembly Half Ribs",
+          "pn": "700-53-5011",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-47023 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1231.0",
+          "task": "FAA AD 2025-12-01\nCF-2024-27",
+          "description": "ATA 27 – FLIGHT CONTROLS – INCORRECT AIRPLANE FLIGHT MANUAL APPROACH SPEED ADDER AND LANDING DISTANCE FACTORS FOR SLAT-FLAP FAIL CAUTION MESSAGE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1237.0",
+          "task": "FAA AD 2026-08-04\nCF-2025-53",
+          "description": "FLIGHT CONTROLS – INCORRECT AIRPLANE FLIGHT MANUAL (AFM) APPROACH SPEED ADDER AND LANDING DISTANCE FACTORS FOR SLAT FAIL (CAUTION) CREW-ALERTING SYSTEM (CAS) MESSAGE NON-NORMAL PROCEDURE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1238.0",
+          "task": "FAA AD 2026-09-18 \nCF-2025-28",
+          "description": "Baggage Doorstop Fittings – Improperly Torqued Bolts",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1239.0",
+          "task": "FAA AD 2026-11-07\nCF-2025-41",
+          "description": "Equipment/Furnishings – Seats – Missing Loctite",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1354.0",
+          "task": "700-00-5005 R1",
+          "description": "APM FILES AND TAWS ALTITUDE CALLOUT (TPM_CSO) MODIFICATION REQUESTFORM",
+          "pn": "700-00-5005 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1362.0",
+          "task": "700-23-5029",
+          "description": "MODIFICATION – SATELLITE DATA UNIT –\nSDU-2200-2 SATELLITE DATA UNIT UPDATE",
+          "pn": "700-23-5029",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1371.0",
+          "task": "700-24-5016",
+          "description": "SPECIAL CHECK/MODIFICATION – PRIMARY AC-POWER SUPPLY – INTRODUCTION OF PRESSURE RELIEF MECHANISM (PRM) TO VARIABLE\nFREQUENCY GENERATOR (VFG)",
+          "pn": "700-24-5016",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1372.0",
+          "task": "700-24-5017 R1",
+          "description": "SPECIAL CHECK – SCHEDULING REPLACEMENT OF\nGENERATOR CONTROL UNIT (GCU) PART NO. GL511-3106-1 WITH CONFIRMATION\nOF FAULT CODE 65 PRESENCE",
+          "pn": "700-24-5017 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1380.0",
+          "task": "700-25-5017 R2",
+          "description": "MODIFICATION – FLIGHT COMPARTMENT –\nINSTALLATION OF EFB TABLET HOLDER AND SMART CHARGER\n(BOMBARDIER INC. STC)",
+          "pn": "700-25-5017 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1382.0",
+          "task": "700-25-5021 R2",
+          "description": "MODIFICATION – MISCELLANEOUS EQUIPMENT – REPLACEMENT OF THE AIRSTAIR ANTI-SLIP MAT",
+          "pn": "700-25-5021 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1383.0",
+          "task": "700-25-5022 R3",
+          "description": "MODIFICATION – EMERGENCY LOCATOR SYSTEM – INTRODUCTION OF THE DK180 LOW FREQUENCY (8.8KHZ) UNDERWATER LOCATOR DEVICE (BOMBARDIER INC. STC)",
+          "pn": "700-25-5022 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1386.0",
+          "task": "700-25-5030 R1",
+          "description": "MODIFICATION - PASSENGER COMPARTMENT -\nREPLACEMENT OF WIRE STRIKER ON CABINETS",
+          "pn": "700-25-5030 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1387.0",
+          "task": "700-25-5033",
+          "description": "MODIFICATION – FLIGHT CREW SEATS – REPLACEMENT OF COCKPIT ROLLER SHADE ASSEMBLY",
+          "pn": "700-25-5033",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1388.0",
+          "task": "700-25-5034",
+          "description": "SPECIAL CHECK/MODIFICATION – GENERAL – INSPECT THE FLEXIBLE OXYGEN\nHOSE ROUTING OF THIRD CREW OXYGEN MASK AND ORIENTATION CHANGE OF\nRAIL KEEPER PIN",
+          "pn": "700-25-5034",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1389.0",
+          "task": "700-25-5037 R1",
+          "description": "MODIFICATION – EMERGENCY LOCATOR SYSTEM – ACTIVATION OF EMERGENCY LOCATOR TRANSMITTER WITH DISTRESS TRACKING (ELT-DT)",
+          "pn": "700-25-5037 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1393.0",
+          "task": "700-26-5004 R1",
+          "description": "MODIFICATION – PORTABLE FIRE EXTINGUISHERS –\nINSTALLATION OF COCKPIT NON-HALON FIRE EXTINGUISHER",
+          "pn": "700-26-5004 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1394.0",
+          "task": "700-26-5005 R4",
+          "description": "MODIFICATION – FIRE EXTINGUISHING SYSTEM – INSTALLATION OF NON-HALON FIRE EXTINGUISHER",
+          "pn": "700-26-5005 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1399.0",
+          "task": "700-27-5020",
+          "description": "MODIFICATION – SPOILERS – REPLACEMENT OF ROLL CONTROL INPUT-MODULE (RCIM), DRIVING ARM AND INSTALLATION OF INDEXING PLATE",
+          "pn": "700-27-5020",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1400.0",
+          "task": "700-27-5021",
+          "description": "MODIFICATION – LEADING EDGE SLAT-SYSTEM –\nREPLACEMENT OF SLAT NO. 1 AND SLAT NO. 2 ACTUATOR COVER ANGLES",
+          "pn": "700-27-5021",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1407.0",
+          "task": "700-29-5011",
+          "description": "SPECIAL CHECK/MODIFICATION – NO. 3 HYDRAULIC SYSTEM – CLEARANCE IMPROVEMENT FOR NO. 3 HYDRAULIC LINES",
+          "pn": "700-29-5011",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1411.0",
+          "task": "700-31-5005 R2",
+          "description": "MODIFICATION – QUICK ACCESS RECORDER SYSTEM – INTRODUCTION OF A QUICK ACCESS RECORDER (QAR)",
+          "pn": "700-31-5005 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1421.0",
+          "task": "700-32-5022",
+          "description": "AD",
+          "pn": "700-32-5022",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46243 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1423.0",
+          "task": "700-34-5003 R6",
+          "description": "MODIFICATION – SYNTHETIC VISION SYSTEM – INSTALLATION OF A SECOND SYNTHETIC VISION SYSTEM",
+          "pn": "700-34-5003 R6",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1431.0",
+          "task": "700-34-5020 R3",
+          "description": "MODIFICATION – TERRAIN AWARENESS AND WARNING SYSTEM (TAWS) – CCM CSO DATABASE CHANGE FOR MODE 6 AURAL WARNINGS +6DB VOLUME\nINCREASE",
+          "pn": "700-34-5020 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1439.0",
+          "task": "700-34-5031",
+          "description": "MODIFICATION – AUTOMATIC DEPENDENT SURVEILLANCE BROADCAST –\nINTRODUCTION OF THE ADS-B IN / CDTI OPTION",
+          "pn": "700-34-5031",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1440.0",
+          "task": "700-34-5032 R1",
+          "description": "MODIFICATION – WEATHER RADAR SYSTEM – INTRODUCTION OF THE PREDICTIVE WINDSHEAR OPTION",
+          "pn": "700-34-5032 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1441.0",
+          "task": "700-34-5033",
+          "description": "MODIFICATION – WEATHER RADAR SYSTEM – INTRODUCTION OF THE VERTICAL WEATHER OPTION",
+          "pn": "700-34-5033",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1442.0",
+          "task": "700-34-5034",
+          "description": "MODIFICATION – SURFACE MANAGEMENT SYSTEM (SMS) – INTRODUCTION OF\nTHE AIRPORT MOVING MAP (AMM) AND THE SYNTHETIC VISION SYSTEM (SVS)\nTAXI MODE OPTION",
+          "pn": "700-34-5034",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1443.0",
+          "task": "700-34-5035",
+          "description": "MODIFICATION – NAVIGATION – INTRODUCTION OF THE COMBINED VISION SYSTEM (CVS) OPTION",
+          "pn": "700-34-5035",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1445.0",
+          "task": "700-34-5039 R1",
+          "description": "SPECIAL CHECK/MODIFICATION – GLOBAL POSITIONING SYSTEM (GPS) –\nINTRODUCTION OF NEW GPS-4000S PART NUMBER 822-2189-102",
+          "pn": "700-34-5039 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1446.0",
+          "task": "700-34-5040 R1",
+          "description": "MODIFICATION – GENERAL – IMPLEMENTATION OF GLOBAL VISION FLIGHT\nDECK AVIONICS SOFTWARE VERSION 5.9",
+          "pn": "700-34-5040 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1452.0",
+          "task": "700-35-5006",
+          "description": "MODIFICATION – CREW –\nREPLACEMENT OF COCKPIT OXYGEN SUPPLY TEE-FITTING AND NIPPLE",
+          "pn": "700-35-5006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1454.0",
+          "task": "700-38-5006",
+          "description": "WATER TREATMENT UNIT (WTU) – STLMC UPDATE FOR THE RESTORATION OF POTABLE WATER TREATMENT UNIT (WTU)",
+          "pn": "700-38-5006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1455.0",
+          "task": "700-44-5014",
+          "description": "MODIFICATION – CABIN SYSTEMS – INSTALLATION OF COVER ON THE IPOD WIRELESS PASSENGER CONTROL UNIT (WPCU) CRADLE ASSEMBLY AND DEACTIVATION OF WPCU CHARGING PORT",
+          "pn": "700-44-5014",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1456.0",
+          "task": "700-45-5002",
+          "description": "MODIFICATION–GENERAL–PORTABLE MAINTENANCE-ACCESS TERMINAL (PMAT) UPDATE TO SMART PMAT IMAGE H",
+          "pn": "700-45-5002",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1457.0",
+          "task": "700-45-5003",
+          "description": "\tSB 700-45-5003 - MODIFICATION – GENERAL – ONBOARD MAINTENANCE SYSTEM TABLE (OMST) UPDATE POST V5.5 AND V5.8",
+          "pn": "700-45-5003",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1458.0",
+          "task": "700-45-5004",
+          "description": "MODIFICATION - GENERAL - PORTABLE MAINTENANCE-ACCESS TERMINAL (PMAT) UPGRADE TO WINDOWS 11",
+          "pn": "700-45-5004",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1463.0",
+          "task": "700-46-5009 R1",
+          "description": "MODIFICATION - AIRCRAFT HEALTH\nMANAGEMENT SYSTEM (AHMS) - INSTALLATION OF THE LEARJET INC. STC\nAIRCRAFT HEALTH MANAGEMENT SYSTEM (5000)",
+          "pn": "700-46-5009 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1464.0",
+          "task": "700-46-5010",
+          "description": "MODIFICATION – XM GRAPHIC WEATHER SYSTEM – INTRODUCTION OF THE SIRIUS XM (SXM) WEATHER RECEIVER OPTION",
+          "pn": "700-46-5010",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1475.0",
+          "task": "700-56-5002 R2",
+          "description": "MODIFICATION – ELECTRIC WINDOW SHADE ASSEMBLY – REPLACEMENT OF\nSHADE RAIL CLIP ASSEMBLY, PART NO. GXIV-14-83 WITH PART NO. GXIV-14-45A",
+          "pn": "700-56-5002 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1481.0",
+          "task": "700-57-5006 R2",
+          "description": "SPECIAL CHECK/REWORK – FLAP –\nCHAFING PROTECTION AT FLAP CANOE FAIRING (W.S. 404.00)",
+          "pn": "700-57-5006 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1487.0",
+          "task": "700-57-5010 R2",
+          "description": "MODIFICATION – OUTER WING –\nINSTALLATION OF DRAIN HOLE COVERS ON MIDDLE AND OUTER FLAPS",
+          "pn": "700-57-5010 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1493.0",
+          "task": "700-71-5006",
+          "description": "MODIFICATION – FIXED COWLS – REPLACEMENT OF FIREBOX ASSEMBLY P-SEALS",
+          "pn": "700-71-5006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1390.0",
+          "task": "AD 2025-06-03\nEASA AD 2022-0110 R1",
+          "description": "Turbine Engine Compressor Section",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1406.0",
+          "task": "AD 2025-06-03\nEASA AD 2022-0110 R1",
+          "description": "Turbine Engine Compressor Section",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1453.0",
+          "task": "BR700-72-101602",
+          "description": "ENGINE - HIGH PRESSURE (HP) COMPRESSOR ROTOR REAR DISCS - INTRODUCTION OF NEW ATTACHING BOLTS AND ANTI-SCORE PLATES FOR THE HP COMPRESSOR ROTOR FRONT AND REAR DRUMS",
+          "pn": "BR700-72-101602",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1454.0",
+          "task": "BR700-72-102354",
+          "description": "ENGINE - HIGH PRESSURE (HP) TURBINE ROTOR DISCS AND HP TURBINE STAGE 1 NOZZLE GUIDE SEALS - INTRODUCTION OF A HP TURBINE STAGE 1 DISC WITHOUT COATING ON ALL SEAL FINS, A MODIFIED PRE-SWIRL NOZZLE / WEB SEAL ASSEMBLY AND A MODIFIED RIM SEAL ASSEMBLY - RE-INSTALLATION OF PRE SERVICE BULLETIN SB-BR700-72-102354 STANDARD",
+          "pn": "BR700-72-102354",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1461.0",
+          "task": "BR700-79-102348",
+          "description": "OIL - FUEL COOLED OIL COOLER (FCOC) - INTRODUCTION OF A REVISED FCOC WITH A CHANGED CAP ASSEMBLY, CHANGED DRAIN PLUGS, CHANGED INSERTS AND ALTERNATIVE BOLTS",
+          "pn": "BR700-79-102348",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1463.0",
+          "task": "BR700-72-101602",
+          "description": "ENGINE - HIGH PRESSURE (HP) COMPRESSOR ROTOR REAR DISCS - INTRODUCTION OF NEW ATTACHING BOLTS AND ANTI-SCORE PLATES FOR THE HP COMPRESSOR ROTOR FRONT AND REAR DRUMS",
+          "pn": "BR700-72-101602",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1464.0",
+          "task": "BR700-72-102354",
+          "description": "ENGINE - HIGH PRESSURE (HP) TURBINE ROTOR DISCS AND HP TURBINE STAGE 1 NOZZLE GUIDE SEALS - INTRODUCTION OF A HP TURBINE STAGE 1 DISC WITHOUT COATING ON ALL SEAL FINS, A MODIFIED PRE-SWIRL NOZZLE / WEB SEAL ASSEMBLY AND A MODIFIED RIM SEAL ASSEMBLY - RE-INSTALLATION OF PRE SERVICE BULLETIN SB-BR700-72-102354 STANDARD",
+          "pn": "BR700-72-102354",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1471.0",
+          "task": "BR700-79-102348",
+          "description": "OIL - FUEL COOLED OIL COOLER (FCOC) - INTRODUCTION OF A REVISED FCOC WITH A CHANGED CAP ASSEMBLY, CHANGED DRAIN PLUGS, CHANGED INSERTS AND ALTERNATIVE BOLTS",
+          "pn": "BR700-79-102348",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    }
+  }
+}
