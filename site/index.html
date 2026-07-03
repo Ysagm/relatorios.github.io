@@ -669,7 +669,7 @@ function renderDashboard() {
   const data=allData[currentAcft]; if(!data)return;
   const info=data.info;
   const model=info.model||'';
-  document.getElementById('main-title').textContent=model?`${model} ${currentAcft}`:currentAcft;
+  document.getElementById('main-title').textContent=(model?`✈ ${model} ${currentAcft}`:`✈ ${currentAcft}`);
   const sub=[
     info.totalHours!=null?info.totalHours.toFixed(1)+' horas totais':null,
     info.totalLandings!=null?info.totalLandings+' pousos':null,
