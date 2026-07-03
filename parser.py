@@ -30,6 +30,12 @@ AIRCRAFT_FOLDERS = [
     "Planilhas 2026 - PP-VEL",
     "Planilhas 2026 - PS-FLC",
     "Planilhas 2026 - PS-NFA",
+    # Novas aeronaves
+    "Planilhas 2026",                                        # King Air B300 - PS-KNG
+    "Planilhas 2026 - G700 - N444R",                        # Gulfstream G700
+    "Planilhas 2026 - PS-JAJ",                              # Praetor 600
+    "Planilhas 2026 - PS-STP",                              # Global 5000
+    "Gulfstream G450-N918LL/Planilhas 2026 - N918LL",       # Gulfstream G450
 ]
 
 
@@ -48,7 +54,8 @@ OUTPUT_JS_PATH = SITE_DIR / "data.js"
 
 TARGET_SHEETS = ["Manutenção", "Manutenao", "Componentes", "DIR", "DIR MOTOR", "DIR APU"]
 
-ACFT_NAME_RE = re.compile(r"\b([A-Z]{2}-[A-Z0-9]{3})\b", re.IGNORECASE)
+# Matches ANAC registrations (PP-AGN) and FAA registrations (N444R, N918LL)
+ACFT_NAME_RE = re.compile(r"\b([A-Z]{2}-[A-Z0-9]{3}|N\d{1,5}[A-Z]{0,2})\b", re.IGNORECASE)
 
 
 # ── HELPERS ──────────────────────────────────────────────────────────────────
@@ -100,11 +107,13 @@ def date_diff_days(val):
     return (d - today).days
 
 
-def extract_acft_name(filename):
-    base = Path(filename).stem
-    m = ACFT_NAME_RE.search(base)
-    if m:
-        return m.group(1).upper()
+def extract_acft_name(folder_name: str, file_name: str):
+    # Try folder name first (more reliable: user chose folder names with registration)
+    for name in (folder_name, file_name):
+        m = ACFT_NAME_RE.search(name)
+        if m:
+            return m.group(1).upper()
+    base = Path(file_name).stem
     b = re.search(r"__([A-Z0-9]{5})__", base, re.IGNORECASE)
     if b:
         c = b.group(1).upper()
@@ -183,6 +192,15 @@ def parse_workbook(sheets, acft_name):
             continue
 
         rows = sheet.rows
+
+        # Modelo da aeronave: primeira célula não-vazia da linha 0
+        if normalize(sn).startswith("MANUTENCAO") and "model" not in info:
+            row0 = rows[0] if rows else []
+            for cell in row0:
+                s = str(cell).strip() if cell is not None else ""
+                if s:
+                    info["model"] = s
+                    break
 
         # Cabecalho da aeronave
         if "totalHours" not in info:
@@ -342,6 +360,7 @@ def parse_workbook(sheets, acft_name):
                     "alertTypes": alert_types,
                 })
 
+    info.setdefault("model", None)
     info.setdefault("totalHours", None)
     info.setdefault("totalLandings", None)
     info.setdefault("totalCycles", None)
@@ -355,7 +374,7 @@ def main():
     aircraft = {}
 
     for folder_name in AIRCRAFT_FOLDERS:
-        folder = BASE_DIR / folder_name
+        folder = BASE_DIR / Path(folder_name)  # Path() handles "/" sub-paths cross-platform
         if not folder.exists():
             print(f"[AVISO] pasta nao encontrada, ignorando: {folder}")
             continue
@@ -365,7 +384,7 @@ def main():
             print(f"[AVISO] nenhuma planilha encontrada em: {folder}")
             continue
 
-        acft_name = extract_acft_name(p.name)
+        acft_name = extract_acft_name(folder_name, p.name)
         print(f"Lendo {p.name} -> {acft_name}")
         try:
             sheets = read_workbook(str(p))

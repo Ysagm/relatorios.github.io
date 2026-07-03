@@ -387,6 +387,15 @@ function parseWorkbook(wb, acftName) {
     const ws   = wb.Sheets[sheetName];
     const rows = XLSX.utils.sheet_to_json(ws, { header:1, defval:null });
 
+    // Modelo da aeronave: primeira célula não-vazia da linha 0
+    if (normalize(sn).startsWith('MANUTENCAO') && !info.model) {
+      const row0 = rows[0] || [];
+      for (const cell of row0) {
+        const s = String(cell ?? '').trim();
+        if (s) { info.model = s; break; }
+      }
+    }
+
     // Cabeçalho da aeronave
     if (!info.totalHours) {
       for (let i = 0; i < Math.min(15, rows.length); i++) {
@@ -499,8 +508,10 @@ function renderAcftSelector() {
   if (names.length<=1){wrap.style.display='none';return;}
   wrap.innerHTML=names.map(n=>{
     const cnt=allData[n].tasks.length;
+    const model=allData[n].info?.model||'';
+    const label=model?`${model} ${n}`:n;
     return `<button class="acft-btn ${n===currentAcft?'active':''}" onclick="switchAcft('${n}')">
-      <span class="dot"></span>${n} <span style="font-size:11px;color:var(--text-muted);">(${cnt})</span>
+      <span class="dot"></span>${label} <span style="font-size:11px;color:var(--text-muted);">(${cnt})</span>
     </button>`;
   }).join('');
 }
@@ -513,7 +524,8 @@ function switchAcft(name) {
 function renderDashboard() {
   const data=allData[currentAcft]; if(!data)return;
   const info=data.info;
-  document.getElementById('main-title').textContent=currentAcft;
+  const model=info.model||'';
+  document.getElementById('main-title').textContent=model?`${model} ${currentAcft}`:currentAcft;
   const sub=[
     info.totalHours!=null?info.totalHours.toFixed(1)+' horas totais':null,
     info.totalLandings!=null?info.totalLandings+' pousos':null,

@@ -33,6 +33,11 @@ jobs:
           rclone copy "onedrive:Planilhas 2026 - PP-VEL" "onedrive_sync/Planilhas 2026 - PP-VEL" --max-age 60d
           rclone copy "onedrive:Planilhas 2026 - PS-FLC" "onedrive_sync/Planilhas 2026 - PS-FLC" --max-age 60d
           rclone copy "onedrive:Planilhas 2026 - PS-NFA" "onedrive_sync/Planilhas 2026 - PS-NFA" --max-age 60d
+          rclone copy "onedrive:Planilhas 2026" "onedrive_sync/Planilhas 2026" --max-age 60d --include "*.xls" --include "*.xlsx"
+          rclone copy "onedrive:Planilhas 2026 - G700 - N444R" "onedrive_sync/Planilhas 2026 - G700 - N444R" --max-age 60d
+          rclone copy "onedrive:Planilhas 2026 - PS-JAJ" "onedrive_sync/Planilhas 2026 - PS-JAJ" --max-age 60d
+          rclone copy "onedrive:Planilhas 2026 - PS-STP" "onedrive_sync/Planilhas 2026 - PS-STP" --max-age 60d
+          rclone copy "onedrive:Gulfstream G450-N918LL/Planilhas 2026 - N918LL" "onedrive_sync/Gulfstream G450-N918LL/Planilhas 2026 - N918LL" --max-age 60d
 
       - name: Configurar Python
         uses: actions/setup-python@v5

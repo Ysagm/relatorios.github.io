@@ -1,10 +1,11 @@
 window.EMBEDDED_DATA = {
-  "generated_at": "26/06/2026 19:08",
+  "generated_at": "03/07/2026 18:20",
   "aircraft": {
     "PP-AGN": {
       "info": {
-        "totalHours": 1361.3,
-        "totalLandings": 2795.0,
+        "model": "AGUSTA AW109SP",
+        "totalHours": 1361.9,
+        "totalLandings": 2796.0,
         "registration": "PP-AGN",
         "totalCycles": null
       },
@@ -16,7 +17,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "10 dias",
+          "dueDaysStr": "3 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28,7 +29,7 @@ window.EMBEDDED_DATA = {
           "description": "Low cycle fatigue (LCF) counting",
           "pn": "PW207C",
           "sheet": "Manutenção",
-          "dueHoursStr": "4.7h",
+          "dueHoursStr": "4.1h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -42,7 +43,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-89 dias",
+          "dueDaysStr": "-96 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -54,7 +55,7 @@ window.EMBEDDED_DATA = {
           "description": "Low cycle fatigue (LCF) counting",
           "pn": "PW207C",
           "sheet": "Manutenção",
-          "dueHoursStr": "4.7h",
+          "dueHoursStr": "4.1h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -68,7 +69,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-89 dias",
+          "dueDaysStr": "-96 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -81,7 +82,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-91 dias",
+          "dueDaysStr": "-98 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -94,7 +95,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-90 dias",
+          "dueDaysStr": "-97 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -107,7 +108,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-16 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -120,33 +121,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-16 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "257.0",
-          "task": "",
-          "description": "The temporary short storage in hangar/outdoor\n45 days",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "258.0",
-          "task": "",
-          "description": "The extended long in hangar/outdoor\n46-180 days",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -159,7 +134,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-16 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -172,7 +147,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-15 dias",
+          "dueDaysStr": "-1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -185,7 +160,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "6 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -198,7 +173,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-31 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -211,7 +186,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-43 dias",
+          "dueDaysStr": "6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -224,7 +199,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-436 dias",
+          "dueDaysStr": "-443 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -237,7 +212,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-123 dias",
+          "dueDaysStr": "-130 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -250,7 +225,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-43 dias",
+          "dueDaysStr": "6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -416,7 +391,7 @@ window.EMBEDDED_DATA = {
           "description": "ATA 62 – Inspection of Main Rotor Scissor Chain",
           "pn": "BT109SP-149A",
           "sheet": "DIR",
-          "dueHoursStr": "20.3h",
+          "dueHoursStr": "19.7h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -462,7 +437,7 @@ window.EMBEDDED_DATA = {
           "description": "ATA 62 – Inspection of Main Rotor Scissor Chain",
           "pn": "BT109SP-149A",
           "sheet": "DIR",
-          "dueHoursStr": "20.3h",
+          "dueHoursStr": "19.7h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -471,6 +446,19 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "588.0",
+          "task": "EASA AD 2026-0115",
+          "description": "ATA 55 – TORQUE TUBE ASSY INSPECTION",
+          "pn": "ASB 109SP-168",
+          "sheet": "DIR",
+          "dueHoursStr": "25.0h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "589.0",
           "task": "DA 2011-09-01",
           "description": "DA 2011-09-01",
           "pn": "",
@@ -481,7 +469,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "622.0",
+          "id": "623.0",
           "task": "BT109SP-031",
           "description": "AD",
           "pn": "BT109SP-031",
@@ -492,7 +480,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "645.0",
+          "id": "646.0",
           "task": "BT109SP-055",
           "description": "AD",
           "pn": "BT109SP-055",
@@ -503,7 +491,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "650.0",
+          "id": "651.0",
           "task": "BT109SP-060",
           "description": "Upgrade of the servo actuators system",
           "pn": "BT109SP-060",
@@ -514,7 +502,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "651.0",
+          "id": "652.0",
           "task": "BT109SP-061 Rev A",
           "description": "Inspection of The Rescue Hoist",
           "pn": "BT109SP-061 Rev A",
@@ -525,7 +513,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "653.0",
+          "id": "654.0",
           "task": "BT109SP-063",
           "description": "Cargo hook Cameras installation KIT P/N 109G9770F01 and P/N 109G9770F02",
           "pn": "BT109SP-063",
@@ -536,7 +524,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "654.0",
+          "id": "655.0",
           "task": "BT109SP-064",
           "description": "Installation of the 20 cells battery KIT P/N 109G2430F01-101",
           "pn": "BT109SP-064",
@@ -547,7 +535,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "655.0",
+          "id": "656.0",
           "task": "BT109SP-065 Rev B",
           "description": "Instaliation ar Utility Hydraulic \nSystem Retrofit Kit P/N 109G3206R01-101",
           "pn": "BT109SP-065 Rev B",
@@ -558,7 +546,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "656.0",
+          "id": "657.0",
           "task": "BT109SP-066",
           "description": "Replacement of thr sliding window handle Part of the KIT P/N 109-0824-15 \nWith The new handle with lock Hook Part of the retromod P/N 109G5606R02",
           "pn": "BT109SP-066",
@@ -569,7 +557,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "657.0",
+          "id": "658.0",
           "task": "BT109SP-067",
           "description": "Rescue hoist assembly part replacement",
           "pn": "BT109SP-067",
@@ -580,7 +568,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "658.0",
+          "id": "659.0",
           "task": "BT109SP-068",
           "description": "Right And left Auxiliary Fuel Tanks structural provisions",
           "pn": "BT109SP-068",
@@ -591,7 +579,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "660.0",
+          "id": "661.0",
           "task": "BT 109SP-071",
           "description": "Inspection of hte tail rotor camera removable parts KIT P/N 109G9750F01-105",
           "pn": "BT 109SP-071",
@@ -602,7 +590,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "663.0",
+          "id": "664.0",
           "task": "BT109SP-75",
           "description": "Pilot collective stick retrofit KIT P/N 109G6711F01·101, installation of",
           "pn": "BT109SP-75",
@@ -613,7 +601,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "664.0",
+          "id": "665.0",
           "task": "BT109SP-76",
           "description": "GPS antenna support P/N 109-0370-68-501, installation of",
           "pn": "BT109SP-76",
@@ -624,7 +612,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "665.0",
+          "id": "666.0",
           "task": "BT109SP-78",
           "description": "Rescue Hoist 600 Lbs (272 Kg) Kit P/N 109-B810-16-101, lnstallation Of",
           "pn": "BT109SP-78",
@@ -635,7 +623,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "666.0",
+          "id": "667.0",
           "task": "BT109SP-79",
           "description": "lnstallation of lhe Tail rotor fairing gasket",
           "pn": "BT109SP-79",
@@ -646,7 +634,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "668.0",
+          "id": "669.0",
           "task": "BT109SP-81 Rev B",
           "description": "ESIS Meggitt integrated with secondary flight display\nP/N 40004·02-01",
           "pn": "BT109SP-81 Rev B",
@@ -657,7 +645,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "669.0",
+          "id": "670.0",
           "task": "BT109SP-82",
           "description": "Passenger Rear Seat Transformation From 3 to 2 Plaees Kit PIN 109G2520F23-311",
           "pn": "BT109SP-82",
@@ -668,7 +656,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "672.0",
+          "id": "673.0",
           "task": "BT109SP-85",
           "description": "Satcom Kit InstaIlation",
           "pn": "BT109SP-85",
@@ -679,7 +667,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "674.0",
+          "id": "675.0",
           "task": "BT109SP-88",
           "description": "Cabin Ieft side and right side electrical step wilh single actuator",
           "pn": "BT109SP-88",
@@ -690,7 +678,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "676.0",
+          "id": "677.0",
           "task": "BT109SP-90",
           "description": "STROBE LIGHTS KIT PN 109-B810-92-101",
           "pn": "BT109SP-90",
@@ -701,7 +689,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "677.0",
+          "id": "678.0",
           "task": "BT109SP-91",
           "description": "PILOT MAP LiGHTS KIT P/N 109-B810-93-101 AND CO-PILOTS MAP LiGHTS KIT",
           "pn": "BT109SP-91",
@@ -712,7 +700,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "678.0",
+          "id": "679.0",
           "task": "BT109SP-92",
           "description": "TAIL FLOOD LIGHTS KIT (PN 109-B810-43-201)",
           "pn": "BT109SP-92",
@@ -723,7 +711,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "680.0",
+          "id": "681.0",
           "task": "BT109SP-96",
           "description": "33Ah Main Battcry Additional Cell Modification (conversion from 19-CELL into 20)",
           "pn": "BT109SP-96",
@@ -734,7 +722,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "681.0",
+          "id": "682.0",
           "task": "BT109SP-97",
           "description": "VHF/AM Antennas Relocation Variant (Fixed Parts)",
           "pn": "BT109SP-97",
@@ -745,7 +733,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "682.0",
+          "id": "683.0",
           "task": "BT109SP-98",
           "description": "Nose Landing Gear Doors Rework",
           "pn": "BT109SP-98",
@@ -756,7 +744,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "683.0",
+          "id": "684.0",
           "task": "BT109SP-99",
           "description": "Goodrich Rescue Hoist Overload Clutch",
           "pn": "BT109SP-99",
@@ -767,7 +755,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "686.0",
+          "id": "687.0",
           "task": "BT109SP-103",
           "description": "Removal of the FWO VHF/AM Antenna Structural Provision",
           "pn": "BT109SP-103",
@@ -778,7 +766,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "687.0",
+          "id": "688.0",
           "task": "BT109SP-104",
           "description": "OIL COOLlNG SYSTEM TRANSMISSION REPLACEMENT",
           "pn": "BT109SP-104",
@@ -789,7 +777,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "688.0",
+          "id": "689.0",
           "task": "BT109SP-106",
           "description": "Wire slrike proleclion system",
           "pn": "BT109SP-106",
@@ -800,7 +788,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "691.0",
+          "id": "692.0",
           "task": "BT109SP-111",
           "description": "Retrofit quick disconnect copilot pedaIs assy 109G6720R04",
           "pn": "BT109SP-111",
@@ -811,7 +799,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "697.0",
+          "id": "698.0",
           "task": "BT109SP-121",
           "description": "Flight data and cockpit voice recorder \ninstallation kit P/N 109-B810-94-101",
           "pn": "BT109SP-121",
@@ -822,7 +810,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "703.0",
+          "id": "704.0",
           "task": "BT109SP-126A",
           "description": "ATA 53 - LEFT AND RIGHT ALUMINUM ALLOY COUNTERTORQUE CROSSBEAM\nFITTING PLATE ASSEMBLIES P/N 109-0330-17, REPLACEMENT OF",
           "pn": "BT109SP-126A",
@@ -833,7 +821,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "704.0",
+          "id": "705.0",
           "task": "BT109SP-127",
           "description": "ATA 29 - Hydraulic Tanks Supports Retro-Modification P/N 109G2906R10-101.",
           "pn": "BT109SP-127",
@@ -844,7 +832,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "717.0",
+          "id": "718.0",
           "task": "BT109SP-140",
           "description": "ATA 93 - INSTALLATION OF TRANSPONDER ADS-B RETROFIT KIT\nP/N 109G9340R01-101",
           "pn": "BT109SP-140",
@@ -855,12 +843,12 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "723.0",
+          "id": "724.0",
           "task": "BT109SP-146",
           "description": "ATA 63 - INSPECTION OF ROTOR BRAKE CONTROL CABLE P/N 109-0506-17-115",
           "pn": "BT109SP-146",
           "sheet": "DIR",
-          "dueHoursStr": "12.8h",
+          "dueHoursStr": "12.2h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -868,7 +856,7 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
-          "id": "733.0",
+          "id": "734.0",
           "task": "BT109SP-156",
           "description": "ATA 34 - RETROFIT TAS 620A KIT P/N 109G3440R03-101, INSTALLATION OF",
           "pn": "BT109SP-156",
@@ -879,7 +867,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "737.0",
+          "id": "738.0",
           "task": "BT109SP-160A",
           "description": "ATA 31 - INSTALLATION OF KIT COCKPIT VIDEO AND AUDIO RECORD DEVICE\nP/N 109G3130F06-103 AND P/N 109G3130F06-105 (AIRS-400)",
           "pn": "BT109SP-160A",
@@ -890,7 +878,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "739.0",
+          "id": "740.0",
           "task": "BT109SP-162",
           "description": "ATA 31 - UPLOADING OF NEW SOFTWARE EFIS 9.0A",
           "pn": "BT109SP-162",
@@ -901,7 +889,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "742.0",
+          "id": "743.0",
           "task": "BT109SP-165",
           "description": "ATA 26 – ENGINE FIRE EXTINGUISHER BOTTLES ELECTRICAL CONNECTIONS\nINSPECTION",
           "pn": "BT109SP-165",
@@ -912,12 +900,12 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "745.0",
+          "id": "746.0",
           "task": "BT109SP-168B",
           "description": "ATA 55 – TORQUE TUBE ASSY INSPECTION",
           "pn": "BT109SP-168B",
           "sheet": "DIR",
-          "dueHoursStr": "25.6h",
+          "dueHoursStr": "25.0h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -925,20 +913,20 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
-          "id": "747.0",
+          "id": "748.0",
           "task": "BT109SP-170",
           "description": "ATA 31 – UPDATE OF MAGNETIC VARIATION FILE (WORLD MAGNETIC MODEL 2025)",
           "pn": "BT109SP-170",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46485 dias",
+          "dueDaysStr": "-46496 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "750.0",
+          "id": "751.0",
           "task": "BT109SP-173",
           "description": "ATA 25 – Collins Seat Upgrade",
           "pn": "BT109SP-173",
@@ -949,7 +937,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "751.0",
+          "id": "752.0",
           "task": "BT109SP-174",
           "description": "ATA 52 – ELECTRICAL STEP LEFT SIDE INSTALLATION",
           "pn": "BT109SP-174",
@@ -960,7 +948,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "752.0",
+          "id": "753.0",
           "task": "BT109SP-175B",
           "description": "ATA 26 – REPLACEMENT OF HALON PORTABLE FIRE EXTINGUISHERS",
           "pn": "BT109SP-175B",
@@ -971,7 +959,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "757.0",
+          "id": "758.0",
           "task": "AD 2013-03-21",
           "description": "Power turbine (PT) disks",
           "pn": "72-A28311 R1",
@@ -982,7 +970,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "760.0",
+          "id": "761.0",
           "task": "AD 2013-03-21",
           "description": "Power turbine (PT) disks",
           "pn": "72-A28311 R1",
@@ -993,7 +981,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "794.0",
+          "id": "795.0",
           "task": "SB 28339 R3",
           "description": "AD",
           "pn": "SB 28339 R3",
@@ -1004,7 +992,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "795.0",
+          "id": "796.0",
           "task": "SB 28340 R6",
           "description": "AD",
           "pn": "SB 28340 R6",
@@ -1015,7 +1003,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "796.0",
+          "id": "797.0",
           "task": "SB 28341 R2",
           "description": "AD",
           "pn": "SB 28341 R2",
@@ -1026,7 +1014,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "797.0",
+          "id": "798.0",
           "task": "SB 28372 R4",
           "description": "AD",
           "pn": "SB 28372 R4",
@@ -1037,7 +1025,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "798.0",
+          "id": "799.0",
           "task": "SB 28375 R5",
           "description": "AD",
           "pn": "SB 28375 R5",
@@ -1048,7 +1036,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "799.0",
+          "id": "800.0",
           "task": "SB 28380 R1",
           "description": "AD",
           "pn": "SB 28380 R1",
@@ -1059,7 +1047,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "800.0",
+          "id": "801.0",
           "task": "SB 28384 R1",
           "description": "AD",
           "pn": "SB 28384 R1",
@@ -1070,7 +1058,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "801.0",
+          "id": "802.0",
           "task": "SB 28385",
           "description": "AD",
           "pn": "SB 28385",
@@ -1081,7 +1069,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "802.0",
+          "id": "803.0",
           "task": "SB 28387 R1",
           "description": "AD",
           "pn": "SB 28387 R1",
@@ -1092,7 +1080,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "803.0",
+          "id": "804.0",
           "task": "SB 28391",
           "description": "AD",
           "pn": "SB 28391",
@@ -1103,7 +1091,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "804.0",
+          "id": "805.0",
           "task": "SB 28353 R7",
           "description": "AD",
           "pn": "SB 28353 R7",
@@ -1114,7 +1102,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "805.0",
+          "id": "806.0",
           "task": "SB 28404 R1",
           "description": "AD",
           "pn": "SB 28404 R1",
@@ -1125,7 +1113,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "834.0",
+          "id": "835.0",
           "task": "SB 28339 R3",
           "description": "AD",
           "pn": "SB 28339 R3",
@@ -1136,7 +1124,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "835.0",
+          "id": "836.0",
           "task": "SB 28340 R6",
           "description": "AD",
           "pn": "SB 28340 R6",
@@ -1147,7 +1135,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "836.0",
+          "id": "837.0",
           "task": "SB 28341 R2",
           "description": "AD",
           "pn": "SB 28341 R2",
@@ -1158,7 +1146,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "837.0",
+          "id": "838.0",
           "task": "SB 28372 R4",
           "description": "AD",
           "pn": "SB 28372 R4",
@@ -1169,7 +1157,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "838.0",
+          "id": "839.0",
           "task": "SB 28375 R5",
           "description": "AD",
           "pn": "SB 28375 R5",
@@ -1180,7 +1168,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "839.0",
+          "id": "840.0",
           "task": "SB 28380 R1",
           "description": "AD",
           "pn": "SB 28380 R1",
@@ -1191,7 +1179,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "840.0",
+          "id": "841.0",
           "task": "SB 28384 R1",
           "description": "AD",
           "pn": "SB 28384 R1",
@@ -1202,7 +1190,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "841.0",
+          "id": "842.0",
           "task": "SB 28385",
           "description": "AD",
           "pn": "SB 28385",
@@ -1213,7 +1201,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "842.0",
+          "id": "843.0",
           "task": "SB 28387 R1",
           "description": "AD",
           "pn": "SB 28387 R1",
@@ -1224,7 +1212,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "843.0",
+          "id": "844.0",
           "task": "SB 28391",
           "description": "AD",
           "pn": "SB 28391",
@@ -1235,7 +1223,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "844.0",
+          "id": "845.0",
           "task": "SB 28353 R7",
           "description": "AD",
           "pn": "SB 28353 R7",
@@ -1246,7 +1234,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "845.0",
+          "id": "846.0",
           "task": "SB 28404 R1",
           "description": "AD",
           "pn": "SB 28404 R1",
@@ -1260,8 +1248,9 @@ window.EMBEDDED_DATA = {
     },
     "PP-VEL": {
       "info": {
-        "totalHours": 2196.0,
-        "totalLandings": 644.0,
+        "model": "DASSAULT FALCON 7X",
+        "totalHours": 2204.8,
+        "totalLandings": 646.0,
         "registration": "PP-VEL",
         "totalCycles": null
       },
@@ -1273,7 +1262,7 @@ window.EMBEDDED_DATA = {
           "pn": "if the aircraft has performed more than 20FH since the\nlast treatment",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1286,7 +1275,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1299,7 +1288,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1312,7 +1301,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1325,7 +1314,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1338,7 +1327,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1351,7 +1340,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1364,7 +1353,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1377,7 +1366,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1390,7 +1379,20 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "7 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "40",
+          "task": "",
+          "description": "APU Preservation",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1403,7 +1405,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "41 dias",
+          "dueDaysStr": "53 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1416,7 +1418,7 @@ window.EMBEDDED_DATA = {
           "pn": "PKG 2",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "4 dias",
+          "dueDaysStr": "-3 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1429,7 +1431,7 @@ window.EMBEDDED_DATA = {
           "pn": "FSA-28-00-013-R00-A",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "28 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1442,7 +1444,7 @@ window.EMBEDDED_DATA = {
           "pn": "FSA-28-00-013-R00-A",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "9 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1455,7 +1457,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "11 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1468,7 +1470,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "11 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1481,7 +1483,7 @@ window.EMBEDDED_DATA = {
           "pn": "406AFN2",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1494,7 +1496,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-267 dias",
+          "dueDaysStr": "-274 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1507,7 +1509,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-542 dias",
+          "dueDaysStr": "-549 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1520,7 +1522,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-716 dias",
+          "dueDaysStr": "-723 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1533,7 +1535,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-699 dias",
+          "dueDaysStr": "-706 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1546,7 +1548,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-699 dias",
+          "dueDaysStr": "-706 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1558,7 +1560,7 @@ window.EMBEDDED_DATA = {
           "description": "Voo Monitoramento \nRVSM",
           "pn": "",
           "sheet": "Manutenção",
-          "dueHoursStr": "-264.0h",
+          "dueHoursStr": "-272.8h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -1585,7 +1587,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-30 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1598,7 +1600,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-16 dias",
+          "dueDaysStr": "-23 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1611,7 +1613,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-56 dias",
+          "dueDaysStr": "-63 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1619,7 +1621,7 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "2530",
-          "task": "AD 2026-10-03\nEASA AD 2025-0092",
+          "task": "AD 2026-11-03\nEASA AD 2025-0092",
           "description": "ATA 27 – Flight Controls – Maintenance and Avionics Interface Computer Software –\nModification",
           "pn": "",
           "sheet": "DIR",
@@ -1629,7 +1631,18 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2653",
+          "id": "2531",
+          "task": "AD 2026-13-02",
+          "description": "INTERFERENCE FROM WIRELESS BROADBAND OPERATIONS IN THE 3.7-3.98 GHZ FREQUENCY BAND (5G LOWER C-BAND), WHEN OPERATING IN CANADIAN AIRSPACE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2654",
           "task": "035",
           "description": "Equipment/furnishings - Emergency Vision \nAssistance System (EVAS) - Installation of EVAS",
           "pn": "035",
@@ -1640,7 +1653,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2751",
+          "id": "2752",
           "task": "126 R2",
           "description": "Power plant - Engine maintenance system - Engine data \ncollection and transmission unit (DCTU/F.A.S.T.) installation",
           "pn": "126 R2",
@@ -1651,7 +1664,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2755",
+          "id": "2756",
           "task": "130 R1",
           "description": "Navigation - Runway Awareness \nAdvisory System (RAAS)",
           "pn": "130 R1",
@@ -1662,7 +1675,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2776",
+          "id": "2777",
           "task": "154",
           "description": "Navigation - Electronic Flight Bag (EFB) - \nLifting of airplane flight manual limitations",
           "pn": "154",
@@ -1673,7 +1686,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2786",
+          "id": "2787",
           "task": "165",
           "description": "Landing gear - Main gear - Installation \nof a hard landing detector",
           "pn": "165",
@@ -1684,7 +1697,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2814",
+          "id": "2815",
           "task": "192-R3",
           "description": "Landing gear - Main landing gear legs - \nInspection and addition of anti-corrosion \nprotective treatment of MLG pins",
           "pn": "192-R3",
@@ -1695,7 +1708,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2821",
+          "id": "2822",
           "task": "199 R2",
           "description": "EQUIPMENT / FURNISHINGS\nMAINTENANCE LADDER\nTELESTEP MAINTENANCE LADDER",
           "pn": "199 R2",
@@ -1706,7 +1719,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2868",
+          "id": "2869",
           "task": "247 R2",
           "description": "ECS AIR CYCLE MACHINE IMPROVEMENT",
           "pn": "247 R2",
@@ -1717,7 +1730,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2872",
+          "id": "2873",
           "task": "250-R4",
           "description": "Equipment-furnishings - Carpet waviness prevention",
           "pn": "250-R4",
@@ -1728,7 +1741,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2879",
+          "id": "2880",
           "task": "258-R2",
           "description": "Equipment - Furnishings - Forward lavatory - \nFixing tri-Fold door gap issues",
           "pn": "258-R2",
@@ -1739,7 +1752,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2897",
+          "id": "2898",
           "task": "277",
           "description": "CABIN SEATS\nAISLE LIGHT WIRE ROUTING IMPROVEMENT",
           "pn": "277",
@@ -1750,12 +1763,12 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2899",
+          "id": "2900",
           "task": "280",
           "description": "Improvement of Brake Control Unit Software Built-in-Test",
           "pn": "280",
           "sheet": "DIR",
-          "dueHoursStr": "-932.1h",
+          "dueHoursStr": "-940.9h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -1763,7 +1776,7 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
-          "id": "2911",
+          "id": "2912",
           "task": "292 R3",
           "description": "48,500 LB OPERATION LIMIT INDICATION",
           "pn": "292 R3",
@@ -1774,7 +1787,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2923",
+          "id": "2924",
           "task": "303",
           "description": "Navigation - EASy II - SMARTVIEW TM SVS - \nSynthetic Vision System",
           "pn": "303",
@@ -1785,7 +1798,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2924",
+          "id": "2925",
           "task": "304",
           "description": "Navigation - EASy II - Automatic Descent Mode (ADM)",
           "pn": "304",
@@ -1796,7 +1809,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2925",
+          "id": "2926",
           "task": "305 R1",
           "description": "Navigation - EASy II - Dual Jeppesen Charts",
           "pn": "305 R1",
@@ -1807,7 +1820,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2926",
+          "id": "2927",
           "task": "306-R1",
           "description": "Navigation - EASy II - XM Graphical WX",
           "pn": "306-R1",
@@ -1818,7 +1831,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2928",
+          "id": "2929",
           "task": "308-R4",
           "description": "Communication - EASy II - Controller Pilot \nData Link Communication (CPDLC) ATN",
           "pn": "308-R4",
@@ -1829,7 +1842,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2939",
+          "id": "2940",
           "task": "321 R1",
           "description": "Communications - EASy II - Full \nCapability for CPDLC - Fans 1/A",
           "pn": "321 R1",
@@ -1840,7 +1853,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2942",
+          "id": "2943",
           "task": "326 R2",
           "description": "ELECTRICAL POWER - INSTALLATION OF LEAD ACID BATTERIES (40 AH CAPACITY)",
           "pn": "326 R2",
@@ -1851,7 +1864,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2946",
+          "id": "2947",
           "task": "332 R1",
           "description": "Defueling System - Suction Defueling Time Improvement",
           "pn": "332 R1",
@@ -1862,7 +1875,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2948",
+          "id": "2949",
           "task": "335",
           "description": "Navigation - VOR-ILS-MARKER-DATALINK-GPS \nnavigation systems - Replacement of VIDL-G modules",
           "pn": "335",
@@ -1873,7 +1886,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2965",
+          "id": "2966",
           "task": "354 R1",
           "description": "Communication - Satcom - \nAXXESS II satcom capable of fans 1/A",
           "pn": "354 R1",
@@ -1884,7 +1897,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2967",
+          "id": "2968",
           "task": "355 R1",
           "description": "Corrosion Risk Reduction On \nWing Lower Panel Trailing Edges",
           "pn": "355 R1",
@@ -1895,26 +1908,13 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2968",
+          "id": "2969",
           "task": "357 R3",
           "description": "Equipement/Furnishing - Interior Furnishing - \nEmergency Exit Handle Access Improvement",
           "pn": "357 R3",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-48617 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "2969",
-          "task": "358 R3",
-          "description": "EQUIPMENT/FURNISHINGS – INTERIOR FURNISHINGS– EMERGENCY EXIT DECOR PANEL IMPROVEMENT",
-          "pn": "358 R3",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": "-48617 dias",
+          "dueDaysStr": "-48639 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -1922,6 +1922,19 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "2970",
+          "task": "358 R3",
+          "description": "EQUIPMENT/FURNISHINGS – INTERIOR FURNISHINGS– EMERGENCY EXIT DECOR PANEL IMPROVEMENT",
+          "pn": "358 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-48639 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "2971",
           "task": "359 R4",
           "description": "Equipement/Furnishing - Interior Furnishing - Emergency Exit Valance Panel Improvement",
           "pn": "359 R4",
@@ -1932,12 +1945,12 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2982",
+          "id": "2983",
           "task": "377",
           "description": "AIR CONDITIONING\nCABIN IPCS VALVE P/N 2119168-13",
           "pn": "377",
           "sheet": "DIR",
-          "dueHoursStr": "-932.1h",
+          "dueHoursStr": "-940.9h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -1945,7 +1958,7 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
-          "id": "2983",
+          "id": "2984",
           "task": "378",
           "description": "INSTALLATION OF LED LANDING LIGHTS",
           "pn": "378",
@@ -1956,7 +1969,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2984",
+          "id": "2985",
           "task": "MANDATÓRIO",
           "description": "BOLT REPLACEMENT AT LH AND RH FRAME ROOTS 36 AND 39",
           "pn": "379 R2",
@@ -1967,7 +1980,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2985",
+          "id": "2986",
           "task": "380",
           "description": "Equipement Furnishing - Coffe maker - Suppression of Guiding Pin and Coffee Make",
           "pn": "380",
@@ -1978,7 +1991,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "2986",
+          "id": "2987",
           "task": "381",
           "description": "Replacement of Landing Gear Control Hydraulic Module (LGCHM) P/N 10-249501-003",
           "pn": "381",
@@ -1989,7 +2002,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3001",
+          "id": "3002",
           "task": "397 R1",
           "description": "S-DUCT WATER DRAINING IMPROVEMENT",
           "pn": "397 R1",
@@ -2000,7 +2013,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3005",
+          "id": "3006",
           "task": "403",
           "description": "FLUID CIRCULATION IMPROVEMENT IN WING TANK",
           "pn": "403",
@@ -2011,20 +2024,20 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3007",
+          "id": "3008",
           "task": "413A",
           "description": "PILOT SEATS\nBACKREST HYDROLOCK IMPROVEMENT",
           "pn": "413A",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46334 dias",
+          "dueDaysStr": "-46356 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "3008",
+          "id": "3009",
           "task": "414",
           "description": "Communications - SATCOM System MCS7120 - FalconConnect - First Installation",
           "pn": "414",
@@ -2035,12 +2048,12 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3012",
+          "id": "3013",
           "task": "431 R2",
           "description": "INSTALLATION OF BRAKES P/N 90010325",
           "pn": "431 R2",
           "sheet": "DIR",
-          "dueHoursStr": "-259.4h",
+          "dueHoursStr": "-268.2h",
           "dueDaysStr": null,
           "dueCyclesStr": null,
           "alertTypes": [
@@ -2048,7 +2061,7 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
-          "id": "3016",
+          "id": "3017",
           "task": "438A",
           "description": "INSTALLATION OF NEW DC GENERATORS",
           "pn": "438A",
@@ -2059,7 +2072,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3018",
+          "id": "3019",
           "task": "441",
           "description": "BAGGAGE COMPARTMENT LADDER\nREINFORCEMENT OF FOLDING LADDER",
           "pn": "441",
@@ -2070,7 +2083,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3025",
+          "id": "3026",
           "task": "448 R1",
           "description": "UNDERWATER LOCATOR BEACON\nINSTALLATION OF 8.8 KHZ DK180 ULB",
           "pn": "448 R1",
@@ -2081,7 +2094,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3029",
+          "id": "3030",
           "task": "451",
           "description": "LANDING GEAR\nBRAKE CONTROL SYSTEM\nTAXI SINGLE SYSTEM IMPROVEMENT",
           "pn": "451",
@@ -2092,7 +2105,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3030",
+          "id": "3031",
           "task": "452",
           "description": "ELECTRONIC FLIGHT BAG (NG-EFB) INSTALLATION",
           "pn": "452",
@@ -2103,7 +2116,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3031",
+          "id": "3032",
           "task": "454 R4",
           "description": "INSTALLATION OF TRANSPARENT FIN TIP FAIRING\nFOR KA NETWORK",
           "pn": "454 R4",
@@ -2114,7 +2127,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3032",
+          "id": "3033",
           "task": "455 R1",
           "description": "INSTALLATION OF WING ANTI-COLLISION LIGHTS AND REAR NAVIGATION/ ANTI-COLLISION LIGHTS WITH LED TECHNOLOGY",
           "pn": "455 R1",
@@ -2125,7 +2138,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3033",
+          "id": "3034",
           "task": "456",
           "description": "NSTALLATION OF ANTI-COLLISION LIGHTS WITH LED TECHNOLOG",
           "pn": "456",
@@ -2136,7 +2149,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3034",
+          "id": "3035",
           "task": "457",
           "description": "INSTALLATION OF WING ICE DETECTION LIGHTS WITH LED TECHNOLOGY",
           "pn": "457",
@@ -2147,7 +2160,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3035",
+          "id": "3036",
           "task": "458",
           "description": "INSTALLATION OF LOGO LIGHTS WITH LED TECHNOLOGY",
           "pn": "458",
@@ -2158,7 +2171,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3036",
+          "id": "3037",
           "task": "459 R1",
           "description": "INSTALLATION OF PYLON LIGHTS WITH LED TECHNOLOGY",
           "pn": "459 R1",
@@ -2169,7 +2182,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3053",
+          "id": "3054",
           "task": "485",
           "description": "CHECK OF THE FLAP OVER-RETRACTION DETECTION SYSTEM",
           "pn": "485",
@@ -2180,7 +2193,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3057",
+          "id": "3058",
           "task": "496",
           "description": "Installation of MLG Harnesses P/N 10-237X01-003",
           "pn": "496",
@@ -2191,26 +2204,13 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3062",
+          "id": "3063",
           "task": "502",
           "description": "REPLACEMENT OF QUADRAX CABLES AND HDMI PORTS",
           "pn": "502",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-47370 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "3069",
-          "task": "514 R1",
-          "description": "NEW ESSENZA COFFEE MAKER INSTALLATION",
-          "pn": "514 R1",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46365 dias",
+          "dueDaysStr": "-47392 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2218,6 +2218,19 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3070",
+          "task": "514 R1",
+          "description": "NEW ESSENZA COFFEE MAKER INSTALLATION",
+          "pn": "514 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46387 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "3071",
           "task": "517 R4",
           "description": "Honeywell KA Band Jetwave Installation",
           "pn": "517 R4",
@@ -2228,7 +2241,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3075",
+          "id": "3076",
           "task": "522 R1",
           "description": "ENHANCED AVIONICS SYSTEM FASTER CHART DATABASE LOADING ACTIVATION",
           "pn": "522 R1",
@@ -2239,7 +2252,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3076",
+          "id": "3077",
           "task": "523 R1 B",
           "description": "ENHANCED AVIONICS SYSTEM \"PUSH-TO-LOAD\" FUNCTIONALITY",
           "pn": "523 R1 B",
@@ -2250,7 +2263,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3078",
+          "id": "3079",
           "task": "525 R1",
           "description": "EMERGENCY POWER SUPPLIES\nADDITION OF AN INSULATION SHIM UNDER EPS #2",
           "pn": "525 R1",
@@ -2261,7 +2274,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3080",
+          "id": "3081",
           "task": "528",
           "description": "LOW GAIN ANTENNA (LGA) INSTALLATION\nFOR IRIDIUM SATCOM SYSTEMS",
           "pn": "528",
@@ -2272,7 +2285,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3081",
+          "id": "3082",
           "task": "529",
           "description": "RECORDER INDEPENDENT POWER SUPPLY (RIPS)\nINSTALLATION",
           "pn": "529",
@@ -2283,7 +2296,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3082",
+          "id": "3083",
           "task": "530",
           "description": "COMMUNICATIONS\nSATCOM DIRECT ROUTER (SDR) INSTALLATION",
           "pn": "530",
@@ -2294,7 +2307,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3083",
+          "id": "3084",
           "task": "532 R1",
           "description": "INSTALLATION OF LED TAXI LIGHT",
           "pn": "532 R1",
@@ -2305,7 +2318,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3085",
+          "id": "3086",
           "task": "534",
           "description": "INSTALLATION OF QAR P/N 200-E10-1110",
           "pn": "534",
@@ -2316,7 +2329,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3090",
+          "id": "3091",
           "task": "545",
           "description": "COMMUNICATIONS\nSATELLITE COMMUNICATIONS (SATCOM) SYSTEM\nFALCONCONNECT WITH GDR: FIRST INSTALLATION",
           "pn": "545",
@@ -2327,7 +2340,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3091",
+          "id": "3092",
           "task": "546",
           "description": "EFB - UPGRADE OF CMA-1310 TO WINDOWS 10",
           "pn": "546",
@@ -2338,7 +2351,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3092",
+          "id": "3093",
           "task": "547A",
           "description": "IMPROVEMENT OF TECALAN HOSE INSTALLATION",
           "pn": "547A",
@@ -2349,7 +2362,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3093",
+          "id": "3094",
           "task": "549 R1",
           "description": "iPad Cockpit Mounts With 15W PD USB-C Charging",
           "pn": "549 R1",
@@ -2360,7 +2373,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3096",
+          "id": "3097",
           "task": "554 R1",
           "description": "ENGINE MONITORING SYSTEM INSTALLATION OF FAST BOX 4G",
           "pn": "554 R1",
@@ -2371,7 +2384,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3108",
+          "id": "3109",
           "task": "568 R1",
           "description": "EQUIPMENT - FURNISHINGS\nAIR LITE RECHARGEABLE LED FLASHLIGHTS\nINSTALLATION",
           "pn": "568 R1",
@@ -2382,7 +2395,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3112",
+          "id": "3113",
           "task": "571",
           "description": "REPLACEMENT OF ECS PACK COLD FLOW REGULATION VALVE P/N 30205046-4",
           "pn": "571",
@@ -2393,7 +2406,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3131",
+          "id": "3132",
           "task": "595",
           "description": "CONICAL DEFLECTOR INSTALLATION AROUND FUEL BOOSTER PUMPS",
           "pn": "595",
@@ -2404,20 +2417,20 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3133",
+          "id": "3134",
           "task": "597 R1",
           "description": "5G RADIO ALTIMETER FILTER INSTALLATION:",
           "pn": "597 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46607 dias",
+          "dueDaysStr": "-46629 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "3136",
+          "id": "3137",
           "task": "602A R1",
           "description": "GENERAL ENHANCED AVIONICS SYSTEM EASY IV - LGIO AIRCRAFT",
           "pn": "602A R1",
@@ -2428,7 +2441,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3154",
+          "id": "3155",
           "task": "623",
           "description": "COCKPIT TABLET MOUNT INSTALLATION PROVISION",
           "pn": "623",
@@ -2439,7 +2452,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3155",
+          "id": "3156",
           "task": "625 R1",
           "description": "COMMUNICATIONS\nPLANE SIMPLE ANTENNA BRACKET INSTALLATION IN\nKU RADOME",
           "pn": "625 R1",
@@ -2450,7 +2463,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3156",
+          "id": "3157",
           "task": "627",
           "description": "REPLACEMENT OF THE PARK EMERGENCY VALVE",
           "pn": "627",
@@ -2461,7 +2474,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3163",
+          "id": "3164",
           "task": "635 R1",
           "description": "ALTO DIGITAL AUDIO AMPLIFIER",
           "pn": "635 R1",
@@ -2472,7 +2485,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3164",
+          "id": "3165",
           "task": "639",
           "description": "REPLACEMENT OF THE RUDDER SERVO-ACTUATOR",
           "pn": "639",
@@ -2483,7 +2496,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3168",
+          "id": "3169",
           "task": "646 R3",
           "description": "Starlink Antenna Provisions",
           "pn": "646 R3",
@@ -2494,7 +2507,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3169",
+          "id": "3170",
           "task": "648",
           "description": "FAST SOFTWARE UPDATE TO VERSION 3.2.0:",
           "pn": "648",
@@ -2505,7 +2518,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3171",
+          "id": "3173",
           "task": "652",
           "description": "COCKPIT MILTOPE PRINTER REMOVAL",
           "pn": "652",
@@ -2516,7 +2529,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3174",
+          "id": "3176",
           "task": "660 R1",
           "description": "INSTALLATION OF COCKPIT INTERNET SWITCH",
           "pn": "660 R1",
@@ -2527,7 +2540,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3175",
+          "id": "3177",
           "task": "661",
           "description": "ECS BAY THERMAL TEMPLATE INSTALLATION",
           "pn": "661",
@@ -2538,7 +2551,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3177",
+          "id": "3179",
           "task": "S012 R3",
           "description": "COMMUNICATIONS\nGOGO AVANCE L5 INSTALLATION",
           "pn": "S012 R3",
@@ -2549,7 +2562,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3178",
+          "id": "3180",
           "task": "S015 R5",
           "description": "SATCOM DIRECT DLU SATCOM INSTALLATION",
           "pn": "S015 R5",
@@ -2560,7 +2573,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3179",
+          "id": "3181",
           "task": "S018 R4",
           "description": "Go Direct Router (GDR) Installation with Wi-Fi Ac",
           "pn": "S018 R4",
@@ -2571,7 +2584,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3182",
+          "id": "3184",
           "task": "S040 R2",
           "description": "COMMUNICATIONS - PLANE SIMPLE ANTENNA BRACKET INSTALLATION IN KU RADOME",
           "pn": "S040 R2",
@@ -2582,7 +2595,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3183",
+          "id": "3185",
           "task": "S043",
           "description": "CABIN SYSTEMS  AVIATION CLEAN AIR (ACA) IONIZATION SYSTEM AIR PURIFICATION",
           "pn": "S043",
@@ -2593,7 +2606,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3186",
+          "id": "3188",
           "task": "S050",
           "description": "INSTALLATION OF GARMIN GI 275 SECONDARY FLIGHT DISPLAY SYSTEM",
           "pn": "S050",
@@ -2604,7 +2617,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3188",
+          "id": "3190",
           "task": "S060 R2",
           "description": "GOGO KA-BAND PLANE SIMPLE INSTALLATION",
           "pn": "S060 R2",
@@ -2615,7 +2628,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3189",
+          "id": "3191",
           "task": "S061 R2",
           "description": "STARLINK SATCOM SYSTEM",
           "pn": "S061 R2",
@@ -2626,32 +2639,10 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3364",
+          "id": "3366",
           "task": "47180",
           "description": "AD",
           "pn": "47180",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3365",
-          "task": "47181",
-          "description": "AD",
-          "pn": "47181",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3366",
-          "task": "47182",
-          "description": "AD",
-          "pn": "47182",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2660,9 +2651,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3367",
-          "task": "47183",
+          "task": "47181",
           "description": "AD",
-          "pn": "47183",
+          "pn": "47181",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2671,9 +2662,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3368",
-          "task": "47184",
+          "task": "47182",
           "description": "AD",
-          "pn": "47184",
+          "pn": "47182",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2682,9 +2673,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3369",
-          "task": "47185",
+          "task": "47183",
           "description": "AD",
-          "pn": "47185",
+          "pn": "47183",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2693,9 +2684,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3370",
-          "task": "47186",
+          "task": "47184",
           "description": "AD",
-          "pn": "47186",
+          "pn": "47184",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2704,9 +2695,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3371",
-          "task": "47187",
+          "task": "47185",
           "description": "AD",
-          "pn": "47187",
+          "pn": "47185",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2715,9 +2706,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3372",
-          "task": "47188",
+          "task": "47186",
           "description": "AD",
-          "pn": "47188",
+          "pn": "47186",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2726,9 +2717,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3373",
-          "task": "47189",
+          "task": "47187",
           "description": "AD",
-          "pn": "47189",
+          "pn": "47187",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2737,9 +2728,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3374",
-          "task": "47190",
+          "task": "47188",
           "description": "AD",
-          "pn": "47190",
+          "pn": "47188",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2748,9 +2739,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3375",
-          "task": "47191",
+          "task": "47189",
           "description": "AD",
-          "pn": "47191",
+          "pn": "47189",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2759,9 +2750,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3376",
-          "task": "47192",
+          "task": "47190",
           "description": "AD",
-          "pn": "47192",
+          "pn": "47190",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2770,9 +2761,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3377",
-          "task": "47193",
+          "task": "47191",
           "description": "AD",
-          "pn": "47193",
+          "pn": "47191",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2781,9 +2772,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3378",
-          "task": "47194",
+          "task": "47192",
           "description": "AD",
-          "pn": "47194",
+          "pn": "47192",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2792,9 +2783,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3379",
-          "task": "47195 R1",
+          "task": "47193",
           "description": "AD",
-          "pn": "47195 R1",
+          "pn": "47193",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2803,9 +2794,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3380",
-          "task": "47196 R1",
+          "task": "47194",
           "description": "AD",
-          "pn": "47196 R1",
+          "pn": "47194",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2814,9 +2805,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3381",
-          "task": "47199",
+          "task": "47195 R1",
           "description": "AD",
-          "pn": "47199",
+          "pn": "47195 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2825,9 +2816,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3382",
-          "task": "47200 R4",
+          "task": "47196 R1",
           "description": "AD",
-          "pn": "47200 R4",
+          "pn": "47196 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2836,9 +2827,20 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3383",
-          "task": "47201 R1",
+          "task": "47199",
           "description": "AD",
-          "pn": "47201 R1",
+          "pn": "47199",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3384",
+          "task": "47200 R4",
+          "description": "AD",
+          "pn": "47200 R4",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2847,20 +2849,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3385",
-          "task": "47202 R3",
+          "task": "47201 R1",
           "description": "AD",
-          "pn": "47202 R3",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3386",
-          "task": "47203 R4",
-          "description": "AD",
-          "pn": "47203 R4",
+          "pn": "47201 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2869,9 +2860,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3387",
-          "task": "47204",
+          "task": "47202 R3",
           "description": "AD",
-          "pn": "47204",
+          "pn": "47202 R3",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2880,9 +2871,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3388",
-          "task": "72-47205 R4",
+          "task": "47203 R4",
           "description": "AD",
-          "pn": "72-47205 R4",
+          "pn": "47203 R4",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2891,9 +2882,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3389",
-          "task": "72- 47206",
+          "task": "47204",
           "description": "AD",
-          "pn": "72- 47206",
+          "pn": "47204",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2902,9 +2893,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3390",
-          "task": "72- 47207 R1",
+          "task": "72-47205 R4",
           "description": "AD",
-          "pn": "72- 47207 R1",
+          "pn": "72-47205 R4",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2913,9 +2904,20 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3391",
-          "task": "72-47209",
+          "task": "72- 47206",
           "description": "AD",
-          "pn": "72-47209",
+          "pn": "72- 47206",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3392",
+          "task": "72- 47207 R1",
+          "description": "AD",
+          "pn": "72- 47207 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2924,9 +2926,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3393",
-          "task": "72-47211 R1",
+          "task": "72-47209",
           "description": "AD",
-          "pn": "72-47211 R1",
+          "pn": "72-47209",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2935,31 +2937,20 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3395",
+          "task": "72-47211 R1",
+          "description": "AD",
+          "pn": "72-47211 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3397",
           "task": "72-47214",
           "description": "AD",
           "pn": "72-47214",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3400",
-          "task": "72-47218 R2",
-          "description": "AD",
-          "pn": "72-47218 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3401",
-          "task": "72-47219 R1",
-          "description": "AD",
-          "pn": "72-47219 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2968,9 +2959,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3402",
-          "task": "72-47222 R2",
+          "task": "72-47218 R2",
           "description": "AD",
-          "pn": "72-47222 R2",
+          "pn": "72-47218 R2",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2979,9 +2970,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3403",
-          "task": "72-47228",
+          "task": "72-47219 R1",
           "description": "AD",
-          "pn": "72-47228",
+          "pn": "72-47219 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -2990,9 +2981,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3404",
-          "task": "72-47229",
+          "task": "72-47222 R2",
           "description": "AD",
-          "pn": "72-47229",
+          "pn": "72-47222 R2",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3001,9 +2992,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3405",
-          "task": "72-47230 R1",
+          "task": "72-47228",
           "description": "AD",
-          "pn": "72-47230 R1",
+          "pn": "72-47228",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3012,9 +3003,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3406",
-          "task": "72-47231 R1",
+          "task": "72-47229",
           "description": "AD",
-          "pn": "72-47231 R1",
+          "pn": "72-47229",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3023,9 +3014,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3407",
-          "task": "72-47234 R2",
+          "task": "72-47230 R1",
           "description": "AD",
-          "pn": "72-47234 R2",
+          "pn": "72-47230 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3034,9 +3025,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3408",
-          "task": "72-47235 R2",
+          "task": "72-47231 R1",
           "description": "AD",
-          "pn": "72-47235 R2",
+          "pn": "72-47231 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3044,10 +3035,21 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3412",
-          "task": "72-47239 R5",
+          "id": "3409",
+          "task": "72-47234 R2",
           "description": "AD",
-          "pn": "72-47239 R5",
+          "pn": "72-47234 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3410",
+          "task": "72-47235 R2",
+          "description": "AD",
+          "pn": "72-47235 R2",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3056,6 +3058,17 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3414",
+          "task": "72-47239 R5",
+          "description": "AD",
+          "pn": "72-47239 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3416",
           "task": "72-47241",
           "description": "AD",
           "pn": "72-47241",
@@ -3066,32 +3079,10 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3415",
+          "id": "3417",
           "task": "72-47242 R1",
           "description": "AD",
           "pn": "72-47242 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3418",
-          "task": "72-47245 R1",
-          "description": "AD",
-          "pn": "72-47245 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3419",
-          "task": "72-47246 R5",
-          "description": "AD",
-          "pn": "72-47246 R5",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3100,9 +3091,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3420",
-          "task": "72-47247",
+          "task": "72-47245 R1",
           "description": "AD",
-          "pn": "72-47247",
+          "pn": "72-47245 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3111,9 +3102,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3421",
-          "task": "72-47249 R1",
+          "task": "72-47246 R5",
           "description": "AD",
-          "pn": "72-47249 R1",
+          "pn": "72-47246 R5",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3122,9 +3113,9 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3422",
-          "task": "72-47251 R1",
+          "task": "72-47247",
           "description": "AD",
-          "pn": "72-47251 R1",
+          "pn": "72-47247",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -3133,699 +3124,6 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "3423",
-          "task": "72-47252 R2",
-          "description": "AD",
-          "pn": "72-47252 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3424",
-          "task": "72-47254 R1",
-          "description": "AD",
-          "pn": "72-47254 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3428",
-          "task": "72-47257 R1",
-          "description": "AD",
-          "pn": "72-47257 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3429",
-          "task": "72-47258 R1",
-          "description": "AD",
-          "pn": "72-47258 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3430",
-          "task": "72-47261 R2",
-          "description": "AD",
-          "pn": "72-47261 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3431",
-          "task": "72-47262",
-          "description": "AD",
-          "pn": "72-47262",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3432",
-          "task": "72-47266",
-          "description": "AD",
-          "pn": "72-47266",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3433",
-          "task": "72-47268",
-          "description": "AD",
-          "pn": "72-47268",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3434",
-          "task": "72-47270 R1",
-          "description": "AD",
-          "pn": "72-47270 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3435",
-          "task": "72-47271",
-          "description": "AD",
-          "pn": "72-47271",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3436",
-          "task": "72-47276",
-          "description": "AD",
-          "pn": "72-47276",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3437",
-          "task": "72-47277",
-          "description": "AD",
-          "pn": "72-47277",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3439",
-          "task": "72-47279 R1",
-          "description": "AD",
-          "pn": "72-47279 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3440",
-          "task": "72-47281",
-          "description": "AD",
-          "pn": "72-47281",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3441",
-          "task": "72-47283 R1",
-          "description": "AD",
-          "pn": "72-47283 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3442",
-          "task": "72-47284",
-          "description": "AD",
-          "pn": "72-47284",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3443",
-          "task": "73-47269 R2",
-          "description": "AD",
-          "pn": "73-47269 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3444",
-          "task": "73-47272",
-          "description": "AD",
-          "pn": "73-47272",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3446",
-          "task": "79-47267 R2",
-          "description": "AD",
-          "pn": "79-47267 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3614",
-          "task": "47180",
-          "description": "AD",
-          "pn": "47180",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3615",
-          "task": "47181",
-          "description": "AD",
-          "pn": "47181",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3616",
-          "task": "47182",
-          "description": "AD",
-          "pn": "47182",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3617",
-          "task": "47183",
-          "description": "AD",
-          "pn": "47183",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3618",
-          "task": "47184",
-          "description": "AD",
-          "pn": "47184",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3619",
-          "task": "47185",
-          "description": "AD",
-          "pn": "47185",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3620",
-          "task": "47186",
-          "description": "AD",
-          "pn": "47186",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3621",
-          "task": "47187",
-          "description": "AD",
-          "pn": "47187",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3622",
-          "task": "47188",
-          "description": "AD",
-          "pn": "47188",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3623",
-          "task": "47189",
-          "description": "AD",
-          "pn": "47189",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3624",
-          "task": "47190",
-          "description": "AD",
-          "pn": "47190",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3625",
-          "task": "47191",
-          "description": "AD",
-          "pn": "47191",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3626",
-          "task": "47192",
-          "description": "AD",
-          "pn": "47192",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3627",
-          "task": "47193",
-          "description": "AD",
-          "pn": "47193",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3628",
-          "task": "47194",
-          "description": "AD",
-          "pn": "47194",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3629",
-          "task": "47195 R1",
-          "description": "AD",
-          "pn": "47195 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3630",
-          "task": "47196 R1",
-          "description": "AD",
-          "pn": "47196 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3631",
-          "task": "47199",
-          "description": "AD",
-          "pn": "47199",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3632",
-          "task": "47200 R4",
-          "description": "AD",
-          "pn": "47200 R4",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3633",
-          "task": "47201 R1",
-          "description": "AD",
-          "pn": "47201 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3635",
-          "task": "47202 R3",
-          "description": "AD",
-          "pn": "47202 R3",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3636",
-          "task": "47203 R4",
-          "description": "AD",
-          "pn": "47203 R4",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3637",
-          "task": "47204",
-          "description": "AD",
-          "pn": "47204",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3638",
-          "task": "72-47205 R4",
-          "description": "AD",
-          "pn": "72-47205 R4",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3639",
-          "task": "72- 47206",
-          "description": "AD",
-          "pn": "72- 47206",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3640",
-          "task": "72- 47207 R1",
-          "description": "AD",
-          "pn": "72- 47207 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3641",
-          "task": "72-47209",
-          "description": "AD",
-          "pn": "72-47209",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3643",
-          "task": "72-47211 R1",
-          "description": "AD",
-          "pn": "72-47211 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3645",
-          "task": "72-47214",
-          "description": "AD",
-          "pn": "72-47214",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3650",
-          "task": "72-47218 R2",
-          "description": "AD",
-          "pn": "72-47218 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3651",
-          "task": "72-47219 R1",
-          "description": "AD",
-          "pn": "72-47219 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3652",
-          "task": "72-47222 R2",
-          "description": "AD",
-          "pn": "72-47222 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3653",
-          "task": "72-47228",
-          "description": "AD",
-          "pn": "72-47228",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3654",
-          "task": "72-47229",
-          "description": "AD",
-          "pn": "72-47229",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3655",
-          "task": "72-47230 R1",
-          "description": "AD",
-          "pn": "72-47230 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3656",
-          "task": "72-47231 R1",
-          "description": "AD",
-          "pn": "72-47231 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3657",
-          "task": "72-47234 R2",
-          "description": "AD",
-          "pn": "72-47234 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3658",
-          "task": "72-47235 R2",
-          "description": "AD",
-          "pn": "72-47235 R2",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3662",
-          "task": "72-47239 R5",
-          "description": "AD",
-          "pn": "72-47239 R5",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3664",
-          "task": "72-47241",
-          "description": "AD",
-          "pn": "72-47241",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3665",
-          "task": "72-47242 R1",
-          "description": "AD",
-          "pn": "72-47242 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3668",
-          "task": "72-47245 R1",
-          "description": "AD",
-          "pn": "72-47245 R1",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3669",
-          "task": "72-47246 R5",
-          "description": "AD",
-          "pn": "72-47246 R5",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3670",
-          "task": "72-47247",
-          "description": "AD",
-          "pn": "72-47247",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3671",
           "task": "72-47249 R1",
           "description": "AD",
           "pn": "72-47249 R1",
@@ -3836,7 +3134,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3672",
+          "id": "3424",
           "task": "72-47251 R1",
           "description": "AD",
           "pn": "72-47251 R1",
@@ -3847,7 +3145,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3673",
+          "id": "3425",
           "task": "72-47252 R2",
           "description": "AD",
           "pn": "72-47252 R2",
@@ -3858,7 +3156,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3674",
+          "id": "3426",
           "task": "72-47254 R1",
           "description": "AD",
           "pn": "72-47254 R1",
@@ -3869,7 +3167,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3678",
+          "id": "3430",
           "task": "72-47257 R1",
           "description": "AD",
           "pn": "72-47257 R1",
@@ -3880,7 +3178,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3679",
+          "id": "3431",
           "task": "72-47258 R1",
           "description": "AD",
           "pn": "72-47258 R1",
@@ -3891,7 +3189,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3680",
+          "id": "3432",
           "task": "72-47261 R2",
           "description": "AD",
           "pn": "72-47261 R2",
@@ -3902,7 +3200,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3681",
+          "id": "3433",
           "task": "72-47262",
           "description": "AD",
           "pn": "72-47262",
@@ -3913,7 +3211,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3682",
+          "id": "3434",
           "task": "72-47266",
           "description": "AD",
           "pn": "72-47266",
@@ -3924,7 +3222,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3683",
+          "id": "3435",
           "task": "72-47268",
           "description": "AD",
           "pn": "72-47268",
@@ -3935,7 +3233,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3684",
+          "id": "3436",
           "task": "72-47270 R1",
           "description": "AD",
           "pn": "72-47270 R1",
@@ -3946,7 +3244,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3685",
+          "id": "3437",
           "task": "72-47271",
           "description": "AD",
           "pn": "72-47271",
@@ -3957,7 +3255,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3686",
+          "id": "3438",
           "task": "72-47276",
           "description": "AD",
           "pn": "72-47276",
@@ -3968,7 +3266,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3687",
+          "id": "3439",
           "task": "72-47277",
           "description": "AD",
           "pn": "72-47277",
@@ -3979,7 +3277,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3689",
+          "id": "3441",
           "task": "72-47279 R1",
           "description": "AD",
           "pn": "72-47279 R1",
@@ -3990,7 +3288,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3690",
+          "id": "3442",
           "task": "72-47281",
           "description": "AD",
           "pn": "72-47281",
@@ -4001,7 +3299,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3691",
+          "id": "3443",
           "task": "72-47283 R1",
           "description": "AD",
           "pn": "72-47283 R1",
@@ -4012,10 +3310,10 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3692",
-          "task": "72-47284",
+          "id": "3444",
+          "task": "72-47284 R1",
           "description": "AD",
-          "pn": "72-47284",
+          "pn": "72-47284 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -4023,7 +3321,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3693",
+          "id": "3445",
           "task": "73-47269 R2",
           "description": "AD",
           "pn": "73-47269 R2",
@@ -4034,7 +3332,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3694",
+          "id": "3446",
           "task": "73-47272",
           "description": "AD",
           "pn": "73-47272",
@@ -4045,7 +3343,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3696",
+          "id": "3448",
           "task": "79-47267 R2",
           "description": "AD",
           "pn": "79-47267 R2",
@@ -4056,7 +3354,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3864",
+          "id": "3616",
           "task": "47180",
           "description": "AD",
           "pn": "47180",
@@ -4067,7 +3365,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3865",
+          "id": "3617",
           "task": "47181",
           "description": "AD",
           "pn": "47181",
@@ -4078,7 +3376,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3866",
+          "id": "3618",
           "task": "47182",
           "description": "AD",
           "pn": "47182",
@@ -4089,7 +3387,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3867",
+          "id": "3619",
           "task": "47183",
           "description": "AD",
           "pn": "47183",
@@ -4100,7 +3398,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3868",
+          "id": "3620",
           "task": "47184",
           "description": "AD",
           "pn": "47184",
@@ -4111,7 +3409,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3869",
+          "id": "3621",
           "task": "47185",
           "description": "AD",
           "pn": "47185",
@@ -4122,7 +3420,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3870",
+          "id": "3622",
           "task": "47186",
           "description": "AD",
           "pn": "47186",
@@ -4133,7 +3431,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3871",
+          "id": "3623",
           "task": "47187",
           "description": "AD",
           "pn": "47187",
@@ -4144,7 +3442,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3872",
+          "id": "3624",
           "task": "47188",
           "description": "AD",
           "pn": "47188",
@@ -4155,7 +3453,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3873",
+          "id": "3625",
           "task": "47189",
           "description": "AD",
           "pn": "47189",
@@ -4166,7 +3464,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3874",
+          "id": "3626",
           "task": "47190",
           "description": "AD",
           "pn": "47190",
@@ -4177,7 +3475,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3875",
+          "id": "3627",
           "task": "47191",
           "description": "AD",
           "pn": "47191",
@@ -4188,7 +3486,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3876",
+          "id": "3628",
           "task": "47192",
           "description": "AD",
           "pn": "47192",
@@ -4199,7 +3497,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3877",
+          "id": "3629",
           "task": "47193",
           "description": "AD",
           "pn": "47193",
@@ -4210,7 +3508,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3878",
+          "id": "3630",
           "task": "47194",
           "description": "AD",
           "pn": "47194",
@@ -4221,7 +3519,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3879",
+          "id": "3631",
           "task": "47195 R1",
           "description": "AD",
           "pn": "47195 R1",
@@ -4232,7 +3530,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3880",
+          "id": "3632",
           "task": "47196 R1",
           "description": "AD",
           "pn": "47196 R1",
@@ -4243,7 +3541,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3881",
+          "id": "3633",
           "task": "47199",
           "description": "AD",
           "pn": "47199",
@@ -4254,7 +3552,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3882",
+          "id": "3634",
           "task": "47200 R4",
           "description": "AD",
           "pn": "47200 R4",
@@ -4265,7 +3563,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3883",
+          "id": "3635",
           "task": "47201 R1",
           "description": "AD",
           "pn": "47201 R1",
@@ -4276,7 +3574,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3885",
+          "id": "3637",
           "task": "47202 R3",
           "description": "AD",
           "pn": "47202 R3",
@@ -4287,7 +3585,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3886",
+          "id": "3638",
           "task": "47203 R4",
           "description": "AD",
           "pn": "47203 R4",
@@ -4298,7 +3596,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3887",
+          "id": "3639",
           "task": "47204",
           "description": "AD",
           "pn": "47204",
@@ -4309,7 +3607,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3888",
+          "id": "3640",
           "task": "72-47205 R4",
           "description": "AD",
           "pn": "72-47205 R4",
@@ -4320,7 +3618,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3889",
+          "id": "3641",
           "task": "72- 47206",
           "description": "AD",
           "pn": "72- 47206",
@@ -4331,7 +3629,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3890",
+          "id": "3642",
           "task": "72- 47207 R1",
           "description": "AD",
           "pn": "72- 47207 R1",
@@ -4342,7 +3640,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3891",
+          "id": "3643",
           "task": "72-47209",
           "description": "AD",
           "pn": "72-47209",
@@ -4353,7 +3651,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3893",
+          "id": "3645",
           "task": "72-47211 R1",
           "description": "AD",
           "pn": "72-47211 R1",
@@ -4364,7 +3662,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3895",
+          "id": "3647",
           "task": "72-47214",
           "description": "AD",
           "pn": "72-47214",
@@ -4375,7 +3673,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3900",
+          "id": "3652",
           "task": "72-47218 R2",
           "description": "AD",
           "pn": "72-47218 R2",
@@ -4386,7 +3684,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3901",
+          "id": "3653",
           "task": "72-47219 R1",
           "description": "AD",
           "pn": "72-47219 R1",
@@ -4397,7 +3695,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3902",
+          "id": "3654",
           "task": "72-47222 R2",
           "description": "AD",
           "pn": "72-47222 R2",
@@ -4408,7 +3706,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3903",
+          "id": "3655",
           "task": "72-47228",
           "description": "AD",
           "pn": "72-47228",
@@ -4419,7 +3717,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3904",
+          "id": "3656",
           "task": "72-47229",
           "description": "AD",
           "pn": "72-47229",
@@ -4430,7 +3728,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3905",
+          "id": "3657",
           "task": "72-47230 R1",
           "description": "AD",
           "pn": "72-47230 R1",
@@ -4441,7 +3739,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3906",
+          "id": "3658",
           "task": "72-47231 R1",
           "description": "AD",
           "pn": "72-47231 R1",
@@ -4452,7 +3750,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3907",
+          "id": "3659",
           "task": "72-47234 R2",
           "description": "AD",
           "pn": "72-47234 R2",
@@ -4463,7 +3761,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3908",
+          "id": "3660",
           "task": "72-47235 R2",
           "description": "AD",
           "pn": "72-47235 R2",
@@ -4474,7 +3772,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3912",
+          "id": "3664",
           "task": "72-47239 R5",
           "description": "AD",
           "pn": "72-47239 R5",
@@ -4485,7 +3783,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3914",
+          "id": "3666",
           "task": "72-47241",
           "description": "AD",
           "pn": "72-47241",
@@ -4496,7 +3794,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3915",
+          "id": "3667",
           "task": "72-47242 R1",
           "description": "AD",
           "pn": "72-47242 R1",
@@ -4507,7 +3805,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3918",
+          "id": "3670",
           "task": "72-47245 R1",
           "description": "AD",
           "pn": "72-47245 R1",
@@ -4518,7 +3816,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3919",
+          "id": "3671",
           "task": "72-47246 R5",
           "description": "AD",
           "pn": "72-47246 R5",
@@ -4529,7 +3827,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3920",
+          "id": "3672",
           "task": "72-47247",
           "description": "AD",
           "pn": "72-47247",
@@ -4540,7 +3838,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3921",
+          "id": "3673",
           "task": "72-47249 R1",
           "description": "AD",
           "pn": "72-47249 R1",
@@ -4551,7 +3849,722 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
+          "id": "3674",
+          "task": "72-47251 R1",
+          "description": "AD",
+          "pn": "72-47251 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3675",
+          "task": "72-47252 R2",
+          "description": "AD",
+          "pn": "72-47252 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3676",
+          "task": "72-47254 R1",
+          "description": "AD",
+          "pn": "72-47254 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3680",
+          "task": "72-47257 R1",
+          "description": "AD",
+          "pn": "72-47257 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3681",
+          "task": "72-47258 R1",
+          "description": "AD",
+          "pn": "72-47258 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3682",
+          "task": "72-47261 R2",
+          "description": "AD",
+          "pn": "72-47261 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3683",
+          "task": "72-47262",
+          "description": "AD",
+          "pn": "72-47262",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3684",
+          "task": "72-47266",
+          "description": "AD",
+          "pn": "72-47266",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3685",
+          "task": "72-47268",
+          "description": "AD",
+          "pn": "72-47268",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3686",
+          "task": "72-47270 R1",
+          "description": "AD",
+          "pn": "72-47270 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3687",
+          "task": "72-47271",
+          "description": "AD",
+          "pn": "72-47271",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3688",
+          "task": "72-47276",
+          "description": "AD",
+          "pn": "72-47276",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3689",
+          "task": "72-47277",
+          "description": "AD",
+          "pn": "72-47277",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3691",
+          "task": "72-47279 R1",
+          "description": "AD",
+          "pn": "72-47279 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3692",
+          "task": "72-47281",
+          "description": "AD",
+          "pn": "72-47281",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3693",
+          "task": "72-47283 R1",
+          "description": "AD",
+          "pn": "72-47283 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3694",
+          "task": "72-47284 R1",
+          "description": "AD",
+          "pn": "72-47284 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3695",
+          "task": "73-47269 R2",
+          "description": "AD",
+          "pn": "73-47269 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3696",
+          "task": "73-47272",
+          "description": "AD",
+          "pn": "73-47272",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3698",
+          "task": "79-47267 R2",
+          "description": "AD",
+          "pn": "79-47267 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3866",
+          "task": "47180",
+          "description": "AD",
+          "pn": "47180",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3867",
+          "task": "47181",
+          "description": "AD",
+          "pn": "47181",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3868",
+          "task": "47182",
+          "description": "AD",
+          "pn": "47182",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3869",
+          "task": "47183",
+          "description": "AD",
+          "pn": "47183",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3870",
+          "task": "47184",
+          "description": "AD",
+          "pn": "47184",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3871",
+          "task": "47185",
+          "description": "AD",
+          "pn": "47185",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3872",
+          "task": "47186",
+          "description": "AD",
+          "pn": "47186",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3873",
+          "task": "47187",
+          "description": "AD",
+          "pn": "47187",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3874",
+          "task": "47188",
+          "description": "AD",
+          "pn": "47188",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3875",
+          "task": "47189",
+          "description": "AD",
+          "pn": "47189",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3876",
+          "task": "47190",
+          "description": "AD",
+          "pn": "47190",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3877",
+          "task": "47191",
+          "description": "AD",
+          "pn": "47191",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3878",
+          "task": "47192",
+          "description": "AD",
+          "pn": "47192",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3879",
+          "task": "47193",
+          "description": "AD",
+          "pn": "47193",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3880",
+          "task": "47194",
+          "description": "AD",
+          "pn": "47194",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3881",
+          "task": "47195 R1",
+          "description": "AD",
+          "pn": "47195 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3882",
+          "task": "47196 R1",
+          "description": "AD",
+          "pn": "47196 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3883",
+          "task": "47199",
+          "description": "AD",
+          "pn": "47199",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3884",
+          "task": "47200 R4",
+          "description": "AD",
+          "pn": "47200 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3885",
+          "task": "47201 R1",
+          "description": "AD",
+          "pn": "47201 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3887",
+          "task": "47202 R3",
+          "description": "AD",
+          "pn": "47202 R3",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3888",
+          "task": "47203 R4",
+          "description": "AD",
+          "pn": "47203 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3889",
+          "task": "47204",
+          "description": "AD",
+          "pn": "47204",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3890",
+          "task": "72-47205 R4",
+          "description": "AD",
+          "pn": "72-47205 R4",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3891",
+          "task": "72- 47206",
+          "description": "AD",
+          "pn": "72- 47206",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3892",
+          "task": "72- 47207 R1",
+          "description": "AD",
+          "pn": "72- 47207 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3893",
+          "task": "72-47209",
+          "description": "AD",
+          "pn": "72-47209",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3895",
+          "task": "72-47211 R1",
+          "description": "AD",
+          "pn": "72-47211 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3897",
+          "task": "72-47214",
+          "description": "AD",
+          "pn": "72-47214",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3902",
+          "task": "72-47218 R2",
+          "description": "AD",
+          "pn": "72-47218 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3903",
+          "task": "72-47219 R1",
+          "description": "AD",
+          "pn": "72-47219 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3904",
+          "task": "72-47222 R2",
+          "description": "AD",
+          "pn": "72-47222 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3905",
+          "task": "72-47228",
+          "description": "AD",
+          "pn": "72-47228",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3906",
+          "task": "72-47229",
+          "description": "AD",
+          "pn": "72-47229",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3907",
+          "task": "72-47230 R1",
+          "description": "AD",
+          "pn": "72-47230 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3908",
+          "task": "72-47231 R1",
+          "description": "AD",
+          "pn": "72-47231 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3909",
+          "task": "72-47234 R2",
+          "description": "AD",
+          "pn": "72-47234 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3910",
+          "task": "72-47235 R2",
+          "description": "AD",
+          "pn": "72-47235 R2",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3914",
+          "task": "72-47239 R5",
+          "description": "AD",
+          "pn": "72-47239 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3916",
+          "task": "72-47241",
+          "description": "AD",
+          "pn": "72-47241",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3917",
+          "task": "72-47242 R1",
+          "description": "AD",
+          "pn": "72-47242 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3920",
+          "task": "72-47245 R1",
+          "description": "AD",
+          "pn": "72-47245 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3921",
+          "task": "72-47246 R5",
+          "description": "AD",
+          "pn": "72-47246 R5",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
           "id": "3922",
+          "task": "72-47247",
+          "description": "AD",
+          "pn": "72-47247",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3923",
+          "task": "72-47249 R1",
+          "description": "AD",
+          "pn": "72-47249 R1",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3924",
           "task": "72-47250",
           "description": "AD",
           "pn": "72-47250",
@@ -4562,7 +4575,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3923",
+          "id": "3925",
           "task": "72-47251 R1",
           "description": "AD",
           "pn": "72-47251 R1",
@@ -4573,7 +4586,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3924",
+          "id": "3926",
           "task": "72-47252 R2",
           "description": "AD",
           "pn": "72-47252 R2",
@@ -4584,7 +4597,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3925",
+          "id": "3927",
           "task": "72-47254 R1",
           "description": "AD",
           "pn": "72-47254 R1",
@@ -4595,7 +4608,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3929",
+          "id": "3931",
           "task": "72-47257 R1",
           "description": "AD",
           "pn": "72-47257 R1",
@@ -4606,7 +4619,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3930",
+          "id": "3932",
           "task": "72-47258 R1",
           "description": "AD",
           "pn": "72-47258 R1",
@@ -4617,7 +4630,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3931",
+          "id": "3933",
           "task": "72-47261 R2",
           "description": "AD",
           "pn": "72-47261 R2",
@@ -4628,7 +4641,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3932",
+          "id": "3934",
           "task": "72-47262",
           "description": "AD",
           "pn": "72-47262",
@@ -4639,7 +4652,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3933",
+          "id": "3935",
           "task": "72-47266",
           "description": "AD",
           "pn": "72-47266",
@@ -4650,7 +4663,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3934",
+          "id": "3936",
           "task": "72-47268",
           "description": "AD",
           "pn": "72-47268",
@@ -4661,7 +4674,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3935",
+          "id": "3937",
           "task": "72-47270 R1",
           "description": "AD",
           "pn": "72-47270 R1",
@@ -4672,7 +4685,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3936",
+          "id": "3938",
           "task": "72-47271",
           "description": "AD",
           "pn": "72-47271",
@@ -4683,7 +4696,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3937",
+          "id": "3939",
           "task": "72-47276",
           "description": "AD",
           "pn": "72-47276",
@@ -4694,7 +4707,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3938",
+          "id": "3940",
           "task": "72-47277",
           "description": "AD",
           "pn": "72-47277",
@@ -4705,7 +4718,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3940",
+          "id": "3942",
           "task": "72-47279 R1",
           "description": "AD",
           "pn": "72-47279 R1",
@@ -4716,7 +4729,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3941",
+          "id": "3943",
           "task": "72-47281",
           "description": "AD",
           "pn": "72-47281",
@@ -4727,7 +4740,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3942",
+          "id": "3944",
           "task": "72-47283 R1",
           "description": "AD",
           "pn": "72-47283 R1",
@@ -4738,10 +4751,10 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3943",
-          "task": "72-47284",
+          "id": "3945",
+          "task": "72-47284 R1",
           "description": "AD",
-          "pn": "72-47284",
+          "pn": "72-47284 R1",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
           "dueDaysStr": null,
@@ -4749,7 +4762,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3944",
+          "id": "3946",
           "task": "73-47269 R2",
           "description": "AD",
           "pn": "73-47269 R2",
@@ -4760,7 +4773,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3945",
+          "id": "3947",
           "task": "73-47272",
           "description": "AD",
           "pn": "73-47272",
@@ -4771,7 +4784,7 @@ window.EMBEDDED_DATA = {
           "alertTypes": []
         },
         {
-          "id": "3947",
+          "id": "3949",
           "task": "79-47267 R2",
           "description": "AD",
           "pn": "79-47267 R2",
@@ -4785,6 +4798,7 @@ window.EMBEDDED_DATA = {
     },
     "PS-FLC": {
       "info": {
+        "model": "AGUSTA AW169",
         "registration": "PS-FLC",
         "totalHours": null,
         "totalLandings": null,
@@ -4961,6 +4975,20 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "72.0",
+          "task": "",
+          "description": "50 hour / 30d inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "50.0h",
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "73.0",
           "task": "",
           "description": "100 hour inspections",
@@ -4974,6 +5002,34 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "76.0",
+          "task": "",
+          "description": "200 hour / 6MO inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "159.4h",
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "77.0",
+          "task": "",
+          "description": "200 hour / 1Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "78.0",
           "task": "",
           "description": "400 hour inspections",
@@ -4984,6 +5040,73 @@ window.EMBEDDED_DATA = {
           "dueCyclesStr": null,
           "alertTypes": [
             "hours"
+          ]
+        },
+        {
+          "id": "79.0",
+          "task": "",
+          "description": "400 hour / 1Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "86.0",
+          "task": "",
+          "description": "1200 hour / 1Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "94.0",
+          "task": "",
+          "description": "30 D inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "97.0",
+          "task": "",
+          "description": "6 MO inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "98.0",
+          "task": "",
+          "description": "1 Y inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
           ]
         },
         {
@@ -5130,6 +5253,34 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "125.0",
+          "task": "32-37",
+          "description": "Detailed inspection\nof the visible parts of\nthe up/down lock actuator\nplunger of\nnose landing gear\n(NLG) and main\nlanding gear (MLG)\n(Note 90)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "50.0h",
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "126.0",
+          "task": "32-38",
+          "description": "Lubrication of the\nvisible parts of the\nMain and Nose\nLanding Gear Lock\nActuator plungers\n(Note 90)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "50.0h",
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "127.0",
           "task": "29-01",
           "description": "Visual check of Power\nControl Module\n(PCM) 1 and 2 indicators\n(fluid level\nsight glass and differential\npop out indicators)",
@@ -5192,6 +5343,48 @@ window.EMBEDDED_DATA = {
           "dueCyclesStr": null,
           "alertTypes": [
             "hours"
+          ]
+        },
+        {
+          "id": "137.0",
+          "task": "32-41",
+          "description": "Functional check (dimensional\ncheck) of\nthe nose landing\ngear (NLG) and main\nlanding gear (MLG)\ndownstop buffers",
+          "pn": "K054, K153,\nK341, K422",
+          "sheet": "Manutenção",
+          "dueHoursStr": "159.4h",
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "138.0",
+          "task": "32-44",
+          "description": "General Visual Inspection\nof the Nose\nLanding Gear (NLG)\nand The Main Landing\nGear (MLG)\nbuffers",
+          "pn": "K054, K153,\nK341, K422",
+          "sheet": "Manutenção",
+          "dueHoursStr": "159.4h",
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "139.0",
+          "task": "62-04",
+          "description": "Lubrication (greasing)\nof main rotor\nswashplate assembly\nduplex bearing\n(Notes 1, 3)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
           ]
         },
         {
@@ -5494,6 +5687,1011 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "164.0",
+          "task": "20-01",
+          "description": "General visual inspection\nof the engines,\nengine compartments\n(internal),\nand engine\ncowlings (Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "165.0",
+          "task": "20-02",
+          "description": "General visual inspection\nof the nose\nlanding gear and\nnose landing gear\ncompartment \n(Note 11)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "166.0",
+          "task": "20-03",
+          "description": "General visual inspection\nof the main\nlanding gear and\nmain landing gear\nsponsons (internal),\nincluding visible\nparts of the bonding\nstrips (Note 12)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "167.0",
+          "task": "20-06",
+          "description": "General visual inspection\nof the EWIS\ninstalled in the engine\ncompartments\n(Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "168.0",
+          "task": "20-07",
+          "description": "General visual inspection\nof the engine\nbonding straps,\nthe bonding cables\nof engine fuel pipe,\nand the bonding cables\nof engine bleed\nair pipe installed in\nthe engine compartment\n(Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "169.0",
+          "task": "25-30",
+          "description": "General visual inspection\nof baggage\ncompartment liners",
+          "pn": "K064, K171",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "171.0",
+          "task": "25-43",
+          "description": "Detailed inspection\nof baggage compartment\ncargo net and\nretaining straps",
+          "pn": "K083",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "174.0",
+          "task": "32-01",
+          "description": "General visual inspection\nof Nose\nLanding Gear (NLG)\nshock strut assy\n(Note 11)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "175.0",
+          "task": "32-02",
+          "description": "General visual inspection\nof LH and\nRH Main Landing\nGear (MLG) leg assy\n(Note 12)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "176.0",
+          "task": "32-03",
+          "description": "Lubrication (greasing)\nof Nose Landing\nGear (NLG) and\nMain Landing Gear\n(MLG) wheel bearings\n(aircraft\njacked) (Note 13)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "177.0",
+          "task": "32-04",
+          "description": "Detailed inspection\nof Nose Landing\nGear (NLG) and\nMain Landing Gear\n(MLG) wheel bearings\n(aircraft\njacked) (Notes 2, 13)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "178.0",
+          "task": "32-05",
+          "description": "Lubrication (greasing)\nof Nose Landing\nGear (NLG) and\nMain Landing Gear\n(MLG) torque links\nattachments, and\nNose Landing Gear\n(NLG) turning support",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "179.0",
+          "task": "32-06",
+          "description": "Servicing (nitrogen\nadjustment) of Nose\nLanding Gear (NLG)\nand Main Landing\nGear (MLG) shock\nabsorbers",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "180.0",
+          "task": "32-08",
+          "description": "Operational check of\nlanding gear emergency\nextension\nfunction and indication\n(aircraft jacked)\n(Note 25)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "181.0",
+          "task": "32-09",
+          "description": "Operational check of\nthe Landing Gear\nControl Panel\n(LGCP) lever lock\nmechanism (aircraft\njacked) (Note 25)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "182.0",
+          "task": "32-10",
+          "description": "Operational check of\nthe “EMERG LDG\nFAIL” status signal\n(Notes 25, 82)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "183.0",
+          "task": "32-33",
+          "description": "Operational check of\nlanding gear emergency\nextension interlock\n(aircraft\njacked) (Note 25)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "184.0",
+          "task": "32-34",
+          "description": "Lubrication of the\nmain landing gear\n(MLG) pintle pin\n(Notes 84, 85)",
+          "pn": "K054, K153,\nK341",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "185.0",
+          "task": "32-36",
+          "description": "Functional check (integrity\ncheck) of the\nWOW support bracket\ninstallation (Note\n88)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "186.0",
+          "task": "32-42",
+          "description": "Detailed inspection\nof the up/down lock\nactuator plungers\nand receptacles of\nnose landing gear\n(NLG) and main\nlanding gear (MLG)\n(aircraft jacked)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "187.0",
+          "task": "32-43",
+          "description": "Lubrication of the up/\ndown lock actuator\nplungers and receptacles\nof nose landing\ngear (NLG) and\nmain landing gear\n(MLG) (aircraft\njacked)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "189.0",
+          "task": "62-05",
+          "description": "Detailed inspection\nof main rotor rotating\ncontrols (Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "190.0",
+          "task": "62-13",
+          "description": "General visual inspection\nof the main\nrotor assembly, including\nrotor blades\nand bonding straps",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "191.0",
+          "task": "62-14",
+          "description": "Functional check\n(continuity check) of\nmain rotor blade",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "192.0",
+          "task": "63-03",
+          "description": "Servicing (oil replacement)\nof main\ngearbox, including\ndetailed inspection\nof oil filter element\nand general visual\ninspection of oil level\nsight glass (Note 8)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "193.0",
+          "task": "63-04",
+          "description": "Detailed inspection\nof main gearbox oil\nfilter by-pass valve\n(Note 8)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "194.0",
+          "task": "63-05",
+          "description": "Detailed inspection\nof the MGB magnetic\ndetectors (Note 8)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "195.0",
+          "task": "64-02",
+          "description": "General visual inspection\nof the tail rotor\nassembly, including\nrotor blades and\nbonding straps",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "196.0",
+          "task": "64-08",
+          "description": "Functional check\n(continuity check) of\ntail rotor blade",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "197.0",
+          "task": "65-04",
+          "description": "Servicing (oil replacement)\nof intermediate\ngearbox including\nthe general\nvisual inspection of\nthe oil level sight\nglass (Note 9)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "198.0",
+          "task": "65-05",
+          "description": "Detailed inspection\nof intermediate gearbox\nmagnetic chip\ndetector (Note 9)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "199.0",
+          "task": "65-06",
+          "description": "Servicing (oil replacement)\nof Tail\nGearbox (TGB) including\nthe general\nvisual inspection of\nthe oil level sight\nglass (Note 10)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "200.0",
+          "task": "65-07",
+          "description": "Detailed inspection\nof Tail Gearbox\n(TGB) magnetic chip\ndetector (Note 10)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "201.0",
+          "task": "65-08",
+          "description": "General visual inspection\nof intermediate\ngearbox (Note\n9)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "202.0",
+          "task": "65-09",
+          "description": "General visual inspection\nof Tail\nGearbox (TGB)\n(Note 10)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "203.0",
+          "task": "71-01",
+          "description": "General visual inspection\nof the engines\nbay fire seals\n(Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "204.0",
+          "task": "71-02",
+          "description": "General visual inspection\nof the gimbal\nhalf flange and\ncollar (Note 7)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "205.0",
+          "task": "73-01",
+          "description": "General visual inspection\nof engine\nwiring harness (Note\n48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "206.0",
+          "task": "74-01",
+          "description": "General visual inspection\nof ignition\ncables (Note 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "207.0",
+          "task": "79-01",
+          "description": "Detailed inspection\nof engine chip detector\n(Notes 6, 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "208.0",
+          "task": "79-02",
+          "description": "Operational check\n(magnetism\nstrength) of engine\nchip detector (Notes\n6, 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "209.0",
+          "task": "79-03",
+          "description": "General visual inspection\nof engine\nair cooled oil cooler\n(Note 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "258.0",
+          "task": "26-03",
+          "description": "Operational check of\nTemperature Compensated\nPressure\nSwitch (TCPS) indication\ncircuits",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1120.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "355.0",
+          "task": "26-15",
+          "description": "Visual check of\nportable fire extinguisher\nwith gauge",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "21 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "363.0",
+          "task": "31-01",
+          "description": "Operational check of\nCockpit Voice\nRecorder (CVR) system",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "364.0",
+          "task": "31-02",
+          "description": "Functional check of\nFlight Data Recorder\n(FDR) Underwater\nLocator Beacon\n(ULB)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "25 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "365.0",
+          "task": "20-05",
+          "description": "General visual inspection\nof the forward\nupper deck fairing\ncompartment (internal),\nincluding\nEWIS",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "366.0",
+          "task": "20-08",
+          "description": "General visual inspection\nof the nose\ncompartments (internal),\nincluding EWIS\nand REPU1/REPU2\nharnesses",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "367.0",
+          "task": "20-09",
+          "description": "General visual inspection\nof all external\nairframe surfaces\nincluding the access\ndoors and windows\n(Note 69)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "368.0",
+          "task": "20-10",
+          "description": "Detailed inspection\nof the lightning cable\nof the Main Gearbox\n(MGB)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "374.0",
+          "task": "24-02",
+          "description": "Restoration (deep\ncycle) of main battery\n(off aircraft) (Notes\n1, 23)",
+          "pn": "33181-002",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "375.0",
+          "task": "24-03",
+          "description": "Restoration (deep\ncycle) of auxiliary\nbattery (off aircraft)\n(Notes 1, 24)",
+          "pn": "33296-001",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "376.0",
+          "task": "24-04",
+          "description": "Functional check of\nmain battery temperature\nsensor (off aircraft)\n(Note 23)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "377.0",
+          "task": "24-05",
+          "description": "Functional check of\nauxiliary battery temperature\nsensor (off\naircraft) (Note 24)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "379.0",
+          "task": "25-01",
+          "description": "Operational check of\nEmergency Locator\nTransmitter (ELT)\n(Note 26)",
+          "pn": "K008",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "380.0",
+          "task": "25-02",
+          "description": "Operational check of\nEmergency Locator\nTransmitter (ELT) Gswitch\n(off aircraft)\n(Note 26)",
+          "pn": "K008",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "384.0",
+          "task": "25-06",
+          "description": "Detailed inspection\nof first aid kit",
+          "pn": "K010, K109",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "385.0",
+          "task": "25-07",
+          "description": "Detailed inspection\nof pilot/ co-pilot seat\nbelt, including operational\ncheck of the\nseat belt locking\nmechanism and of\nthe inertial mechanism",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "386.0",
+          "task": "25-08",
+          "description": "Detailed inspection\nof cabin seat belts,\nincluding operational\ncheck of the seat belt\nlocking mechanism\nand of the inertial\nmechanism",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "395.0",
+          "task": "26-01",
+          "description": "Detailed inspection\nof portable fire extinguishers\ndischarge\nvalve",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "396.0",
+          "task": "26-02",
+          "description": "Operational check of\nengines fire extinguishing\nfiring circuits",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "397.0",
+          "task": "26-04",
+          "description": "Operational check of\nfire detection and extinguishing\ncontrol\npanel arming circuits\nand fuel/bleed air\nshut off valves",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "398.0",
+          "task": "26-05",
+          "description": "General visual inspection\nof engine\nfire protection LH/RH\ndistribution pipe system",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "399.0",
+          "task": "26-14",
+          "description": "Functional check\n(weight check) of\nportable fire extinguisher\n(off aircraft)\n(Note 97)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "400.0",
+          "task": "31-03",
+          "description": "Operational check of\nFlight Data Recorder\n(FDR) automatic\nstop recording logic",
+          "pn": "D51701-001",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "401.0",
+          "task": "32-11",
+          "description": "Detailed inspection\nof the accessible\nparts of the LH/RH\nMLG sliding rods, including\naxle nut (aircraft\njacked) (Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "402.0",
+          "task": "32-12",
+          "description": "Detailed inspection\nof the accessible\nparts of the NLG sliding\nrod, including\naxle nuts (aircraft\njacked) (Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "403.0",
+          "task": "32-13",
+          "description": "Detailed inspection\nof the visible part of\nthe NLG wheels\n(Note 2)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "405.0",
+          "task": "33-02",
+          "description": "Operational check of\nemergency lights\nsystem",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "408.0",
+          "task": "55-02",
+          "description": "General visual inspection\nof the external\nsurface of\ntailplane assy (Note\n69)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "409.0",
+          "task": "67-06",
+          "description": "General visual inspection\nof ball bearing\ncable bellow",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "410.0",
+          "task": "71-07",
+          "description": "General visual inspection\nof the engine\nair particle separator\n(EAPS) panel\nexternal surface\n(Note 1)",
+          "pn": "K096",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "411.0",
+          "task": "73-03",
+          "description": "General visual inspection\nof engine\nfuel distribution components\n(Note 48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "412.0",
+          "task": "79-04",
+          "description": "General visual inspection\nof engine oil\nsystem\ncomponents (Note\n48)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
           "id": "518.0",
           "task": "63-32",
           "description": "Visual check of the\nMGB oil color\nPerform a visual check of MGB oil\ncolor through the MGB sight glass",
@@ -5520,6 +6718,46 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "570.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\noil system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "571.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\nfuel system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "578.0",
+          "task": "",
+          "description": "Do a visual inspection of the Air\nCooled Oil Cooler.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "581.0",
           "task": "72-01",
           "description": "Do a visual check of the engine oil\nquantity.",
@@ -5530,6 +6768,76 @@ window.EMBEDDED_DATA = {
           "dueCyclesStr": null,
           "alertTypes": [
             "hours"
+          ]
+        },
+        {
+          "id": "582.0",
+          "task": "",
+          "description": "Do a visual Inspection of the chip\ndetector.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "583.0",
+          "task": "",
+          "description": "Do an operational check of the chip detector",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "584.0",
+          "task": "",
+          "description": "Inspect the main engine harness and connectors for damage and if loosely secured.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "585.0",
+          "task": "",
+          "description": "Inspect the chip detector for damage",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "592.0",
+          "task": "",
+          "description": "Do a visual Inspection of the ignition cables",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
           ]
         },
         {
@@ -5546,6 +6854,46 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "598.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\noil system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "599.0",
+          "task": "",
+          "description": "Do a visual inspection of the engine\nfuel system components and tubes",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "606.0",
+          "task": "",
+          "description": "Do a visual inspection of the Air\nCooled Oil Cooler.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "609.0",
           "task": "72-01",
           "description": "Do a visual check of the engine oil quantity.",
@@ -5559,13 +6907,83 @@ window.EMBEDDED_DATA = {
           ]
         },
         {
+          "id": "610.0",
+          "task": "",
+          "description": "Do a visual Inspection of the chip\ndetector.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "611.0",
+          "task": "",
+          "description": "Do an operational check of the chip detector",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "612.0",
+          "task": "",
+          "description": "Inspect the main engine harness and connectors for damage and if loosely secured.",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "613.0",
+          "task": "",
+          "description": "Inspect the chip detector for damage",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "620.0",
+          "task": "",
+          "description": "Do a visual Inspection of the ignition cables",
+          "pn": "PW210A1",
+          "sheet": "Manutenção",
+          "dueHoursStr": "320.0h",
+          "dueDaysStr": "27 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "625.0",
           "task": "",
           "description": "First aid kit",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "5 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5578,7 +6996,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "-5 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5591,7 +7009,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "-5 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5604,7 +7022,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "-4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5617,7 +7035,20 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "24 dias",
+          "dueDaysStr": "17 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "644.0",
+          "task": "",
+          "description": "ANNUAL INSPECTION (CVA)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5630,7 +7061,20 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-64 dias",
+          "dueDaysStr": "-71 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "647.0",
+          "task": "",
+          "description": "ELT INSPECTION\nFAR 91.207",
+          "pn": "453-5061-710",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "27 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5643,7 +7087,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-564 dias",
+          "dueDaysStr": "-571 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5656,7 +7100,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-1597 dias",
+          "dueDaysStr": "-1604 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5669,7 +7113,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45469 dias",
+          "dueDaysStr": "-45476 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5682,7 +7126,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45469 dias",
+          "dueDaysStr": "-45476 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5695,7 +7139,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46197 dias",
+          "dueDaysStr": "-46205 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5708,7 +7152,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46197 dias",
+          "dueDaysStr": "-46205 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6107,7 +7551,7 @@ window.EMBEDDED_DATA = {
           "pn": "169-204",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-47262 dias",
+          "dueDaysStr": "-47277 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6186,7 +7630,7 @@ window.EMBEDDED_DATA = {
           "pn": "169-230",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46931 dias",
+          "dueDaysStr": "-46946 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6405,6 +7849,7 @@ window.EMBEDDED_DATA = {
     },
     "PS-NFA": {
       "info": {
+        "model": "EMBRAER PHENOM 300",
         "totalHours": 215.2,
         "totalLandings": 216.0,
         "registration": "PS-NFA",
@@ -6418,7 +7863,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6431,7 +7876,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6445,7 +7890,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6459,7 +7904,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6472,7 +7917,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6485,7 +7930,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6498,7 +7943,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6511,7 +7956,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6524,7 +7969,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6537,7 +7982,7 @@ window.EMBEDDED_DATA = {
           "pn": "7639-34",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6550,7 +7995,7 @@ window.EMBEDDED_DATA = {
           "pn": "7638-48P",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6563,7 +8008,7 @@ window.EMBEDDED_DATA = {
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "5 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6576,7 +8021,7 @@ window.EMBEDDED_DATA = {
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "5 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6589,7 +8034,7 @@ window.EMBEDDED_DATA = {
           "pn": "S6-01-0005-320",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6602,7 +8047,7 @@ window.EMBEDDED_DATA = {
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6616,7 +8061,7 @@ window.EMBEDDED_DATA = {
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6630,7 +8075,7 @@ window.EMBEDDED_DATA = {
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6644,7 +8089,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6657,7 +8102,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6670,7 +8115,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6683,7 +8128,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6696,7 +8141,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6709,7 +8154,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE\n5013-6100-50",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6722,7 +8167,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6735,7 +8180,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -6749,7 +8194,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -6763,7 +8208,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6776,7 +8221,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -6790,7 +8235,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -6804,7 +8249,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6817,7 +8262,7 @@ window.EMBEDDED_DATA = {
           "pn": "7450LS-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "25 dias",
+          "dueDaysStr": "18 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6830,7 +8275,7 @@ window.EMBEDDED_DATA = {
           "pn": "7450LS-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "25 dias",
+          "dueDaysStr": "18 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6843,7 +8288,7 @@ window.EMBEDDED_DATA = {
           "pn": "KCA0120W",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6856,7 +8301,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "-25 dias",
+          "dueDaysStr": "-32 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6870,7 +8315,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE\nMC40-11",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6883,7 +8328,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE\nMC40-11",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6896,7 +8341,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6909,7 +8354,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6923,7 +8368,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6937,7 +8382,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6951,7 +8396,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6965,7 +8410,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6979,7 +8424,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6993,7 +8438,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7007,7 +8452,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7021,7 +8466,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7035,7 +8480,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7049,7 +8494,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7063,7 +8508,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7077,7 +8522,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7091,7 +8536,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7105,7 +8550,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7119,7 +8564,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7133,7 +8578,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7147,7 +8592,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7161,7 +8606,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7175,7 +8620,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7189,7 +8634,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7203,7 +8648,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7217,7 +8662,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7231,7 +8676,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7245,7 +8690,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7259,7 +8704,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7273,7 +8718,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7287,7 +8732,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7301,7 +8746,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7314,7 +8759,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7327,7 +8772,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7341,7 +8786,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7355,7 +8800,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7369,7 +8814,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7383,7 +8828,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7397,7 +8842,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7411,7 +8856,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7425,7 +8870,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7439,7 +8884,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7453,7 +8898,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7467,7 +8912,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7481,7 +8926,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7495,7 +8940,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7509,7 +8954,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7523,7 +8968,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7537,7 +8982,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7551,7 +8996,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7565,7 +9010,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7579,7 +9024,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7593,7 +9038,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7607,7 +9052,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-28 dias",
+          "dueDaysStr": "-35 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7620,7 +9065,7 @@ window.EMBEDDED_DATA = {
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7633,7 +9078,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "83 dias",
+          "dueDaysStr": "76 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7646,7 +9091,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45834 dias",
+          "dueDaysStr": "-45841 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7659,7 +9104,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "97 dias",
+          "dueDaysStr": "90 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7672,7 +9117,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45834 dias",
+          "dueDaysStr": "-45841 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7685,7 +9130,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-46199 dias",
+          "dueDaysStr": "-46204 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7698,7 +9143,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45833 dias",
+          "dueDaysStr": "-45840 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7711,7 +9156,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45469 dias",
+          "dueDaysStr": "-45476 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7724,7 +9169,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45469 dias",
+          "dueDaysStr": "-45476 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7737,7 +9182,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "6 dias",
+          "dueDaysStr": "-1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7750,7 +9195,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7763,7 +9208,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7776,7 +9221,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-1 dias",
+          "dueDaysStr": "-8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7789,7 +9234,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7802,7 +9247,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "82 dias",
+          "dueDaysStr": "75 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7815,7 +9260,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "82 dias",
+          "dueDaysStr": "75 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8081,7 +9526,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46418 dias",
+          "dueDaysStr": "-46430 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8105,7 +9550,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46356 dias",
+          "dueDaysStr": "-46368 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8140,7 +9585,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46418 dias",
+          "dueDaysStr": "-46430 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8153,7 +9598,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46356 dias",
+          "dueDaysStr": "-46368 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8716,7 +10161,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-22-0006 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-92398 dias",
+          "dueDaysStr": "-92410 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -9994,7 +11439,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-27-0030",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-92398 dias",
+          "dueDaysStr": "-92410 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -10535,7 +11980,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-31-0029 R2",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46185 dias",
+          "dueDaysStr": "-46197 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -13946,6 +15391,7651 @@ window.EMBEDDED_DATA = {
           "description": "TURBOFAN ENGINE DATA COLLECTION UNIT - REPLACEMENT OF",
           "pn": "77-30591 R2",
           "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    },
+    "PS-KNG": {
+      "info": {
+        "model": "BEECHCRAFT KING AIR B300",
+        "totalHours": 1546.6,
+        "totalLandings": 1089.0,
+        "registration": "PS-KNG",
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "73.0",
+          "task": "",
+          "description": "7 DAYS PRESERVATION",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-5 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "74.0",
+          "task": "",
+          "description": "28 DAYS PRESERVATION",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "16 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "78.0",
+          "task": "",
+          "description": "VOR CHECK\nFAR 91.171",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "0 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "393.0",
+          "task": "MTB-24-05",
+          "description": "ELECTRICAL POWER- REPLACEMENT OF THE GENERATOR/BATTERY BUS TIE RELAYS AND ELECTRICAL CONNECTORS",
+          "pn": "MTB-24-05",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "395.0",
+          "task": "MTB-26-01 R2",
+          "description": "FIRE PROTECTION- REPLACEMENT OF THE HALON TYPE1211 PORTABLE FIRE EXTINGUISHERS",
+          "pn": "MTB-26-01 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "396.0",
+          "task": "MTB-27-03",
+          "description": "FLIGHT CONTROLS - RUDDER PEDAL FORCE \nTRANSDUCER INTERFERENCE IMPROVEMENT",
+          "pn": "MTB-27-03",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "398.0",
+          "task": "MTB-31-03",
+          "description": "INDICATING/RECORDING SYSTEMS - POTENTIOMETER REPLACEMENT",
+          "pn": "MTB-31-03",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "400.0",
+          "task": "MTB-32-02",
+          "description": "LANDING GEAR - MAIN-LANDING-GEAR TORQUE-KNEE PINS REPLACEMENT",
+          "pn": "MTB-32-02",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "401.0",
+          "task": "MTB-33-03 R2",
+          "description": "LIGHTS - LED TAIL STROBE LIGHT INSTALLATION",
+          "pn": "MTB-33-03 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "402.0",
+          "task": "MTB-33-05",
+          "description": "LIGHTS - LED TAIL STROBE LIGHT INSTALLATION WITH 130-3070-0001 KIT INSTALLED",
+          "pn": "MTB-33-05",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "404.0",
+          "task": "MTB-34-05",
+          "description": "AD",
+          "pn": "MTB-34-05",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "407.0",
+          "task": "MTB-56-01",
+          "description": "WINDOWS- STORM WEATHER \nWINDOW IMPROVEMENT",
+          "pn": "MTB-56-01",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "408.0",
+          "task": "MTB-56-03",
+          "description": "WINDOWS-MODELB300/B300C COOLVIEW WINDOW \nWITH TINTED FROST PANE INSTALLATION FOR COCKPIT, CABIN, OR BAGGAGE \"AREA\" WINDOWS",
+          "pn": "MTB-56-03",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "409.0",
+          "task": "MTB-56-05",
+          "description": "WINDOWS- MODEL B300/B300C COOLVIEW WINDOW \nWITH CLEAR FROST PANE INSTALLATION FOR PASSENGER (ROUND) WINDOWS",
+          "pn": "MTB-56-05",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "417.0",
+          "task": "MTL-21-03",
+          "description": "AIR CONDITIONING - COCKPIT FOOT WARMER DUCT INSPECTION",
+          "pn": "MTL-21-03",
+          "sheet": "DIR",
+          "dueHoursStr": "-130.5h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "423.0",
+          "task": "MTL-26-01",
+          "description": "FIRE PROTECTION- FUSELAGE BLEED AIR WARNING LINE INSPECTION",
+          "pn": "MTL-26-01",
+          "sheet": "DIR",
+          "dueHoursStr": "23.2h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "424.0",
+          "task": "MTL-26-02",
+          "description": "FIRE PROTECTION - CENTER WING AND NACELLE BLEED AIR WARNING LINE INSPECTION",
+          "pn": "MTL-26-02",
+          "sheet": "DIR",
+          "dueHoursStr": "23.2h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "433.0",
+          "task": "MTL-30-02",
+          "description": "ICE AND RAIN PROTECTION - MAIN LANDING GEAR (MLG) DEICE TUBING BOND CLAMP INSTALLATION",
+          "pn": "MTL-30-02",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "441.0",
+          "task": "MTL-36-02",
+          "description": "PNEUMATIC - FLOW CONTROL VALVE INSULATION INSPECTION",
+          "pn": "MTL-36-02",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "449.0",
+          "task": "MTL-53-04 R2",
+          "description": "FUSELAGE - FORWARD FUSELAGE FASTENER INSPECTION",
+          "pn": "MTL-53-04 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46992 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "403.0",
+          "task": "CF-1996-24R1",
+          "description": "Compressor Bleed-off Valve Cover \nAssembly Inspection/Replacement",
+          "pn": "SB 13354",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "405.0",
+          "task": "DA 80-05-01",
+          "description": "Bomba de combustível",
+          "pn": "AD80-08-12\nSB1316\nSB3139\nSB12025",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "408.0",
+          "task": "CF-1996-24R1",
+          "description": "Compressor Bleed-off Valve Cover \nAssembly Inspection/Replacement",
+          "pn": "SB 13354",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "410.0",
+          "task": "DA 80-05-01",
+          "description": "Bomba de combustível",
+          "pn": "AD80-08-12\nSB1316\nSB3139\nSB12025",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "411.0",
+          "task": "13163 R7",
+          "description": "AD",
+          "pn": "13163 R7",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "415.0",
+          "task": "13540.0",
+          "description": "AD",
+          "pn": "13540.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "417.0",
+          "task": "13543.0",
+          "description": "AD",
+          "pn": "13543.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "419.0",
+          "task": "13546.0",
+          "description": "AD",
+          "pn": "13546.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "420.0",
+          "task": "13547.0",
+          "description": "AD",
+          "pn": "13547.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "421.0",
+          "task": "13163 R7",
+          "description": "AD",
+          "pn": "13163 R7",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "425.0",
+          "task": "13540.0",
+          "description": "AD",
+          "pn": "13540.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "427.0",
+          "task": "13543.0",
+          "description": "AD",
+          "pn": "13543.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "429.0",
+          "task": "13546.0",
+          "description": "AD",
+          "pn": "13546.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "430.0",
+          "task": "13547.0",
+          "description": "AD",
+          "pn": "13547.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "692.0",
+          "task": "AD 94-03-11",
+          "description": "Hub Arm Assembly",
+          "pn": "",
+          "sheet": "DIR HÉLICE",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "699.0",
+          "task": "AD 94-03-11",
+          "description": "Hub Arm Assembly",
+          "pn": "",
+          "sheet": "DIR HÉLICE",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    },
+    "N444R": {
+      "info": {
+        "model": "GULFSTREAM G700",
+        "totalHours": null,
+        "totalLandings": null,
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "2.0",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46203 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "3.0",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46191 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "4.0",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46176 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "5.0",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 60 day interval inspection, service and\noperational test requirements.",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46146 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "6.0",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 90 day interval inspection, service and\noperational test requirements.",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46116 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "7.0",
+          "task": "",
+          "description": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46199 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "8.0",
+          "task": "",
+          "description": "Engine preservation  \n(indoor)\n3 MO to 6 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46116 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "9.0",
+          "task": "",
+          "description": "Engine preservation  \n(indoor)\n6 MO to 36 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "10.0",
+          "task": "",
+          "description": "APU Preservation 1 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46176 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "11.0",
+          "task": "",
+          "description": "APU Preservation 2 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46146 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "12.0",
+          "task": "",
+          "description": "APU Preservation 3 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46116 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "13.0",
+          "task": "",
+          "description": "APU Preservation 6 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "14.0",
+          "task": "",
+          "description": "APU Preservation 12 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "15.0",
+          "task": "",
+          "description": "APU Preservation 24 MO",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "21.0",
+          "task": "",
+          "description": "Nose Landing Gear Shock Absorber - Servicing\n122210",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "22.0",
+          "task": "",
+          "description": "Nose Wheel Steering Unit - Lubrication\n122211",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "23.0",
+          "task": "",
+          "description": "Nose Wheel Steering Collar Assembly / Slave Gear -\nLubrication\n122212",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "24.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Actuator - Lubrication \n122315",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "25.0",
+          "task": "",
+          "description": "Aileron Actuator Toggle Links (Left) - Lubrication \n122323",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "26.0",
+          "task": "",
+          "description": "Aileron Actuator Toggle Links (Right) - Lubrication \n122324",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "27.0",
+          "task": "",
+          "description": "Rudder Actuator Toggle Links - Lubrication \n122325",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "28.0",
+          "task": "",
+          "description": "Elevator Actuator Toggle Links (Left) - Lubrication \n122326",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "29.0",
+          "task": "",
+          "description": "Elevator Actuator Toggle Links (Right) - Lubrication \n122327",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "30.0",
+          "task": "",
+          "description": "Flap Actuator Ball Nut (Left) - Lubrication \n122328",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "31.0",
+          "task": "",
+          "description": "Flap Actuator Ball Nut (Right) - Lubrication \n122329",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "32.0",
+          "task": "",
+          "description": "Outboard Spoiler Actuator Toggle Link (Left) - Lubrication \n122330",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "33.0",
+          "task": "",
+          "description": "Outboard Spoiler Actuator Toggle Link (Right) -\nLubrication \n122331",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "35.0",
+          "task": "",
+          "description": "Aileron Hinge Fitting (Left) - Lubrication \n122333",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "36.0",
+          "task": "",
+          "description": "Aileron Hinge Fitting (Right) - Lubrication \n122334",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "37.0",
+          "task": "",
+          "description": "Rudder Hinge Fitting - Lubrication \n122335",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "38.0",
+          "task": "",
+          "description": "Elevator Hinge Fitting (Left) - Lubrication \n122336",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "39.0",
+          "task": "",
+          "description": "Elevator Hinge Fitting (Right) - Lubrication \n122337",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "40.0",
+          "task": "",
+          "description": "External Baggage Door - Lubrication \n122500",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "41.0",
+          "task": "",
+          "description": "Main Entrance Door - Lubrication \n122501",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "42.0",
+          "task": "",
+          "description": "Ram AIR Turbine - Lubrication \n122600",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "54.0",
+          "task": "",
+          "description": "Static Discharging (Left Wing) - Functional Check \n236130",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "55.0",
+          "task": "",
+          "description": "Static Discharging (Right Wing) - Functional Check \n236131",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "56.0",
+          "task": "",
+          "description": "Static Discharging (Left Horizontal Stablizer) - Functional\nCheck \n236132",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "57.0",
+          "task": "",
+          "description": "Static Discharging (Right Horizontal Stablizer) - Functional\nCheck \n266133",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "58.0",
+          "task": "",
+          "description": "Static Discharging (Center Horizontal Stablizer) -\nFunctional Check \n266134",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "59.0",
+          "task": "",
+          "description": "Static Discharging (Tail Cone) - Functional Check \n266135",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "60.0",
+          "task": "",
+          "description": "Cockpit Voice Recorder System -\nOperational Check \n237202",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "61.0",
+          "task": "",
+          "description": "Cockpit Voice Recorder Impact Switch - Operational\nCheck \n237213",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-276 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "62.0",
+          "task": "",
+          "description": "Cockpit Voice Recorder Underwater Locator Beacon -\nOperational Check \n237216",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-245 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "63.0",
+          "task": "",
+          "description": "Cockpit Voice Recorder Underwater Locator Beacon -\nCleaning\n237217",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "64.0",
+          "task": "",
+          "description": "Idg Oil Cooler and Lines (Left) -\nGeneral Visual Inspection\n241212",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "65.0",
+          "task": "",
+          "description": "Idg Oil Cooler and Lines (Right) -\nGeneral Visual Inspection \n241213",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "68.0",
+          "task": "",
+          "description": "Ram AIR Turbine Ground - Functional Check \n242308",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-306 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "69.0",
+          "task": "",
+          "description": "Ram AIR Turbine - General Visual Inspection \n242312",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-306 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "70.0",
+          "task": "",
+          "description": "Ram AIR Turbine Built-In Test Switch - Operational Check  \n242351",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "71.0",
+          "task": "",
+          "description": "Main Battery (Left) - Restore \n243404",
+          "pn": "1159SCAV519-1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "72.0",
+          "task": "",
+          "description": "Main Battery (Right) - Restore\n243405",
+          "pn": "1159SCAV519-1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "73.0",
+          "task": "",
+          "description": "Emergency Battery Power System\n(Forward) - Operational Check \n243500",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "74.0",
+          "task": "",
+          "description": "Emergency Battery Power System (Aft)\n- Operational Check \n243501",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "75.0",
+          "task": "",
+          "description": "Emergency Battery (Forward) - Functional Check (Level\nTest) \n243502",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "76.0",
+          "task": "",
+          "description": "Emergency Battery (Aft) - Functional Check (Level Test)\n243503",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "77.0",
+          "task": "",
+          "description": "Electrical Backup Hydraulic Actuator\nNicad Battery - Restore \n243607",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "78.0",
+          "task": "",
+          "description": "Uninterruptible Power Supply Sealed\nLead ACID Battery - Functional Check \n243903",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "79.0",
+          "task": "",
+          "description": "Crew Seats Locking Mechanism and Seat Tracks (Pilot) -\nDetailed Inspection \n251111",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "81.0",
+          "task": "",
+          "description": "Crew Seats Locking Mechanism and Seat Tracks\n(Observer) - Detailed Inspection \n251113",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "82.0",
+          "task": "",
+          "description": "Crew Seat Restraints (Pilot) - Detailed Inspection\n251114",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "83.0",
+          "task": "",
+          "description": "Crew Seat Restraints (Copilot) - Detailed Inspection \n251115",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "84.0",
+          "task": "",
+          "description": "Crew Seat Restraints (Observer) - Detailed Inspection \n251116",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "85.0",
+          "task": "",
+          "description": "Crew Seat Inertia Reels (Pilot) - Operational Check \n251117",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "86.0",
+          "task": "",
+          "description": "Crew Seat Inertia Reels (Copilot) - Operational Check \n251118",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "87.0",
+          "task": "",
+          "description": "Crew Seat Inertia Reels (Observer) - Operational Check \n251119",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "88.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Left Seat No.\n1) - Detailed Inspection \n252100",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "89.0",
+          "task": "",
+          "description": "Passenger Seats Restraints - Detailed Inspection \n252101",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "90.0",
+          "task": "",
+          "description": "Passenger Seats Inertia Reels - Operational Check\n252102",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "91.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Left Seat No.\n2) - Detailed Inspection \n252129",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "92.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Right Seat\nNo. 1) - Detailed Inspection \n252134",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "93.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Right Seat\nNo. 2) - Detailed Inspection \n252135",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "94.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Forward Inboard Seat) - Detailed Inspection \n252140",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "95.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Forward Outboard Seat) - Detailed Inspection \n252141",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "96.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Aft Inboard Seat) - Detailed Inspection \n252142",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "97.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Aft Outboard Seat) - Detailed Inspection \n252143",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "98.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Left Divan\nSeat No. 1) - Detailed Inspection \n252144",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "99.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Left Divan\nSeat No. 2) - Detailed Inspection \n252145",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "100.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Left Divan\nSeat No. 3) - Detailed Inspection \n252146",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "101.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Right Divan\nSeat No. 1) - Detailed Inspection \n252148",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "102.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Right Divan\nSeat No. 2) - Detailed Inspection \n252149",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "103.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Right Divan\nSeat No. 3) - Detailed Inspection \n252150",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "104.0",
+          "task": "",
+          "description": "Passenger Seats Attachments and Locking (Crew\nCompartment Seat) - Detailed Inspection \n252152",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "105.0",
+          "task": "",
+          "description": "Flashlight (Pilot) - Operational Check\n256007",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "106.0",
+          "task": "",
+          "description": "Flashlight (Copilot) - Operational Check \n256014",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "107.0",
+          "task": "",
+          "description": "Flashlight (Baggage Compartment) -\nOperational Check \n256015",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "108.0",
+          "task": "",
+          "description": "Flashlight (Baggage Compartment) -\nOperational Check \n256018",
+          "pn": "FLOX42421",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "109.0",
+          "task": "",
+          "description": "Life Raft (No. 1) - Detailed Inspection \n256147",
+          "pn": "1320FAUL-6K4-1-904",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "110.0",
+          "task": "",
+          "description": "Life Raft (No. 2) - Detailed Inspection \n256148",
+          "pn": "1320FAUL-6K4-1-904",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "111.0",
+          "task": "",
+          "description": "Life Vest(S) - Detailed Inspection \n256181",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "112.0",
+          "task": "",
+          "description": "Emergency Vision Assurance System\n(Pilot) - Detailed Inspection\n256191",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46146 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "113.0",
+          "task": "",
+          "description": "Emergency Vision Assurance System\n(Copilot) - Detailed Inspection \n256192",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46146 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "114.0",
+          "task": "",
+          "description": "Emergency Vision Assurance System\n(Pilot) - Operational Check\n256209",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46146 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "115.0",
+          "task": "",
+          "description": "Emergency Vision Assurance System (Copilot) -\nOperational Check \n256210",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46146 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "122.0",
+          "task": "",
+          "description": "Smoke Hood / Protective Breathing\nEquipment (Pbe) (Observer) - Visual\nCheck \n256273",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-664 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "123.0",
+          "task": "",
+          "description": "Smoke Hood Tamper-Evident Seals\n(Aft Lavatory) - Detailed Inspection \n256296",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "124.0",
+          "task": "",
+          "description": "Emergency Locator Transmitter -\nDetailed Inspection \n256307",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "125.0",
+          "task": "",
+          "description": "Emergency Locator Transmitter -\nOperational Check \n(FAR 91.207) \n256309",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "129.0",
+          "task": "",
+          "description": "First AID Kit (No. 1) - Detailed\nInspection\n256404",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "130.0",
+          "task": "",
+          "description": "Medical Kit (No. 1) - Detailed Inspection \n256412",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-687 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "131.0",
+          "task": "",
+          "description": "Defibrillator - Detailed Inspection\n256418",
+          "pn": "AED SAM HEARTSINE 450P",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "132.0",
+          "task": "",
+          "description": "Ditching Line - Detailed Inspection \n256608",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "133.0",
+          "task": "",
+          "description": "Underwater Acoustic Beacon Cleaning (Aft Equipment\nBay) - Restore \n257019",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "134.0",
+          "task": "",
+          "description": "Underwater Acoustic Beacon Cleaning (Baggage\nCompartment) - Restore \n257020",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "135.0",
+          "task": "",
+          "description": "Underwater Acoustic Beacon (Aft Equipment Bay) -\nOperational Check \n257052",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "136.0",
+          "task": "",
+          "description": "Baggage Compartment Smoke Evacuation System -\nOperational Check \n260302",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "137.0",
+          "task": "",
+          "description": "Pylon Thermal Switch (Left) - Functional Check \n261202",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "138.0",
+          "task": "",
+          "description": "Pylon Thermal Switch (Right) - Functional Check \n261203",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "141.0",
+          "task": "",
+          "description": "Aft Baggage Eer Overheat Thermal Switch - Functional\nCheck \n261450",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "142.0",
+          "task": "",
+          "description": "Baggage Compartment Below Floor Overheat Thermal\nSwitch - Functional Check \n261451",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "143.0",
+          "task": "",
+          "description": "Aft Equipment Overheat Thermal Switch - Functional\nCheck \n261452",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "144.0",
+          "task": "",
+          "description": "Engine FIRE Extinguisher Bottle (Left) - Weight Check \n262104",
+          "pn": "33600102-1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44381 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "145.0",
+          "task": "",
+          "description": "Engine FIRE Extinguisher Bottle (Right) - Weight Check \n262105",
+          "pn": "33600102-1",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44381 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "146.0",
+          "task": "",
+          "description": "Engine FIRE Bottle Pressure Switch (Left) - Operational\nCheck \n262108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44381 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "147.0",
+          "task": "",
+          "description": "Engine FIRE Bottle Pressure Switch (Right) - Operational\nCheck \n262109",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44381 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "148.0",
+          "task": "",
+          "description": "Engine FIRE Extinguishing Firing Circuitry Integrity (Left) -\nOperational Check \n262150",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "149.0",
+          "task": "",
+          "description": "Engine FIRE Extinguishing Firing Circuitry Integrity (Right)\n- Operational Check \n262151",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "150.0",
+          "task": "",
+          "description": "APU FIRE Extinguishing Firing Circuitry Integrity -\nOperational Check \n262152",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "153.0",
+          "task": "",
+          "description": "Portable FIRE Extinguisher (Cockpit) -\nDetailed Inspection \n262402",
+          "pn": "898052",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "154.0",
+          "task": "",
+          "description": "Portable FIRE Extinguisher (Cockpit) -\nWeight Check \n262403",
+          "pn": "898052",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "155.0",
+          "task": "",
+          "description": "Portable FIRE Extinguisher (Forward\nCabin) - Detailed Inspection \n262414",
+          "pn": "C354TS",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "156.0",
+          "task": "",
+          "description": "Portable FIRE Extinguisher (Forward\nCabin) - Weight Check \n262415",
+          "pn": "C354TS",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "157.0",
+          "task": "",
+          "description": "Portable FIRE Extinguisher (Aft\nLavatory) - Detailed Inspection \n262438",
+          "pn": "B371",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "158.0",
+          "task": "",
+          "description": "Portable FIRE Extinguisher (Aft\nLavatory) - Weight Check \n262439",
+          "pn": "B371",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "159.0",
+          "task": "",
+          "description": "Portable Water FIRE Extinguisher -\nDetailed Inspection \n262450",
+          "pn": "892480",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "160.0",
+          "task": "",
+          "description": "Trash Receptacle Enclosure (Forward\nLavatory) - Detailed Inspection \n262500",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "161.0",
+          "task": "",
+          "description": "Trash Receptacle Enclosure (Forward\nGalley / Annex) - Detailed Inspection \n262501",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "162.0",
+          "task": "",
+          "description": "Trash Receptacle Enclosure (Aft\nLavatory) - Detailed Inspection \n262505",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "164.0",
+          "task": "",
+          "description": "Aileron Attachment (Left) - Detailed Inspection \n271007",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "165.0",
+          "task": "",
+          "description": "Aileron Attachment (Right) - Detailed Inspection \n271008",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "169.0",
+          "task": "",
+          "description": "Cockpit Flight Control Cable - Detailed Inspection \n271128",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "170.0",
+          "task": "",
+          "description": "Aileron Free Play Backlash (Left) - Functional Check \n271182",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "171.0",
+          "task": "",
+          "description": "Aileron Free Play Backlash (Right) - Functional Check \n271183",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "172.0",
+          "task": "",
+          "description": "Rudder Free Play Backlash - Functional Check \n272002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "176.0",
+          "task": "",
+          "description": "Rudder Attachment - Detailed Inspection \n272010",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "178.0",
+          "task": "",
+          "description": "Elevator Free Play Backlash (Left) - Functional Check \n273008",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "179.0",
+          "task": "",
+          "description": "Elevator Free Play Backlash (Right) - Functional Check \n273009",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "180.0",
+          "task": "",
+          "description": "Elevator Attachment (Left) - Detailed Inspection\n273010",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "181.0",
+          "task": "",
+          "description": "Elevator Attachment (Right) - Detailed Inspection \n273011",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "187.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Trim Actuator Structure - Detailed\nInspection \n274005",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-41826 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "189.0",
+          "task": "",
+          "description": "Flap Drive System - General Visual Inspection \n275000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "190.0",
+          "task": "",
+          "description": "Flap Attaching Points - Detailed Inspection \n275009",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "193.0",
+          "task": "",
+          "description": "Flap Track and Roller - Detailed\nInspection \n275108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "194.0",
+          "task": "",
+          "description": "Flap Actuator No-Back Mechanism (Left Inboard) -\nFunctional Check \n275341",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "8450.9h",
+          "dueDaysStr": "-38597 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "195.0",
+          "task": "",
+          "description": "Flap Actuator No-Back Mechanism (Right Inboard) -\nFunctional Check \n275342",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "8450.9h",
+          "dueDaysStr": "-38597 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "196.0",
+          "task": "",
+          "description": "Flap Actuator No-Back Mechanism (Left Outboard) -\nFunctional Check \n275343",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "8450.9h",
+          "dueDaysStr": "-38597 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "197.0",
+          "task": "",
+          "description": "Flap Actuator No-Back Mechanism (Right Outboard) -\nFunctional Check \n275344",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "8450.9h",
+          "dueDaysStr": "-38597 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "198.0",
+          "task": "",
+          "description": "Flap Actuator Force Limiter (Left Inboard) - Functional\nCheck \n275358",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-38906 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "199.0",
+          "task": "",
+          "description": "Flap Actuator Force Limiter (Left Outboard) - Functional\nCheck \n275359",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-38906 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "200.0",
+          "task": "",
+          "description": "Flap Actuator Force Limiter (Right Inboard) - Functional\nCheck \n275360",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-38906 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "201.0",
+          "task": "",
+          "description": "Flap Actuator Force Limiter (Right Outboard) - Functional\nCheck \n275361",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-38906 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "202.0",
+          "task": "",
+          "description": "Spoiler Attachment Fittings (Corrosion) - Detailed\nInspection \n276003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "204.0",
+          "task": "",
+          "description": "Microbiological Contamination Test of Fuel Tank - Special\nDetail Inspection \n280007",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46086 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "205.0",
+          "task": "280005.004",
+          "description": "Fuel Tank - Sumping",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "206.0",
+          "task": "",
+          "description": "Wing Vent Float Valve (Left) - Operational Check\n281528",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "4750.9h",
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "207.0",
+          "task": "",
+          "description": "Wing Vent Float Valve (Right) - Operational Check\n281529",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "4750.9h",
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "208.0",
+          "task": "",
+          "description": "Fuel Vent System (Left) - Operational Check \n281530",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "209.0",
+          "task": "",
+          "description": "Fuel Vent System (Right) - Operational Check \n281531",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "210.0",
+          "task": "",
+          "description": "Flame Arrestor (Left) - Detailed Inspection \n281532",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "4750.9h",
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "211.0",
+          "task": "",
+          "description": "Flame Arrestor (Right) - Detailed Inspection \n281533",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "4750.9h",
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "212.0",
+          "task": "",
+          "description": "Flame Arrestor (Left) - Operational Check \n281537",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "213.0",
+          "task": "",
+          "description": "Flame Arrestor (Right) - Operational Check \n281538",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "214.0",
+          "task": "",
+          "description": "Wing Tank Pressure Relief Valve (Left) - Operational\nCheck \n281541",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "215.0",
+          "task": "",
+          "description": "Wing Tank Pressure Relief Valve (Right) - Operational\nCheck \n281542",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "216.0",
+          "task": "",
+          "description": "Heated Fuel Return System Valve - Operational Check\n281602",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "217.0",
+          "task": "",
+          "description": "Pylon Heated Fuel Return System (Hfrs) Shut-Off Valve\nFIRE Shield (Left) - General Visual Inspection \n281615",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "218.0",
+          "task": "",
+          "description": "Pylon Heated Fuel Return System (Hfrs) Shut-Off Valve\nFIRE Shield (Right) - General Visual Inspection \n281616",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "219.0",
+          "task": "",
+          "description": "APU Fuel Shut-Off Valve - Operational Check\n282632",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "220.0",
+          "task": "",
+          "description": "Engine Fuel Shut-Off Valve (Left) - Operational Check \n282633",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "221.0",
+          "task": "",
+          "description": "Engine Fuel Shut-Off Valve (Right) - Operational Check \n282634",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "222.0",
+          "task": "",
+          "description": "Dual Wall Fuel Line Shroud (Left Engine) - Functional\nCheck \n282642",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "223.0",
+          "task": "",
+          "description": "Dual Wall Fuel Line Shroud (Right Engine) - Functional\nCheck \n282643",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "224.0",
+          "task": "",
+          "description": "Dual Wall Fuel Line Shroud (APU) - Functional Check \n282644",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "225.0",
+          "task": "",
+          "description": "Dual Wall Fuel Line Shroud (Left Engine Heated Return) -\nFunctional Check \n282645",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "226.0",
+          "task": "",
+          "description": "Dual Wall Fuel Line Shroud (Right Engine Heated Return)\n- Functional Check \n282646",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "227.0",
+          "task": "",
+          "description": "Hydraulic System Shut-Off Valves - Operational Check \n291524",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "228.0",
+          "task": "",
+          "description": "Hydraulic System Accumulator Precharge (Left Hydraulic\nSystem) - Detailed Inspection \n291708",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "229.0",
+          "task": "",
+          "description": "Hydraulic System Accumulator Precharge (Right Hydraulic\nSystem) - Detailed Inspection \n291709",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "230.0",
+          "task": "",
+          "description": "Hydraulic System Accumulator Precharge (Inboard Brake\nSystem) - Detailed Inspection \n291710",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "231.0",
+          "task": "",
+          "description": "Hydraulic System Accumulator Precharge (Outboard\nBrake System) - Detailed Inspection \n291711",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "232.0",
+          "task": "",
+          "description": "Hydraulic System Accumulator Precharge (Autobrake\nSystem) - Detailed Inspection \n291712",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "233.0",
+          "task": "",
+          "description": "Wing Anti-Ice Temperature Switch - Temperature Trip\nPoint Functional Check \n301137",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "234.0",
+          "task": "",
+          "description": "Windshield Surface Seal (Left) -\nDetailed Inspection \n304118",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "235.0",
+          "task": "",
+          "description": "Windshield Surface Seal (Right) -\nDetailed Inspection \n304119",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "236.0",
+          "task": "",
+          "description": "FDR - Functional / Reasonableness Check \n313104",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "237.0",
+          "task": "",
+          "description": "FDR Fail Message - Operational Check \n313105",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "238.0",
+          "task": "",
+          "description": "FDR Impact Switch - Operational Check \n313108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "239.0",
+          "task": "",
+          "description": "FDR Underwater Locator Beacon - Operational Check \n313113",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "240.0",
+          "task": "",
+          "description": "FDR Underwater Locator Beacon - Operational Check \n313113",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "241.0",
+          "task": "",
+          "description": "Aircraft Configuration Message - Operational Check \n315400",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "243.0",
+          "task": "",
+          "description": "Nose and Main Landing Gear and\nDoors - General Visual Inspection \n320002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "244.0",
+          "task": "",
+          "description": "Nose and Main Landing Gear and Doors - Zonal\nInspection \n320003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "245.0",
+          "task": "",
+          "description": "Main Landing Gear and Components (Left) - Detailed\nInspection \n321050",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "246.0",
+          "task": "",
+          "description": "Main Landing Gear and Components (Right) - Detailed\nInspection\n321051",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "247.0",
+          "task": "",
+          "description": "Main Landing Gear Corrosion Inhibiting Compound\nReapplication (Left)\n321052",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "248.0",
+          "task": "",
+          "description": "Main Landing Gear Corrosion Inhibiting Compound\nReapplication (Right)\n321053",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "249.0",
+          "task": "",
+          "description": "Nose Landing Gear Components - Detailed Inspection\n322004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "250.0",
+          "task": "",
+          "description": "Nose Landing Gear Corrosion Inhibiting Compound\nReapplication\n322005",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "251.0",
+          "task": "",
+          "description": "Landing Gear Emergency Extension System - Operational\nCheck\n323916",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1750.9h",
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "252.0",
+          "task": "",
+          "description": "Landing Gear Emergency Extension System - General\nVisual Inspection \n323917",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "257.0",
+          "task": "",
+          "description": "Brake Control System Hydraulic Fuse (Left, Outboard No.\n1) - Operational Check\n324607",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42402 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "258.0",
+          "task": "",
+          "description": "Brake Control System Hydraulic Fuse (Left, Inboard No.\n2) - Operational Check\n324610",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42402 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "259.0",
+          "task": "",
+          "description": "Brake Control System Hydraulic Fuse (Right, Inboard No.\n3) - Operational Check\n324611",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42402 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "260.0",
+          "task": "",
+          "description": "Brake Control System Hydraulic Fuse (Right, Outboard\nNo. 4) - Operational Check\n324612",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42402 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "261.0",
+          "task": "",
+          "description": "Tire Pressure Monitor System - Functional Check\n324701",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "262.0",
+          "task": "",
+          "description": "Navigation Lights - Operational Check \n334211",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "263.0",
+          "task": "",
+          "description": "Anticollision Lights - Operational Test \n334212",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "264.0",
+          "task": "",
+          "description": "Exterior Emergency Lighting - Operational Check\n335000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "265.0",
+          "task": "",
+          "description": "Cabin Emergency Lighting - Operational Check\n335100",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "267.0",
+          "task": "",
+          "description": "AIR Data System (No. 1 - Left Upper) - Functional / Leak Test \n341300",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "268.0",
+          "task": "",
+          "description": "AIR Data System (No. 2 - Right Upper) - Functional / Leak Test \n341301",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "269.0",
+          "task": "",
+          "description": "AIR Data System (No. 3 - Left Lower) - Functional / Leak Test \n341302",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "270.0",
+          "task": "",
+          "description": "AIR Data System (No. 4 / Standby - Right Lower) - Functional / Leak Test \n341303",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "271.0",
+          "task": "",
+          "description": "Multi-Function Probe / AIR Data Computer (No. 1 - Left\nUpper) - Certification \n341311",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "272.0",
+          "task": "",
+          "description": "Multi-Function Probe / AIR Data Computer (No. 2 - Left\nUpper) - Certification \n341312",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "273.0",
+          "task": "",
+          "description": "Multi-Function Probe / AIR Data Computer (No. 3 - Left\nLower) - Certification \n341313",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "274.0",
+          "task": "",
+          "description": "Multi-Function Probe / AIR Data Computer (No. 4 /\nStandby - Right Lower) - Certification \n341314",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "275.0",
+          "task": "",
+          "description": "ATC (No. 1) - Operational Check \n345512",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "276.0",
+          "task": "",
+          "description": "ATC (No. 2) - Operational Check \n345513",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "277.0",
+          "task": "346020.024",
+          "description": "Charts Database - Update",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "12 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "278.0",
+          "task": "315114.024",
+          "description": "Airport MAP Database (Amdb) - Update",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "6 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "279.0",
+          "task": "346019.024",
+          "description": "FMS Navigation Database - Update",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "6 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "280.0",
+          "task": "",
+          "description": "Crew Oxygen Mask and Regulator\n(Pilot) - Operational Check\n351106",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-518 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "281.0",
+          "task": "",
+          "description": "Crew Oxygen Mask and Regulator\n(Copilot) - Operational Check\n351107",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-518 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "282.0",
+          "task": "",
+          "description": "Crew Oxygen Mask and Regulator\n(Observer) - Operational Check\n351108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-518 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "283.0",
+          "task": "",
+          "description": "Crew Oxygen Mask / Regulator and Stowage Box (Pilot) -\nDetailed Inspection\n351112",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "284.0",
+          "task": "",
+          "description": "Crew Oxygen Mask / Regulator and Stowage Box\n(Copilot) - Detailed Inspection \n351113",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "285.0",
+          "task": "",
+          "description": "Crew Oxygen Mask / Regulator and Stowage Box\n(Observer) - Detailed Inspection \n351114",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "286.0",
+          "task": "",
+          "description": "Passenger Oxygen Drop-Down Mask\nAssemblies - Detailed Inspection \n352100",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "287.0",
+          "task": "",
+          "description": "Drop Down Oxygen Box Assembly - Detailed Inspection \n352101",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "288.0",
+          "task": "",
+          "description": "Passenger Oxygen System (Manual\nMODE) - Operational Check \n352403",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "289.0",
+          "task": "",
+          "description": "Passenger Oxygen System (Auto MODE) - Functional\nCheck \n352404",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "290.0",
+          "task": "",
+          "description": "Therapeutic Oxygen System - Functional Check \n352604",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "291.0",
+          "task": "",
+          "description": "Therapeutic Oxygen Mask - Detailed Inspection \n352605",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45111 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "294.0",
+          "task": "",
+          "description": "Water Tank - General Visual Inspection\n381424",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "295.0",
+          "task": "",
+          "description": "Vacuum Toilet System (Forward) -\nCleaning \n383104",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "296.0",
+          "task": "",
+          "description": "Vacuum Toilet System (Aft) - Cleaning \n383105",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "297.0",
+          "task": "",
+          "description": "APU AIR Inlet Duct Door and Actuator - Detailed\nInspection \n491217",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "298.0",
+          "task": "",
+          "description": "APU Turbine Plenum Drain - Operational Check\n491300",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "299.0",
+          "task": "",
+          "description": "APU Compartment Drains - General Visual Inspection\n491302",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "300.0",
+          "task": "",
+          "description": "Interior and Exterior Surfaces of APU Compartment (APU\nBox) - Detailed Inspection 491303",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "301.0",
+          "task": "",
+          "description": "APU Compartment Drains - Operational Check \n491304",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "309.0",
+          "task": "",
+          "description": "Main Entrance Door (Internal) - Zonal Inspection\n521001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "310.0",
+          "task": "",
+          "description": "Main Entrance Door Cockpit Overhead Panel Safety\nSwitch - Operational Check\n521004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "312.0",
+          "task": "",
+          "description": "Main Entrance Door Inner and Outer\nSeal - General Visual Inspection \n521500",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44381 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "313.0",
+          "task": "",
+          "description": "Emergency Exit Doors - Functional Check\n522000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "314.0",
+          "task": "",
+          "description": "Emergency Exit Door Seals - Detailed Inspection\n522001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "315.0",
+          "task": "",
+          "description": "Baggage Door Seal FS 824.5 - FS 867- Detailed\nInspection\n523400",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "316.0",
+          "task": "",
+          "description": "Auxiliary Pressure Bulkhead Door Seal \n525102\n- Detailed Inspection",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "317.0",
+          "task": "",
+          "description": "Acoustic Door Automatic Opening -\nOperational Check \n525200",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-671 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "318.0",
+          "task": "",
+          "description": "Auxiliary Pressure Bulkhead Door Warning Indication -\nOperational Check\n527103",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "319.0",
+          "task": "",
+          "description": "Antenna Interface - Detailed Inspection\n530001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "320.0",
+          "task": "",
+          "description": "Cabin Fixed Windows Internal - Detailed Inspection \n530002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-41826 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "321.0",
+          "task": "",
+          "description": "Exterior Skin Panel Installations (Enclosed By Pylons) FS\n838 - FS 1059.625 - Detailed Inspection \n530003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "322.0",
+          "task": "",
+          "description": "External Lower Fuselage FS 100 - FS 886 - Zonal\nInspection \n530004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "323.0",
+          "task": "",
+          "description": "Radome (Interior) and Equipment AREA Behind Radome -\nZonal Inspection \n530005",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-41826 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "324.0",
+          "task": "",
+          "description": "Lower Forward Cabin and Midcabin Sections FS 245.5 -\nFS 511.5 - Zonal Inspection\n530006",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "325.0",
+          "task": "",
+          "description": "Aft Midcabin Fuselage Below Floor Level FS 739 - FS 886\n- Zonal Inspection\n530007",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "326.0",
+          "task": "",
+          "description": "External Upper Fuselage (Viewed from Platform) FS\n148.5 - FS 886 - Zonal Inspection\n530008",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "327.0",
+          "task": "",
+          "description": "Cabin Above Floor from Vestibule to Baggage\nCompartment FS 245.5 - FS 886 - Zonal Inspection \n530009",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-41826 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "328.0",
+          "task": "",
+          "description": "External Aft Fuselage and Empennage FS 886 - FS\n1199.475 - Zonal Inspection \n530010",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "329.0",
+          "task": "",
+          "description": "Lower Forward Cabin and Midcabin Sections FS 245.5 -\nFS 511.5 - Enhanced Zonal Inspection\n530011",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "330.0",
+          "task": "",
+          "description": "Lower Forward Cabin and Midcabin Cleaning and Dust\nRemoval - Enhanced Zonal Inspection\n530012",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "331.0",
+          "task": "",
+          "description": "Aft Midcabin Fuselage Below Floor Level FS 739 - FS 886\n- Enhanced Zonal Inspection\n530013",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "333.0",
+          "task": "",
+          "description": "Internal Left and Right Fuselage Below Cockpit Floor AT\nFS 223 - FS 243 - Zonal Inspection\n531015",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-306 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "334.0",
+          "task": "",
+          "description": "Cockpit Below Floor Cleaning and Dust Removal -\nEnhanced Zonal Inspection\n531021",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-306 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "335.0",
+          "task": "",
+          "description": "Nose Landing Gear Wheel Well FS 148.5 - FS 223 - Zonal\nInspection \n531024",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "336.0",
+          "task": "",
+          "description": "Radome Assembly - General Visual Inspection \n531026",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42556 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "337.0",
+          "task": "",
+          "description": "Radome to Structure Perimeter Steps - Detailed\nInspection\n531036",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "338.0",
+          "task": "",
+          "description": "Cockpit Windshields and Side Windows\nPolished Exterior Surrounds - Detailed\nInspection \n531711",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-702 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "339.0",
+          "task": "",
+          "description": "Cockpit Windshields and Side Windows Polished Exterior\nSurrounds Corrosion Inhibiting Coating - Restore \n531712",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "340.0",
+          "task": "",
+          "description": "Leer FS 246 - FS 270 - Zonal Inspection\n532600",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "341.0",
+          "task": "",
+          "description": "Leer FS 246 - FS 270 - Enhanced Zonal Inspection\n532601",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "342.0",
+          "task": "",
+          "description": "Reer FS 251.5 - FS 285 - Zonal Inspection\n532602",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "343.0",
+          "task": "",
+          "description": "Reer FS 251.5 - FS 285 - Enhanced Zonal Inspection\n532603",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "344.0",
+          "task": "",
+          "description": "Leer Cleaning and Dust Removal - Enhanced Zonal\nInspection\n532604",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "345.0",
+          "task": "",
+          "description": "Reer Cleaning and Dust Removal - Enhanced Zonal\nInspection\n532605",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "346.0",
+          "task": "",
+          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Left) - Zonal Inspection\n533000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "347.0",
+          "task": "",
+          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Right) - Zonal Inspection \n533001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "348.0",
+          "task": "",
+          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Left) - Enhanced Zonal Inspection \n533002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "349.0",
+          "task": "",
+          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Right) - Enhanced Zonal Inspection \n533003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "350.0",
+          "task": "",
+          "description": "Pressure Floor Structure Forward of Wheel Wells Below Floor FS 669 - FS 739 - Detailed Inspection\n533504",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "351.0",
+          "task": "",
+          "description": "Torque Box Internal Side (FS 680 - FS 735) - Zonal\nInspection\n533903",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "352.0",
+          "task": "",
+          "description": "Wiring and Fuel Installations Located Inside Torque Box\nUpper Portion (FS 680 - FS 735) - Enhanced Zonal\nInspection \n533904",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "353.0",
+          "task": "",
+          "description": "Baggage Compartment Below Floor Hirf/L - Detailed\nInspection\n534001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "354.0",
+          "task": "",
+          "description": "APU Enclosure FS 886 - FS 951.3 - General Visual\nInspection \n534600",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "355.0",
+          "task": "",
+          "description": "Baggage Compartment Aft Electronic Equipment Rack\nInternal - Zonal Inspection \n534802",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "356.0",
+          "task": "",
+          "description": "APU and Aft Fuselage Below Floor - Zonal Inspection \n535000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "357.0",
+          "task": "",
+          "description": "APU Interior and Exterior Enclosure - Zonal Inspection \n535001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "358.0",
+          "task": "",
+          "description": "Aft Fuselage Above Floor FS 886 - FS 1083.46 - Zonal Inspection\n535003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "359.0",
+          "task": "",
+          "description": "External Lower Fuselage FS 100 - FS 886 - Zonal\nInspection \n535004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "360.0",
+          "task": "",
+          "description": "Forward Wtbf Drain Holes - Enhanced Zonal Inspection \n539104",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "361.0",
+          "task": "",
+          "description": "Lower Mid Wtbf Drain Holes - Enhanced Zonal Inspection \n539303",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "362.0",
+          "task": "",
+          "description": "Aft Wtbf Drain Holes - Enhanced Zonal Inspection \n539503",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "363.0",
+          "task": "",
+          "description": "Pylons (Internal) - Zonal Inspection\n545001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "364.0",
+          "task": "",
+          "description": "Idg Feeder Cables and Wiring Installations - Enhanced\nZonal Inspection\n545004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "365.0",
+          "task": "",
+          "description": "Pylon Leading Edge (Left) - Polishing\n545005",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "366.0",
+          "task": "",
+          "description": "Pylon Leading Edge (Right) - Polishing \n545006",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "367.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Assembly (External) Left - General\nVisual Inspection \n551002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "368.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Assembly (External) Right - General\nVisual Inspection\n551003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "369.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Assembly (External) - Detailed Inspection\n551004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "370.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Assembly (External) - Detailed Inspection\n551005",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "371.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Leading Edge - Polishing\n551108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "372.0",
+          "task": "",
+          "description": "Horizontal Stabilizer Pivot Fitting - Detailed Inspection\n551502",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "373.0",
+          "task": "",
+          "description": "Elevator (External) Left - Detailed Inspection \n552008",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "374.0",
+          "task": "",
+          "description": "Elevator (External) Right - Detailed Inspection \n552009",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "375.0",
+          "task": "",
+          "description": "(Left) Elevator Hinge - Detailed Inspection\n552300",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "376.0",
+          "task": "",
+          "description": "(Right) Elevator Hinge - Detailed Inspection\n552301",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "377.0",
+          "task": "",
+          "description": "Vertical Stabilizer (External) - General Visual Inspection \n553006",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "378.0",
+          "task": "",
+          "description": "Vertical Stabilizer Leading Edge -\nPolishing\n553011",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "379.0",
+          "task": "",
+          "description": "Rudder Assembly Hinge Brackets and Swivel Links - Detailed Inspection\n554001",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-43286 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "380.0",
+          "task": "",
+          "description": "Rudder (External) - Detailed Inspection \n554002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "381.0",
+          "task": "",
+          "description": "Windshield Weather Seals (Humpseal) (Left) - Detailed\nInspection \n561111",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "382.0",
+          "task": "",
+          "description": "Windshield Weather Seals (Humpseal) (Right) - Detailed\nInspection \n561112",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "550.9h",
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "383.0",
+          "task": "",
+          "description": "Primary and Auxiliary Pressure Bulkhead Viewport - Operational Check \n564000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "384.0",
+          "task": "",
+          "description": "Wing (Upper Surface External) from Wtbf to Winglet (Left)\n- Zonal Inspection \n570007",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "385.0",
+          "task": "",
+          "description": "Wing (Upper Surface External) from Wtbf to Winglet\n(Right) - Zonal Inspection \n570008",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "386.0",
+          "task": "",
+          "description": "Wing (Lower Surface External) from Wtbf to Winglet (Left)\n- Zonal Inspection \n570009",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "387.0",
+          "task": "",
+          "description": "Wing (Lower Surface External) from Wtbf to Winglet\n(Right) - Zonal Inspection\n570010",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "388.0",
+          "task": "",
+          "description": "Wing (External) Flaps, Spoilers and Ailerons (Left) - Zonal\nInspection \n570011",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "389.0",
+          "task": "",
+          "description": "Wing (External) Flaps, Spoilers and Ailerons (Right) -\nZonal Inspection \n570012",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "390.0",
+          "task": "",
+          "description": "Wing Tank (Internal) Bl 0 - Rbs 135 (Left) - Detailed\nInspection\n571027",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "391.0",
+          "task": "",
+          "description": "Wing Tank (Internal) Bl 0 - Rbs 135 (Right) - Detailed\nInspection\n571028",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-337 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "392.0",
+          "task": "",
+          "description": "Main Landing Gear Sponsons and Support Fittings (Left) -\nDetailed Inspection \n571031",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "393.0",
+          "task": "",
+          "description": "Main Landing Gear Sponsons and Support Fittings (Right) -\nDetailed Inspection \n571032",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "394.0",
+          "task": "",
+          "description": "Wing Rear Beam Wiring Harness Installation (Left) -\nEnhanced Zonal Inspection \n571200",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "395.0",
+          "task": "",
+          "description": "Wing Rear Beam Wiring Harness Installation (Right) -\nEnhanced Zonal Inspection \n571201",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "396.0",
+          "task": "",
+          "description": "Wing Rear Beam Spar and Aileron (Left) - Zonal\nInspection \n571204",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "397.0",
+          "task": "",
+          "description": "Wing Rear Beam Spar and Aileron (Right) - Zonal\nInspection \n571205",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "398.0",
+          "task": "",
+          "description": "Wing Rear Spar / Flap / Spoiler (Left) - Zonal Inspection \n571206",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "399.0",
+          "task": "",
+          "description": "Wing Rear Spar / Flap / Spoiler (Right) - Zonal Inspection \n571207",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "400.0",
+          "task": "",
+          "description": "Wing Rear Beam Rbs 135.66 - Rbs 441 Hirf/L (Left) -\nDetailed Inspection \n571208",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "401.0",
+          "task": "",
+          "description": "Wing Rear Beam Rbs 135.66 - Rbs 441 Hirf/L (Right) -\nDetailed Inspection \n571209",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "402.0",
+          "task": "",
+          "description": "Winglet Exterior Surfaces (Left) - Zonal Inspection 573206",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "403.0",
+          "task": "",
+          "description": "Winglet Exterior Surfaces (Right) - Zonal Inspection \n573207",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44016 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "404.0",
+          "task": "",
+          "description": "Wing Leading Edge (Left) - Polishing\n574010",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "405.0",
+          "task": "",
+          "description": "Wing Leading Edge (Right) - Polishing\n574011",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "406.0",
+          "task": "",
+          "description": "Wing Leading Edge and Gap Bands (External) (Left) -\nZonal Inspection \n574026",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "407.0",
+          "task": "",
+          "description": "Wing Leading Edge and Gap Bands (External) (Right) -\nZonal Inspection \n574027",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "408.0",
+          "task": "",
+          "description": "Flap Upper Surface (Left) - Detailed Inspection \n575301",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "409.0",
+          "task": "",
+          "description": "Flap Upper Surface (Right) - Detailed Inspection \n575302",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "410.0",
+          "task": "",
+          "description": "Nacelle, T/Rev and Exhaust External (Left, Viewed from\nPlatform) - Zonal Inspection\n710035",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "2350.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "411.0",
+          "task": "",
+          "description": "Nacelle, T/Rev and Exhaust External (Right, Viewed from\nPlatform) - Zonal Inspection \n710036",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "2350.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "414.0",
+          "task": "",
+          "description": "Engine Internal (Left) - Zonal Inspection \n711002",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "415.0",
+          "task": "",
+          "description": "Engine Internal (Right) - Zonal Inspection \n711003",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "418.0",
+          "task": "",
+          "description": "Inlet Cowl Lipskin (Left) - Nonabrasive\nPolish\n711108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "419.0",
+          "task": "",
+          "description": "Inlet Cowl Lipskin (Right) - Nonabrasive\nPolish\n711109",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46026 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "422.0",
+          "task": "",
+          "description": "No. 1 Engine - Drains Tubes and Fittings - Detailed\nInspection \n717108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "423.0",
+          "task": "",
+          "description": "No. 2 Engine - Drains Tubes and Fittings - Detailed\nInspection \n717108",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "426.0",
+          "task": "",
+          "description": "No. 1 Engine - Variable Stator Vane Actuating Mechanism\n- Functional Check\n723334",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "427.0",
+          "task": "",
+          "description": "No. 2 Engine - Variable Stator Vane Actuating Mechanism\n- Functional Check\n723334",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "428.0",
+          "task": "",
+          "description": "No. 1 Engine - Variable Stator Vane Actuation Mechanism\n- Lubrication \n723335",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "429.0",
+          "task": "",
+          "description": "No. 2 Engine - Variable Stator Vane Actuation Mechanism\n- Lubrication \n723335",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "1150.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "436.0",
+          "task": "",
+          "description": "T/Rev and Exhaust Internal (Left) - Zonal Inspection\n783112",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "2350.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "437.0",
+          "task": "",
+          "description": "T/Rev and Exhaust Internal (Right) - Zonal Inspection\n783113",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "2350.9h",
+          "dueDaysStr": "-44746 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
+          "id": "448.0",
+          "task": "",
+          "description": "Anual Inspection (CVA)",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45840 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "450.0",
+          "task": "",
+          "description": "C of A Revalidation\n258000",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-276 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "451.0",
+          "task": "",
+          "description": "VOR CHECK\nFAR 91.171\n345004",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46176 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "452.0",
+          "task": "",
+          "description": "ELT inspection\nFAR 91.207\n256306",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "453.0",
+          "task": "",
+          "description": "ELT register\n406 MHz\n58C7C93CA2FFBFF\n256312",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "454.0",
+          "task": "",
+          "description": "WEIGHT AND BALANCE",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44379 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "455.0",
+          "task": "",
+          "description": "Certificate of Insurance\nRETA",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-594 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "456.0",
+          "task": "",
+          "description": "Certificate of Insurance\nAIRFRAME",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "457.0",
+          "task": "",
+          "description": "TRAXXALL subscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-44379 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "458.0",
+          "task": "",
+          "description": "Gulfstream publication subscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-652 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "459.0",
+          "task": "",
+          "description": "G650ER-PlaneBook \nSoftware-App\nsubscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "460.0",
+          "task": "",
+          "description": "Rolls-Royce engine publications subscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "462.0",
+          "task": "",
+          "description": "FMS data renewal",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "463.0",
+          "task": "",
+          "description": "Jeppesen Charts subscription",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "464.0",
+          "task": "",
+          "description": "Honeywell FORGE",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "466.0",
+          "task": "",
+          "description": "LAUDO PBN",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "469.0",
+          "task": "",
+          "description": "LAUDO RVSM",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45476 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "472.0",
+          "task": "",
+          "description": "OVERFLIGHT EXEMPTION LETTER",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45475 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "473.0",
+          "task": "",
+          "description": "CPB DECAL",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "475.0",
+          "task": "",
+          "description": "ANATEL TAX",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "2.0",
+          "task": "AD 2003-26-14",
+          "description": "Hand-Held Halon Fire Extinguishers\n(P/N: 898052)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3.0",
+          "task": "AD 2011-21-08",
+          "description": "Slcma Aero Seat 88xx. 89xx, 90xx, 91xx. 92xx. 93xx, 95xx,\nand 96xx series passenger seat assemblies",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "4.0",
+          "task": "AD 2012-02-08",
+          "description": "Aviation Communication & Surveillance Systems (ACSS),\nTraffic Alert and Collision Avoidance System (TCAS) Units",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "5.0",
+          "task": "AD 2012-08-07",
+          "description": "Sicma Aero Seats, Model 9401, 9402, 9404, 9405, 9406,\n9407, 9408, and 9409 series passenger seat assemblies",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "6.0",
+          "task": "AD 2012-11-09 R1",
+          "description": "Various Transport Category Airplanes",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "7.0",
+          "task": "AD 2012-14-15",
+          "description": "Model KGS200 Mercury2 wide area augmentation system (WAAS)\nglobal navigation satellite sensor units (GNSSU)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "8.0",
+          "task": "AD 2012-17-01",
+          "description": "Goodyear Aviation Tires",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "9.0",
+          "task": "AD 2012-26-15",
+          "description": "Honeywell International Inc. Air Data Pressure \nTransducers",
+          "pn": "ADM/ADC/ADAHRS-34-A01",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "10.0",
+          "task": "AD 2012-26-15 R1",
+          "description": "HONEYWELL INTERNATIONAL INC. AIR DATA PRESSURE TRANSDUCERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "11.0",
+          "task": "AD 2013-18-09",
+          "description": "Honeywell ASCa Inc. EL Ts",
+          "pn": "ADM/ADC/ADAHRS-34-A01",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "12.0",
+          "task": "AD 2014-05-27",
+          "description": "ROCKWELL COLLINS, INC. TRANSPONDERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "13.0",
+          "task": "AD 2014-17-02",
+          "description": "HONEYWELL ASCA INC. EMERGENCY LOCATOR TRANSMITTERS INSTALLED ON VARIOUS TRANSPORT CATEGORY AIRPLANES",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "14.0",
+          "task": "AD 2014-18-01",
+          "description": "ROCKWELL COLLINS, INC. TRANSPONDERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "15.0",
+          "task": "AD 2014-20-11",
+          "description": "ZODIAC SEATS FRANCE (FORMERLY SICMA AERO SEAT) PASSENGER SEAT ASSEMBLIES",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "16.0",
+          "task": "AD 2015-08-07",
+          "description": "Oxygen - Oxygen Mask Regulator Inflatable Harness - Identification / Replacement",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "17.0",
+          "task": "AD 2015-10-02",
+          "description": "Zodiac Seats France (formerly Sicma Aero Seat):",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "18.0",
+          "task": "AD 2015-10-51",
+          "description": "Avydine Integrated Flight Displays",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "19.0",
+          "task": "AD 2015-16-04",
+          "description": "Kiddie Graviner hand-operated fire extinguishers",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "20.0",
+          "task": "AD 2015-23-09",
+          "description": "Zodiac Aerotechnics Flightcrew Oxygen Mask Regulators",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "21.0",
+          "task": "AD 2015-24-06",
+          "description": "AD 2015-24-06",
+          "pn": "Alert Customer\nBulletin 4A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "22.0",
+          "task": "AD 2016-11-20",
+          "description": "B/E Aerospace Protective Breathing Equipment Part Number 119003-11",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "23.0",
+          "task": "AD 2016-18-11",
+          "description": "MLG actuator end cap fitting",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "24.0",
+          "task": "AD 2017-04-06",
+          "description": "United Instruments, Inc. 5934 series altimeters",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "25.0",
+          "task": "AD 2017-09-09",
+          "description": "Zodiac Seats California LLC",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "26.0",
+          "task": "AD 2017-11-11",
+          "description": "NavWorx, Inc.,\nAutomatic Dependent Surveillance-Broadcast (ADS-B)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "27.0",
+          "task": "AD 2017-16-01",
+          "description": "AMERI-KING CORPORATION EMERGENCY LOCATOR TRANSMITTERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "28.0",
+          "task": "AD 2017-18-12",
+          "description": "B/E AEROSPACE PROTECTIVE BREATHING EQUIPMENT PART NUMBER 119003-11 AND PART NUMBER 119003-21",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "29.0",
+          "task": "FAA AD 2017-19-05",
+          "description": "FAA AD 2017-19-05 - SIEMENS S.A.S. SMOKE DETECTORS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "30.0",
+          "task": "FAA AD 2017-22-02",
+          "description": "lpeco Holdings Ltd.",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "31.0",
+          "task": "FAA AD 2017-22-14",
+          "description": "Rockwell Collins, Inc. TSSA-4100 Field Loadable Software",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "32.0",
+          "task": "FAA AD 2018-03-04",
+          "description": "Rosemount Aerospace, Inc",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "33.0",
+          "task": "FAA AD 2018-16-13",
+          "description": "Zodiac Seats France (formerly SICMA Aero Seat):",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "34.0",
+          "task": "AD 2018-19-15",
+          "description": "GEVEN S.p.A Seats:",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "35.0",
+          "task": "AD 2018-21-14",
+          "description": "ZODIAC AEROTECHNICS OXYGEN MASK REGULATORS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "36.0",
+          "task": "AD 2018-23-01",
+          "description": "Zodiac Seats France (formerly SICMA Aero Seat):",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "37.0",
+          "task": "AD 2018-23-12",
+          "description": "Zodiac Aero Evacuation Systems (also known as Air\nCruisers Company):",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "38.0",
+          "task": "AD 2019-01-02",
+          "description": "Aspen Avionics, Inc.",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "39.0",
+          "task": "AD 2019-07-03",
+          "description": "Zodiac Seats France (formerly SICMA Aero Seat)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "40.0",
+          "task": "AD 2019-07-10",
+          "description": "Northrop Grumman LITEF GmbH LCR-100 Attitude and Heading Reference System",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "41.0",
+          "task": "AD 2019-08-01",
+          "description": "RECARO Aircraft Seating GmbH & Co. KG:",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "42.0",
+          "task": "AD 2019-12-09",
+          "description": "ROCKWELL COLLINS) FLIGHT DISPLAY SYSTEM APPLICATION FDSA-6500",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "43.0",
+          "task": "AD 2019-13-03",
+          "description": "TRIG AVIONICS LIMITED TRANSPONDERS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "44.0",
+          "task": "AD 2019-15-10",
+          "description": "SAFRAN AEROSYSTEMS LIFE JACKETS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "45.0",
+          "task": "AD 2019-20-08",
+          "description": "FLIGHT CONTROLS - REVISING THE MAINTENANCE OR INSPECTION PROGRAM",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "46.0",
+          "task": "AD 2019-21-09",
+          "description": "EQUIPMENT / FURNISHINGS - LIFE\nVEST POUCH - INSPECTION /\nREPLACEMENT",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "48.0",
+          "task": "AD 2020-08-02",
+          "description": "NAVIGATION - THALES AVS FRANCE\nSAS - GLOBAL NAVIGATION SATELLITE\nSYSTEM - OPERATIONAL LIMITATIONS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "49.0",
+          "task": "AD 2020-10-05",
+          "description": "ROCKWELL COLLINS, INC. FLIGHT MANAGEMENT SYSTEMS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "50.0",
+          "task": "AD 2020-18-51",
+          "description": "BENDIX ATTITUDE INDICATORS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "51.0",
+          "task": "AD 2020-21-02",
+          "description": "KIDDE AEROSPACE & DEFENSE CARGO FIRE EXTINGUISHER",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "52.0",
+          "task": "AD 2021-05-17",
+          "description": "ROCKWELL COLLINS, INC. FLIGHT DISPLAY SYSTEM APPLICATION",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "53.0",
+          "task": "AD 2021-07-13",
+          "description": "PACIFIC SCIENTIFIC COMPANY SEAT RESTRAINT SYSTEM ROTARY BUCKLE ASSEMBLIES",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "54.0",
+          "task": "AD 2021-08-07",
+          "description": "ROCKWELL COLLINS, INC., GLOBAL POSITIONING SYSTEMS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "55.0",
+          "task": "AD 2021-08-15",
+          "description": "GARMIN INTERNATIONAL GMN-00962 GTS PROCESSOR UNITS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "56.0",
+          "task": "AD 2021-22-07",
+          "description": "FIRE\nPROTECTION - HAND-OPERATED FIRE\nEXTINGUISHERS - INSPECTION /",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "57.0",
+          "task": "AD 2021-23-12",
+          "description": "INDICATING/RECORDING SYSTEM, NAVIGATION - RADIO ALTIMETER (TRANSPORT AND COMMUTER CATEGORY AIRPLANES)",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "58.0",
+          "task": "AD 2022-01-03",
+          "description": "FIRE\nPROTECTION - HAND-HELD FIRE\nEXTINGUISHERS - REPLACEMENT",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "59.0",
+          "task": "AD 2022-04-09",
+          "description": "AVOX Systems Inc. (formerly Scott Aviation) oxygen cylinder and valve\nassemblies",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "63.0",
+          "task": "AD 2023-12-25",
+          "description": "EQUIPMENT / FURNISHINGS -\nSURVITEC GROUP LIMITED (RFD\nBEAUFOT LTD.) TYPE 102 MK 3, 102 MK\n4 AND TYPE 105 MK 1 LIFE JACKETS -",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "64.0",
+          "task": "AD 2023-13-11",
+          "description": "AVOX SYSTEMS INC. - Oxygen Cylinder and Valve Assemblies - Inspection / Replacement",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "66.0",
+          "task": "AD 2023-21-05",
+          "description": "THALES AVS FRANCE SAS FLIGHT MANAGEMENT COMPUTER NAVIGATION MODULES",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "73.0",
+          "task": "DA 2012-08-04",
+          "description": "GERADOR QUÍMICO DE OXIGÊNIO",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "74.0",
+          "task": "DA 2024-04-01",
+          "description": "REVISÃO DO AFM - INTERFERÊNCIA DO 5G",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-92412 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "75.0",
+          "task": "DA 2024-05-08",
+          "description": "PARTES OU COMPONENTES SEM RASTREABILIDADE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "191.0",
+          "task": "111",
+          "description": "Flight Controls (ATA 27) – Remote ElectronicsUnit (REU) Software Label 41 – Update (ASC006)",
+          "pn": "111",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-92412 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "199.0",
+          "task": "ASC 005",
+          "description": "AD",
+          "pn": "ASC 005",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "200.0",
+          "task": "ASC 006",
+          "description": "AD",
+          "pn": "ASC 006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "201.0",
+          "task": "ASC 007",
+          "description": "AD",
+          "pn": "ASC 007",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "205.0",
+          "task": "ASC 012A",
+          "description": "AD",
+          "pn": "ASC 012A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "207.0",
+          "task": "ASC 014A",
+          "description": "AD",
+          "pn": "ASC 014A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "222.0",
+          "task": "ASC 030",
+          "description": "AD",
+          "pn": "ASC 030",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "223.0",
+          "task": "ASC 031",
+          "description": "AD",
+          "pn": "ASC 031",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "235.0",
+          "task": "ASC 047A",
+          "description": "AD",
+          "pn": "ASC 047A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "239.0",
+          "task": "ASC 052",
+          "description": "AD",
+          "pn": "ASC 052",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2.0",
+          "task": "CF-2025-71",
+          "description": "Time Limits/Maintenance Checks (TLMC) – New Airworthiness Limitations",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "3.0",
+          "task": "CF-2023-73",
+          "description": "Time Limits/Maintenance Checks (TLMC) – New Airworthiness Limitations",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "4.0",
+          "task": "CF-2025-71",
+          "description": "Time Limits/Maintenance Checks (TLMC) – New Airworthiness Limitations",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    },
+    "PS-JAJ": {
+      "info": {
+        "model": "EMBRAER PRAETOR 600",
+        "totalHours": 1568.3,
+        "totalLandings": 835.0,
+        "registration": "PS-JAJ",
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "380.0",
+          "task": "",
+          "description": "Cheque VOR\nFAR 91.171\n34 VOR-01",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "390.0",
+          "task": "",
+          "description": "Assinaturas \nPublicações\nEMBRAER",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-429 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "392.0",
+          "task": "",
+          "description": "Assinaturas \nAtualização FMS",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46205 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "393.0",
+          "task": "",
+          "description": "Assinatura \nCartas Jeppesen",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-45841 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "401.0",
+          "task": "",
+          "description": "Normal Parking",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-15 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "402.0",
+          "task": "",
+          "description": "Prolonged Parking\nShort Out-of-Operation Time",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "403.0",
+          "task": "",
+          "description": "Prolonged Parking\nLong Out-of-Operation Time",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "404.0",
+          "task": "",
+          "description": "Engine perservation\n0 to 7 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-22 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "405.0",
+          "task": "",
+          "description": "Engine perservation\n7 to 28 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "406.0",
+          "task": "",
+          "description": "Engine perservation\n28 to 90 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "61 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "407.0",
+          "task": "",
+          "description": "Engine perservation\nmore than 90 days",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "61 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "849.0",
+          "task": "FAA AD 2025-26-06\nEASA AD 2025-0222",
+          "description": "ATA 35 – OXYGEN – PORTABLE BREATHING EQUIPMENT – OPERATIONAL INSTRUCTIONS",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46345 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "850.0",
+          "task": "FAA AD 2026-03-09\nAD 2025-0297 R1",
+          "description": "ATA 35 – OXYGEN – PORTABLE BREATHING EQUIPMENT – REMOVAL FROM SERVICE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "850.0",
+          "task": "FAA AD 2026-08-52\nDA 2026-04-02",
+          "description": "PITCH TRIM ACTUATOR",
+          "pn": "550-27-0011",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "872.0",
+          "task": "AD 2025-0297 R1",
+          "description": "ATA 35 – OXYGEN – PORTABLE BREATHING EQUIPMENT – REMOVAL FROM SERVICE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "878.0",
+          "task": "550-00-0009 R7",
+          "description": "GENERAL· RECONFIGURATION FROM FAA TO ANAC (KG)",
+          "pn": "550-00-0009 R7",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "882.0",
+          "task": "550-21-0006",
+          "description": "AIR CONDITIONING - EMERGENCY RAM-AIR DUCT ASSEMBLY - REWORK",
+          "pn": "550-21-0006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "899.0",
+          "task": "550-25-0081",
+          "description": "EQUIPMENT/FURNISHINGS - PILOT AND COPILOT SEATS - OUTBOARD ARMPAD STOP DESIGN IMPROVEMENT",
+          "pn": "550-25-0081",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46274 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "928.0",
+          "task": "550-34-0018 R4",
+          "description": "NAVIGATION • IRS . INERTIAL \nREFERENCE SYSTEM INSTALLATION",
+          "pn": "550-34-0018 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "935.0",
+          "task": "550-34-0030 R1",
+          "description": "NAVIGATION - TRANSPONDER TSS-4100 REPLACEMENT",
+          "pn": "550-34-0030 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "936.0",
+          "task": "550-34-0031",
+          "description": "NAVIGATION - INERTIAL REFERENCE SYSTEM (IRS) - INSTALLATION IN THE FWD E-BAY",
+          "pn": "550-34-0031",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "937.0",
+          "task": "550-34-0032",
+          "description": "NAVIGATION - AHRS'S IDM - REPLACEMENT",
+          "pn": "550-34-0032",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "938.0",
+          "task": "550-34-0035",
+          "description": "NAVIGATION - SOFTWARE UPDATE OF GLOBAL POSITIONING SYSTEM RECEIVERS",
+          "pn": "550-34-0035",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46280 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "952.0",
+          "task": "550-42-0020 R2",
+          "description": "INTEGRATED MODULAR AVIONICS - LOAD 7.1 VERSION FOR PRO LINE FUSION FIELD-LOADABLE SOFTWARE SYSTEM",
+          "pn": "550-42-0020 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "954.0",
+          "task": "550-44-0007",
+          "description": "AD",
+          "pn": "550-44-0007",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1.0",
+          "task": "SB AS907-72-9001 R06",
+          "description": "AD",
+          "pn": "SB AS907-72-9001 R06",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "2.0",
+          "task": "SB AS907-72-9070",
+          "description": "AD",
+          "pn": "SB AS907-72-9070",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "4.0",
+          "task": "ENGINE LH",
+          "description": "ENGINE - SERVICING - Reduce Time Interval for Oil Filter Replacement or Engine Fault Diagnostic Data\n(EEI) Download to Provide Enhanced Monitoring of Aft Sump Components",
+          "pn": "SB AS907-72-9084 R03",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46207 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "5.0",
+          "task": "SB AS907-72-9086",
+          "description": "AD",
+          "pn": "SB AS907-72-9086",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "7.0",
+          "task": "AS907-72-9091",
+          "description": "AD",
+          "pn": "AS907-72-9091",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "8.0",
+          "task": "AS907-72-9092",
+          "description": "AD",
+          "pn": "AS907-72-9092",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "10.0",
+          "task": "AS907-72-9094",
+          "description": "AD",
+          "pn": "AS907-72-9094",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "11.0",
+          "task": "AS907-72-9095",
+          "description": "AD",
+          "pn": "AS907-72-9095",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "12.0",
+          "task": "AS907-72-9096",
+          "description": "AD",
+          "pn": "AS907-72-9096",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "13.0",
+          "task": "AS907-72-9103",
+          "description": "AD",
+          "pn": "AS907-72-9103",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "14.0",
+          "task": "AS907-72-9106",
+          "description": "ENGINE - HIGH PRESSURE TURBINE SECTION - INSTALL IMPROVED HIGH PRESSURE TURBINE ROTATING INTERSTAGE SEAL, PN 70041752-1 OR PN 70041752-2, OR HIGH PRESSURE TURBINE STAGE 2 ROTOR ASSEMBLY, PN 3035135-8 ON AS907 MODEL ENGINES:",
+          "pn": "AS907-72-9106",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "15.0",
+          "task": "AS907-72-9113",
+          "description": "AD",
+          "pn": "AS907-72-9113",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "21.0",
+          "task": "AS907-76-9032",
+          "description": "AD",
+          "pn": "AS907-76-9032",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "22.0",
+          "task": "AS907-76-9034",
+          "description": "ENGINE CONTROLS - INSTALL SILICONE RUBBER SELF-FUSING TAPE TO SURGE BLEED VALVE ELECTRICAL CONNECTORS ON AS907 MODEL ENGINES",
+          "pn": "AS907-76-9034",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "24.0",
+          "task": "SB AS907-72-9001 R06",
+          "description": "AD",
+          "pn": "SB AS907-72-9001 R06",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "25.0",
+          "task": "SB AS907-72-9070",
+          "description": "AD",
+          "pn": "SB AS907-72-9070",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "27.0",
+          "task": "ENGINE RH",
+          "description": "ENGINE - SERVICING - Reduce Time Interval for Oil Filter Replacement or Engine Fault Diagnostic Data\n(EEI) Download to Provide Enhanced Monitoring of Aft Sump Components",
+          "pn": "SB AS907-72-9084 R03",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46207 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "28.0",
+          "task": "SB AS907-72-9086",
+          "description": "AD",
+          "pn": "SB AS907-72-9086",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "30.0",
+          "task": "AS907-72-9091",
+          "description": "AD",
+          "pn": "AS907-72-9091",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "31.0",
+          "task": "AS907-72-9092",
+          "description": "AD",
+          "pn": "AS907-72-9092",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "33.0",
+          "task": "AS907-72-9094",
+          "description": "AD",
+          "pn": "AS907-72-9094",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "34.0",
+          "task": "AS907-72-9095",
+          "description": "AD",
+          "pn": "AS907-72-9095",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "35.0",
+          "task": "AS907-72-9096",
+          "description": "AD",
+          "pn": "AS907-72-9096",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "36.0",
+          "task": "AS907-72-9103",
+          "description": "AD",
+          "pn": "AS907-72-9103",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "37.0",
+          "task": "AS907-72-9106",
+          "description": "ENGINE - HIGH PRESSURE TURBINE SECTION - INSTALL IMPROVED HIGH PRESSURE TURBINE ROTATING INTERSTAGE SEAL, PN 70041752-1 OR PN 70041752-2, OR HIGH PRESSURE TURBINE STAGE 2 ROTOR ASSEMBLY, PN 3035135-8 ON AS907 MODEL ENGINES:",
+          "pn": "AS907-72-9106",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "38.0",
+          "task": "AS907-72-9113",
+          "description": "AD",
+          "pn": "AS907-72-9113",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "44.0",
+          "task": "AS907-76-9032",
+          "description": "AD",
+          "pn": "AS907-76-9032",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "45.0",
+          "task": "AS907-76-9034",
+          "description": "ENGINE CONTROLS - INSTALL SILICONE RUBBER SELF-FUSING TAPE TO SURGE BLEED VALVE ELECTRICAL CONNECTORS ON AS907 MODEL ENGINES",
+          "pn": "AS907-76-9034",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1206.0",
+          "task": "SB 36-49-8116 R3",
+          "description": "AD",
+          "pn": "SB 36-49-8116 R3",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1208.0",
+          "task": "36-49-8255",
+          "description": "AD",
+          "pn": "36-49-8255",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1211.0",
+          "task": "36-49-8370 R1",
+          "description": "AD",
+          "pn": "36-49-8370 R1",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1215.0",
+          "task": "3880021-49-8206",
+          "description": "AD",
+          "pn": "3880021-49-8206",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1216.0",
+          "task": "3880021-49-8230",
+          "description": "AD",
+          "pn": "3880021-49-8230",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1221.0",
+          "task": "GTCP36-49-8227",
+          "description": "AD",
+          "pn": "GTCP36-49-8227",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1223.0",
+          "task": "GTCP36-49-8402 R1",
+          "description": "AIRBORNE AUXILIARY POWER - GAS TURBINE ENGINE - REPLACE SPRING WASHER PN S9479-45N WITH PN S9479-73 ON THE 36-150 AUXILIARY POWER UNIT (APU)",
+          "pn": "GTCP36-49-8402 R1",
+          "sheet": "DIR APU",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    },
+    "PS-STP": {
+      "info": {
+        "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
+        "registration": "PS-STP",
+        "totalHours": null,
+        "totalLandings": null,
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "1174.0",
+          "task": "AD 2016-01-12 \nCF-2014-25",
+          "description": "Doors - Fuel Ingress into Aft Equipment Bay",
+          "pn": "700-52-5007",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1177.0",
+          "task": "AD 2016-15-03 \nCF-2015-03",
+          "description": "DOORS - PASSENGER DOOR EXTERNAL HANDLE DETENT SEIZURE",
+          "pn": "700-52-5008 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1187.0",
+          "task": "AD 2018-21-03\nAD CF-2017-31",
+          "description": "Fuselage - Replacement of Attachments for Belly Fairing Access Panels",
+          "pn": "700-53-5009 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1193.0",
+          "task": "AD 2020-02-15\nCF-2019-18",
+          "description": "Oxygen System – Insufficient Accessibility to the Portable Oxygen Bottle",
+          "pn": "SB 700-35-5003 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "",
+          "task": "700-53-5011",
+          "description": "Modification - Aft Fuselage - Replacement and Reinforcement of the Rudder Quadrant Box Assembly Half Ribs",
+          "pn": "700-53-5011",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-47023 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1231.0",
+          "task": "FAA AD 2025-12-01\nCF-2024-27",
+          "description": "ATA 27 – FLIGHT CONTROLS – INCORRECT AIRPLANE FLIGHT MANUAL APPROACH SPEED ADDER AND LANDING DISTANCE FACTORS FOR SLAT-FLAP FAIL CAUTION MESSAGE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1237.0",
+          "task": "FAA AD 2026-08-04\nCF-2025-53",
+          "description": "FLIGHT CONTROLS – INCORRECT AIRPLANE FLIGHT MANUAL (AFM) APPROACH SPEED ADDER AND LANDING DISTANCE FACTORS FOR SLAT FAIL (CAUTION) CREW-ALERTING SYSTEM (CAS) MESSAGE NON-NORMAL PROCEDURE",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1238.0",
+          "task": "FAA AD 2026-09-18 \nCF-2025-28",
+          "description": "Baggage Doorstop Fittings – Improperly Torqued Bolts",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1239.0",
+          "task": "FAA AD 2026-11-07\nCF-2025-41",
+          "description": "Equipment/Furnishings – Seats – Missing Loctite",
+          "pn": "",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1354.0",
+          "task": "700-00-5005 R1",
+          "description": "APM FILES AND TAWS ALTITUDE CALLOUT (TPM_CSO) MODIFICATION REQUESTFORM",
+          "pn": "700-00-5005 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1362.0",
+          "task": "700-23-5029",
+          "description": "MODIFICATION – SATELLITE DATA UNIT –\nSDU-2200-2 SATELLITE DATA UNIT UPDATE",
+          "pn": "700-23-5029",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1371.0",
+          "task": "700-24-5016",
+          "description": "SPECIAL CHECK/MODIFICATION – PRIMARY AC-POWER SUPPLY – INTRODUCTION OF PRESSURE RELIEF MECHANISM (PRM) TO VARIABLE\nFREQUENCY GENERATOR (VFG)",
+          "pn": "700-24-5016",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1372.0",
+          "task": "700-24-5017 R1",
+          "description": "SPECIAL CHECK – SCHEDULING REPLACEMENT OF\nGENERATOR CONTROL UNIT (GCU) PART NO. GL511-3106-1 WITH CONFIRMATION\nOF FAULT CODE 65 PRESENCE",
+          "pn": "700-24-5017 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1380.0",
+          "task": "700-25-5017 R2",
+          "description": "MODIFICATION – FLIGHT COMPARTMENT –\nINSTALLATION OF EFB TABLET HOLDER AND SMART CHARGER\n(BOMBARDIER INC. STC)",
+          "pn": "700-25-5017 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1382.0",
+          "task": "700-25-5021 R2",
+          "description": "MODIFICATION – MISCELLANEOUS EQUIPMENT – REPLACEMENT OF THE AIRSTAIR ANTI-SLIP MAT",
+          "pn": "700-25-5021 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1383.0",
+          "task": "700-25-5022 R3",
+          "description": "MODIFICATION – EMERGENCY LOCATOR SYSTEM – INTRODUCTION OF THE DK180 LOW FREQUENCY (8.8KHZ) UNDERWATER LOCATOR DEVICE (BOMBARDIER INC. STC)",
+          "pn": "700-25-5022 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1386.0",
+          "task": "700-25-5030 R1",
+          "description": "MODIFICATION - PASSENGER COMPARTMENT -\nREPLACEMENT OF WIRE STRIKER ON CABINETS",
+          "pn": "700-25-5030 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1387.0",
+          "task": "700-25-5033",
+          "description": "MODIFICATION – FLIGHT CREW SEATS – REPLACEMENT OF COCKPIT ROLLER SHADE ASSEMBLY",
+          "pn": "700-25-5033",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1388.0",
+          "task": "700-25-5034",
+          "description": "SPECIAL CHECK/MODIFICATION – GENERAL – INSPECT THE FLEXIBLE OXYGEN\nHOSE ROUTING OF THIRD CREW OXYGEN MASK AND ORIENTATION CHANGE OF\nRAIL KEEPER PIN",
+          "pn": "700-25-5034",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1389.0",
+          "task": "700-25-5037 R1",
+          "description": "MODIFICATION – EMERGENCY LOCATOR SYSTEM – ACTIVATION OF EMERGENCY LOCATOR TRANSMITTER WITH DISTRESS TRACKING (ELT-DT)",
+          "pn": "700-25-5037 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1393.0",
+          "task": "700-26-5004 R1",
+          "description": "MODIFICATION – PORTABLE FIRE EXTINGUISHERS –\nINSTALLATION OF COCKPIT NON-HALON FIRE EXTINGUISHER",
+          "pn": "700-26-5004 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1394.0",
+          "task": "700-26-5005 R4",
+          "description": "MODIFICATION – FIRE EXTINGUISHING SYSTEM – INSTALLATION OF NON-HALON FIRE EXTINGUISHER",
+          "pn": "700-26-5005 R4",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1399.0",
+          "task": "700-27-5020",
+          "description": "MODIFICATION – SPOILERS – REPLACEMENT OF ROLL CONTROL INPUT-MODULE (RCIM), DRIVING ARM AND INSTALLATION OF INDEXING PLATE",
+          "pn": "700-27-5020",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1400.0",
+          "task": "700-27-5021",
+          "description": "MODIFICATION – LEADING EDGE SLAT-SYSTEM –\nREPLACEMENT OF SLAT NO. 1 AND SLAT NO. 2 ACTUATOR COVER ANGLES",
+          "pn": "700-27-5021",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1407.0",
+          "task": "700-29-5011",
+          "description": "SPECIAL CHECK/MODIFICATION – NO. 3 HYDRAULIC SYSTEM – CLEARANCE IMPROVEMENT FOR NO. 3 HYDRAULIC LINES",
+          "pn": "700-29-5011",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1411.0",
+          "task": "700-31-5005 R2",
+          "description": "MODIFICATION – QUICK ACCESS RECORDER SYSTEM – INTRODUCTION OF A QUICK ACCESS RECORDER (QAR)",
+          "pn": "700-31-5005 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1421.0",
+          "task": "700-32-5022",
+          "description": "AD",
+          "pn": "700-32-5022",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46243 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1423.0",
+          "task": "700-34-5003 R6",
+          "description": "MODIFICATION – SYNTHETIC VISION SYSTEM – INSTALLATION OF A SECOND SYNTHETIC VISION SYSTEM",
+          "pn": "700-34-5003 R6",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1431.0",
+          "task": "700-34-5020 R3",
+          "description": "MODIFICATION – TERRAIN AWARENESS AND WARNING SYSTEM (TAWS) – CCM CSO DATABASE CHANGE FOR MODE 6 AURAL WARNINGS +6DB VOLUME\nINCREASE",
+          "pn": "700-34-5020 R3",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1439.0",
+          "task": "700-34-5031",
+          "description": "MODIFICATION – AUTOMATIC DEPENDENT SURVEILLANCE BROADCAST –\nINTRODUCTION OF THE ADS-B IN / CDTI OPTION",
+          "pn": "700-34-5031",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1440.0",
+          "task": "700-34-5032 R1",
+          "description": "MODIFICATION – WEATHER RADAR SYSTEM – INTRODUCTION OF THE PREDICTIVE WINDSHEAR OPTION",
+          "pn": "700-34-5032 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1441.0",
+          "task": "700-34-5033",
+          "description": "MODIFICATION – WEATHER RADAR SYSTEM – INTRODUCTION OF THE VERTICAL WEATHER OPTION",
+          "pn": "700-34-5033",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1442.0",
+          "task": "700-34-5034",
+          "description": "MODIFICATION – SURFACE MANAGEMENT SYSTEM (SMS) – INTRODUCTION OF\nTHE AIRPORT MOVING MAP (AMM) AND THE SYNTHETIC VISION SYSTEM (SVS)\nTAXI MODE OPTION",
+          "pn": "700-34-5034",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1443.0",
+          "task": "700-34-5035",
+          "description": "MODIFICATION – NAVIGATION – INTRODUCTION OF THE COMBINED VISION SYSTEM (CVS) OPTION",
+          "pn": "700-34-5035",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1445.0",
+          "task": "700-34-5039 R1",
+          "description": "SPECIAL CHECK/MODIFICATION – GLOBAL POSITIONING SYSTEM (GPS) –\nINTRODUCTION OF NEW GPS-4000S PART NUMBER 822-2189-102",
+          "pn": "700-34-5039 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1446.0",
+          "task": "700-34-5040 R1",
+          "description": "MODIFICATION – GENERAL – IMPLEMENTATION OF GLOBAL VISION FLIGHT\nDECK AVIONICS SOFTWARE VERSION 5.9",
+          "pn": "700-34-5040 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1452.0",
+          "task": "700-35-5006",
+          "description": "MODIFICATION – CREW –\nREPLACEMENT OF COCKPIT OXYGEN SUPPLY TEE-FITTING AND NIPPLE",
+          "pn": "700-35-5006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1454.0",
+          "task": "700-38-5006",
+          "description": "WATER TREATMENT UNIT (WTU) – STLMC UPDATE FOR THE RESTORATION OF POTABLE WATER TREATMENT UNIT (WTU)",
+          "pn": "700-38-5006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1455.0",
+          "task": "700-44-5014",
+          "description": "MODIFICATION – CABIN SYSTEMS – INSTALLATION OF COVER ON THE IPOD WIRELESS PASSENGER CONTROL UNIT (WPCU) CRADLE ASSEMBLY AND DEACTIVATION OF WPCU CHARGING PORT",
+          "pn": "700-44-5014",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1456.0",
+          "task": "700-45-5002",
+          "description": "MODIFICATION–GENERAL–PORTABLE MAINTENANCE-ACCESS TERMINAL (PMAT) UPDATE TO SMART PMAT IMAGE H",
+          "pn": "700-45-5002",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1457.0",
+          "task": "700-45-5003",
+          "description": "\tSB 700-45-5003 - MODIFICATION – GENERAL – ONBOARD MAINTENANCE SYSTEM TABLE (OMST) UPDATE POST V5.5 AND V5.8",
+          "pn": "700-45-5003",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1458.0",
+          "task": "700-45-5004",
+          "description": "MODIFICATION - GENERAL - PORTABLE MAINTENANCE-ACCESS TERMINAL (PMAT) UPGRADE TO WINDOWS 11",
+          "pn": "700-45-5004",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1463.0",
+          "task": "700-46-5009 R1",
+          "description": "MODIFICATION - AIRCRAFT HEALTH\nMANAGEMENT SYSTEM (AHMS) - INSTALLATION OF THE LEARJET INC. STC\nAIRCRAFT HEALTH MANAGEMENT SYSTEM (5000)",
+          "pn": "700-46-5009 R1",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1464.0",
+          "task": "700-46-5010",
+          "description": "MODIFICATION – XM GRAPHIC WEATHER SYSTEM – INTRODUCTION OF THE SIRIUS XM (SXM) WEATHER RECEIVER OPTION",
+          "pn": "700-46-5010",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1475.0",
+          "task": "700-56-5002 R2",
+          "description": "MODIFICATION – ELECTRIC WINDOW SHADE ASSEMBLY – REPLACEMENT OF\nSHADE RAIL CLIP ASSEMBLY, PART NO. GXIV-14-83 WITH PART NO. GXIV-14-45A",
+          "pn": "700-56-5002 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1481.0",
+          "task": "700-57-5006 R2",
+          "description": "SPECIAL CHECK/REWORK – FLAP –\nCHAFING PROTECTION AT FLAP CANOE FAIRING (W.S. 404.00)",
+          "pn": "700-57-5006 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1487.0",
+          "task": "700-57-5010 R2",
+          "description": "MODIFICATION – OUTER WING –\nINSTALLATION OF DRAIN HOLE COVERS ON MIDDLE AND OUTER FLAPS",
+          "pn": "700-57-5010 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1493.0",
+          "task": "700-71-5006",
+          "description": "MODIFICATION – FIXED COWLS – REPLACEMENT OF FIREBOX ASSEMBLY P-SEALS",
+          "pn": "700-71-5006",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1390.0",
+          "task": "AD 2025-06-03\nEASA AD 2022-0110 R1",
+          "description": "Turbine Engine Compressor Section",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1406.0",
+          "task": "AD 2025-06-03\nEASA AD 2022-0110 R1",
+          "description": "Turbine Engine Compressor Section",
+          "pn": "",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1453.0",
+          "task": "BR700-72-101602",
+          "description": "ENGINE - HIGH PRESSURE (HP) COMPRESSOR ROTOR REAR DISCS - INTRODUCTION OF NEW ATTACHING BOLTS AND ANTI-SCORE PLATES FOR THE HP COMPRESSOR ROTOR FRONT AND REAR DRUMS",
+          "pn": "BR700-72-101602",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1454.0",
+          "task": "BR700-72-102354",
+          "description": "ENGINE - HIGH PRESSURE (HP) TURBINE ROTOR DISCS AND HP TURBINE STAGE 1 NOZZLE GUIDE SEALS - INTRODUCTION OF A HP TURBINE STAGE 1 DISC WITHOUT COATING ON ALL SEAL FINS, A MODIFIED PRE-SWIRL NOZZLE / WEB SEAL ASSEMBLY AND A MODIFIED RIM SEAL ASSEMBLY - RE-INSTALLATION OF PRE SERVICE BULLETIN SB-BR700-72-102354 STANDARD",
+          "pn": "BR700-72-102354",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1461.0",
+          "task": "BR700-79-102348",
+          "description": "OIL - FUEL COOLED OIL COOLER (FCOC) - INTRODUCTION OF A REVISED FCOC WITH A CHANGED CAP ASSEMBLY, CHANGED DRAIN PLUGS, CHANGED INSERTS AND ALTERNATIVE BOLTS",
+          "pn": "BR700-79-102348",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1463.0",
+          "task": "BR700-72-101602",
+          "description": "ENGINE - HIGH PRESSURE (HP) COMPRESSOR ROTOR REAR DISCS - INTRODUCTION OF NEW ATTACHING BOLTS AND ANTI-SCORE PLATES FOR THE HP COMPRESSOR ROTOR FRONT AND REAR DRUMS",
+          "pn": "BR700-72-101602",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1464.0",
+          "task": "BR700-72-102354",
+          "description": "ENGINE - HIGH PRESSURE (HP) TURBINE ROTOR DISCS AND HP TURBINE STAGE 1 NOZZLE GUIDE SEALS - INTRODUCTION OF A HP TURBINE STAGE 1 DISC WITHOUT COATING ON ALL SEAL FINS, A MODIFIED PRE-SWIRL NOZZLE / WEB SEAL ASSEMBLY AND A MODIFIED RIM SEAL ASSEMBLY - RE-INSTALLATION OF PRE SERVICE BULLETIN SB-BR700-72-102354 STANDARD",
+          "pn": "BR700-72-102354",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1471.0",
+          "task": "BR700-79-102348",
+          "description": "OIL - FUEL COOLED OIL COOLER (FCOC) - INTRODUCTION OF A REVISED FCOC WITH A CHANGED CAP ASSEMBLY, CHANGED DRAIN PLUGS, CHANGED INSERTS AND ALTERNATIVE BOLTS",
+          "pn": "BR700-79-102348",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    },
+    "N918LL": {
+      "info": {
+        "model": "GULFSTREAM G450",
+        "totalHours": null,
+        "totalLandings": null,
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "1385.0",
+          "task": "CB 201B",
+          "description": "CB 201 Modification - Main Landing Gear Doors, P/N 1159B42000 (Fokker SB RP-DGUP-25.10.1532)",
+          "pn": "CB 201B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1413.0",
+          "task": "ASC 020",
+          "description": "Navigation (ATA 34) Category II\nAnnunciation – Activation",
+          "pn": "ASC 020",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1414.0",
+          "task": "ASC 021B",
+          "description": "Navigation (ATA 34) – Lightning\nSensor System (LSS)\nInstallation",
+          "pn": "ASC 021B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1449.0",
+          "task": "ASC 072B",
+          "description": "Indicating / Recording (ATA 31) -\nData Link Recording",
+          "pn": "ASC 072B",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1451.0",
+          "task": "ASC 074",
+          "description": "STABLIZERS (ATA 55) HORIZONTAL STABILIZER COVE PANELS – AV-DEC GASKET INSTALLATION",
+          "pn": "ASC 074",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46388 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1460.0",
+          "task": "ASC 084A",
+          "description": "COMMUNICATION / NAVIGATION \n(ATA 23 / 34) \nMANDATES PACKAGE \n(CPDLC / ADS-B OUT)",
+          "pn": "ASC 084A",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1487.0",
+          "task": "ASC 109",
+          "description": "FUSELAGE STRUCTURE (ATA 53)\nWING TO BODY FAIRINGS AVDEC GASKET\nINSTALLATION",
+          "pn": "ASC 109",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46388 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "1488.0",
+          "task": "ASC 113",
+          "description": "COMMUNICATIONS (ATA 23)\nCOMMUNICATION MANAGEMENT FUNCTION (CMF)\nSATCOM DIRECT (NON-SITA) DATALINK SERVICE PROVIDER",
+          "pn": "ASC 113",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "1507.0",
+          "task": "D14383 Rev A",
+          "description": "Field Loadable Software\nCabin Telecommunications Router\nWAP/Router Firmware Update",
+          "pn": "D14383 Rev A",
+          "sheet": "DIR",
           "dueHoursStr": null,
           "dueDaysStr": null,
           "dueCyclesStr": null,
