@@ -72,7 +72,7 @@
       display: none;
       background: var(--navbar-bg);
       padding: 0 1.5rem;
-      height: 82px;
+      height: 52px;
       align-items: center;
       justify-content: space-between;
       position: sticky;
@@ -442,7 +442,7 @@ async function tryLoadData() {
     if (res.status === 401 || res.status === 403) { doLogout(); return; }
     if (!res.ok) return;
     applyJSON(await res.json());
-  } catch { document.getElementById('data-mode-upload').style.display = 'block'; }
+  } catch { /* network error — show upload fallback */ }
 }
 
 // Manter sessão ao recarregar a página
