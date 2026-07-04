@@ -72,7 +72,7 @@
       display: none;
       background: var(--navbar-bg);
       padding: 0 1.5rem;
-      height: 56px;
+      height: 82px;
       align-items: center;
       justify-content: space-between;
       position: sticky;
@@ -385,7 +385,7 @@ async function doLogin() {
     }
     const { token, session } = await res.json();
     sessionStorage.setItem('_s', JSON.stringify({ token, ...session }));
-    showApp();
+    showApp(true);
     await tryLoadData();
   } catch {
     showLoginError('Erro de conexão. Tente novamente.');
@@ -407,11 +407,12 @@ function getSession() {
   try { return JSON.parse(sessionStorage.getItem('_s')); } catch { return null; }
 }
 
-function showApp() {
+function showApp(hideUpload = false) {
   document.getElementById('login-screen').style.display    = 'none';
   document.getElementById('navbar').style.display          = 'flex';
   document.getElementById('app').style.display             = 'block';
   document.getElementById('app-footer-wrap').style.display = 'block';
+  if (hideUpload) document.getElementById('data-mode-upload').style.display = 'none';
   updateThemeBtn(document.documentElement.getAttribute('data-theme'));
 }
 
@@ -441,12 +442,12 @@ async function tryLoadData() {
     if (res.status === 401 || res.status === 403) { doLogout(); return; }
     if (!res.ok) return;
     applyJSON(await res.json());
-  } catch { /* network error — show upload fallback */ }
+  } catch { document.getElementById('data-mode-upload').style.display = 'block'; }
 }
 
 // Manter sessão ao recarregar a página
 const _existingSession = getSession();
-if (_existingSession) { showApp(); tryLoadData(); }
+if (_existingSession) { showApp(true); tryLoadData(); }
 
 // ── STATE ─────────────────────────────────────────────────────────────────
 let allData         = {};
