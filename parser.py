@@ -53,7 +53,7 @@ DATA_DIR  = SITE_DIR / "data"       # per-aircraft JSON files served via Worker
 OUTPUT_PATH    = SITE_DIR / "data.json"   # kept for legacy / local testing
 OUTPUT_JS_PATH = SITE_DIR / "data.js"     # kept for legacy / local testing
 
-TARGET_SHEETS = ["Manutenção", "Manutenao", "Componentes", "DIR", "DIR MOTOR", "DIR APU"]
+TARGET_SHEETS = ["Manutenção", "Manutenao", "Componentes", "DIR", "DIR MOTOR", "DIR APU", "Diário de Bordo"]
 
 # Matches ANAC registrations (PP-AGN) and FAA registrations (N444R, N918LL)
 ACFT_NAME_RE = re.compile(r"\b([A-Z]{2}-[A-Z0-9]{3}|N\d{1,5}[A-Z]{0,2})\b", re.IGNORECASE)
@@ -124,11 +124,27 @@ def extract_acft_name(folder_name: str, file_name: str):
 
 def num(v):
     try:
-        if v is None or v == "" or v == "-":
+        if v is None or v in ("", "-", "--"):
             return None
         return float(v)
     except (TypeError, ValueError):
         return None
+
+
+def fmt_num(v):
+    """Valor pronto para exibicao: mantem string original, ou formata numero
+    cortando ruido de ponto flutuante (ex: 2204.8000000000006 -> '2204.8')."""
+    if v is None:
+        return None
+    if isinstance(v, str):
+        s = v.strip()
+        return None if s in ("", "-", "--") else s
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return str(v)
+    r = round(f, 1)
+    return str(int(r)) if r == int(r) else f"{r:.1f}"
 
 
 # ── LEITURA DE WORKBOOK (abstrai .xls vs .xlsx) ─────────────────────────────
@@ -193,6 +209,12 @@ def parse_workbook(sheets, acft_name):
             continue
 
         rows = sheet.rows
+
+        if normalize(sn).startswith("DIARIO DE BORDO"):
+            fl = parse_flight_log(rows)
+            if fl is not None:
+                info["flightLog"] = fl
+            continue
 
         # Modelo da aeronave: primeira célula não-vazia da linha 0
         if normalize(sn).startswith("MANUTENCAO") and "model" not in info:
@@ -365,8 +387,281 @@ def parse_workbook(sheets, acft_name):
     info.setdefault("totalHours", None)
     info.setdefault("totalLandings", None)
     info.setdefault("totalCycles", None)
+    info.setdefault("flightLog", None)
 
     return {"tasks": tasks, "info": info, "name": acft_name}
+
+
+# ── DIÁRIO DE BORDO (Flight Log) ────────────────────────────────────────────
+# A aba "Diário de Bordo" registra o historico de voo etapa-a-etapa (celula,
+# motores, pousos, ciclos e, em algumas aeronaves, APU) desde a entrada da
+# aeronave na frota. O layout de colunas varia por aeronave (motor unico vs.
+# LH/RH, APU com 0/2/4 campos) e ate entre "livros" diferentes da mesma
+# aeronave, entao as colunas sao localizadas pelo ROTULO do cabecalho (nao por
+# indice fixo).
+
+FLIGHT_LOG_TITLE_RE = re.compile(
+    r"(DIARIO DE BORDO|FLIGHT LOG(?:BOOK)?)\s+N[O0º]\.?\s*\d+",
+    re.IGNORECASE,
+)
+
+MESES_PT = [
+    "", "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+    "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro",
+]
+
+APU_QUAD_KEYS = {
+    ("AH", "ANALOG"): "ahAnalog",
+    ("AH", "DIGITAL"): "ahDigital",
+    ("AC", "ANALOG"): "acAnalog",
+    ("AC", "DIGITAL"): "acDigital",
+}
+
+
+def _fwd_fill_labels(row):
+    """Propaga o rotulo de cada celula mesclada (nao vazia) para as celulas
+    vazias seguintes, simulando o merge visual do Excel."""
+    out = []
+    current = ""
+    for v in (row or []):
+        n = normalize(v)
+        if n:
+            current = n
+        out.append(current)
+    return out
+
+
+def _resolve_flight_log_columns(title_row, group_row, sub_row):
+    """Localiza por rotulo as colunas relevantes de uma secao do Diario de
+    Bordo. Retorna (cols, apu_cols); chaves ausentes em `cols` = coluna nao
+    existe nesta aeronave/secao."""
+    width = max(len(group_row or []), len(sub_row or []))
+    groups = _fwd_fill_labels(group_row)  # p/ blocos mesclados (celula/motor)
+    raw = [normalize(v) for v in (group_row or [])]  # p/ celulas isoladas (data/apu, nao mescladas)
+    title_groups = _fwd_fill_labels(title_row)
+    cols = {}
+    apu_cols = []  # (idx, 'AH'|'AC', 'ANALOG'|'DIGITAL'|None)
+
+    for i in range(width):
+        g = groups[i] if i < len(groups) else ""
+        r = raw[i] if i < len(raw) else ""
+        s = normalize(get(sub_row, i))
+
+        if r in ("DATA", "DATE"):
+            cols.setdefault("date", i)
+            continue
+
+        if s in ("FOLHA", "PAGE"):
+            cols["folha"] = i
+            continue
+
+        if "APU" in r:
+            if "AH" in r or "FH" in r or "HORAS" in r:
+                kind = "AH"
+            elif "AC" in r or "CICLO" in r or "CYCLE" in r:
+                kind = "AC"
+            else:
+                continue
+            marker = title_groups[i] if i < len(title_groups) else ""
+            sub = "ANALOG" if "ANALOG" in marker else ("DIGITAL" if "DIGIT" in marker else None)
+            apu_cols.append((i, kind, sub))
+            continue
+
+        if "CELULA" in g or "AIRFRAME" in g:
+            if "TEMPO" in g or "HOURS" in g:
+                if s == "HS/MI": cols["celulaEtapa"] = i
+                elif s == "TOTAL": cols["celulaTotal"] = i
+            elif "POUSO" in g or "CYCLE" in g:
+                if s in ("ETAPA", "CYCLES"): cols["pousoEtapa"] = i
+                elif s in ("TOTAIS", "TOTAL"): cols["pousoTotal"] = i
+            continue
+
+        if "MOTOR" in g or "ENGINE" in g:
+            if "TEMPO" in g or "HOURS" in g:
+                if s == "HS/MI": cols["motorEtapa"] = i
+                elif s == "TOTAL": cols["motorTotal"] = i
+                elif s == "LH": cols["lh"] = i
+                elif s == "RH": cols["rh"] = i
+            elif "CICLO" in g or "CYCLE" in g:
+                if "LH" in g:
+                    if s == "CT": cols["lhCT"] = i
+                    elif s == "PT": cols["lhPT"] = i
+                    elif s in ("IMP", "MP"): cols["lhIMP"] = i
+                elif "RH" in g:
+                    if s == "CT": cols["rhCT"] = i
+                    elif s == "PT": cols["rhPT"] = i
+                    elif s in ("IMP", "MP"): cols["rhIMP"] = i
+                else:
+                    if s in ("ETAPA", "CYCLES"): cols["cicloEtapa"] = i
+                    elif s in ("TOTAIS", "TOTAL"): cols["cicloTotal"] = i
+            continue
+
+    # A coluna DATA nem sempre reimprime o rotulo em livros repetidos do
+    # mesmo Diario de Bordo (o valor continua la, so o texto do cabecalho
+    # some). Ela fica de forma consistente logo apos o ultimo bloco de
+    # motor/ciclos, entao usamos a posicao como referencia quando o rotulo
+    # nao for encontrado.
+    if "date" not in cols:
+        motor_end = max(
+            (cols[k] for k in ("cicloTotal", "rhIMP", "lhIMP", "motorTotal", "celulaTotal") if k in cols),
+            default=None,
+        )
+        if motor_end is not None:
+            cols["date"] = motor_end + 1
+
+    return cols, apu_cols
+
+
+def parse_flight_log(rows):
+    title_idxs = [
+        i for i, row in enumerate(rows)
+        if row and FLIGHT_LOG_TITLE_RE.search(normalize(get(row, 0)) or "")
+    ]
+    if not title_idxs:
+        return None
+
+    legs = []
+    twin = False
+    apu_mode = "none"
+    apu_rank = {"none": 0, "single": 1, "quad": 2}
+
+    for si, start in enumerate(title_idxs):
+        end = title_idxs[si + 1] if si + 1 < len(title_idxs) else len(rows)
+        title_text = str(get(rows[start], 0) or "").strip()
+
+        sub_idx = None
+        for i in range(start + 1, min(start + 6, end)):
+            if normalize(get(rows[i], 0)) in ("FOLHA", "PAGE"):
+                sub_idx = i
+                break
+        if sub_idx is None or sub_idx - 1 < start:
+            continue
+
+        group_row = rows[sub_idx - 1] or []
+        sub_row = rows[sub_idx] or []
+        title_marker_row = rows[start] or []
+        cols, apu_cols = _resolve_flight_log_columns(title_marker_row, group_row, sub_row)
+
+        if "lh" in cols or "rh" in cols:
+            twin = True
+        if apu_cols:
+            has_marker = any(sub for _, _, sub in apu_cols)
+            new_mode = "quad" if has_marker else "single"
+            if apu_rank[new_mode] > apu_rank[apu_mode]:
+                apu_mode = new_mode
+
+        folha_col = cols.get("folha", 0)
+        date_col = cols.get("date")
+        quad_this_section = any(sub for _, _, sub in apu_cols)
+
+        for ri in range(sub_idx + 1, end):
+            row = rows[ri] or []
+            folha_val = get(row, folha_col)
+            if folha_val is None or str(folha_val).strip() == "":
+                continue
+            celula_total_col = cols.get("celulaTotal")
+            if celula_total_col is not None and get(row, celula_total_col) is None:
+                continue
+
+            d = to_date(get(row, date_col)) if date_col is not None else None
+
+            leg = {
+                "book": title_text,
+                "folha": fmt_num(folha_val),
+                "date": d.strftime("%d/%m/%Y") if d else None,
+                "_date": d,
+                "celulaEtapa": fmt_num(get(row, cols.get("celulaEtapa"))),
+                "celulaTotal": fmt_num(get(row, cols.get("celulaTotal"))),
+                "pousoEtapa": fmt_num(get(row, cols.get("pousoEtapa"))),
+                "pousoTotal": fmt_num(get(row, cols.get("pousoTotal"))),
+                "_hoursDelta": num(get(row, cols.get("celulaEtapa"))),
+                "_landingsDelta": num(get(row, cols.get("pousoEtapa"))),
+            }
+
+            if "lh" in cols or "rh" in cols:
+                leg["motorEtapa"] = fmt_num(get(row, cols.get("motorEtapa")))
+                leg["lh"] = fmt_num(get(row, cols.get("lh")))
+                leg["rh"] = fmt_num(get(row, cols.get("rh")))
+                leg["lhCT"] = fmt_num(get(row, cols.get("lhCT")))
+                leg["lhPT"] = fmt_num(get(row, cols.get("lhPT")))
+                leg["lhIMP"] = fmt_num(get(row, cols.get("lhIMP")))
+                leg["rhCT"] = fmt_num(get(row, cols.get("rhCT")))
+                leg["rhPT"] = fmt_num(get(row, cols.get("rhPT")))
+                leg["rhIMP"] = fmt_num(get(row, cols.get("rhIMP")))
+            else:
+                leg["motorEtapa"] = fmt_num(get(row, cols.get("motorEtapa")))
+                leg["motorTotal"] = fmt_num(get(row, cols.get("motorTotal")))
+                leg["cicloEtapa"] = fmt_num(get(row, cols.get("cicloEtapa")))
+                leg["cicloTotal"] = fmt_num(get(row, cols.get("cicloTotal")))
+
+            for idx, kind, sub in apu_cols:
+                val = fmt_num(get(row, idx))
+                if quad_this_section:
+                    key = APU_QUAD_KEYS.get((kind, sub))
+                else:
+                    key = "apuAH" if kind == "AH" else "apuAC"
+                if key:
+                    leg[key] = val
+
+            legs.append(leg)
+
+    if not legs:
+        return None
+
+    return build_flight_log(legs, twin, apu_mode)
+
+
+def _export_leg(leg):
+    return {k: v for k, v in leg.items() if not k.startswith("_")}
+
+
+def build_flight_log(legs, twin, apu_mode):
+    dated = [l for l in legs if l.get("_date")]
+    if not dated:
+        return None
+    dated.sort(key=lambda l: l["_date"])  # ascendente (estavel -> ordem original nos empates)
+
+    last = dated[-1]
+
+    years_map = {}
+    for l in dated:
+        years_map.setdefault(l["_date"].year, {}).setdefault(l["_date"].month, []).append(l)
+
+    years = []
+    for y in sorted(years_map.keys(), reverse=True):
+        months_map = years_map[y]
+        months = []
+        year_hours, year_landings, year_legs = 0.0, 0.0, 0
+        for m in sorted(months_map.keys(), reverse=True):
+            month_legs = sorted(months_map[m], key=lambda l: l["_date"], reverse=True)
+            mh = sum(l["_hoursDelta"] for l in month_legs if l["_hoursDelta"] is not None)
+            ml = sum(l["_landingsDelta"] for l in month_legs if l["_landingsDelta"] is not None)
+            year_hours += mh
+            year_landings += ml
+            year_legs += len(month_legs)
+            months.append({
+                "month": m,
+                "monthLabel": MESES_PT[m],
+                "hours": fmt_num(mh),
+                "landings": fmt_num(ml),
+                "legCount": len(month_legs),
+                "legs": [_export_leg(l) for l in month_legs],
+            })
+        years.append({
+            "year": y,
+            "hours": fmt_num(year_hours),
+            "landings": fmt_num(year_landings),
+            "legCount": year_legs,
+            "months": months,
+        })
+
+    return {
+        "totalHours": last.get("celulaTotal"),
+        "totalLandings": last.get("pousoTotal"),
+        "twin": twin,
+        "apuMode": apu_mode,
+        "years": years,
+    }
 
 
 # ── MAIN ─────────────────────────────────────────────────────────────────────

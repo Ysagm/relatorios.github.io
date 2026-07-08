@@ -229,6 +229,29 @@
       display: flex; align-items: center; gap: 6px;
     }
 
+    /* ── Diário de Bordo ── */
+    .fl-year { margin-bottom: 8px; }
+    .fl-year-head, .fl-month-head {
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+    }
+    .fl-year-head { padding: 10px 12px; background: var(--surface-1); border-radius: var(--radius); }
+    .fl-month { margin: 6px 0 6px 16px; }
+    .fl-month-head { padding: 8px 10px; border: 0.5px solid var(--border); border-radius: var(--radius); }
+    .fl-title { font-size: 14px; font-weight: 500; }
+    .fl-month-head .fl-title { font-size: 13px; }
+    .fl-meta { font-size: 12px; color: var(--text-secondary); }
+    .fl-table-wrap { overflow-x: auto; margin: 0 0 4px 16px; }
+    .fl-table { border-collapse: collapse; width: 100%; }
+    .fl-table th {
+      padding: 5px 8px; font-size: 10px; text-transform: uppercase; letter-spacing: .03em;
+      color: var(--text-muted); font-weight: 500; text-align: center;
+      border: 0.5px solid var(--border); background: var(--surface-1); white-space: nowrap;
+    }
+    .fl-table td { padding: 5px 8px; font-size: 12px; border: 0.5px solid var(--border); white-space: nowrap; }
+    .fl-table td.num { text-align: right; font-family: var(--font-mono); color: var(--text-secondary); }
+    .fl-table td.num.strong { font-weight: 500; color: var(--text-primary); }
+    .fl-table tr:hover td { background: var(--surface-1); }
+
     /* ── App footer wrapper ── */
     #app-footer-wrap { display: none; }
   </style>
@@ -309,8 +332,9 @@
       <span class="pill"        data-tab="DIR"         onclick="setTab('DIR',this)">DIR</span>
       <span class="pill"        data-tab="DIR MOTOR"   onclick="setTab('DIR MOTOR',this)">DIR Motor</span>
       <span class="pill"        data-tab="DIR APU"     onclick="setTab('DIR APU',this)">DIR APU</span>
+      <span class="pill" id="tab-diario-bordo" data-tab="Diário de Bordo" style="display:none" onclick="setTab('Diário de Bordo',this)">Diário de Bordo</span>
     </div>
-    <div class="filters">
+    <div class="filters" id="validity-filters">
       <span class="filter-label">Validade:</span>
       <span class="pill active" data-validity="all"    onclick="setValidity('all',this)">Todas</span>
       <span class="pill"        data-validity="hours"  onclick="setValidity('hours',this)">&lt; 30 horas</span>
@@ -522,9 +546,236 @@ function extractAcftName(filename) {
   return base.split(/[_\-\s]+/)[0].toUpperCase();
 }
 
+// ── DIÁRIO DE BORDO (Flight Log) ──────────────────────────────────────────
+// Mesma lógica de site/parser.py: colunas localizadas por rótulo (não por
+// índice fixo), pois o layout varia por aeronave (motor único vs. LH/RH,
+// APU com 0/2/4 campos) e até entre livros diferentes da mesma aeronave.
+function numOrNull(v) {
+  if (v == null || v === '' || v === '-' || v === '--') return null;
+  const n = Number(v);
+  return isNaN(n) ? null : n;
+}
+function fmtNum(v) {
+  if (v == null) return null;
+  if (typeof v === 'string') {
+    const s = v.trim();
+    return (s === '' || s === '-' || s === '--') ? null : s;
+  }
+  const f = Number(v);
+  if (isNaN(f)) return String(v);
+  const r = Math.round(f * 10) / 10;
+  return (r === Math.trunc(r)) ? String(Math.trunc(r)) : r.toFixed(1);
+}
+function toDate(v) {
+  if (v instanceof Date) return isNaN(v) ? null : v;
+  if (typeof v === 'number') return excelDateToJS(v);
+  if (typeof v === 'string') {
+    let m = v.trim().match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+    if (m) return new Date(+m[3], +m[2]-1, +m[1]);
+    m = v.trim().match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (m) return new Date(+m[1], +m[2]-1, +m[3]);
+    const d = new Date(v);
+    return isNaN(d) ? null : d;
+  }
+  return null;
+}
+function formatDatePt(d) {
+  return String(d.getDate()).padStart(2,'0')+'/'+String(d.getMonth()+1).padStart(2,'0')+'/'+d.getFullYear();
+}
+
+const FLIGHT_LOG_TITLE_RE = /(DIARIO DE BORDO|FLIGHT LOG(?:BOOK)?)\s+N[O0º]\.?\s*\d+/i;
+const MESES_PT = ['','Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+const APU_QUAD_KEYS = { 'AH|ANALOG':'ahAnalog', 'AH|DIGITAL':'ahDigital', 'AC|ANALOG':'acAnalog', 'AC|DIGITAL':'acDigital' };
+
+function fwdFillLabels(row) {
+  const out = []; let current = '';
+  (row || []).forEach(v => { const n = normalize(v); if (n) current = n; out.push(current); });
+  return out;
+}
+
+function resolveFlightLogColumns(titleRow, groupRow, subRow) {
+  const width = Math.max((groupRow||[]).length, (subRow||[]).length);
+  const groups = fwdFillLabels(groupRow);
+  const raw = (groupRow||[]).map(v => normalize(v));
+  const titleGroups = fwdFillLabels(titleRow);
+  const cols = {}; const apuCols = [];
+
+  for (let i = 0; i < width; i++) {
+    const g = groups[i] || '';
+    const r = raw[i] || '';
+    const s = normalize((subRow||[])[i]);
+
+    if (r === 'DATA' || r === 'DATE') { if (cols.date == null) cols.date = i; continue; }
+    if (s === 'FOLHA' || s === 'PAGE') { cols.folha = i; continue; }
+
+    if (r.includes('APU')) {
+      let kind = null;
+      if (r.includes('AH') || r.includes('FH') || r.includes('HORAS')) kind = 'AH';
+      else if (r.includes('AC') || r.includes('CICLO') || r.includes('CYCLE')) kind = 'AC';
+      if (!kind) continue;
+      const marker = titleGroups[i] || '';
+      const sub = marker.includes('ANALOG') ? 'ANALOG' : (marker.includes('DIGIT') ? 'DIGITAL' : null);
+      apuCols.push({ idx: i, kind, sub });
+      continue;
+    }
+
+    if (g.includes('CELULA') || g.includes('AIRFRAME')) {
+      if (g.includes('TEMPO') || g.includes('HOURS')) {
+        if (s === 'HS/MI') cols.celulaEtapa = i;
+        else if (s === 'TOTAL') cols.celulaTotal = i;
+      } else if (g.includes('POUSO') || g.includes('CYCLE')) {
+        if (s === 'ETAPA' || s === 'CYCLES') cols.pousoEtapa = i;
+        else if (s === 'TOTAIS' || s === 'TOTAL') cols.pousoTotal = i;
+      }
+      continue;
+    }
+
+    if (g.includes('MOTOR') || g.includes('ENGINE')) {
+      if (g.includes('TEMPO') || g.includes('HOURS')) {
+        if (s === 'HS/MI') cols.motorEtapa = i;
+        else if (s === 'TOTAL') cols.motorTotal = i;
+        else if (s === 'LH') cols.lh = i;
+        else if (s === 'RH') cols.rh = i;
+      } else if (g.includes('CICLO') || g.includes('CYCLE')) {
+        if (g.includes('LH')) {
+          if (s === 'CT') cols.lhCT = i;
+          else if (s === 'PT') cols.lhPT = i;
+          else if (s === 'IMP' || s === 'MP') cols.lhIMP = i;
+        } else if (g.includes('RH')) {
+          if (s === 'CT') cols.rhCT = i;
+          else if (s === 'PT') cols.rhPT = i;
+          else if (s === 'IMP' || s === 'MP') cols.rhIMP = i;
+        } else {
+          if (s === 'ETAPA' || s === 'CYCLES') cols.cicloEtapa = i;
+          else if (s === 'TOTAIS' || s === 'TOTAL') cols.cicloTotal = i;
+        }
+      }
+      continue;
+    }
+  }
+
+  if (cols.date == null) {
+    const candidates = ['cicloTotal','rhIMP','lhIMP','motorTotal','celulaTotal']
+      .map(k => cols[k]).filter(v => v != null);
+    if (candidates.length) cols.date = Math.max(...candidates) + 1;
+  }
+
+  return { cols, apuCols };
+}
+
+function exportLeg(leg) {
+  const out = {};
+  Object.keys(leg).forEach(k => { if (!k.startsWith('_')) out[k] = leg[k]; });
+  return out;
+}
+
+function buildFlightLog(legs, twin, apuMode) {
+  const dated = legs.filter(l => l._date);
+  if (!dated.length) return null;
+  dated.sort((a,b) => a._date - b._date);
+  const last = dated[dated.length - 1];
+
+  const yearsMap = {};
+  dated.forEach(l => {
+    const y = l._date.getFullYear(), m = l._date.getMonth() + 1;
+    (yearsMap[y] = yearsMap[y] || {});
+    (yearsMap[y][m] = yearsMap[y][m] || []).push(l);
+  });
+
+  const years = Object.keys(yearsMap).map(Number).sort((a,b)=>b-a).map(y => {
+    const monthsMap = yearsMap[y];
+    let yearHours = 0, yearLandings = 0, yearLegs = 0;
+    const months = Object.keys(monthsMap).map(Number).sort((a,b)=>b-a).map(m => {
+      const monthLegs = monthsMap[m].slice().sort((a,b) => b._date - a._date);
+      const mh = monthLegs.reduce((s,l) => s + (l._hoursDelta || 0), 0);
+      const ml = monthLegs.reduce((s,l) => s + (l._landingsDelta || 0), 0);
+      yearHours += mh; yearLandings += ml; yearLegs += monthLegs.length;
+      return { month:m, monthLabel:MESES_PT[m], hours:fmtNum(mh), landings:fmtNum(ml),
+        legCount: monthLegs.length, legs: monthLegs.map(exportLeg) };
+    });
+    return { year:y, hours:fmtNum(yearHours), landings:fmtNum(yearLandings), legCount:yearLegs, months };
+  });
+
+  return { totalHours: last.celulaTotal, totalLandings: last.pousoTotal, twin, apuMode, years };
+}
+
+function parseFlightLogSheet(rows) {
+  const titleIdxs = [];
+  rows.forEach((row,i) => { if (row && FLIGHT_LOG_TITLE_RE.test(normalize(row[0])||'')) titleIdxs.push(i); });
+  if (!titleIdxs.length) return null;
+
+  const legs = [];
+  let twin = false, apuMode = 'none';
+  const apuRank = { none:0, single:1, quad:2 };
+
+  titleIdxs.forEach((start, si) => {
+    const end = si + 1 < titleIdxs.length ? titleIdxs[si+1] : rows.length;
+    const titleText = String(rows[start][0] || '').trim();
+
+    let subIdx = null;
+    for (let i = start+1; i < Math.min(start+6, end); i++) {
+      const v = normalize((rows[i]||[])[0]);
+      if (v === 'FOLHA' || v === 'PAGE') { subIdx = i; break; }
+    }
+    if (subIdx == null || subIdx - 1 < start) return;
+
+    const groupRow = rows[subIdx-1] || [];
+    const subRow = rows[subIdx] || [];
+    const titleMarkerRow = rows[start] || [];
+    const { cols, apuCols } = resolveFlightLogColumns(titleMarkerRow, groupRow, subRow);
+
+    if (cols.lh != null || cols.rh != null) twin = true;
+    if (apuCols.length) {
+      const hasMarker = apuCols.some(a => a.sub);
+      const newMode = hasMarker ? 'quad' : 'single';
+      if (apuRank[newMode] > apuRank[apuMode]) apuMode = newMode;
+    }
+
+    const folhaCol = cols.folha != null ? cols.folha : 0;
+    const dateCol = cols.date;
+    const quadThisSection = apuCols.some(a => a.sub);
+
+    for (let ri = subIdx+1; ri < end; ri++) {
+      const row = rows[ri] || [];
+      const folhaVal = row[folhaCol];
+      if (folhaVal == null || String(folhaVal).trim() === '') continue;
+      if (cols.celulaTotal != null && row[cols.celulaTotal] == null) continue;
+
+      const d = dateCol != null ? toDate(row[dateCol]) : null;
+      const leg = {
+        book: titleText, folha: fmtNum(folhaVal), date: d ? formatDatePt(d) : null, _date: d,
+        celulaEtapa: fmtNum(row[cols.celulaEtapa]), celulaTotal: fmtNum(row[cols.celulaTotal]),
+        pousoEtapa: fmtNum(row[cols.pousoEtapa]), pousoTotal: fmtNum(row[cols.pousoTotal]),
+        _hoursDelta: numOrNull(row[cols.celulaEtapa]), _landingsDelta: numOrNull(row[cols.pousoEtapa]),
+      };
+
+      if (cols.lh != null || cols.rh != null) {
+        leg.motorEtapa = fmtNum(row[cols.motorEtapa]);
+        leg.lh = fmtNum(row[cols.lh]); leg.rh = fmtNum(row[cols.rh]);
+        leg.lhCT = fmtNum(row[cols.lhCT]); leg.lhPT = fmtNum(row[cols.lhPT]); leg.lhIMP = fmtNum(row[cols.lhIMP]);
+        leg.rhCT = fmtNum(row[cols.rhCT]); leg.rhPT = fmtNum(row[cols.rhPT]); leg.rhIMP = fmtNum(row[cols.rhIMP]);
+      } else {
+        leg.motorEtapa = fmtNum(row[cols.motorEtapa]); leg.motorTotal = fmtNum(row[cols.motorTotal]);
+        leg.cicloEtapa = fmtNum(row[cols.cicloEtapa]); leg.cicloTotal = fmtNum(row[cols.cicloTotal]);
+      }
+
+      apuCols.forEach(({idx, kind, sub}) => {
+        const val = fmtNum(row[idx]);
+        const key = quadThisSection ? APU_QUAD_KEYS[kind+'|'+sub] : (kind==='AH' ? 'apuAH' : 'apuAC');
+        if (key) leg[key] = val;
+      });
+
+      legs.push(leg);
+    }
+  });
+
+  if (!legs.length) return null;
+  return buildFlightLog(legs, twin, apuMode);
+}
+
 // ── PARSER ────────────────────────────────────────────────────────────────
 function parseWorkbook(wb, acftName) {
-  const TARGET = ['Manutenção','Manutenao','Componentes','DIR','DIR MOTOR','DIR APU'];
+  const TARGET = ['Manutenção','Manutenao','Componentes','DIR','DIR MOTOR','DIR APU','Diário de Bordo'];
   const tasks  = [];
   let info     = {};
 
@@ -534,6 +785,12 @@ function parseWorkbook(wb, acftName) {
 
     const ws   = wb.Sheets[sheetName];
     const rows = XLSX.utils.sheet_to_json(ws, { header:1, defval:null });
+
+    if (normalize(sn).startsWith('DIARIO DE BORDO')) {
+      const fl = parseFlightLogSheet(rows);
+      if (fl) info.flightLog = fl;
+      return;
+    }
 
     // Modelo da aeronave: primeira célula não-vazia da linha 0
     if (normalize(sn).startsWith('MANUTENCAO') && !info.model) {
@@ -638,6 +895,7 @@ function parseWorkbook(wb, acftName) {
 function setTab(v,el) {
   currentTab=v;
   document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab===v));
+  document.getElementById('validity-filters').style.display = (v === 'Diário de Bordo') ? 'none' : 'flex';
   renderTable();
 }
 function setValidity(v,el) {
@@ -669,6 +927,9 @@ function switchAcft(name) {
 function renderDashboard() {
   const data=allData[currentAcft]; if(!data)return;
   const info=data.info;
+  const flTab = document.getElementById('tab-diario-bordo');
+  if (flTab) flTab.style.display = info.flightLog ? '' : 'none';
+  if (!info.flightLog && currentTab === 'Diário de Bordo') { currentTab = 'all'; }
   const model=info.model||'';
   document.getElementById('main-title').textContent=(model?`✈ ${model} ${currentAcft}`:`✈ ${currentAcft}`);
   const sub=[
@@ -687,6 +948,7 @@ function renderDashboard() {
 }
 function renderTable() {
   const data=allData[currentAcft]; if(!data)return;
+  if (currentTab === 'Diário de Bordo') { renderFlightLog(data); return; }
   let tasks=data.tasks;
   if (currentTab!=='all') tasks=tasks.filter(t=>{const s=t.sheet.trim();if(currentTab==='DIR')return s==='DIR';return s===currentTab||s.startsWith(currentTab);});
   if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity));
@@ -721,6 +983,99 @@ function renderTable() {
       <th class="col-due">Saldo restante</th>
       <th class="col-type">Tipo de validade</th>
     </tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+// ── DIÁRIO DE BORDO (render) ─────────────────────────────────────────────
+function toggleFLYear(yi) {
+  const el = document.getElementById('fl-year-body-'+yi);
+  el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+}
+function toggleFLMonth(yi,mi) {
+  const el = document.getElementById('fl-month-body-'+yi+'-'+mi);
+  el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+}
+function flTh(text,span) { return `<th${span?` colspan="${span}"`:''}>${text}</th>`; }
+function flTd(v,strong) { const val=(v===''||v==null)?'—':v; return `<td class="num${strong?' strong':''}">${val}</td>`; }
+function flTdLeft(v) { return `<td>${v ?? ''}</td>`; }
+
+function buildFlightLogTable(fl, legs) {
+  let groupRow = '<th rowspan="2">Folha</th><th rowspan="2">Data</th>';
+  let subRow = '';
+  groupRow += flTh('Tempo de voo célula',2); subRow += flTh('Etapa')+flTh('Total');
+  groupRow += flTh('Pousos',2); subRow += flTh('Etapa')+flTh('Total');
+  if (fl.twin) {
+    groupRow += flTh('Tempo de voo motores',3); subRow += flTh('Etapa')+flTh('LH')+flTh('RH');
+    groupRow += flTh('Ciclos motor LH',3); subRow += flTh('CT')+flTh('PT')+flTh('IMP');
+    groupRow += flTh('Ciclos motor RH',3); subRow += flTh('CT')+flTh('PT')+flTh('IMP');
+  } else {
+    groupRow += flTh('Tempo de voo motores',2); subRow += flTh('Etapa')+flTh('Total');
+    groupRow += flTh('Ciclos motores',2); subRow += flTh('Etapa')+flTh('Total');
+  }
+  if (fl.apuMode === 'single') {
+    groupRow += flTh('APU',2); subRow += flTh('AH')+flTh('AC');
+  } else if (fl.apuMode === 'quad') {
+    groupRow += flTh('APU',4); subRow += flTh('AH anlg')+flTh('AC anlg')+flTh('AH dig')+flTh('AC dig');
+  }
+
+  const rows = legs.map(l => {
+    let r = flTdLeft(l.folha) + flTdLeft(l.date);
+    r += flTd(l.celulaEtapa) + flTd(l.celulaTotal,true);
+    r += flTd(l.pousoEtapa) + flTd(l.pousoTotal,true);
+    if (fl.twin) {
+      r += flTd(l.motorEtapa) + flTd(l.lh,true) + flTd(l.rh,true);
+      r += flTd(l.lhCT) + flTd(l.lhPT) + flTd(l.lhIMP);
+      r += flTd(l.rhCT) + flTd(l.rhPT) + flTd(l.rhIMP);
+    } else {
+      r += flTd(l.motorEtapa) + flTd(l.motorTotal,true);
+      r += flTd(l.cicloEtapa) + flTd(l.cicloTotal,true);
+    }
+    if (fl.apuMode === 'single') {
+      r += flTd(l.apuAH,true) + flTd(l.apuAC,true);
+    } else if (fl.apuMode === 'quad') {
+      r += flTd(l.ahAnalog,true) + flTd(l.acAnalog,true) + flTd(l.ahDigital,true) + flTd(l.acDigital,true);
+    }
+    return `<tr>${r}</tr>`;
+  }).join('');
+
+  return `<div class="fl-table-wrap"><table class="fl-table"><thead><tr>${groupRow}</tr><tr>${subRow}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderFlightLog(data) {
+  const fl = data.info.flightLog;
+  const wrap = document.getElementById('table-wrap');
+  if (!fl) {
+    wrap.innerHTML = `<div class="empty-state"><i class="ti ti-notebook" style="font-size:32px;display:block;margin-bottom:8px;"></i>Diário de Bordo não disponível para esta aeronave</div>`;
+    return;
+  }
+
+  const stats = `<div class="stats-grid" style="margin-bottom:1.5rem;">
+    <div class="stat-card"><div class="stat-label">Horas totais de voo</div><div class="stat-value">${fl.totalHours ?? '—'}</div></div>
+    <div class="stat-card"><div class="stat-label">Total de pousos</div><div class="stat-value">${fl.totalLandings ?? '—'}</div></div>
+  </div>`;
+
+  const yearsHtml = fl.years.map((y,yi) => {
+    const monthsHtml = y.months.map((m,mi) => {
+      const table = buildFlightLogTable(fl, m.legs);
+      const displayMonth = (yi===0 && mi===0) ? 'block' : 'none';
+      return `<div class="fl-month">
+        <div class="fl-month-head" onclick="toggleFLMonth(${yi},${mi})">
+          <span class="fl-title"><i class="ti ti-chevron-down" style="font-size:14px;margin-right:6px;vertical-align:-2px;"></i>${m.monthLabel}</span>
+          <span class="fl-meta">${m.hours ?? '0'}h · ${m.landings ?? '0'} pousos · ${m.legCount} etapa(s)</span>
+        </div>
+        <div id="fl-month-body-${yi}-${mi}" style="display:${displayMonth};">${table}</div>
+      </div>`;
+    }).join('');
+    const displayYear = (yi===0) ? 'block' : 'none';
+    return `<div class="fl-year">
+      <div class="fl-year-head" onclick="toggleFLYear(${yi})">
+        <span class="fl-title"><i class="ti ti-chevron-down" style="font-size:15px;margin-right:6px;vertical-align:-2px;"></i>${y.year}</span>
+        <span class="fl-meta">${y.hours ?? '0'}h · ${y.landings ?? '0'} pousos · ${y.legCount} etapa(s)</span>
+      </div>
+      <div id="fl-year-body-${yi}" style="display:${displayYear};">${monthsHtml}</div>
+    </div>`;
+  }).join('');
+
+  wrap.innerHTML = stats + yearsHtml;
 }
 </script>
 </body>
