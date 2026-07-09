@@ -1063,7 +1063,7 @@ function renderTable() {
   let tasks=data.tasks;
   if (currentTab!=='all') tasks=tasks.filter(t=>{const s=t.sheet.trim();if(currentTab==='DIR')return s==='DIR';return s===currentTab||s.startsWith(currentTab);});
   if (currentValidity==='overdue') tasks=tasks.filter(taskIsOverdue);
-  else if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity));
+  else if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity) && !taskIsOverdue(t));
   if (currentPrioritySort) tasks=tasks.slice().sort((a,b)=>taskPriorityValue(a)-taskPriorityValue(b));
   const wrap=document.getElementById('table-wrap');
   if (!tasks.length){wrap.innerHTML=`<div class="empty-state"><i class="ti ti-circle-check" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhum alerta nesta categoria</div>`;return;}
