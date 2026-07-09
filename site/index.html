@@ -169,8 +169,10 @@
     .spec-card-row .v { font-weight: 500; }
     .spec-card-row .mono { font-family: var(--font-mono); font-size: 11px; }
     .spec-card-totals { margin-top: 4px; border-top: 0.5px solid var(--border); padding-top: 4px; }
-    .spec-record { border-top: 0.5px solid var(--border); padding-top: 10px; font-size: 12px; }
-    .spec-record span { margin-right: 16px; display: inline-block; }
+    .spec-record { border-top: 0.5px solid var(--border); padding-top: 10px; font-size: 12px; display: flex; flex-wrap: wrap; row-gap: 6px; }
+    .spec-record .item { white-space: nowrap; }
+    .spec-record .item:not(:first-child) { position: relative; padding-left: 13px; margin-left: 3px; }
+    .spec-record .item:not(:first-child)::before { content: ""; position: absolute; left: 0; top: 1px; bottom: 1px; width: 1px; background: var(--border-strong); }
 
     .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 10px; margin-bottom: 1.5rem; }
     .stat-card  { background: var(--surface-1); border-radius: var(--radius); padding: 12px 14px; }
@@ -1203,7 +1205,7 @@ function specCard(c) {
 }
 function renderAirframeSpec(spec) {
   const cards = spec.components.map(specCard).join('');
-  const record = Object.entries(spec.record).map(([k,v]) => `<span><span class="k">${k}</span> <strong>${v}</strong></span>`).join('');
+  const record = Object.entries(spec.record).map(([k,v]) => `<span class="item"><span class="k">${k}</span> <strong>${v}</strong></span>`).join('');
   document.getElementById('spec-panel').innerHTML = `<div class="spec-cards">${cards}</div>${record?`<div class="spec-record">${record}</div>`:''}`;
 }
 function toggleAirframeSpec() {
