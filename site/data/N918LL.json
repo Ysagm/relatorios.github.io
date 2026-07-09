@@ -1,23 +1,45 @@
 {
-  "generated_at": "08/07/2026 21:44",
+  "generated_at": "09/07/2026 15:40",
   "aircraft": {
     "N918LL": {
       "info": {
         "model": "GULFSTREAM G450",
-        "totalHours": 4819.2,
-        "totalLandings": 1246.0,
+        "totalHours": 4832.0,
+        "totalLandings": 1249.0,
         "flightLog": {
-          "totalHours": "4819.2",
-          "totalLandings": "1246",
+          "totalHours": "4832",
+          "totalLandings": "1249",
           "twin": false,
           "apuMode": "none",
           "years": [
             {
               "year": 2026,
-              "hours": "111.8",
-              "landings": "33",
-              "legCount": 12,
+              "hours": "124.6",
+              "landings": "36",
+              "legCount": 13,
               "months": [
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "12.8",
+                  "landings": "3",
+                  "legCount": 1,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 01",
+                      "folha": "739",
+                      "date": "03/07/2026",
+                      "celulaEtapa": "12.8",
+                      "celulaTotal": "4832",
+                      "pousoEtapa": "3",
+                      "pousoTotal": "1249",
+                      "motorEtapa": "12.8",
+                      "motorTotal": "4832",
+                      "cicloEtapa": "3",
+                      "cicloTotal": "1249"
+                    }
+                  ]
+                },
                 {
                   "month": 6,
                   "monthLabel": "Junho",
@@ -960,9 +982,9 @@
             },
             {
               "year": 2023,
-              "hours": "273.2",
-              "landings": "69",
-              "legCount": 29,
+              "hours": "261.4",
+              "landings": "67",
+              "legCount": 28,
               "months": [
                 {
                   "month": 12,
@@ -1194,9 +1216,9 @@
                 {
                   "month": 6,
                   "monthLabel": "Junho",
-                  "hours": "33.4",
-                  "landings": "11",
-                  "legCount": 5,
+                  "hours": "21.6",
+                  "landings": "9",
+                  "legCount": 4,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -1223,19 +1245,6 @@
                       "motorTotal": "4152.4",
                       "cicloEtapa": "4",
                       "cicloTotal": "1071"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "658",
-                      "date": "12/06/2023",
-                      "celulaEtapa": "11.8",
-                      "celulaTotal": "4135.5",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "1066",
-                      "motorEtapa": "11.8",
-                      "motorTotal": "4135.5",
-                      "cicloEtapa": "2",
-                      "cicloTotal": "1066"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -2290,9 +2299,9 @@
             },
             {
               "year": 2020,
-              "hours": "119.5",
-              "landings": "28",
-              "legCount": 15,
+              "hours": "117.8",
+              "landings": "27",
+              "legCount": 14,
               "months": [
                 {
                   "month": 12,
@@ -2341,9 +2350,9 @@
                 {
                   "month": 10,
                   "monthLabel": "Outubro",
-                  "hours": "23.4",
-                  "landings": "6",
-                  "legCount": 3,
+                  "hours": "21.7",
+                  "landings": "5",
+                  "legCount": 2,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -2357,19 +2366,6 @@
                       "motorTotal": "3575.2",
                       "cicloEtapa": "3",
                       "cicloTotal": "921"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "589",
-                      "date": "04/10/2020",
-                      "celulaEtapa": "1.7",
-                      "celulaTotal": "3553.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "916",
-                      "motorEtapa": "1.7",
-                      "motorTotal": "3553.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "916"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -2556,9 +2552,9 @@
             },
             {
               "year": 2019,
-              "hours": "202.5",
-              "landings": "52",
-              "legCount": 37,
+              "hours": "200.9",
+              "landings": "51",
+              "legCount": 36,
               "months": [
                 {
                   "month": 12,
@@ -2816,9 +2812,9 @@
                 {
                   "month": 6,
                   "monthLabel": "Junho",
-                  "hours": "43.8",
-                  "landings": "10",
-                  "legCount": 8,
+                  "hours": "42.2",
+                  "landings": "9",
+                  "legCount": 7,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -2897,19 +2893,6 @@
                       "motorTotal": "3352.5",
                       "cicloEtapa": "1",
                       "cicloTotal": "868"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "553",
-                      "date": "04/06/2019",
-                      "celulaEtapa": "1.6",
-                      "celulaTotal": "3339.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "865",
-                      "motorEtapa": "1.6",
-                      "motorTotal": "3339.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "865"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -3144,30 +3127,17 @@
             },
             {
               "year": 2018,
-              "hours": "383.4",
-              "landings": "86",
-              "legCount": 51,
+              "hours": "371",
+              "landings": "83",
+              "legCount": 49,
               "months": [
                 {
                   "month": 12,
                   "monthLabel": "Dezembro",
-                  "hours": "24.5",
-                  "landings": "6",
-                  "legCount": 4,
+                  "hours": "13.8",
+                  "landings": "4",
+                  "legCount": 3,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "538",
-                      "date": "07/12/2018",
-                      "celulaEtapa": "10.7",
-                      "celulaTotal": "3267.8",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "843",
-                      "motorEtapa": "10.7",
-                      "motorTotal": "3267.8",
-                      "cicloEtapa": "2",
-                      "cicloTotal": "843"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01",
                       "folha": "539",
@@ -3321,23 +3291,10 @@
                 {
                   "month": 8,
                   "monthLabel": "Agosto",
-                  "hours": "12.9",
-                  "landings": "3",
-                  "legCount": 2,
+                  "hours": "11.2",
+                  "landings": "2",
+                  "legCount": 1,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "527",
-                      "date": "19/08/2018",
-                      "celulaEtapa": "1.7",
-                      "celulaTotal": "3188.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "824",
-                      "motorEtapa": "1.7",
-                      "motorTotal": "3188.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "824"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01",
                       "folha": "528",
@@ -4788,9 +4745,9 @@
             },
             {
               "year": 2016,
-              "hours": "351.3",
-              "landings": "78",
-              "legCount": 50,
+              "hours": "341.5",
+              "landings": "76",
+              "legCount": 49,
               "months": [
                 {
                   "month": 12,
@@ -4952,23 +4909,10 @@
                 {
                   "month": 9,
                   "monthLabel": "Setembro",
-                  "hours": "24.2",
-                  "landings": "6",
-                  "legCount": 4,
+                  "hours": "14.4",
+                  "landings": "4",
+                  "legCount": 3,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "418",
-                      "date": "12/09/2016",
-                      "celulaEtapa": "9.8",
-                      "celulaTotal": "2470.5",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "659",
-                      "motorEtapa": "9.8",
-                      "motorTotal": "2470.5",
-                      "cicloEtapa": "2",
-                      "cicloTotal": "659"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01",
                       "folha": "419",
@@ -5545,9 +5489,9 @@
             },
             {
               "year": 2015,
-              "hours": "434.5",
-              "landings": "100",
-              "legCount": 63,
+              "hours": "433.8",
+              "landings": "99",
+              "legCount": 62,
               "months": [
                 {
                   "month": 12,
@@ -5870,9 +5814,9 @@
                 {
                   "month": 7,
                   "monthLabel": "Julho",
-                  "hours": "85.7",
-                  "landings": "20",
-                  "legCount": 13,
+                  "hours": "85",
+                  "landings": "19",
+                  "legCount": 12,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -5951,19 +5895,6 @@
                       "motorTotal": "2009.4",
                       "cicloEtapa": "1",
                       "cicloTotal": "553"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "350",
-                      "date": "16/07/2015",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "2006.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "551",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "2006.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "551"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -6480,9 +6411,9 @@
             },
             {
               "year": 2014,
-              "hours": "449.9",
-              "landings": "108",
-              "legCount": 68,
+              "hours": "442.8",
+              "landings": "106",
+              "legCount": 67,
               "months": [
                 {
                   "month": 12,
@@ -7379,9 +7310,9 @@
                 {
                   "month": 1,
                   "monthLabel": "Janeiro",
-                  "hours": "18.2",
-                  "landings": "11",
-                  "legCount": 7,
+                  "hours": "11.1",
+                  "landings": "9",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -7395,19 +7326,6 @@
                       "motorTotal": "1330.4",
                       "cicloEtapa": "3",
                       "cicloTotal": "400"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01",
-                      "folha": "252",
-                      "date": "25/01/2014",
-                      "celulaEtapa": "7.1",
-                      "celulaTotal": "1327.9",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "396",
-                      "motorEtapa": "7.1",
-                      "motorTotal": "1327.9",
-                      "cicloEtapa": "2",
-                      "cicloTotal": "396"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01",
@@ -7584,6 +7502,123 @@
       },
       "tasks": [
         {
+          "id": "2.0",
+          "task": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-3 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "3.0",
+          "task": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "9 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "4.0",
+          "task": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "24 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "7.0",
+          "task": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "1 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "181.0",
+          "task": "Fuel Tank - Sumping\n280007",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "3 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "737.0",
+          "task": "VOR CHECK\nFAR 91.171\n345004",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "23 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "745.0",
+          "task": "G450-PlaneBook \nSoftware-App\nsubscription",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-2333 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "747.0",
+          "task": "FMS data renewal",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-45847 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "748.0",
+          "task": "Jeppesen Charts subscription",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-4549 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
           "id": "1385.0",
           "task": "CB 201B",
           "description": "CB 201 Modification - Main Landing Gear Doors, P/N 1159B42000 (Fokker SB RP-DGUP-25.10.1532)",
@@ -7634,7 +7669,7 @@
           "pn": "ASC 074",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-182 dias",
+          "dueDaysStr": "-189 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7658,7 +7693,7 @@
           "pn": "ASC 109",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-182 dias",
+          "dueDaysStr": "-189 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

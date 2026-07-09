@@ -1,24 +1,50 @@
 {
-  "generated_at": "08/07/2026 21:44",
+  "generated_at": "09/07/2026 15:40",
   "aircraft": {
     "PS-STP": {
       "info": {
         "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
-        "totalHours": 1917.2,
-        "totalLandings": 682.0,
+        "totalHours": 1926.7,
+        "totalLandings": 683.0,
         "registration": "PS-STP",
         "flightLog": {
-          "totalHours": "1917.2",
-          "totalLandings": "682",
+          "totalHours": "1926.7",
+          "totalLandings": "683",
           "twin": false,
           "apuMode": "quad",
           "years": [
             {
               "year": 2026,
-              "hours": "80.6",
+              "hours": "82.4",
               "landings": "27",
               "legCount": 21,
               "months": [
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "9.5",
+                  "landings": "1",
+                  "legCount": 1,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-STP/2026",
+                      "folha": "20",
+                      "date": "05/07/2026",
+                      "celulaEtapa": "9.5",
+                      "celulaTotal": "1926.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "683",
+                      "motorEtapa": "9.5",
+                      "motorTotal": "1926.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "683",
+                      "ahAnalog": "1170.3",
+                      "acAnalog": "1567",
+                      "ahDigital": null,
+                      "acDigital": null
+                    }
+                  ]
+                },
                 {
                   "month": 6,
                   "monthLabel": "Junho",
@@ -296,9 +322,9 @@
                 {
                   "month": 1,
                   "monthLabel": "Janeiro",
-                  "hours": "22.2",
-                  "landings": "8",
-                  "legCount": 7,
+                  "hours": "14.5",
+                  "landings": "7",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 04/PS-STP/2026",
@@ -348,23 +374,6 @@
                       "cicloTotal": "661",
                       "ahAnalog": null,
                       "acAnalog": null,
-                      "ahDigital": null,
-                      "acDigital": null
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 03/PS-STP/2025",
-                      "folha": "49",
-                      "date": "14/01/2026",
-                      "celulaEtapa": "7.7",
-                      "celulaTotal": "1852.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "659",
-                      "motorEtapa": "7.7",
-                      "motorTotal": "1852.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "659",
-                      "ahAnalog": "1115.8",
-                      "acAnalog": "1504",
                       "ahDigital": null,
                       "acDigital": null
                     },
@@ -1425,9 +1434,9 @@
             },
             {
               "year": 2024,
-              "hours": "248.7",
-              "landings": "66",
-              "legCount": 45,
+              "hours": "236.6",
+              "landings": "64",
+              "legCount": 44,
               "months": [
                 {
                   "month": 12,
@@ -1851,9 +1860,9 @@
                 {
                   "month": 6,
                   "monthLabel": "Junho",
-                  "hours": "34.9",
-                  "landings": "9",
-                  "legCount": 8,
+                  "hours": "22.8",
+                  "landings": "7",
+                  "legCount": 7,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 02/PS-STP/2024",
@@ -1903,23 +1912,6 @@
                       "cicloTotal": "556",
                       "ahAnalog": "899.2",
                       "acAnalog": "1229",
-                      "ahDigital": null,
-                      "acDigital": null
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 02/PS-STP/2024",
-                      "folha": "15",
-                      "date": "15/06/2024",
-                      "celulaEtapa": "12.1",
-                      "celulaTotal": "1435.5",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "554",
-                      "motorEtapa": "12.1",
-                      "motorTotal": "1435.5",
-                      "cicloEtapa": "2",
-                      "cicloTotal": "554",
-                      "ahAnalog": "897.7",
-                      "acAnalog": "1226",
                       "ahDigital": null,
                       "acDigital": null
                     },
@@ -2288,9 +2280,9 @@
             },
             {
               "year": 2023,
-              "hours": "222.1",
-              "landings": "53",
-              "legCount": 39,
+              "hours": "219",
+              "landings": "50",
+              "legCount": 38,
               "months": [
                 {
                   "month": 12,
@@ -2577,9 +2569,9 @@
                 {
                   "month": 9,
                   "monthLabel": "Setembro",
-                  "hours": "38.3",
-                  "landings": "13",
-                  "legCount": 7,
+                  "hours": "35.2",
+                  "landings": "10",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01/PS-STP/2023",
@@ -2597,23 +2589,6 @@
                       "acAnalog": "999",
                       "ahDigital": "478",
                       "acDigital": "1104"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-STP/2023",
-                      "folha": "23",
-                      "date": "10/09/2023",
-                      "celulaEtapa": "3.1",
-                      "celulaTotal": "1211.7",
-                      "pousoEtapa": "3",
-                      "pousoTotal": "504",
-                      "motorEtapa": "3.1",
-                      "motorTotal": "1211.7",
-                      "cicloEtapa": "3",
-                      "cicloTotal": "504",
-                      "ahAnalog": null,
-                      "acAnalog": null,
-                      "ahDigital": null,
-                      "acDigital": null
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-STP/2023",
@@ -3035,6 +3010,149 @@
       },
       "tasks": [
         {
+          "id": "22.0",
+          "task": "Short Term Parking",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "3 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "23.0",
+          "task": "Long Term Parking",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "4 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "24.0",
+          "task": "30 days preservation",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "26 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "25.0",
+          "task": "Engine preservation",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "3 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "26.0",
+          "task": "APU preservation",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "10 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "829.0",
+          "task": "VOR CHECK \nFAR 91.171",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "5 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "837.0",
+          "task": "Assinatura TRAXXALL",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "5 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "838.0",
+          "task": "Assinaturas \nPublicações\nBombardier",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-33 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "840.0",
+          "task": "Assinaturas \nAtualização FMS",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-45847 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "841.0",
+          "task": "Assinatura \nCartas Jeppesen",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-418 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "842.0",
+          "task": "iPreFlight Genesis Performance Subscription",
+          "description": "",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-770 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
           "id": "1174.0",
           "task": "AD 2016-01-12 \nCF-2014-25",
           "description": "Doors - Fuel Ingress into Aft Equipment Bay",
@@ -3085,7 +3203,7 @@
           "pn": "700-53-5011",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-823 dias",
+          "dueDaysStr": "-825 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3329,7 +3447,7 @@
           "pn": "700-32-5022",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-43 dias",
+          "dueDaysStr": "-45 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

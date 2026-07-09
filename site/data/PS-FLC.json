@@ -1,5 +1,5 @@
 {
-  "generated_at": "08/07/2026 21:44",
+  "generated_at": "09/07/2026 15:40",
   "aircraft": {
     "PS-FLC": {
       "info": {
@@ -15,9 +15,9 @@
           "years": [
             {
               "year": 2026,
-              "hours": "42.8",
-              "landings": "107",
-              "legCount": 32,
+              "hours": "42.4",
+              "landings": "105",
+              "legCount": 31,
               "months": [
                 {
                   "month": 7,
@@ -405,9 +405,9 @@
                 {
                   "month": 2,
                   "monthLabel": "Fevereiro",
-                  "hours": "6.7",
-                  "landings": "11",
-                  "legCount": 4,
+                  "hours": "6.3",
+                  "landings": "9",
+                  "legCount": 3,
                   "legs": [
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
@@ -434,19 +434,6 @@
                       "motorTotal": "385.2",
                       "cicloEtapa": "1",
                       "cicloTotal": "476"
-                    },
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
-                      "folha": "348",
-                      "date": "13/02/2026",
-                      "celulaEtapa": "0.4",
-                      "celulaTotal": "380.7",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "965",
-                      "motorEtapa": "0.4",
-                      "motorTotal": "380.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "474"
                     },
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
@@ -2034,9 +2021,9 @@
             },
             {
               "year": 2023,
-              "hours": "70.9",
-              "landings": "191",
-              "legCount": 68,
+              "hours": "69",
+              "landings": "185",
+              "legCount": 65,
               "months": [
                 {
                   "month": 12,
@@ -2463,23 +2450,10 @@
                 {
                   "month": 6,
                   "monthLabel": "Junho",
-                  "hours": "7",
-                  "landings": "24",
-                  "legCount": 10,
+                  "hours": "6.6",
+                  "landings": "20",
+                  "legCount": 9,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
-                      "folha": "212",
-                      "date": "21/06/2023",
-                      "celulaEtapa": "0.4",
-                      "celulaTotal": "225.6",
-                      "pousoEtapa": "4",
-                      "pousoTotal": "554",
-                      "motorEtapa": "0.4",
-                      "motorTotal": "225.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "295"
-                    },
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
                       "folha": "213",
@@ -2602,23 +2576,10 @@
                 {
                   "month": 5,
                   "monthLabel": "Maio",
-                  "hours": "6.2",
-                  "landings": "18",
-                  "legCount": 8,
+                  "hours": "5.4",
+                  "landings": "17",
+                  "legCount": 7,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
-                      "folha": "202",
-                      "date": "28/05/2023",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "218.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "526",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "218.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "283"
-                    },
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
                       "folha": "203",
@@ -2715,23 +2676,10 @@
                 {
                   "month": 4,
                   "monthLabel": "Abril",
-                  "hours": "13.1",
-                  "landings": "31",
-                  "legCount": 11,
+                  "hours": "12.4",
+                  "landings": "30",
+                  "legCount": 10,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
-                      "folha": "194",
-                      "date": "30/04/2023",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "211.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "508",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "211.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "274"
-                    },
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
                       "folha": "195",
@@ -3860,9 +3808,9 @@
             },
             {
               "year": 2021,
-              "hours": "54.5",
-              "landings": "144",
-              "legCount": 59,
+              "hours": "53.9",
+              "landings": "143",
+              "legCount": 58,
               "months": [
                 {
                   "month": 12,
@@ -3941,9 +3889,9 @@
                 {
                   "month": 11,
                   "monthLabel": "Novembro",
-                  "hours": "7",
-                  "landings": "23",
-                  "legCount": 9,
+                  "hours": "6.4",
+                  "landings": "22",
+                  "legCount": 8,
                   "legs": [
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
@@ -4035,19 +3983,6 @@
                       "motorTotal": "112.3",
                       "cicloEtapa": "1",
                       "cicloTotal": "161"
-                    },
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
-                      "folha": "103",
-                      "date": "02/11/2021",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "111.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "269",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "111.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "159"
                     },
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
@@ -4734,9 +4669,9 @@
             },
             {
               "year": 2020,
-              "hours": "55.1",
-              "landings": "145",
-              "legCount": 56,
+              "hours": "54.5",
+              "landings": "144",
+              "legCount": 55,
               "months": [
                 {
                   "month": 12,
@@ -5102,9 +5037,9 @@
                 {
                   "month": 8,
                   "monthLabel": "Agosto",
-                  "hours": "15.6",
-                  "landings": "37",
-                  "legCount": 11,
+                  "hours": "15",
+                  "landings": "36",
+                  "legCount": 10,
                   "legs": [
                     {
                       "book": "FLIGHT LOGBOOK NO. 01/PS-FLC/2020",
@@ -5170,19 +5105,6 @@
                       "motorTotal": "41",
                       "cicloEtapa": "2",
                       "cicloTotal": "69"
-                    },
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 01/PS-FLC/2020",
-                      "folha": "25",
-                      "date": "17/08/2020",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "37.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "80",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "37.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "66"
                     },
                     {
                       "book": "FLIGHT LOGBOOK NO. 01/PS-FLC/2020",
@@ -5799,7 +5721,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -5826,7 +5748,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "158.8h",
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "19 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -5840,7 +5762,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "119.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -5867,7 +5789,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -5881,7 +5803,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "1119.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -5895,7 +5817,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5908,7 +5830,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "19 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5921,7 +5843,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6077,7 +5999,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6091,7 +6013,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6170,7 +6092,7 @@
           "pn": "K054, K153,\nK341, K422",
           "sheet": "Manutenção",
           "dueHoursStr": "158.8h",
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "19 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6184,7 +6106,7 @@
           "pn": "K054, K153,\nK341, K422",
           "sheet": "Manutenção",
           "dueHoursStr": "158.8h",
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "19 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6198,7 +6120,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "119.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6511,7 +6433,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6525,7 +6447,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6539,7 +6461,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6553,7 +6475,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6567,7 +6489,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6581,7 +6503,7 @@
           "pn": "K064, K171",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6595,7 +6517,7 @@
           "pn": "K083",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6609,7 +6531,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6623,7 +6545,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6637,7 +6559,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6651,7 +6573,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6665,7 +6587,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6679,7 +6601,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6693,7 +6615,7 @@
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6707,7 +6629,7 @@
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6721,7 +6643,7 @@
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6735,7 +6657,7 @@
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6749,7 +6671,7 @@
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6763,7 +6685,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6777,7 +6699,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6791,7 +6713,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6805,7 +6727,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6819,7 +6741,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6833,7 +6755,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6847,7 +6769,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6861,7 +6783,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6875,7 +6797,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6889,7 +6811,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6903,7 +6825,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6917,7 +6839,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6931,7 +6853,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6945,7 +6867,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6959,7 +6881,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6973,7 +6895,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -6987,7 +6909,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7001,7 +6923,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7015,7 +6937,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7029,7 +6951,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7043,7 +6965,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7057,7 +6979,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7071,7 +6993,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7085,7 +7007,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7099,7 +7021,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "1119.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7113,7 +7035,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7126,7 +7048,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "19 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7139,7 +7061,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "20 dias",
+          "dueDaysStr": "19 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7152,7 +7074,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7165,7 +7087,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7178,7 +7100,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7191,7 +7113,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7204,7 +7126,7 @@
           "pn": "33181-002",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7217,7 +7139,7 @@
           "pn": "33296-001",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7230,7 +7152,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7243,7 +7165,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7256,7 +7178,7 @@
           "pn": "K008",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7269,7 +7191,7 @@
           "pn": "K008",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7282,7 +7204,7 @@
           "pn": "K010, K109",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7295,7 +7217,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7308,7 +7230,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7321,7 +7243,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7334,7 +7256,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7347,7 +7269,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7360,7 +7282,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7373,7 +7295,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7386,7 +7308,7 @@
           "pn": "D51701-001",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7399,7 +7321,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7412,7 +7334,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7425,7 +7347,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7438,7 +7360,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7451,7 +7373,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7464,7 +7386,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7477,7 +7399,7 @@
           "pn": "K096",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7490,7 +7412,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7503,7 +7425,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7542,7 +7464,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7555,7 +7477,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7568,7 +7490,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7595,7 +7517,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7609,7 +7531,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7623,7 +7545,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7637,7 +7559,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7651,7 +7573,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7678,7 +7600,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7691,7 +7613,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7704,7 +7626,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7731,7 +7653,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7745,7 +7667,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7759,7 +7681,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7773,7 +7695,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7787,7 +7709,7 @@
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -7801,7 +7723,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "-8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7814,7 +7736,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7827,7 +7749,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7840,7 +7762,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7853,7 +7775,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "24 dias",
+          "dueDaysStr": "23 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7866,7 +7788,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7879,7 +7801,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "25 dias",
+          "dueDaysStr": "24 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7892,7 +7814,7 @@
           "pn": "453-5061-710",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "22 dias",
+          "dueDaysStr": "21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7905,7 +7827,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-576 dias",
+          "dueDaysStr": "-577 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7918,7 +7840,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-1609 dias",
+          "dueDaysStr": "-1610 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7931,7 +7853,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45481 dias",
+          "dueDaysStr": "-45482 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7944,7 +7866,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45481 dias",
+          "dueDaysStr": "-45482 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

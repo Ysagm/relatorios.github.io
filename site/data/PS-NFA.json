@@ -1,5 +1,5 @@
 {
-  "generated_at": "08/07/2026 21:44",
+  "generated_at": "09/07/2026 15:40",
   "aircraft": {
     "PS-NFA": {
       "info": {
@@ -15,43 +15,17 @@
           "years": [
             {
               "year": 2026,
-              "hours": "139.9",
-              "landings": "148",
-              "legCount": 148,
+              "hours": "86.6",
+              "landings": "91",
+              "legCount": 91,
               "months": [
                 {
                   "month": 6,
                   "monthLabel": "Junho",
-                  "hours": "23.5",
-                  "landings": "30",
-                  "legCount": 30,
+                  "hours": "10.5",
+                  "landings": "15",
+                  "legCount": 15,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "35",
-                      "date": "24/06/2026",
-                      "celulaEtapa": "0.3",
-                      "celulaTotal": "213.3",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "214",
-                      "motorEtapa": "0.3",
-                      "motorTotal": "213.3",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "214"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "35",
-                      "date": "24/06/2026",
-                      "celulaEtapa": "1.6",
-                      "celulaTotal": "214.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "215",
-                      "motorEtapa": "1.6",
-                      "motorTotal": "214.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "215"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "35",
@@ -64,45 +38,6 @@
                       "motorTotal": "215.2",
                       "cicloEtapa": "1",
                       "cicloTotal": "216"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "34",
-                      "date": "23/06/2026",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "210.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "210",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "210.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "210"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "34",
-                      "date": "23/06/2026",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "211.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "211",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "211.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "211"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "35",
-                      "date": "23/06/2026",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "212.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "212",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "212.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "212"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -134,32 +69,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "34",
                       "date": "19/06/2026",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "207.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "206",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "207.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "206"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "34",
-                      "date": "19/06/2026",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "208.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "207",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "208.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "207"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "34",
-                      "date": "19/06/2026",
                       "celulaEtapa": "1",
                       "celulaTotal": "209.5",
                       "pousoEtapa": "1",
@@ -186,32 +95,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "33",
                       "date": "17/06/2026",
-                      "celulaEtapa": "1.3",
-                      "celulaTotal": "204.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "202",
-                      "motorEtapa": "1.3",
-                      "motorTotal": "204.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "202"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "33",
-                      "date": "17/06/2026",
-                      "celulaEtapa": "0.4",
-                      "celulaTotal": "204.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "203",
-                      "motorEtapa": "0.4",
-                      "motorTotal": "204.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "203"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "33",
-                      "date": "17/06/2026",
                       "celulaEtapa": "0.3",
                       "celulaTotal": "205.1",
                       "pousoEtapa": "1",
@@ -220,32 +103,6 @@
                       "motorTotal": "205.1",
                       "cicloEtapa": "1",
                       "cicloTotal": "204"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "32",
-                      "date": "16/06/2026",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "202.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "199",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "202.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "199"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "33",
-                      "date": "16/06/2026",
-                      "celulaEtapa": "0.4",
-                      "celulaTotal": "202.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "200",
-                      "motorEtapa": "0.4",
-                      "motorTotal": "202.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "200"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -285,45 +142,6 @@
                       "motorTotal": "201",
                       "cicloEtapa": "1",
                       "cicloTotal": "197"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "31",
-                      "date": "11/06/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "197.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "193",
-                      "motorEtapa": "1",
-                      "motorTotal": "197.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "193"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "32",
-                      "date": "11/06/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "198.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "194",
-                      "motorEtapa": "1",
-                      "motorTotal": "198.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "194"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "32",
-                      "date": "11/06/2026",
-                      "celulaEtapa": "1.2",
-                      "celulaTotal": "199.3",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "195",
-                      "motorEtapa": "1.2",
-                      "motorTotal": "199.3",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "195"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -392,19 +210,6 @@
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "30",
-                      "date": "02/06/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "192.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "187",
-                      "motorEtapa": "1",
-                      "motorTotal": "192.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "187"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "31",
                       "date": "02/06/2026",
                       "celulaEtapa": "0.8",
@@ -421,9 +226,9 @@
                 {
                   "month": 5,
                   "monthLabel": "Maio",
-                  "hours": "18.8",
-                  "landings": "18",
-                  "legCount": 18,
+                  "hours": "13.6",
+                  "landings": "13",
+                  "legCount": 13,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -437,19 +242,6 @@
                       "motorTotal": "191.7",
                       "cicloEtapa": "1",
                       "cicloTotal": "186"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "30",
-                      "date": "27/05/2026",
-                      "celulaEtapa": "1.5",
-                      "celulaTotal": "188.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "184",
-                      "motorEtapa": "1.5",
-                      "motorTotal": "188.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "184"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -521,19 +313,6 @@
                       "folha": "29",
                       "date": "18/05/2026",
                       "celulaEtapa": "1",
-                      "celulaTotal": "182.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "177",
-                      "motorEtapa": "1",
-                      "motorTotal": "182.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "177"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "29",
-                      "date": "18/05/2026",
-                      "celulaEtapa": "1",
                       "celulaTotal": "183.5",
                       "pousoEtapa": "1",
                       "pousoTotal": "178",
@@ -554,19 +333,6 @@
                       "motorTotal": "181.5",
                       "cicloEtapa": "1",
                       "cicloTotal": "176"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "28",
-                      "date": "13/05/2026",
-                      "celulaEtapa": "1.1",
-                      "celulaTotal": "178.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "174",
-                      "motorEtapa": "1.1",
-                      "motorTotal": "178.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "174"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -598,19 +364,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "28",
                       "date": "10/05/2026",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "176.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "171",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "176.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "171"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "28",
-                      "date": "10/05/2026",
                       "celulaEtapa": "0.7",
                       "celulaTotal": "176.8",
                       "pousoEtapa": "1",
@@ -637,19 +390,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "27",
                       "date": "05/05/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "173.3",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "168",
-                      "motorEtapa": "1",
-                      "motorTotal": "173.3",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "168"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "27",
-                      "date": "05/05/2026",
                       "celulaEtapa": "1.6",
                       "celulaTotal": "174.9",
                       "pousoEtapa": "1",
@@ -664,9 +404,9 @@
                 {
                   "month": 4,
                   "monthLabel": "Abril",
-                  "hours": "25.5",
-                  "landings": "32",
-                  "legCount": 32,
+                  "hours": "12.1",
+                  "landings": "17",
+                  "legCount": 17,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -686,32 +426,6 @@
                       "folha": "27",
                       "date": "29/04/2026",
                       "celulaEtapa": "0.8",
-                      "celulaTotal": "170.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "164",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "170.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "164"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "27",
-                      "date": "29/04/2026",
-                      "celulaEtapa": "0.5",
-                      "celulaTotal": "170.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "165",
-                      "motorEtapa": "0.5",
-                      "motorTotal": "170.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "165"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "27",
-                      "date": "29/04/2026",
-                      "celulaEtapa": "0.8",
                       "celulaTotal": "171.7",
                       "pousoEtapa": "1",
                       "pousoTotal": "166",
@@ -719,19 +433,6 @@
                       "motorTotal": "171.7",
                       "cicloEtapa": "1",
                       "cicloTotal": "166"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "26",
-                      "date": "28/04/2026",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "168.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "162",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "168.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "162"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -776,19 +477,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "26",
                       "date": "25/04/2026",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "165.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "158",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "165.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "158"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "26",
-                      "date": "25/04/2026",
                       "celulaEtapa": "0.8",
                       "celulaTotal": "166.7",
                       "pousoEtapa": "1",
@@ -815,45 +503,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "25",
                       "date": "20/04/2026",
-                      "celulaEtapa": "1.2",
-                      "celulaTotal": "161.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "153",
-                      "motorEtapa": "1.2",
-                      "motorTotal": "161.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "153"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "25",
-                      "date": "20/04/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "162.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "154",
-                      "motorEtapa": "1",
-                      "motorTotal": "162.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "154"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "25",
-                      "date": "20/04/2026",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "163.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "155",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "163.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "155"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "25",
-                      "date": "20/04/2026",
                       "celulaEtapa": "0.9",
                       "celulaTotal": "164.5",
                       "pousoEtapa": "1",
@@ -862,32 +511,6 @@
                       "motorTotal": "164.5",
                       "cicloEtapa": "1",
                       "cicloTotal": "156"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "24",
-                      "date": "19/04/2026",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "159.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "150",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "159.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "150"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "24",
-                      "date": "19/04/2026",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "160.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "151",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "160.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "151"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -919,32 +542,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "24",
                       "date": "15/04/2026",
-                      "celulaEtapa": "1.6",
-                      "celulaTotal": "156.3",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "146",
-                      "motorEtapa": "1.6",
-                      "motorTotal": "156.3",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "146"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "24",
-                      "date": "15/04/2026",
-                      "celulaEtapa": "1.4",
-                      "celulaTotal": "157.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "147",
-                      "motorEtapa": "1.4",
-                      "motorTotal": "157.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "147"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "24",
-                      "date": "15/04/2026",
                       "celulaEtapa": "0.6",
                       "celulaTotal": "158.3",
                       "pousoEtapa": "1",
@@ -958,45 +555,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "23",
                       "date": "14/04/2026",
-                      "celulaEtapa": "1.3",
-                      "celulaTotal": "152",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "142",
-                      "motorEtapa": "1.3",
-                      "motorTotal": "152",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "142"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "23",
-                      "date": "14/04/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "153",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "143",
-                      "motorEtapa": "1",
-                      "motorTotal": "153",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "143"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "23",
-                      "date": "14/04/2026",
-                      "celulaEtapa": "0.3",
-                      "celulaTotal": "153.3",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "144",
-                      "motorEtapa": "0.3",
-                      "motorTotal": "153.3",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "144"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "23",
-                      "date": "14/04/2026",
                       "celulaEtapa": "1.4",
                       "celulaTotal": "154.7",
                       "pousoEtapa": "1",
@@ -1005,19 +563,6 @@
                       "motorTotal": "154.7",
                       "cicloEtapa": "1",
                       "cicloTotal": "145"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "23",
-                      "date": "12/04/2026",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "150.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "140",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "150.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "140"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1089,23 +634,10 @@
                 {
                   "month": 3,
                   "monthLabel": "Março",
-                  "hours": "25.8",
-                  "landings": "28",
-                  "legCount": 28,
+                  "hours": "15.6",
+                  "landings": "17",
+                  "legCount": 17,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "22",
-                      "date": "31/03/2026",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "146",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "134",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "146",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "134"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "22",
@@ -1118,19 +650,6 @@
                       "motorTotal": "146.8",
                       "cicloEtapa": "1",
                       "cicloTotal": "135"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "21",
-                      "date": "30/03/2026",
-                      "celulaEtapa": "0.5",
-                      "celulaTotal": "144.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "132",
-                      "motorEtapa": "0.5",
-                      "motorTotal": "144.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "132"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1157,19 +676,6 @@
                       "motorTotal": "144.2",
                       "cicloEtapa": "1",
                       "cicloTotal": "131"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "21",
-                      "date": "25/03/2026",
-                      "celulaEtapa": "0.4",
-                      "celulaTotal": "143.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "129",
-                      "motorEtapa": "0.4",
-                      "motorTotal": "143.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "129"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1214,19 +720,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "20",
                       "date": "20/03/2026",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "140.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "125",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "140.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "125"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "20",
-                      "date": "20/03/2026",
                       "celulaEtapa": "0.9",
                       "celulaTotal": "141.3",
                       "pousoEtapa": "1",
@@ -1240,32 +733,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "20",
                       "date": "19/03/2026",
-                      "celulaEtapa": "1.3",
-                      "celulaTotal": "137.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "122",
-                      "motorEtapa": "1.3",
-                      "motorTotal": "137.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "122"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "20",
-                      "date": "19/03/2026",
-                      "celulaEtapa": "1.1",
-                      "celulaTotal": "139",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "123",
-                      "motorEtapa": "1.1",
-                      "motorTotal": "139",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "123"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "20",
-                      "date": "19/03/2026",
                       "celulaEtapa": "0.7",
                       "celulaTotal": "139.7",
                       "pousoEtapa": "1",
@@ -1274,19 +741,6 @@
                       "motorTotal": "139.7",
                       "cicloEtapa": "1",
                       "cicloTotal": "124"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "19",
-                      "date": "17/03/2026",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "135",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "120",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "135",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "120"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1331,19 +785,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "19",
                       "date": "11/03/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "131.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "116",
-                      "motorEtapa": "1",
-                      "motorTotal": "131.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "116"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "19",
-                      "date": "11/03/2026",
                       "celulaEtapa": "1.6",
                       "celulaTotal": "133.2",
                       "pousoEtapa": "1",
@@ -1365,19 +806,6 @@
                       "motorTotal": "130",
                       "cicloEtapa": "1",
                       "cicloTotal": "114"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "18",
-                      "date": "08/03/2026",
-                      "celulaEtapa": "1.8",
-                      "celulaTotal": "126.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "112",
-                      "motorEtapa": "1.8",
-                      "motorTotal": "126.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "112"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1409,19 +837,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "17",
                       "date": "04/03/2026",
-                      "celulaEtapa": "1.4",
-                      "celulaTotal": "122.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "108",
-                      "motorEtapa": "1.4",
-                      "motorTotal": "122.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "108"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "17",
-                      "date": "04/03/2026",
                       "celulaEtapa": "0.9",
                       "celulaTotal": "123.7",
                       "pousoEtapa": "1",
@@ -1430,19 +845,6 @@
                       "motorTotal": "123.7",
                       "cicloEtapa": "1",
                       "cicloTotal": "109"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "17",
-                      "date": "03/03/2026",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "120.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "106",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "120.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "106"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1462,9 +864,9 @@
                 {
                   "month": 2,
                   "monthLabel": "Fevereiro",
-                  "hours": "24.6",
-                  "landings": "21",
-                  "legCount": 21,
+                  "hours": "20.6",
+                  "landings": "16",
+                  "legCount": 16,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1535,19 +937,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "16",
                       "date": "19/02/2026",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "110.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "99",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "110.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "99"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "16",
-                      "date": "19/02/2026",
                       "celulaEtapa": "0.5",
                       "celulaTotal": "111.1",
                       "pousoEtapa": "1",
@@ -1569,19 +958,6 @@
                       "motorTotal": "109.9",
                       "cicloEtapa": "1",
                       "cicloTotal": "98"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "15",
-                      "date": "12/02/2026",
-                      "celulaEtapa": "1.2",
-                      "celulaTotal": "108.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "96",
-                      "motorEtapa": "1.2",
-                      "motorTotal": "108.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "96"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1613,19 +989,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "15",
                       "date": "09/02/2026",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "105.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "93",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "105.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "93"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "15",
-                      "date": "09/02/2026",
                       "celulaEtapa": "0.6",
                       "celulaTotal": "106",
                       "pousoEtapa": "1",
@@ -1634,32 +997,6 @@
                       "motorTotal": "106",
                       "cicloEtapa": "1",
                       "cicloTotal": "94"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "14",
-                      "date": "07/02/2026",
-                      "celulaEtapa": "1.2",
-                      "celulaTotal": "102.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "90",
-                      "motorEtapa": "1.2",
-                      "motorTotal": "102.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "90"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "14",
-                      "date": "07/02/2026",
-                      "celulaEtapa": "0.2",
-                      "celulaTotal": "103.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "91",
-                      "motorEtapa": "0.2",
-                      "motorTotal": "103.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "91"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1744,9 +1081,9 @@
                 {
                   "month": 1,
                   "monthLabel": "Janeiro",
-                  "hours": "21.7",
-                  "landings": "19",
-                  "legCount": 19,
+                  "hours": "14.2",
+                  "landings": "13",
+                  "legCount": 13,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1760,19 +1097,6 @@
                       "motorTotal": "95.2",
                       "cicloEtapa": "1",
                       "cicloTotal": "84"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "13",
-                      "date": "29/01/2026",
-                      "celulaEtapa": "1.3",
-                      "celulaTotal": "91.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "82",
-                      "motorEtapa": "1.3",
-                      "motorTotal": "91.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "82"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1843,32 +1167,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "12",
                       "date": "20/01/2026",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "84.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "75",
-                      "motorEtapa": "1",
-                      "motorTotal": "84.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "75"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "12",
-                      "date": "20/01/2026",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "85.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "76",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "85.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "76"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "12",
-                      "date": "20/01/2026",
                       "celulaEtapa": "0.8",
                       "celulaTotal": "86.6",
                       "pousoEtapa": "1",
@@ -1877,19 +1175,6 @@
                       "motorTotal": "86.6",
                       "cicloEtapa": "1",
                       "cicloTotal": "77"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "11",
-                      "date": "19/01/2026",
-                      "celulaEtapa": "2.6",
-                      "celulaTotal": "81.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "73",
-                      "motorEtapa": "2.6",
-                      "motorTotal": "81.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "73"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -1929,32 +1214,6 @@
                       "motorTotal": "78.4",
                       "cicloEtapa": "1",
                       "cicloTotal": "71"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "11",
-                      "date": "15/01/2026",
-                      "celulaEtapa": "0.5",
-                      "celulaTotal": "74.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "68",
-                      "motorEtapa": "0.5",
-                      "motorTotal": "74.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "68"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "11",
-                      "date": "15/01/2026",
-                      "celulaEtapa": "1.2",
-                      "celulaTotal": "75.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "69",
-                      "motorEtapa": "1.2",
-                      "motorTotal": "75.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "69"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2001,56 +1260,17 @@
             },
             {
               "year": 2025,
-              "hours": "51.1",
-              "landings": "52",
-              "legCount": 52,
+              "hours": "33.3",
+              "landings": "34",
+              "legCount": 34,
               "months": [
                 {
                   "month": 12,
                   "monthLabel": "Dezembro",
-                  "hours": "23.7",
-                  "landings": "23",
-                  "legCount": 23,
+                  "hours": "14",
+                  "landings": "13",
+                  "legCount": 13,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "10",
-                      "date": "27/12/2025",
-                      "celulaEtapa": "2",
-                      "celulaTotal": "71.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "62",
-                      "motorEtapa": "2",
-                      "motorTotal": "71.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "62"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "10",
-                      "date": "27/12/2025",
-                      "celulaEtapa": "0.4",
-                      "celulaTotal": "72",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "63",
-                      "motorEtapa": "0.4",
-                      "motorTotal": "72",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "63"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "10",
-                      "date": "27/12/2025",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "72.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "64",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "72.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "64"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "10",
@@ -2089,45 +1309,6 @@
                       "motorTotal": "67.6",
                       "cicloEtapa": "1",
                       "cicloTotal": "60"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "9",
-                      "date": "19/12/2025",
-                      "celulaEtapa": "1.2",
-                      "celulaTotal": "64.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "56",
-                      "motorEtapa": "1.2",
-                      "motorTotal": "64.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "56"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "9",
-                      "date": "19/12/2025",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "65.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "57",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "65.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "57"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "9",
-                      "date": "19/12/2025",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "66",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "58",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "66",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "58"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2209,19 +1390,6 @@
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "7",
-                      "date": "12/12/2025",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "57.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "49",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "57.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "49"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "8",
                       "date": "12/12/2025",
                       "celulaEtapa": "0.6",
@@ -2232,19 +1400,6 @@
                       "motorTotal": "58",
                       "cicloEtapa": "1",
                       "cicloTotal": "50"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "7",
-                      "date": "11/12/2025",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "55",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "47",
-                      "motorEtapa": "1",
-                      "motorTotal": "55",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "47"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2263,19 +1418,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "7",
                       "date": "04/12/2025",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "53",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "45",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "53",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "45"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "7",
-                      "date": "04/12/2025",
                       "celulaEtapa": "1",
                       "celulaTotal": "54",
                       "pousoEtapa": "1",
@@ -2284,19 +1426,6 @@
                       "motorTotal": "54",
                       "cicloEtapa": "1",
                       "cicloTotal": "46"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "6",
-                      "date": "03/12/2025",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "50.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "43",
-                      "motorEtapa": "1",
-                      "motorTotal": "50.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "43"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2316,23 +1445,10 @@
                 {
                   "month": 11,
                   "monthLabel": "Novembro",
-                  "hours": "15.7",
-                  "landings": "15",
-                  "legCount": 15,
+                  "hours": "11.1",
+                  "landings": "11",
+                  "legCount": 11,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "6",
-                      "date": "29/11/2025",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "49.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "41",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "49.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "41"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "6",
@@ -2358,19 +1474,6 @@
                       "motorTotal": "48.5",
                       "cicloEtapa": "1",
                       "cicloTotal": "40"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "6",
-                      "date": "25/11/2025",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "45.3",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "38",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "45.3",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "38"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2415,19 +1518,6 @@
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "5",
                       "date": "18/11/2025",
-                      "celulaEtapa": "2.5",
-                      "celulaTotal": "42.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "34",
-                      "motorEtapa": "2.5",
-                      "motorTotal": "42.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "34"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "5",
-                      "date": "18/11/2025",
                       "celulaEtapa": "1.6",
                       "celulaTotal": "43.8",
                       "pousoEtapa": "1",
@@ -2462,19 +1552,6 @@
                       "motorTotal": "38.6",
                       "cicloEtapa": "1",
                       "cicloTotal": "32"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "4",
-                      "date": "14/11/2025",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "36.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "30",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "36.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "30"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2520,23 +1597,10 @@
                 {
                   "month": 10,
                   "monthLabel": "Outubro",
-                  "hours": "11.7",
-                  "landings": "14",
-                  "legCount": 14,
+                  "hours": "8.2",
+                  "landings": "10",
+                  "legCount": 10,
                   "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "4",
-                      "date": "30/10/2025",
-                      "celulaEtapa": "1.5",
-                      "celulaTotal": "33.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "26",
-                      "motorEtapa": "1.5",
-                      "motorTotal": "33.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "26"
-                    },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
                       "folha": "4",
@@ -2568,19 +1632,6 @@
                       "folha": "3",
                       "date": "26/10/2025",
                       "celulaEtapa": "0.6",
-                      "celulaTotal": "30.4",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "23",
-                      "motorEtapa": "0.6",
-                      "motorTotal": "30.4",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "23"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "3",
-                      "date": "26/10/2025",
-                      "celulaEtapa": "0.6",
                       "celulaTotal": "31",
                       "pousoEtapa": "1",
                       "pousoTotal": "24",
@@ -2588,19 +1639,6 @@
                       "motorTotal": "31",
                       "cicloEtapa": "1",
                       "cicloTotal": "24"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "3",
-                      "date": "23/10/2025",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "28.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "21",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "28.8",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "21"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2627,19 +1665,6 @@
                       "motorTotal": "27.9",
                       "cicloEtapa": "1",
                       "cicloTotal": "20"
-                    },
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "2",
-                      "date": "20/10/2025",
-                      "celulaEtapa": "0.5",
-                      "celulaTotal": "26.1",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "18",
-                      "motorEtapa": "0.5",
-                      "motorTotal": "26.1",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "18"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -2812,7 +1837,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2825,7 +1850,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -2839,7 +1864,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -2853,7 +1878,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2866,7 +1891,7 @@
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2879,7 +1904,7 @@
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2892,7 +1917,7 @@
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2905,7 +1930,7 @@
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2918,7 +1943,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2931,7 +1956,7 @@
           "pn": "7639-34",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2944,7 +1969,7 @@
           "pn": "7638-48P",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2957,7 +1982,7 @@
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "-8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2970,7 +1995,7 @@
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "-8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2983,7 +2008,7 @@
           "pn": "S6-01-0005-320",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -2996,7 +2021,7 @@
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3010,7 +2035,7 @@
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3024,7 +2049,7 @@
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3038,7 +2063,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3051,7 +2076,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3064,7 +2089,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3077,7 +2102,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3090,7 +2115,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3103,7 +2128,7 @@
           "pn": "12 MO PACKAGE\n5013-6100-50",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3116,7 +2141,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3129,7 +2154,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -3143,7 +2168,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -3157,7 +2182,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3170,7 +2195,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -3184,7 +2209,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -3198,7 +2223,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3211,7 +2236,7 @@
           "pn": "7450LS-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "13 dias",
+          "dueDaysStr": "12 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3224,7 +2249,7 @@
           "pn": "7450LS-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "13 dias",
+          "dueDaysStr": "12 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3237,7 +2262,7 @@
           "pn": "KCA0120W",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3250,7 +2275,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "-37 dias",
+          "dueDaysStr": "-38 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3264,7 +2289,7 @@
           "pn": "12 MO PACKAGE\nMC40-11",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3277,7 +2302,7 @@
           "pn": "12 MO PACKAGE\nMC40-11",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3290,7 +2315,7 @@
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3303,7 +2328,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3317,7 +2342,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3331,7 +2356,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3345,7 +2370,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3359,7 +2384,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3373,7 +2398,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3387,7 +2412,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3401,7 +2426,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3415,7 +2440,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3429,7 +2454,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3443,7 +2468,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3457,7 +2482,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3471,7 +2496,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3485,7 +2510,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3499,7 +2524,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3513,7 +2538,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3527,7 +2552,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3541,7 +2566,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3555,7 +2580,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3569,7 +2594,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3583,7 +2608,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3597,7 +2622,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3611,7 +2636,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3625,7 +2650,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3639,7 +2664,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3653,7 +2678,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3667,7 +2692,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3681,7 +2706,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3695,7 +2720,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3708,7 +2733,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3721,7 +2746,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3735,7 +2760,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3749,7 +2774,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3763,7 +2788,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3777,7 +2802,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3791,7 +2816,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3805,7 +2830,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3819,7 +2844,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3833,7 +2858,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3847,7 +2872,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3861,7 +2886,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3875,7 +2900,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3889,7 +2914,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3903,7 +2928,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3917,7 +2942,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3931,7 +2956,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3945,7 +2970,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3959,7 +2984,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3973,7 +2998,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -3987,7 +3012,7 @@
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -4001,7 +3026,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "94 dias",
+          "dueDaysStr": "93 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4014,7 +3039,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-40 dias",
+          "dueDaysStr": "-41 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4027,7 +3052,7 @@
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4040,7 +3065,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "71 dias",
+          "dueDaysStr": "70 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4053,7 +3078,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45846 dias",
+          "dueDaysStr": "-45847 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4066,7 +3091,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "85 dias",
+          "dueDaysStr": "84 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4079,7 +3104,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45846 dias",
+          "dueDaysStr": "-45847 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4105,7 +3130,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4118,7 +3143,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45481 dias",
+          "dueDaysStr": "-45482 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4131,7 +3156,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45481 dias",
+          "dueDaysStr": "-45482 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4144,7 +3169,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4157,7 +3182,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "8 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4170,7 +3195,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "8 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4183,7 +3208,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-13 dias",
+          "dueDaysStr": "-14 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4196,7 +3221,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "8 dias",
+          "dueDaysStr": "7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4209,7 +3234,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "70 dias",
+          "dueDaysStr": "69 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4222,10 +3247,62 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "70 dias",
+          "dueDaysStr": "69 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
+          ]
+        },
+        {
+          "id": "121.0",
+          "task": "25-66-01-001",
+          "description": "Restoration of Life\nRaft\n25-66-01-900-801-A/200",
+          "pn": "1400-1/1500-1",
+          "sheet": "Componentes",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46211 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "122.0",
+          "task": "",
+          "description": "Life Raft cylinder hyd test",
+          "pn": "",
+          "sheet": "Componentes",
+          "dueHoursStr": null,
+          "dueDaysStr": "-46211 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "213.0",
+          "task": "",
+          "description": "LH MLG Tire",
+          "pn": "258K63-2",
+          "sheet": "Componentes",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-45 ciclos",
+          "alertTypes": [
+            "cycles"
+          ]
+        },
+        {
+          "id": "248.0",
+          "task": "",
+          "description": "RH MLG Tire",
+          "pn": "258K63-2",
+          "sheet": "Componentes",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": "-45 ciclos",
+          "alertTypes": [
+            "cycles"
           ]
         },
         {

@@ -360,6 +360,7 @@
       <span class="pill"        data-validity="hours"  onclick="setValidity('hours',this)">&lt; 30 horas</span>
       <span class="pill"        data-validity="days"   onclick="setValidity('days',this)">&lt; 30 dias</span>
       <span class="pill"        data-validity="cycles" onclick="setValidity('cycles',this)">&lt; 30 ciclos</span>
+      <span class="pill"        data-validity="overdue" onclick="setValidity('overdue',this)">Overdue</span>
     </div>
     <div id="table-wrap"></div>
   </div>
@@ -468,7 +469,7 @@ function applyJSON(json) {
   if (json.generated_at) {
     document.getElementById('data-source-note').style.display = 'flex';
     document.getElementById('data-source-text').textContent =
-      'Dados gerados automaticamente em ' + json.generated_at;
+      'Dados gerados automaticamente em ' + json.generated_at + ' (horário de Brasília)';
   }
   currentAcft = Object.keys(allData)[0];
   renderAcftSelector();
@@ -496,8 +497,9 @@ if (_existingSession) { showApp(true); tryLoadData(); }
 // ── STATE ─────────────────────────────────────────────────────────────────
 let allData         = {};
 let currentAcft     = null;
-let currentTab      = 'all';
-let currentValidity = 'all';
+let currentTab        = 'all';
+let currentValidity   = 'all';
+let currentPrioritySort = false;
 
 // ── UPLOAD (modo manual) ──────────────────────────────────────────────────
 const dropZone = document.getElementById('drop-zone');
@@ -800,7 +802,32 @@ function parseFlightLogSheet(rows) {
   });
 
   if (!legs.length) return null;
-  return buildFlightLog(legs, twin, apuMode);
+  return buildFlightLog(dedupeSameDateLegs(legs), twin, apuMode);
+}
+
+function dedupeSameDateLegs(legs) {
+  // Se houver mais de uma etapa com a mesma data (ex: correção/duplicata
+  // lançada na planilha), mantém só a que tiver o maior total acumulado de
+  // célula — a entrada mais atualizada — preservando a posição original.
+  const winners = new Map();
+  legs.forEach(leg => {
+    if (!leg._date) return;
+    const key = leg._date.getTime();
+    const cur = winners.get(key);
+    const curTotal = cur ? numOrNull(cur.celulaTotal) : null;
+    const newTotal = numOrNull(leg.celulaTotal);
+    if (!cur || (newTotal != null && (curTotal == null || newTotal > curTotal))) winners.set(key, leg);
+  });
+  const seen = new Set();
+  const result = [];
+  legs.forEach(leg => {
+    if (!leg._date) { result.push(leg); return; }
+    const key = leg._date.getTime();
+    if (seen.has(key)) return;
+    seen.add(key);
+    result.push(winners.get(key));
+  });
+  return result;
 }
 
 // ── PARSER ────────────────────────────────────────────────────────────────
@@ -886,15 +913,39 @@ function parseWorkbook(wb, acftName) {
           pn:sb||'', sheet:sn, dueHoursStr, dueDaysStr, dueCyclesStr:null, alertTypes });
       }
     } else {
+      // Procura o cabeçalho pela combinação Horas+Ciclos+Data (rótulos que
+      // sempre aparecem juntos na linha de sub-cabeçalho real, em português
+      // ou inglês). Busca limitada às primeiras linhas para não casar por
+      // acidente com uma descrição de tarefa contendo essas palavras soltas
+      // mais abaixo na planilha (ex: PS-STP, N918LL perdiam centenas de
+      // linhas reais de manutenção por causa disso).
       let hdr = -1;
-      for (let i = 0; i < rows.length; i++) {
+      for (let i = 0; i < Math.min(25, rows.length); i++) {
         const rs = (rows[i]||[]).map(v=>normalize(v)).join('|');
-        if (rs.includes('TASK')||(rs.includes('ID')&&(rs.includes('INSPECTIONS')||rs.includes('NOMENCLATURA')))) {
-          hdr=i; break;
+        const hasHours = rs.includes('HORAS') || rs.includes('HOURS');
+        const hasCycles = rs.includes('CICLOS') || rs.includes('CYCLES');
+        const hasDate = rs.includes('DATA') || rs.includes('DATE');
+        if (hasHours && hasCycles && hasDate) { hdr = i; break; }
+      }
+      if (hdr < 0) {
+        for (let i = 0; i < Math.min(30, rows.length); i++) {
+          const rs = (rows[i]||[]).map(v=>normalize(v)).join('|');
+          if (rs.includes('TASK')||(rs.includes('ID')&&(rs.includes('INSPECTIONS')||rs.includes('NOMENCLATURA')))) {
+            hdr=i; break;
+          }
         }
       }
       if (hdr < 0) return;
-      const alertCol = sn==='Componentes' ? 19 : 18;
+      // A coluna do alerta também varia de posição conforme o template.
+      // Localiza pelo rótulo "Alert"/"Alerta" no cabeçalho em vez de índice fixo.
+      let alertCol = null;
+      for (let i = 0; i <= hdr && alertCol === null; i++) {
+        const row = rows[i] || [];
+        for (let j = 0; j < row.length; j++) {
+          if (normalize(row[j]).includes('ALERT')) { alertCol = j; break; }
+        }
+      }
+      if (alertCol === null) alertCol = sn==='Componentes' ? 19 : 18;
       for (let i = hdr+1; i < rows.length; i++) {
         const row = rows[i] || [];
         if (!isAlert(row[alertCol])) continue;
@@ -955,9 +1006,10 @@ function renderAcftSelector() {
   }).join('');
 }
 function switchAcft(name) {
-  currentAcft=name; currentTab='all'; currentValidity='all';
+  currentAcft=name; currentTab='all'; currentValidity='all'; currentPrioritySort=false;
   document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab==='all'));
   document.querySelectorAll('[data-validity]').forEach(p=>p.classList.toggle('active',p.dataset.validity==='all'));
+  document.getElementById('validity-filters').style.display = 'flex';
   renderAcftSelector(); renderDashboard();
 }
 function renderDashboard() {
@@ -982,21 +1034,44 @@ function renderDashboard() {
     <div class="stat-card"><div class="stat-label"><i class="ti ti-repeat"></i> &lt; 30 ciclos</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('cycles')).length}</div><div class="stat-sub">alertas por ciclos</div></div>`;
   renderTable();
 }
+function parseNum(str) {
+  if (typeof str !== 'string') return null;
+  const m = str.match(/-?\d+(\.\d+)?/);
+  return m ? parseFloat(m[0]) : null;
+}
+function dueStrFor(t, type) {
+  return type==='hours' ? t.dueHoursStr : type==='days' ? t.dueDaysStr : type==='cycles' ? t.dueCyclesStr : null;
+}
+function typeIsOverdue(t, type) {
+  const v = parseNum(dueStrFor(t, type));
+  return v != null && v < 0;
+}
+function taskIsOverdue(t) {
+  return t.alertTypes.some(type => typeIsOverdue(t, type));
+}
+function taskPriorityValue(t) {
+  const vals = [t.dueHoursStr, t.dueDaysStr, t.dueCyclesStr].map(parseNum).filter(v => v != null);
+  return vals.length ? Math.min(...vals) : Infinity;
+}
+function togglePrioritySort() {
+  currentPrioritySort = !currentPrioritySort;
+  renderTable();
+}
 function renderTable() {
   const data=allData[currentAcft]; if(!data)return;
   if (currentTab === 'Diário de Bordo') { renderFlightLog(data); return; }
   let tasks=data.tasks;
   if (currentTab!=='all') tasks=tasks.filter(t=>{const s=t.sheet.trim();if(currentTab==='DIR')return s==='DIR';return s===currentTab||s.startsWith(currentTab);});
-  if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity));
+  if (currentValidity==='overdue') tasks=tasks.filter(taskIsOverdue);
+  else if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity));
+  if (currentPrioritySort) tasks=tasks.slice().sort((a,b)=>taskPriorityValue(a)-taskPriorityValue(b));
   const wrap=document.getElementById('table-wrap');
   if (!tasks.length){wrap.innerHTML=`<div class="empty-state"><i class="ti ti-circle-check" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhum alerta nesta categoria</div>`;return;}
   const countLabel=`<div class="section-title">${tasks.length} tarefa${tasks.length!==1?'s':''} em alerta</div>`;
   const rows=tasks.map(t=>{
-    const overdueStr={hours:t.dueHoursStr,days:t.dueDaysStr,cycles:t.dueCyclesStr};
-    const isOverdue=type=>{const s=overdueStr[type];return typeof s==='string'&&s.trim().startsWith('-');};
-    const hasOverdue=t.alertTypes.some(isOverdue);
+    const hasOverdue=taskIsOverdue(t);
     const typeBadges=(hasOverdue?['<span class="badge badge-overdue"><i class="ti ti-alert-triangle"></i> Overdue</span>']:[])
-      .concat(t.alertTypes.filter(type=>!isOverdue(type)).map(type=>{
+      .concat(t.alertTypes.filter(type=>!typeIsOverdue(t,type)).map(type=>{
         if(type==='hours') return `<span class="badge badge-hours"><i class="ti ti-clock"></i> &lt; 30 horas</span>`;
         if(type==='days')  return `<span class="badge badge-days"><i class="ti ti-calendar"></i> &lt; 30 dias</span>`;
         if(type==='cycles')return `<span class="badge badge-cycles"><i class="ti ti-repeat"></i> &lt; 30 ciclos</span>`;
@@ -1021,7 +1096,9 @@ function renderTable() {
       <th class="col-task">Tarefa / Descrição</th>
       <th class="col-sheet">Aba</th>
       <th class="col-due">Saldo restante</th>
-      <th class="col-type">Tipo de validade</th>
+      <th class="col-type" style="cursor:pointer;user-select:none;${currentPrioritySort?'color:var(--text-danger);':''}" onclick="togglePrioritySort()" title="Clique para ordenar por prioridade (Overdue primeiro)">
+        Tipo de validade <i class="ti ${currentPrioritySort?'ti-sort-ascending-2':'ti-arrows-sort'}" style="font-size:12px;"></i>
+      </th>
     </tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 

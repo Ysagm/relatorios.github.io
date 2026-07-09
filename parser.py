@@ -10,6 +10,9 @@ import re
 import unicodedata
 from datetime import datetime, date
 from pathlib import Path
+from zoneinfo import ZoneInfo
+
+BRASILIA_TZ = ZoneInfo("America/Sao_Paulo")
 
 import xlrd  # leitura de .xls
 from openpyxl import load_workbook  # leitura de .xlsx
@@ -336,16 +339,48 @@ def parse_workbook(sheets, acft_name):
                     "alertTypes": alert_types,
                 })
         else:
+            # Procura o cabecalho pela combinacao Horas+Ciclos+Data (rotulos
+            # que sempre aparecem juntos na linha de sub-cabecalho real,
+            # tanto no template em portugues quanto no ingles). Busca
+            # limitada as primeiras linhas para nao casar por acidente com
+            # uma descricao de tarefa contendo essas palavras soltas mais
+            # abaixo na planilha (o que fazia o scanner pular centenas de
+            # linhas reais de manutencao, ex: PS-STP, N918LL).
             hdr = -1
-            for i, row in enumerate(rows):
-                rs = "|".join(normalize(v) for v in (row or []))
-                if ("TASK" in rs) or ("ID" in rs and ("INSPECTIONS" in rs or "NOMENCLATURA" in rs)):
+            for i in range(min(25, len(rows))):
+                row = rows[i] or []
+                rs = "|".join(normalize(v) for v in row)
+                has_hours  = "HORAS" in rs or "HOURS" in rs
+                has_cycles = "CICLOS" in rs or "CYCLES" in rs
+                has_date   = "DATA" in rs or "DATE" in rs
+                if has_hours and has_cycles and has_date:
                     hdr = i
                     break
             if hdr < 0:
+                for i in range(min(30, len(rows))):
+                    row = rows[i] or []
+                    rs = "|".join(normalize(v) for v in row)
+                    if ("TASK" in rs) or ("ID" in rs and ("INSPECTIONS" in rs or "NOMENCLATURA" in rs)):
+                        hdr = i
+                        break
+            if hdr < 0:
                 continue
 
-            alert_col = 19 if sn == "Componentes" else 18
+            # A coluna do alerta ("ATENÇÃO"/"ATTENTION") tambem varia de
+            # posicao conforme o template (algumas aeronaves tem uma coluna
+            # a mais antes da descricao, deslocando tudo). Localiza pelo
+            # rotulo "Alert"/"Alerta" no cabecalho em vez de indice fixo.
+            alert_col = None
+            for i in range(hdr + 1):
+                row = rows[i] or []
+                for j, v in enumerate(row):
+                    if "ALERT" in normalize(v):
+                        alert_col = j
+                        break
+                if alert_col is not None:
+                    break
+            if alert_col is None:
+                alert_col = 19 if sn == "Componentes" else 18
 
             for i in range(hdr + 1, len(rows)):
                 row = rows[i] or []
@@ -639,7 +674,37 @@ def parse_flight_log(rows):
     if not legs:
         return None
 
+    legs = dedupe_same_date_legs(legs)
     return build_flight_log(legs, twin, apu_mode)
+
+
+def dedupe_same_date_legs(legs):
+    """Se houver mais de uma etapa com a mesma data (ex: correcao/duplicata
+    lancada na planilha), mantem so a que tiver o maior total acumulado de
+    celula — a entrada mais atualizada — preservando a posicao original."""
+    winners = {}
+    for leg in legs:
+        key = leg.get("_date")
+        if key is None:
+            continue
+        cur = winners.get(key)
+        cur_total = num(cur.get("celulaTotal")) if cur else None
+        new_total = num(leg.get("celulaTotal"))
+        if cur is None or (new_total is not None and (cur_total is None or new_total > cur_total)):
+            winners[key] = leg
+
+    result = []
+    seen = set()
+    for leg in legs:
+        key = leg.get("_date")
+        if key is None:
+            result.append(leg)
+            continue
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(winners[key])
+    return result
 
 
 def _export_leg(leg):
@@ -732,7 +797,9 @@ def main():
             print(f"[ERRO] falha ao processar {p.name}: {e}")
 
     output = {
-        "generated_at": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        # GitHub Actions roda em UTC; convertemos explicitamente para o
+        # horario de Brasilia (o rotulo na interface deixa isso explicito).
+        "generated_at": datetime.now(BRASILIA_TZ).strftime("%d/%m/%Y %H:%M"),
         "aircraft": aircraft,
     }
 

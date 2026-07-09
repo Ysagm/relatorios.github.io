@@ -1,5 +1,5 @@
 {
-  "generated_at": "08/07/2026 21:44",
+  "generated_at": "09/07/2026 15:40",
   "aircraft": {
     "PS-JAJ": {
       "info": {
@@ -15,9 +15,9 @@
           "years": [
             {
               "year": 2026,
-              "hours": "83.9",
-              "landings": "34",
-              "legCount": 21,
+              "hours": "83",
+              "landings": "33",
+              "legCount": 20,
               "months": [
                 {
                   "month": 6,
@@ -130,25 +130,10 @@
                 {
                   "month": 4,
                   "monthLabel": "Abril",
-                  "hours": "16",
-                  "landings": "12",
-                  "legCount": 8,
+                  "hours": "15.1",
+                  "landings": "11",
+                  "legCount": 7,
                   "legs": [
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 08/PS-JAJ/2025",
-                      "folha": "18",
-                      "date": "29/04/2026",
-                      "celulaEtapa": "0.9",
-                      "celulaTotal": "1531.9",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "822",
-                      "motorEtapa": "0.9",
-                      "motorTotal": "1338.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "687",
-                      "apuAH": "1214",
-                      "apuAC": "1070"
-                    },
                     {
                       "book": "DIÁRIO DE BORDO NO. 08/PS-JAJ/2025",
                       "folha": "19",
@@ -392,9 +377,9 @@
             },
             {
               "year": 2025,
-              "hours": "239.9",
-              "landings": "105",
-              "legCount": 76,
+              "hours": "238.4",
+              "landings": "103",
+              "legCount": 74,
               "months": [
                 {
                   "month": 12,
@@ -483,9 +468,9 @@
                 {
                   "month": 11,
                   "monthLabel": "Novembro",
-                  "hours": "36.2",
-                  "landings": "11",
-                  "legCount": 7,
+                  "hours": "35.4",
+                  "landings": "10",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 07/PS-JAJ/2025",
@@ -531,21 +516,6 @@
                       "cicloTotal": "652",
                       "apuAH": "1128.5",
                       "apuAC": "986"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 07/PS-JAJ/2025",
-                      "folha": "42",
-                      "date": "11/11/2025",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "1435.6",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "784",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "1242.6",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "649",
-                      "apuAH": "1122",
-                      "apuAC": "981"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 07/PS-JAJ/2025",
@@ -1371,9 +1341,9 @@
                 {
                   "month": 4,
                   "monthLabel": "Abril",
-                  "hours": "2",
-                  "landings": "5",
-                  "legCount": 4,
+                  "hours": "1.3",
+                  "landings": "4",
+                  "legCount": 3,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 06/PS-JAJ/2024",
@@ -1389,21 +1359,6 @@
                       "cicloTotal": "574",
                       "apuAH": "941",
                       "apuAC": "822"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 06/PS-JAJ/2024",
-                      "folha": "32",
-                      "date": "22/04/2025",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "1279.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "706",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "1086.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "571",
-                      "apuAH": "935",
-                      "apuAC": "816"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 06/PS-JAJ/2024",
@@ -1648,9 +1603,9 @@
             },
             {
               "year": 2024,
-              "hours": "168.3",
-              "landings": "96",
-              "legCount": 65,
+              "hours": "166.4",
+              "landings": "94",
+              "legCount": 63,
               "months": [
                 {
                   "month": 12,
@@ -1829,9 +1784,9 @@
                 {
                   "month": 11,
                   "monthLabel": "Novembro",
-                  "hours": "15",
-                  "landings": "15",
-                  "legCount": 10,
+                  "hours": "13.9",
+                  "landings": "14",
+                  "legCount": 9,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 06/PS-JAJ/2024",
@@ -1862,21 +1817,6 @@
                       "cicloTotal": "536",
                       "apuAH": "849",
                       "apuAC": "739"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 05/PS-JAJ/2024",
-                      "folha": "49",
-                      "date": "19/11/2024",
-                      "celulaEtapa": "1.1",
-                      "celulaTotal": "1195.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "668",
-                      "motorEtapa": "1.1",
-                      "motorTotal": "1002.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "533",
-                      "apuAH": "840.5",
-                      "apuAC": "734"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 06/PS-JAJ/2024",
@@ -2567,25 +2507,10 @@
                 {
                   "month": 2,
                   "monthLabel": "Fevereiro",
-                  "hours": "16.8",
-                  "landings": "8",
-                  "legCount": 6,
+                  "hours": "16",
+                  "landings": "7",
+                  "legCount": 5,
                   "legs": [
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 05/PS-JAJ/2024",
-                      "folha": "5",
-                      "date": "21/02/2024",
-                      "celulaEtapa": "0.8",
-                      "celulaTotal": "1078.5",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "600",
-                      "motorEtapa": "0.8",
-                      "motorTotal": "885.5",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "465",
-                      "apuAH": "658.5",
-                      "apuAC": "584"
-                    },
                     {
                       "book": "DIÁRIO DE BORDO NO. 05/PS-JAJ/2024",
                       "folha": "6",
@@ -2721,9 +2646,9 @@
             },
             {
               "year": 2023,
-              "hours": "271.2",
-              "landings": "132",
-              "legCount": 90,
+              "hours": "258.3",
+              "landings": "129",
+              "legCount": 88,
               "months": [
                 {
                   "month": 12,
@@ -3706,9 +3631,9 @@
                 {
                   "month": 5,
                   "monthLabel": "Maio",
-                  "hours": "8.3",
-                  "landings": "11",
-                  "legCount": 8,
+                  "hours": "7.6",
+                  "landings": "10",
+                  "legCount": 7,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 03/PS-JAJ/2022",
@@ -3769,21 +3694,6 @@
                       "cicloTotal": "360",
                       "apuAH": "398",
                       "apuAC": "366"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 03/PS-JAJ/2022",
-                      "folha": "27",
-                      "date": "18/05/2023",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "877.7",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "493",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "684.7",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "358",
-                      "apuAH": "391",
-                      "apuAC": "363"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 05/PS-JAJ/2024",
@@ -3874,9 +3784,9 @@
                 {
                   "month": 3,
                   "monthLabel": "Março",
-                  "hours": "30.8",
-                  "landings": "12",
-                  "legCount": 9,
+                  "hours": "18.6",
+                  "landings": "10",
+                  "legCount": 8,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 03/PS-JAJ/2022",
@@ -3937,21 +3847,6 @@
                       "cicloTotal": "348",
                       "apuAH": "360.5",
                       "apuAC": "335"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 03/PS-JAJ/2022",
-                      "folha": "17",
-                      "date": "17/03/2023",
-                      "celulaEtapa": "12.2",
-                      "celulaTotal": "859",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "482",
-                      "motorEtapa": "12.2",
-                      "motorTotal": "666",
-                      "cicloEtapa": "2",
-                      "cicloTotal": "347",
-                      "apuAH": "360",
-                      "apuAC": "333"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 03/PS-JAJ/2022",
@@ -4187,16 +4082,16 @@
             },
             {
               "year": 2022,
-              "hours": "21.1",
-              "landings": "16",
-              "legCount": 12,
+              "hours": "20.4",
+              "landings": "15",
+              "legCount": 11,
               "months": [
                 {
                   "month": 12,
                   "monthLabel": "Dezembro",
-                  "hours": "14.5",
-                  "landings": "8",
-                  "legCount": 7,
+                  "hours": "13.8",
+                  "landings": "7",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 03/PS-JAJ/2022",
@@ -4242,21 +4137,6 @@
                       "cicloTotal": "320",
                       "apuAH": "294",
                       "apuAC": "279"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 02/PS-JAJ/2022",
-                      "folha": "46",
-                      "date": "07/12/2022",
-                      "celulaEtapa": "0.7",
-                      "celulaTotal": "782.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "452",
-                      "motorEtapa": "0.7",
-                      "motorTotal": "589.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "317",
-                      "apuAH": "287.5",
-                      "apuAC": "274"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 02/PS-JAJ/2022",
@@ -4421,7 +4301,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4434,7 +4314,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-434 dias",
+          "dueDaysStr": "-435 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4447,7 +4327,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-46210 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4460,7 +4340,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45846 dias",
+          "dueDaysStr": "-45847 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4473,7 +4353,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-20 dias",
+          "dueDaysStr": "-21 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4486,7 +4366,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4499,7 +4379,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4512,7 +4392,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-27 dias",
+          "dueDaysStr": "-28 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4525,7 +4405,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4538,7 +4418,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "56 dias",
+          "dueDaysStr": "55 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4551,7 +4431,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "56 dias",
+          "dueDaysStr": "55 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4564,7 +4444,7 @@
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-144 dias",
+          "dueDaysStr": "-145 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4632,7 +4512,7 @@
           "pn": "550-25-0081",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-73 dias",
+          "dueDaysStr": "-74 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4689,7 +4569,7 @@
           "pn": "550-34-0035",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-79 dias",
+          "dueDaysStr": "-80 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4746,7 +4626,7 @@
           "pn": "SB AS907-72-9084 R03",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4902,7 +4782,7 @@
           "pn": "SB AS907-72-9084 R03",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "08/07/2026 21:44",
+  "generated_at": "09/07/2026 15:40",
   "aircraft": {
     "PP-AGN": {
       "info": {
@@ -17,8 +17,35 @@
               "year": 2026,
               "hours": "8.9",
               "landings": "20",
-              "legCount": 14,
+              "legCount": 15,
               "months": [
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "0",
+                  "landings": "0",
+                  "legCount": 1,
+                  "legs": [
+                    {
+                      "book": "DIÁRIO DE BORDO NO. 17/PP-AGN/2022",
+                      "folha": "GIRO",
+                      "date": "06/07/2026",
+                      "celulaEtapa": "0",
+                      "celulaTotal": "1361.9",
+                      "pousoEtapa": "0",
+                      "pousoTotal": "2796",
+                      "motorEtapa": "0",
+                      "lh": "1239.2",
+                      "rh": "1258.6",
+                      "lhCT": "1343",
+                      "lhPT": "1556",
+                      "lhIMP": "824",
+                      "rhCT": "1353",
+                      "rhPT": "1594",
+                      "rhIMP": "817"
+                    }
+                  ]
+                },
                 {
                   "month": 6,
                   "monthLabel": "Junho",
@@ -322,7 +349,7 @@
               "year": 2025,
               "hours": "14.7",
               "landings": "32",
-              "legCount": 33,
+              "legCount": 32,
               "months": [
                 {
                   "month": 12,
@@ -392,26 +419,8 @@
                   "monthLabel": "Novembro",
                   "hours": "0",
                   "landings": "0",
-                  "legCount": 4,
+                  "legCount": 3,
                   "legs": [
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 17/PP-AGN/2022",
-                      "folha": "GIRO",
-                      "date": "22/11/2025",
-                      "celulaEtapa": "0",
-                      "celulaTotal": "1353",
-                      "pousoEtapa": "0",
-                      "pousoTotal": "2776",
-                      "motorEtapa": "0",
-                      "lh": "1230.3",
-                      "rh": "1249.7",
-                      "lhCT": "1328",
-                      "lhPT": "1533",
-                      "lhIMP": "815",
-                      "rhCT": "1339",
-                      "rhPT": "1571",
-                      "rhIMP": "809"
-                    },
                     {
                       "book": "DIÁRIO DE BORDO NO. 17/PP-AGN/2022",
                       "folha": "GIRO",
@@ -3916,9 +3925,9 @@
             },
             {
               "year": 2021,
-              "hours": "71.2",
-              "landings": "148",
-              "legCount": 62,
+              "hours": "64.7",
+              "landings": "134",
+              "legCount": 59,
               "months": [
                 {
                   "month": 12,
@@ -4166,9 +4175,9 @@
                 {
                   "month": 9,
                   "monthLabel": "Setembro",
-                  "hours": "11.8",
-                  "landings": "27",
-                  "legCount": 6,
+                  "hours": "7.4",
+                  "landings": "17",
+                  "legCount": 4,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
@@ -4190,24 +4199,6 @@
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
-                      "folha": "112",
-                      "date": "07/09/2021",
-                      "celulaEtapa": "2.7",
-                      "celulaTotal": "1194.9",
-                      "pousoEtapa": "6",
-                      "pousoTotal": "2461",
-                      "motorEtapa": "2.7",
-                      "lh": "1072.2",
-                      "rh": "1091.6",
-                      "lhCT": "1127",
-                      "lhPT": "1251",
-                      "lhIMP": "692",
-                      "rhCT": "1147",
-                      "rhPT": "1293",
-                      "rhIMP": "692"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
                       "folha": "113",
                       "date": "07/09/2021",
                       "celulaEtapa": "1.7",
@@ -4223,24 +4214,6 @@
                       "rhCT": "1149",
                       "rhPT": "1295",
                       "rhIMP": "693"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
-                      "folha": "110",
-                      "date": "03/09/2021",
-                      "celulaEtapa": "1.7",
-                      "celulaTotal": "1189.9",
-                      "pousoEtapa": "4",
-                      "pousoTotal": "2449",
-                      "motorEtapa": "1.7",
-                      "lh": "1067.2",
-                      "rh": "1086.6",
-                      "lhCT": "1122",
-                      "lhPT": "1245",
-                      "lhIMP": "689",
-                      "rhCT": "1142",
-                      "rhPT": "1287",
-                      "rhIMP": "689"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
@@ -4400,9 +4373,9 @@
                 {
                   "month": 7,
                   "monthLabel": "Julho",
-                  "hours": "16.7",
-                  "landings": "28",
-                  "legCount": 7,
+                  "hours": "14.6",
+                  "landings": "24",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
@@ -4439,24 +4412,6 @@
                       "rhCT": "1124",
                       "rhPT": "1266",
                       "rhIMP": "678"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 15/PP-AGN/2019",
-                      "folha": "97",
-                      "date": "15/07/2021",
-                      "celulaEtapa": "2.1",
-                      "celulaTotal": "1164.4",
-                      "pousoEtapa": "4",
-                      "pousoTotal": "2404",
-                      "motorEtapa": "2.1",
-                      "lh": "1041.7",
-                      "rh": "1061.1",
-                      "lhCT": "1100",
-                      "lhPT": "1220",
-                      "lhIMP": "675",
-                      "rhCT": "1121",
-                      "rhPT": "1263",
-                      "rhIMP": "675"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 15/PP-AGN/2019",
@@ -6182,9 +6137,9 @@
             },
             {
               "year": 2019,
-              "hours": "86.8",
-              "landings": "223",
-              "legCount": 77,
+              "hours": "86.1",
+              "landings": "220",
+              "legCount": 75,
               "months": [
                 {
                   "month": 12,
@@ -6693,9 +6648,9 @@
                 {
                   "month": 8,
                   "monthLabel": "Agosto",
-                  "hours": "8.6",
-                  "landings": "25",
-                  "legCount": 8,
+                  "hours": "8.5",
+                  "landings": "24",
+                  "legCount": 7,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 14/PP-AGN/2019",
@@ -6750,24 +6705,6 @@
                       "rhCT": "1008",
                       "rhPT": "1109",
                       "rhIMP": "608"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 14/PP-AGN/2019",
-                      "folha": "27",
-                      "date": "16/08/2019",
-                      "celulaEtapa": "0.1",
-                      "celulaTotal": "1080.8",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "2181",
-                      "motorEtapa": "0.1",
-                      "lh": "958.1",
-                      "rh": "977.5",
-                      "lhCT": "983",
-                      "lhPT": "1066",
-                      "lhIMP": "603",
-                      "rhCT": "1005",
-                      "rhPT": "1106",
-                      "rhIMP": "606"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 14/PP-AGN/2019",
@@ -6846,9 +6783,9 @@
                 {
                   "month": 7,
                   "monthLabel": "Julho",
-                  "hours": "6.4",
-                  "landings": "15",
-                  "legCount": 7,
+                  "hours": "5.8",
+                  "landings": "13",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 14/PP-AGN/2019",
@@ -6921,24 +6858,6 @@
                       "rhCT": "997",
                       "rhPT": "1095",
                       "rhIMP": "601"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 14/PP-AGN/2019",
-                      "folha": "18",
-                      "date": "02/07/2019",
-                      "celulaEtapa": "0.6",
-                      "celulaTotal": "1072.9",
-                      "pousoEtapa": "2",
-                      "pousoTotal": "2159",
-                      "motorEtapa": "0.6",
-                      "lh": "950.2",
-                      "rh": "969.6",
-                      "lhCT": "972",
-                      "lhPT": "1053",
-                      "lhIMP": "597",
-                      "rhCT": "994",
-                      "rhPT": "1093",
-                      "rhIMP": "599"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 14/PP-AGN/2019",
@@ -7684,9 +7603,9 @@
             },
             {
               "year": 2018,
-              "hours": "34.9",
-              "landings": "95",
-              "legCount": 25,
+              "hours": "27.2",
+              "landings": "84",
+              "legCount": 23,
               "months": [
                 {
                   "month": 12,
@@ -7790,9 +7709,9 @@
                 {
                   "month": 11,
                   "monthLabel": "Novembro",
-                  "hours": "9.9",
-                  "landings": "22",
-                  "legCount": 7,
+                  "hours": "5.6",
+                  "landings": "18",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 13/PP-AGN/2018",
@@ -7886,24 +7805,6 @@
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 12/PP-AGN/2018",
-                      "folha": "46",
-                      "date": "01/11/2018",
-                      "celulaEtapa": "4.3",
-                      "celulaTotal": "1021",
-                      "pousoEtapa": "4",
-                      "pousoTotal": "2017",
-                      "motorEtapa": "4.3",
-                      "lh": "898.3",
-                      "rh": "917.7",
-                      "lhCT": "905",
-                      "lhPT": "977",
-                      "lhIMP": "557",
-                      "rhCT": "927",
-                      "rhPT": "1016",
-                      "rhIMP": "558"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 12/PP-AGN/2018",
                       "folha": "47",
                       "date": "01/11/2018",
                       "celulaEtapa": "0.1",
@@ -7988,9 +7889,9 @@
                 {
                   "month": 9,
                   "monthLabel": "Setembro",
-                  "hours": "12.9",
-                  "landings": "31",
-                  "legCount": 7,
+                  "hours": "9.5",
+                  "landings": "24",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 12/PP-AGN/2018",
@@ -8063,24 +7964,6 @@
                       "rhCT": "917",
                       "rhPT": "1003",
                       "rhIMP": "551"
-                    },
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 12/PP-AGN/2018",
-                      "folha": "37",
-                      "date": "06/09/2018",
-                      "celulaEtapa": "3.4",
-                      "celulaTotal": "1006",
-                      "pousoEtapa": "7",
-                      "pousoTotal": "1988",
-                      "motorEtapa": "3.4",
-                      "lh": "885.3",
-                      "rh": "901.3",
-                      "lhCT": "892",
-                      "lhPT": "962",
-                      "lhIMP": "548",
-                      "rhCT": "915",
-                      "rhPT": "1000",
-                      "rhIMP": "550"
                     },
                     {
                       "book": "DIÁRIO DE BORDO NO. 12/PP-AGN/2018",
@@ -8197,7 +8080,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "28 dias",
+          "dueDaysStr": "27 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -8211,7 +8094,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-2 dias",
+          "dueDaysStr": "27 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8237,7 +8120,7 @@
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-101 dias",
+          "dueDaysStr": "-102 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8263,7 +8146,7 @@
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-101 dias",
+          "dueDaysStr": "-102 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8276,7 +8159,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-103 dias",
+          "dueDaysStr": "-104 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8289,7 +8172,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-102 dias",
+          "dueDaysStr": "-103 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8302,7 +8185,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8315,7 +8198,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8328,7 +8211,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8341,7 +8224,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "5 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8354,7 +8237,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "15 dias",
+          "dueDaysStr": "26 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8367,7 +8250,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8380,7 +8263,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "1 dias",
+          "dueDaysStr": "0 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8393,7 +8276,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-448 dias",
+          "dueDaysStr": "-449 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8406,7 +8289,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-135 dias",
+          "dueDaysStr": "-136 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8419,7 +8302,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "1 dias",
+          "dueDaysStr": "0 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -9113,7 +8996,7 @@
           "pn": "BT109SP-170",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-300 dias",
+          "dueDaysStr": "-301 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
