@@ -152,6 +152,26 @@
     .aircraft-title { font-size: 20px; font-weight: 500; }
     .aircraft-sub   { font-size: 13px; color: var(--text-secondary); }
 
+    .spec-toggle {
+      cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+      padding: 9px 12px; background: var(--surface-1); border-radius: var(--radius); margin-top: 12px;
+    }
+    .spec-toggle-label { font-size: 12px; font-weight: 500; color: var(--text-secondary); text-transform: uppercase; letter-spacing: .05em; }
+    .spec-toggle-label i { font-size: 14px; margin-right: 6px; vertical-align: -2px; transition: transform .15s; }
+    .spec-toggle-label i.open { transform: rotate(90deg); }
+    .spec-toggle-hint { font-size: 11px; color: var(--text-muted); }
+    .spec-panel { border: 0.5px solid var(--border); border-radius: var(--radius); padding: 14px; margin-top: 8px; }
+    .spec-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px,1fr)); gap: 10px; margin-bottom: 12px; }
+    .spec-card { background: var(--surface-1); border-radius: var(--radius); padding: 10px 12px; }
+    .spec-card-label { font-size: 11px; font-weight: 500; color: var(--text-accent); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 6px; }
+    .spec-card-row { font-size: 12px; line-height: 1.6; }
+    .spec-card-row .k { color: var(--text-muted); }
+    .spec-card-row .v { font-weight: 500; }
+    .spec-card-row .mono { font-family: var(--font-mono); font-size: 11px; }
+    .spec-card-totals { margin-top: 4px; border-top: 0.5px solid var(--border); padding-top: 4px; }
+    .spec-record { border-top: 0.5px solid var(--border); padding-top: 10px; font-size: 12px; }
+    .spec-record span { margin-right: 16px; display: inline-block; }
+
     .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px,1fr)); gap: 10px; margin-bottom: 1.5rem; }
     .stat-card  { background: var(--surface-1); border-radius: var(--radius); padding: 12px 14px; }
     .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 4px; }
@@ -331,6 +351,11 @@
       </div>
     </div>
     <div class="aircraft-sub" id="main-sub">Carregue os relatórios Excel para visualizar os alertas</div>
+    <div id="spec-toggle" class="spec-toggle" style="display:none" onclick="toggleAirframeSpec()">
+      <span class="spec-toggle-label"><i class="ti ti-chevron-right" id="spec-chevron"></i> Airframe and power plant specification</span>
+      <span class="spec-toggle-hint" id="spec-hint">clique para expandir</span>
+    </div>
+    <div id="spec-panel" class="spec-panel" style="display:none"></div>
   </div>
 
   <div id="data-mode-upload">
@@ -513,6 +538,7 @@ let currentAcft     = null;
 let currentTab        = 'all';
 let currentValidity   = 'all';
 let currentPrioritySort = false;
+let airframeSpecExpanded = false;
 
 // ── UPLOAD (modo manual) ──────────────────────────────────────────────────
 const dropZone = document.getElementById('drop-zone');
@@ -843,6 +869,106 @@ function dedupeSameDateLegs(legs) {
   return result;
 }
 
+// ── FICHA TÉCNICA (Airframe and power plant specification) ───────────────
+// Mesma lógica do parser.py: cada célula classificada pelo próprio rótulo,
+// não por índice fixo (a posição das colunas varia com a quantidade de
+// componentes: célula, motor(es), APU/hélice/rotor+pás).
+const AIRFRAME_COMPONENT_LABELS = {
+  'AERONAVE':'Célula','AIRFRAME':'Célula',
+  'MOTOR 1':'Motor 1','ENGINE #1':'Motor 1','ENGINE 1':'Motor 1',
+  'MOTOR 2':'Motor 2','ENGINE #2':'Motor 2','ENGINE 2':'Motor 2',
+  'MOTOR 3':'Motor 3','ENGINE #3':'Motor 3','ENGINE 3':'Motor 3',
+  'APU':'APU',
+  'HELICE 1':'Hélice 1','PROPELLER 1':'Hélice 1',
+  'HELICE 2':'Hélice 2','PROPELLER 2':'Hélice 2',
+  'ROTOR PRINCIPAL':'Rotor principal','MAIN ROTOR':'Rotor principal',
+  'ROTOR AUXILIAR':'Rotor auxiliar','AUX ROTOR':'Rotor auxiliar',
+  'PAS RP':'Pás RP','MR BLADES':'Pás RP',
+  'PAS RA':'Pás RA','TR BLADES':'Pás RA',
+  'COMPRESSOR AR CONDICIONADO':'Compressor A/C',
+  'WTU':'WTU',
+};
+const AIRFRAME_FIELD_KEYWORDS = [
+  [['MODELO','MODEL'], 'model'],
+  [['NUMERO DE PARTE','PART NUMBER','N/P'], 'pn'],
+  [['NUMERO DE SERIE','SERIAL NUMBER','N/S'], 'sn'],
+  [['HORAS TOTAIS','HORAS TOT','HOTAS TOT','TSN'], 'hours'],
+  [['POUSOS TOTAIS','CICLOS TOT','CICLOS','LSN','CSN'], 'cycles'],
+];
+const AIRFRAME_RECORD_LABELS = {
+  'DATA':'Data do relatório','DATE':'Data do relatório',
+  'MATRICULA':'Matrícula','REGISTRATION':'Matrícula',
+  'FABRICACAO':'Fabricação','MANUF DATE':'Fabricação','MANUF. DATE':'Fabricação',
+  'CATEGORIA':'Categoria','REGULATION':'Regulamento',
+  'PMD':'PMD',
+  'ULTIMO VOO':'Último voo','LAST FLIGHT':'Último voo',
+  'FOLHA DIARIO':'Folha do diário','FLIGHT LOG PAGE':'Folha do diário','FLIGHT LOG':'Folha do diário',
+  'PAX':'PAX','TRIP':'Trip',
+};
+function cleanLabelKey(v) {
+  return normalize(v).replace(/\s+/g, ' ').trim();
+}
+function fmtRecordValue(v) {
+  if (v instanceof Date && !isNaN(v)) return formatDatePt(v);
+  return fmtNum(v);
+}
+function parseAirframeSpec(rows) {
+  if (rows.length < 4) return null;
+
+  let recordRowIdx = null;
+  for (let i = 3; i < Math.min(rows.length, 16); i++) {
+    const rs = (rows[i]||[]).map(v=>normalize(v)).join('|');
+    if (rs.includes('MATRICULA') || rs.includes('REGISTRATION')) { recordRowIdx = i; break; }
+  }
+
+  const groupRow = rows[2] || [];
+  const groups = fwdFillLabels(groupRow);
+
+  const components = {};
+  const order = [];
+  const scanEnd = recordRowIdx != null ? recordRowIdx : Math.min(rows.length, 12);
+  for (let i = 3; i < scanEnd; i++) {
+    const row = rows[i] || [];
+    for (let j = 0; j < row.length - 1; j++) {
+      const label = cleanLabelKey(row[j]);
+      if (!label) continue;
+      let field = null;
+      for (const [keys, fname] of AIRFRAME_FIELD_KEYWORDS) {
+        if (keys.some(k => label.includes(k))) { field = fname; break; }
+      }
+      if (!field) continue;
+      const value = fmtNum(row[j+1]);
+      if (value == null) continue;
+      const compRaw = groups[j] || '';
+      if (!compRaw) continue;
+      const compKey = cleanLabelKey(compRaw);
+      if (!(compKey in components)) {
+        components[compKey] = { label: AIRFRAME_COMPONENT_LABELS[compKey] || (compRaw.trim().replace(/\w\S*/g, t => t[0].toUpperCase()+t.slice(1).toLowerCase())) };
+        order.push(compKey);
+      }
+      if (components[compKey][field] == null) components[compKey][field] = value;
+    }
+  }
+  const compList = order.map(k => components[k]);
+
+  const record = {};
+  if (recordRowIdx != null && recordRowIdx + 1 < rows.length) {
+    const labelRow = rows[recordRowIdx] || [];
+    const valueRow = rows[recordRowIdx+1] || [];
+    for (let j = 0; j < labelRow.length; j++) {
+      const rawLabel = String(labelRow[j] ?? '').trim();
+      if (!rawLabel) continue;
+      const value = fmtRecordValue(valueRow[j]);
+      if (value == null) continue;
+      const key = cleanLabelKey(rawLabel);
+      record[AIRFRAME_RECORD_LABELS[key] || rawLabel] = value;
+    }
+  }
+
+  if (!compList.length && !Object.keys(record).length) return null;
+  return { components: compList, record };
+}
+
 // ── PARSER ────────────────────────────────────────────────────────────────
 function parseWorkbook(wb, acftName) {
   const TARGET = ['Manutenção','Manutenao','Componentes','DIR','DIR MOTOR','DIR APU','Diário de Bordo'];
@@ -869,6 +995,12 @@ function parseWorkbook(wb, acftName) {
         const s = String(cell ?? '').trim();
         if (s) { info.model = s; break; }
       }
+    }
+
+    // Ficha técnica (AIRFRAME AND POWER PLANT SPECIFICATION)
+    if (normalize(sn).startsWith('MANUTENCAO') && !info.airframeSpec) {
+      const spec = parseAirframeSpec(rows);
+      if (spec) info.airframeSpec = spec;
     }
 
     // Cabeçalho da aeronave
@@ -1019,7 +1151,7 @@ function renderAcftSelector() {
   }).join('');
 }
 function switchAcft(name) {
-  currentAcft=name; currentTab='all'; currentValidity='all'; currentPrioritySort=false;
+  currentAcft=name; currentTab='all'; currentValidity='all'; currentPrioritySort=false; airframeSpecExpanded=false;
   document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab==='all'));
   document.querySelectorAll('[data-validity]').forEach(p=>p.classList.toggle('active',p.dataset.validity==='all'));
   document.getElementById('validity-filters').style.display = 'flex';
@@ -1039,6 +1171,17 @@ function renderDashboard() {
     info.totalCycles!=null?info.totalCycles+' ciclos':null,
   ].filter(Boolean).join(' · ');
   document.getElementById('main-sub').textContent=sub||'Relatório de manutenção';
+  const specToggle=document.getElementById('spec-toggle');
+  if (info.airframeSpec) {
+    specToggle.style.display='flex';
+    renderAirframeSpec(info.airframeSpec);
+    document.getElementById('spec-panel').style.display = airframeSpecExpanded ? 'block' : 'none';
+    document.getElementById('spec-chevron').classList.toggle('open', airframeSpecExpanded);
+    document.getElementById('spec-hint').textContent = airframeSpecExpanded ? 'clique para recolher' : 'clique para expandir';
+  } else {
+    specToggle.style.display='none';
+    document.getElementById('spec-panel').style.display='none';
+  }
   const tasks=data.tasks;
   document.getElementById('stats-grid').innerHTML=`
     <div class="stat-card"><div class="stat-label">Total de alertas</div><div class="stat-value danger">${tasks.length}</div><div class="stat-sub">tarefas em atenção</div></div>
@@ -1046,6 +1189,28 @@ function renderDashboard() {
     <div class="stat-card"><div class="stat-label"><i class="ti ti-calendar"></i> &lt; 30 dias</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('days')).length}</div><div class="stat-sub">alertas por data</div></div>
     <div class="stat-card"><div class="stat-label"><i class="ti ti-repeat"></i> &lt; 30 ciclos</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('cycles')).length}</div><div class="stat-sub">alertas por ciclos</div></div>`;
   renderTable();
+}
+function specCard(c) {
+  const rows = [];
+  if (c.model) rows.push(`<div class="spec-card-row"><span class="k">Modelo</span> <span class="v">${c.model}</span></div>`);
+  if (c.pn)    rows.push(`<div class="spec-card-row"><span class="k">P/N</span> <span class="v mono">${c.pn}</span></div>`);
+  if (c.sn)    rows.push(`<div class="spec-card-row"><span class="k">S/N</span> <span class="v mono">${c.sn}</span></div>`);
+  const totals = [];
+  if (c.hours)  totals.push(`<span class="k">Horas</span> <span class="v">${c.hours}</span>`);
+  if (c.cycles) totals.push(`<span class="k">Ciclos</span> <span class="v">${c.cycles}</span>`);
+  const totalsHtml = totals.length ? `<div class="spec-card-row spec-card-totals">${totals.join(' ')}</div>` : '';
+  return `<div class="spec-card"><div class="spec-card-label">${c.label}</div>${rows.join('')}${totalsHtml}</div>`;
+}
+function renderAirframeSpec(spec) {
+  const cards = spec.components.map(specCard).join('');
+  const record = Object.entries(spec.record).map(([k,v]) => `<span><span class="k">${k}</span> <strong>${v}</strong></span>`).join('');
+  document.getElementById('spec-panel').innerHTML = `<div class="spec-cards">${cards}</div>${record?`<div class="spec-record">${record}</div>`:''}`;
+}
+function toggleAirframeSpec() {
+  airframeSpecExpanded = !airframeSpecExpanded;
+  document.getElementById('spec-panel').style.display = airframeSpecExpanded ? 'block' : 'none';
+  document.getElementById('spec-chevron').classList.toggle('open', airframeSpecExpanded);
+  document.getElementById('spec-hint').textContent = airframeSpecExpanded ? 'clique para recolher' : 'clique para expandir';
 }
 function parseNum(str) {
   if (typeof str !== 'string') return null;

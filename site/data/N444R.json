@@ -1,9 +1,47 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "N444R": {
       "info": {
         "model": "GULFSTREAM G700",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "G700",
+              "sn": "87111",
+              "hours": "70",
+              "cycles": "28"
+            },
+            {
+              "label": "Motor 1",
+              "model": "BR700-730B2-14",
+              "sn": "32307",
+              "hours": "70",
+              "cycles": "28"
+            },
+            {
+              "label": "Motor 2",
+              "model": "BR700-730B2-14",
+              "sn": "32308",
+              "hours": "70",
+              "cycles": "28"
+            },
+            {
+              "label": "APU",
+              "model": "RE220-GVI",
+              "pn": "WE3800836-2",
+              "sn": "P-2193",
+              "hours": "65.5"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "N444R",
+            "Fabricação": "20/01/2026",
+            "Regulamento": "FAR 91.409(F)3"
+          }
+        },
         "totalHours": 70.0,
         "totalLandings": 28.0,
         "flightLog": {
@@ -71,7 +109,7 @@
         {
           "id": "23",
           "task": "",
-          "description": "C of A Revalidation\n258000",
+          "description": "C of A Revalidation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
@@ -98,7 +136,7 @@
           "id": "23",
           "task": "",
           "description": "ELT inspection\nFAR 91.207\n256306",
-          "pn": "",
+          "pn": "DK-406-DT-233",
           "sheet": "Manutenção",
           "dueHoursStr": null,
           "dueDaysStr": "-45847 dias",
@@ -110,59 +148,7 @@
         {
           "id": "23",
           "task": "",
-          "description": "ELT register\n406 MHz\n58C7C93CA2FFBFF\n256312",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45482 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "WEIGHT AND BALANCE",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "Certificate of Insurance\nRETA",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46212 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "Certificate of Insurance\nAIRFRAME",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45847 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "TRAXXALL subscription",
+          "description": "CAMP subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
@@ -188,7 +174,7 @@
         {
           "id": "23",
           "task": "",
-          "description": "G650ER-PlaneBook \nSoftware-App\nsubscription",
+          "description": "G700-PlaneBook \nSoftware-App\nsubscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
@@ -245,6 +231,19 @@
           "sheet": "Manutenção",
           "dueHoursStr": null,
           "dueDaysStr": "-45847 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "23",
+          "task": "",
+          "description": "Radio License",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42562 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

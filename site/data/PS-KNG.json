@@ -1,9 +1,53 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PS-KNG": {
       "info": {
         "model": "BEECHCRAFT KING AIR B300",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "King Air B300",
+              "sn": "FL-1088",
+              "hours": "1554.6",
+              "cycles": "1097"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PT6A-60A",
+              "sn": "PCE-PK2215",
+              "hours": "1554.6",
+              "cycles": "1084"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PT6A-60A",
+              "sn": "PCE-PK2216",
+              "hours": "1554.6",
+              "cycles": "1084"
+            },
+            {
+              "label": "Hélice 1",
+              "model": "HC-B4MP-3C",
+              "sn": "FWA-6016",
+              "hours": "1554.6"
+            },
+            {
+              "label": "Hélice 2",
+              "model": "HC-B4MP-3C",
+              "sn": "FWA-6017",
+              "hours": "1554.6"
+            }
+          ],
+          "record": {
+            "Data do relatório": "08/07/2026",
+            "Matrícula": "PS-KNG",
+            "Fabricação": "22/02/2017",
+            "Categoria": "TPP",
+            "Último voo": "20/06/2026"
+          }
+        },
         "totalHours": 1554.6,
         "totalLandings": 1097.0,
         "registration": "PS-KNG",

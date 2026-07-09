@@ -246,6 +246,12 @@ def parse_workbook(sheets, acft_name):
                     info["model"] = s
                     break
 
+        # Ficha tecnica (AIRFRAME AND POWER PLANT SPECIFICATION)
+        if normalize(sn).startswith("MANUTENCAO") and "airframeSpec" not in info:
+            spec = parse_airframe_spec(rows)
+            if spec is not None:
+                info["airframeSpec"] = spec
+
         # Cabecalho da aeronave
         if "totalHours" not in info:
             for i in range(min(15, len(rows))):
@@ -454,8 +460,127 @@ def parse_workbook(sheets, acft_name):
     info.setdefault("totalLandings", None)
     info.setdefault("totalCycles", None)
     info.setdefault("flightLog", None)
+    info.setdefault("airframeSpec", None)
 
     return {"tasks": tasks, "info": info, "name": acft_name}
+
+
+# ── FICHA TÉCNICA (Airframe and power plant specification) ─────────────────
+# Bloco fixo nas primeiras ~10 linhas da aba Manutenção com modelo/P-N/S-N e
+# horas/ciclos de cada componente (celula, motor(es), APU/helice/rotor+pas
+# conforme o tipo de aeronave) e um registro (matricula, fabricacao, etc.).
+# A posicao das colunas varia com a quantidade de componentes, entao cada
+# celula e classificada pelo seu proprio rotulo (nao por indice fixo).
+
+AIRFRAME_COMPONENT_LABELS = {
+    "AERONAVE": "Célula", "AIRFRAME": "Célula",
+    "MOTOR 1": "Motor 1", "ENGINE #1": "Motor 1", "ENGINE 1": "Motor 1",
+    "MOTOR 2": "Motor 2", "ENGINE #2": "Motor 2", "ENGINE 2": "Motor 2",
+    "MOTOR 3": "Motor 3", "ENGINE #3": "Motor 3", "ENGINE 3": "Motor 3",
+    "APU": "APU",
+    "HELICE 1": "Hélice 1", "PROPELLER 1": "Hélice 1",
+    "HELICE 2": "Hélice 2", "PROPELLER 2": "Hélice 2",
+    "ROTOR PRINCIPAL": "Rotor principal", "MAIN ROTOR": "Rotor principal",
+    "ROTOR AUXILIAR": "Rotor auxiliar", "AUX ROTOR": "Rotor auxiliar",
+    "PAS RP": "Pás RP", "MR BLADES": "Pás RP",
+    "PAS RA": "Pás RA", "TR BLADES": "Pás RA",
+    "COMPRESSOR AR CONDICIONADO": "Compressor A/C",
+    "WTU": "WTU",
+}
+
+AIRFRAME_FIELD_KEYWORDS = [
+    (("MODELO", "MODEL"), "model"),
+    (("NUMERO DE PARTE", "PART NUMBER", "N/P"), "pn"),
+    (("NUMERO DE SERIE", "SERIAL NUMBER", "N/S"), "sn"),
+    (("HORAS TOTAIS", "HORAS TOT", "HOTAS TOT", "TSN"), "hours"),
+    (("POUSOS TOTAIS", "CICLOS TOT", "CICLOS", "LSN", "CSN"), "cycles"),
+]
+
+AIRFRAME_RECORD_LABELS = {
+    "DATA": "Data do relatório", "DATE": "Data do relatório",
+    "MATRICULA": "Matrícula", "REGISTRATION": "Matrícula",
+    "FABRICACAO": "Fabricação", "MANUF DATE": "Fabricação", "MANUF. DATE": "Fabricação",
+    "CATEGORIA": "Categoria", "REGULATION": "Regulamento",
+    "PMD": "PMD",
+    "ULTIMO VOO": "Último voo", "LAST FLIGHT": "Último voo",
+    "FOLHA DIARIO": "Folha do diário", "FLIGHT LOG PAGE": "Folha do diário", "FLIGHT LOG": "Folha do diário",
+    "PAX": "PAX", "TRIP": "Trip",
+}
+
+
+def _clean_label_key(v):
+    return re.sub(r"\s+", " ", normalize(v)).strip()
+
+
+def _fmt_record_value(v):
+    if isinstance(v, date):
+        return v.strftime("%d/%m/%Y")
+    return fmt_num(v)
+
+
+def parse_airframe_spec(rows):
+    if len(rows) < 4:
+        return None
+
+    record_row_idx = None
+    for i in range(3, min(len(rows), 16)):
+        row = rows[i] or []
+        rs = "|".join(normalize(v) for v in row)
+        if "MATRICULA" in rs or "REGISTRATION" in rs:
+            record_row_idx = i
+            break
+
+    group_row = rows[2] if len(rows) > 2 else []
+    groups = _fwd_fill_labels(group_row)
+
+    components = {}
+    order = []
+    scan_end = record_row_idx if record_row_idx is not None else min(len(rows), 12)
+    for i in range(3, scan_end):
+        row = rows[i] or []
+        for j in range(len(row) - 1):
+            label = _clean_label_key(get(row, j))
+            if not label:
+                continue
+            field = None
+            for keys, fname in AIRFRAME_FIELD_KEYWORDS:
+                if any(k in label for k in keys):
+                    field = fname
+                    break
+            if field is None:
+                continue
+            value = fmt_num(get(row, j + 1))
+            if value is None:
+                continue
+            comp_raw = groups[j] if j < len(groups) else ""
+            if not comp_raw:
+                continue
+            comp_key = _clean_label_key(comp_raw)
+            if comp_key not in components:
+                components[comp_key] = {"label": AIRFRAME_COMPONENT_LABELS.get(comp_key, comp_raw.strip().title())}
+                order.append(comp_key)
+            components[comp_key].setdefault(field, value)
+
+    comp_list = [components[k] for k in order]
+
+    record = {}
+    if record_row_idx is not None and record_row_idx + 1 < len(rows):
+        label_row = rows[record_row_idx] or []
+        value_row = rows[record_row_idx + 1] or []
+        for j in range(len(label_row)):
+            raw_label = str(get(label_row, j) or "").strip()
+            if not raw_label:
+                continue
+            value = _fmt_record_value(get(value_row, j))
+            if value is None:
+                continue
+            key = _clean_label_key(raw_label)
+            display_label = AIRFRAME_RECORD_LABELS.get(key, raw_label)
+            record[display_label] = value
+
+    if not comp_list and not record:
+        return None
+    return {"components": comp_list, "record": record}
 
 
 # ── DIÁRIO DE BORDO (Flight Log) ────────────────────────────────────────────

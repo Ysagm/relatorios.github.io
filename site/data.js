@@ -1,9 +1,63 @@
 window.EMBEDDED_DATA = {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PP-AGN": {
       "info": {
         "model": "AGUSTA AW109SP",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "Agusta AW109SP",
+              "sn": "22277",
+              "hours": "1361.9",
+              "cycles": "2796"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW 207C",
+              "sn": "PCE-BH0623",
+              "hours": "1239.2"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW 207C",
+              "sn": "PCE-BH0556",
+              "hours": "1258.6"
+            },
+            {
+              "label": "Rotor principal",
+              "model": "109-0112-02-107",
+              "sn": "V67",
+              "hours": "1361.9",
+              "cycles": "2796"
+            },
+            {
+              "label": "Rotor auxiliar",
+              "model": "109-0162-01-107",
+              "sn": "V154",
+              "hours": "1361.9",
+              "cycles": "2796"
+            },
+            {
+              "label": "Pás RP",
+              "pn": "709-0104-01-111",
+              "sn": "V518"
+            },
+            {
+              "label": "Pás RA",
+              "pn": "709-0160-48-101",
+              "sn": "V13461"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PP-AGN",
+            "Fabricação": "21/12/2012",
+            "Categoria": "TPP",
+            "Último voo": "24/06/2026"
+          }
+        },
         "totalHours": 1361.9,
         "totalLandings": 2796.0,
         "registration": "PP-AGN",
@@ -9326,6 +9380,58 @@ window.EMBEDDED_DATA = {
     "PP-VEL": {
       "info": {
         "model": "DASSAULT FALCON 7X",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "7X",
+              "sn": "205",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW307A",
+              "pn": "30P0100-01",
+              "sn": "PCE-CH0643",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW307A",
+              "pn": "30P0100-01",
+              "sn": "PCE-CH0642",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "Motor 3",
+              "model": "PW307A",
+              "pn": "30P0100-01",
+              "sn": "PCE-CH0640",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "APU",
+              "model": "GTCP36-150(FN)",
+              "pn": "3800788-1",
+              "sn": "P-298",
+              "hours": "1191.5",
+              "cycles": "1887"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PP-VEL",
+            "Fabricação": "11/10/2013",
+            "Categoria": "TPP",
+            "PMD": "31751 Kg",
+            "Último voo": "26/06/2026",
+            "Folha do diário": "557"
+          }
+        },
         "totalHours": 2204.8,
         "totalLandings": 646.0,
         "registration": "PP-VEL",
@@ -20953,6 +21059,49 @@ window.EMBEDDED_DATA = {
     "PS-FLC": {
       "info": {
         "model": "AGUSTA AW169",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "Agusta AW169",
+              "sn": "69112",
+              "hours": "420.9",
+              "cycles": "1066"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW210A1",
+              "sn": "PCE-BP0222",
+              "hours": "420.9",
+              "cycles": "511"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW210A1",
+              "sn": "PCE-BP0218",
+              "hours": "420.9",
+              "cycles": "511"
+            },
+            {
+              "label": "Rotor principal",
+              "hours": "420.9",
+              "cycles": "1066"
+            },
+            {
+              "label": "Rotor auxiliar",
+              "hours": "420.9",
+              "cycles": "1066"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PS-FLC",
+            "Fabricação": "30/10/2019",
+            "Regulamento": "TPP",
+            "Último voo": "03/07/2026",
+            "Folha do diário": "377"
+          }
+        },
         "totalHours": 420.9,
         "totalLandings": 1066.0,
         "registration": "PS-FLC",
@@ -28828,7 +28977,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28841,7 +28990,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29240,7 +29389,7 @@ window.EMBEDDED_DATA = {
           "pn": "169-204",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-1077 dias",
+          "dueDaysStr": "-1078 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29319,7 +29468,7 @@ window.EMBEDDED_DATA = {
           "pn": "169-230",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-746 dias",
+          "dueDaysStr": "-747 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29539,6 +29688,41 @@ window.EMBEDDED_DATA = {
     "PS-NFA": {
       "info": {
         "model": "EMBRAER PHENOM 300",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "EMB-505",
+              "sn": "50500879",
+              "hours": "215.2",
+              "cycles": "216"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW535E1",
+              "sn": "PCE-DK0539",
+              "hours": "215.2",
+              "cycles": "216"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW535E1",
+              "sn": "PCE-DK0540",
+              "hours": "215.2",
+              "cycles": "216"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PS-NFA",
+            "Fabricação": "10/07/2025",
+            "Categoria": "TPP",
+            "Último voo": "24/06/2026",
+            "PMD": "8340 Kg",
+            "PAX": "9",
+            "Trip": "2"
+          }
+        },
         "totalHours": 215.2,
         "totalLandings": 216.0,
         "registration": "PS-NFA",
@@ -32652,7 +32836,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32795,7 +32979,7 @@ window.EMBEDDED_DATA = {
           "pn": "1400-1/1500-1",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32808,7 +32992,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33100,7 +33284,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-231 dias",
+          "dueDaysStr": "-232 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33124,7 +33308,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-169 dias",
+          "dueDaysStr": "-170 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33159,7 +33343,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-231 dias",
+          "dueDaysStr": "-232 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33172,7 +33356,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-169 dias",
+          "dueDaysStr": "-170 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33735,7 +33919,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-22-0006 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -35013,7 +35197,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-27-0030",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -35554,7 +35738,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-31-0029 R2",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -38975,6 +39159,50 @@ window.EMBEDDED_DATA = {
     "PS-KNG": {
       "info": {
         "model": "BEECHCRAFT KING AIR B300",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "King Air B300",
+              "sn": "FL-1088",
+              "hours": "1554.6",
+              "cycles": "1097"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PT6A-60A",
+              "sn": "PCE-PK2215",
+              "hours": "1554.6",
+              "cycles": "1084"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PT6A-60A",
+              "sn": "PCE-PK2216",
+              "hours": "1554.6",
+              "cycles": "1084"
+            },
+            {
+              "label": "Hélice 1",
+              "model": "HC-B4MP-3C",
+              "sn": "FWA-6016",
+              "hours": "1554.6"
+            },
+            {
+              "label": "Hélice 2",
+              "model": "HC-B4MP-3C",
+              "sn": "FWA-6017",
+              "hours": "1554.6"
+            }
+          ],
+          "record": {
+            "Data do relatório": "08/07/2026",
+            "Matrícula": "PS-KNG",
+            "Fabricação": "22/02/2017",
+            "Categoria": "TPP",
+            "Último voo": "20/06/2026"
+          }
+        },
         "totalHours": 1554.6,
         "totalLandings": 1097.0,
         "registration": "PS-KNG",
@@ -43193,6 +43421,44 @@ window.EMBEDDED_DATA = {
     "N444R": {
       "info": {
         "model": "GULFSTREAM G700",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "G700",
+              "sn": "87111",
+              "hours": "70",
+              "cycles": "28"
+            },
+            {
+              "label": "Motor 1",
+              "model": "BR700-730B2-14",
+              "sn": "32307",
+              "hours": "70",
+              "cycles": "28"
+            },
+            {
+              "label": "Motor 2",
+              "model": "BR700-730B2-14",
+              "sn": "32308",
+              "hours": "70",
+              "cycles": "28"
+            },
+            {
+              "label": "APU",
+              "model": "RE220-GVI",
+              "pn": "WE3800836-2",
+              "sn": "P-2193",
+              "hours": "65.5"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "N444R",
+            "Fabricação": "20/01/2026",
+            "Regulamento": "FAR 91.409(F)3"
+          }
+        },
         "totalHours": 70.0,
         "totalLandings": 28.0,
         "flightLog": {
@@ -43260,7 +43526,7 @@ window.EMBEDDED_DATA = {
         {
           "id": "23",
           "task": "",
-          "description": "C of A Revalidation\n258000",
+          "description": "C of A Revalidation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
@@ -43287,7 +43553,7 @@ window.EMBEDDED_DATA = {
           "id": "23",
           "task": "",
           "description": "ELT inspection\nFAR 91.207\n256306",
-          "pn": "",
+          "pn": "DK-406-DT-233",
           "sheet": "Manutenção",
           "dueHoursStr": null,
           "dueDaysStr": "-45847 dias",
@@ -43299,59 +43565,7 @@ window.EMBEDDED_DATA = {
         {
           "id": "23",
           "task": "",
-          "description": "ELT register\n406 MHz\n58C7C93CA2FFBFF\n256312",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45482 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "WEIGHT AND BALANCE",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "Certificate of Insurance\nRETA",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46212 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "Certificate of Insurance\nAIRFRAME",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45847 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "23",
-          "task": "",
-          "description": "TRAXXALL subscription",
+          "description": "CAMP subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
@@ -43377,7 +43591,7 @@ window.EMBEDDED_DATA = {
         {
           "id": "23",
           "task": "",
-          "description": "G650ER-PlaneBook \nSoftware-App\nsubscription",
+          "description": "G700-PlaneBook \nSoftware-App\nsubscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
@@ -43438,12 +43652,66 @@ window.EMBEDDED_DATA = {
           "alertTypes": [
             "days"
           ]
+        },
+        {
+          "id": "23",
+          "task": "",
+          "description": "Radio License",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "-42562 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
         }
       ]
     },
     "PS-JAJ": {
       "info": {
         "model": "EMBRAER PRAETOR 600",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "PRAETOR 600",
+              "pn": "EMB-550",
+              "sn": "55000070",
+              "hours": "1568.3",
+              "cycles": "835"
+            },
+            {
+              "label": "Motor 1",
+              "model": "AS907-3-1E-A3",
+              "pn": "70040119-1",
+              "sn": "P131325",
+              "hours": "1375.3",
+              "cycles": "700"
+            },
+            {
+              "label": "Motor 2",
+              "model": "AS907-3-1E-A3",
+              "pn": "70040119-1",
+              "sn": "P131326",
+              "hours": "1375.3",
+              "cycles": "700"
+            },
+            {
+              "label": "APU",
+              "model": "GTCP36-150(EMB)",
+              "hours": "1240.5",
+              "cycles": "1100"
+            }
+          ],
+          "record": {
+            "Data do relatório": "08/07/2026",
+            "Matrícula": "PS-JAJ",
+            "Fabricação": "17/04/2019",
+            "Categoria": "TPP",
+            "Último voo": "04/06/2026"
+          }
+        },
         "totalHours": 1568.3,
         "totalLandings": 835.0,
         "registration": "PS-JAJ",
@@ -48431,6 +48699,41 @@ window.EMBEDDED_DATA = {
     "PS-STP": {
       "info": {
         "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "5000",
+              "pn": "BD-700-1A11",
+              "sn": "9575",
+              "hours": "1926.7",
+              "cycles": "683"
+            },
+            {
+              "label": "APU",
+              "model": "RE220(GX)",
+              "hours": "1170.3",
+              "cycles": "1567"
+            },
+            {
+              "label": "Motor 1",
+              "hours": "1926.7",
+              "cycles": "683"
+            },
+            {
+              "label": "Motor 2",
+              "hours": "1926.7",
+              "cycles": "683"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PS-STP",
+            "Fabricação": "27/09/2013",
+            "Regulamento": "RBAC 91.409(F)(3)",
+            "Último voo": "05/07/2026"
+          }
+        },
         "totalHours": 1926.7,
         "totalLandings": 683.0,
         "registration": "PS-STP",
@@ -51438,145 +51741,145 @@ window.EMBEDDED_DATA = {
       "tasks": [
         {
           "id": "22.0",
-          "task": "Short Term Parking",
-          "description": "",
+          "task": "",
+          "description": "Short Term Parking",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "3 ciclos",
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "23.0",
-          "task": "Long Term Parking",
-          "description": "",
+          "task": "",
+          "description": "Long Term Parking",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "4 ciclos",
+          "dueDaysStr": "4 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "24.0",
-          "task": "30 days preservation",
-          "description": "",
+          "task": "",
+          "description": "30 days preservation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "26 ciclos",
+          "dueDaysStr": "26 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "25.0",
-          "task": "Engine preservation",
-          "description": "",
+          "task": "",
+          "description": "Engine preservation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "3 ciclos",
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "26.0",
-          "task": "APU preservation",
-          "description": "",
+          "task": "",
+          "description": "APU preservation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "10 ciclos",
+          "dueDaysStr": "10 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "829.0",
-          "task": "VOR CHECK \nFAR 91.171",
-          "description": "",
+          "task": "",
+          "description": "VOR CHECK \nFAR 91.171",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "5 ciclos",
+          "dueDaysStr": "5 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "837.0",
-          "task": "Assinatura TRAXXALL",
-          "description": "",
+          "task": "",
+          "description": "Assinatura TRAXXALL",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "5 ciclos",
+          "dueDaysStr": "5 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "838.0",
-          "task": "Assinaturas \nPublicações\nBombardier",
-          "description": "",
+          "task": "",
+          "description": "Assinaturas \nPublicações\nBombardier",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-33 ciclos",
+          "dueDaysStr": "-33 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "840.0",
-          "task": "Assinaturas \nAtualização FMS",
-          "description": "",
+          "task": "",
+          "description": "Assinaturas \nAtualização FMS",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-45847 ciclos",
+          "dueDaysStr": "-45847 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "841.0",
-          "task": "Assinatura \nCartas Jeppesen",
-          "description": "",
+          "task": "",
+          "description": "Assinatura \nCartas Jeppesen",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-418 ciclos",
+          "dueDaysStr": "-418 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "842.0",
-          "task": "iPreFlight Genesis Performance Subscription",
-          "description": "",
+          "task": "",
+          "description": "iPreFlight Genesis Performance Subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-770 ciclos",
+          "dueDaysStr": "-770 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
@@ -52204,6 +52507,49 @@ window.EMBEDDED_DATA = {
     "N918LL": {
       "info": {
         "model": "GULFSTREAM G450",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "G450",
+              "sn": "4177",
+              "hours": "4832",
+              "cycles": "1249"
+            },
+            {
+              "label": "Motor 1",
+              "model": "TAY611-8C",
+              "pn": "DER201",
+              "sn": "85361",
+              "hours": "4832",
+              "cycles": "1249"
+            },
+            {
+              "label": "Motor 2",
+              "model": "TAY611-8C",
+              "pn": "DER201",
+              "sn": "85362",
+              "hours": "4832",
+              "cycles": "1249"
+            },
+            {
+              "label": "APU",
+              "model": "36-150",
+              "pn": "3800794-1",
+              "sn": "P-301",
+              "hours": "1726.5",
+              "cycles": "2166"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "N918LL",
+            "Fabricação": "09/10/2009",
+            "Regulamento": "FAR 91.409(F)3",
+            "Último voo": "03/07/2026",
+            "Folha do diário": "739"
+          }
+        },
         "totalHours": 4832.0,
         "totalLandings": 1249.0,
         "flightLog": {
@@ -59703,119 +60049,119 @@ window.EMBEDDED_DATA = {
       "tasks": [
         {
           "id": "2.0",
-          "task": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
-          "description": "",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-3 ciclos",
+          "dueDaysStr": "-3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "3.0",
-          "task": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
-          "description": "",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "9 ciclos",
+          "dueDaysStr": "9 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "4.0",
-          "task": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
-          "description": "",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "24 ciclos",
+          "dueDaysStr": "24 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "7.0",
-          "task": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
-          "description": "",
+          "task": "",
+          "description": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "1 ciclos",
+          "dueDaysStr": "1 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "181.0",
-          "task": "Fuel Tank - Sumping\n280007",
-          "description": "",
+          "task": "",
+          "description": "Fuel Tank - Sumping\n280007",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "3 ciclos",
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "737.0",
-          "task": "VOR CHECK\nFAR 91.171\n345004",
-          "description": "",
+          "task": "",
+          "description": "VOR CHECK\nFAR 91.171\n345004",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "23 ciclos",
+          "dueDaysStr": "23 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "745.0",
-          "task": "G450-PlaneBook \nSoftware-App\nsubscription",
-          "description": "",
+          "task": "",
+          "description": "G450-PlaneBook \nSoftware-App\nsubscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-2333 ciclos",
+          "dueDaysStr": "-2333 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "747.0",
-          "task": "FMS data renewal",
-          "description": "",
+          "task": "",
+          "description": "FMS data renewal",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-45847 ciclos",
+          "dueDaysStr": "-45847 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "748.0",
-          "task": "Jeppesen Charts subscription",
-          "description": "",
+          "task": "",
+          "description": "Jeppesen Charts subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-4549 ciclos",
+          "dueDaysStr": "-4549 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {

@@ -1,9 +1,52 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PS-FLC": {
       "info": {
         "model": "AGUSTA AW169",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "Agusta AW169",
+              "sn": "69112",
+              "hours": "420.9",
+              "cycles": "1066"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW210A1",
+              "sn": "PCE-BP0222",
+              "hours": "420.9",
+              "cycles": "511"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW210A1",
+              "sn": "PCE-BP0218",
+              "hours": "420.9",
+              "cycles": "511"
+            },
+            {
+              "label": "Rotor principal",
+              "hours": "420.9",
+              "cycles": "1066"
+            },
+            {
+              "label": "Rotor auxiliar",
+              "hours": "420.9",
+              "cycles": "1066"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PS-FLC",
+            "Fabricação": "30/10/2019",
+            "Regulamento": "TPP",
+            "Último voo": "03/07/2026",
+            "Folha do diário": "377"
+          }
+        },
         "totalHours": 420.9,
         "totalLandings": 1066.0,
         "registration": "PS-FLC",
@@ -7879,7 +7922,7 @@
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7892,7 +7935,7 @@
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8291,7 +8334,7 @@
           "pn": "169-204",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-1077 dias",
+          "dueDaysStr": "-1078 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8370,7 +8413,7 @@
           "pn": "169-230",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-746 dias",
+          "dueDaysStr": "-747 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

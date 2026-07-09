@@ -1,9 +1,63 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PP-AGN": {
       "info": {
         "model": "AGUSTA AW109SP",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "Agusta AW109SP",
+              "sn": "22277",
+              "hours": "1361.9",
+              "cycles": "2796"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW 207C",
+              "sn": "PCE-BH0623",
+              "hours": "1239.2"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW 207C",
+              "sn": "PCE-BH0556",
+              "hours": "1258.6"
+            },
+            {
+              "label": "Rotor principal",
+              "model": "109-0112-02-107",
+              "sn": "V67",
+              "hours": "1361.9",
+              "cycles": "2796"
+            },
+            {
+              "label": "Rotor auxiliar",
+              "model": "109-0162-01-107",
+              "sn": "V154",
+              "hours": "1361.9",
+              "cycles": "2796"
+            },
+            {
+              "label": "Pás RP",
+              "pn": "709-0104-01-111",
+              "sn": "V518"
+            },
+            {
+              "label": "Pás RA",
+              "pn": "709-0160-48-101",
+              "sn": "V13461"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PP-AGN",
+            "Fabricação": "21/12/2012",
+            "Categoria": "TPP",
+            "Último voo": "24/06/2026"
+          }
+        },
         "totalHours": 1361.9,
         "totalLandings": 2796.0,
         "registration": "PP-AGN",

@@ -1,9 +1,44 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PS-STP": {
       "info": {
         "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "5000",
+              "pn": "BD-700-1A11",
+              "sn": "9575",
+              "hours": "1926.7",
+              "cycles": "683"
+            },
+            {
+              "label": "APU",
+              "model": "RE220(GX)",
+              "hours": "1170.3",
+              "cycles": "1567"
+            },
+            {
+              "label": "Motor 1",
+              "hours": "1926.7",
+              "cycles": "683"
+            },
+            {
+              "label": "Motor 2",
+              "hours": "1926.7",
+              "cycles": "683"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PS-STP",
+            "Fabricação": "27/09/2013",
+            "Regulamento": "RBAC 91.409(F)(3)",
+            "Último voo": "05/07/2026"
+          }
+        },
         "totalHours": 1926.7,
         "totalLandings": 683.0,
         "registration": "PS-STP",
@@ -3011,145 +3046,145 @@
       "tasks": [
         {
           "id": "22.0",
-          "task": "Short Term Parking",
-          "description": "",
+          "task": "",
+          "description": "Short Term Parking",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "3 ciclos",
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "23.0",
-          "task": "Long Term Parking",
-          "description": "",
+          "task": "",
+          "description": "Long Term Parking",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "4 ciclos",
+          "dueDaysStr": "4 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "24.0",
-          "task": "30 days preservation",
-          "description": "",
+          "task": "",
+          "description": "30 days preservation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "26 ciclos",
+          "dueDaysStr": "26 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "25.0",
-          "task": "Engine preservation",
-          "description": "",
+          "task": "",
+          "description": "Engine preservation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "3 ciclos",
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "26.0",
-          "task": "APU preservation",
-          "description": "",
+          "task": "",
+          "description": "APU preservation",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "10 ciclos",
+          "dueDaysStr": "10 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "829.0",
-          "task": "VOR CHECK \nFAR 91.171",
-          "description": "",
+          "task": "",
+          "description": "VOR CHECK \nFAR 91.171",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "5 ciclos",
+          "dueDaysStr": "5 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "837.0",
-          "task": "Assinatura TRAXXALL",
-          "description": "",
+          "task": "",
+          "description": "Assinatura TRAXXALL",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "5 ciclos",
+          "dueDaysStr": "5 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "838.0",
-          "task": "Assinaturas \nPublicações\nBombardier",
-          "description": "",
+          "task": "",
+          "description": "Assinaturas \nPublicações\nBombardier",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-33 ciclos",
+          "dueDaysStr": "-33 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "840.0",
-          "task": "Assinaturas \nAtualização FMS",
-          "description": "",
+          "task": "",
+          "description": "Assinaturas \nAtualização FMS",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-45847 ciclos",
+          "dueDaysStr": "-45847 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "841.0",
-          "task": "Assinatura \nCartas Jeppesen",
-          "description": "",
+          "task": "",
+          "description": "Assinatura \nCartas Jeppesen",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-418 ciclos",
+          "dueDaysStr": "-418 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "842.0",
-          "task": "iPreFlight Genesis Performance Subscription",
-          "description": "",
+          "task": "",
+          "description": "iPreFlight Genesis Performance Subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-770 ciclos",
+          "dueDaysStr": "-770 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {

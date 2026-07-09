@@ -1,9 +1,61 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PP-VEL": {
       "info": {
         "model": "DASSAULT FALCON 7X",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "7X",
+              "sn": "205",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW307A",
+              "pn": "30P0100-01",
+              "sn": "PCE-CH0643",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW307A",
+              "pn": "30P0100-01",
+              "sn": "PCE-CH0642",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "Motor 3",
+              "model": "PW307A",
+              "pn": "30P0100-01",
+              "sn": "PCE-CH0640",
+              "hours": "2204.8",
+              "cycles": "646"
+            },
+            {
+              "label": "APU",
+              "model": "GTCP36-150(FN)",
+              "pn": "3800788-1",
+              "sn": "P-298",
+              "hours": "1191.5",
+              "cycles": "1887"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PP-VEL",
+            "Fabricação": "11/10/2013",
+            "Categoria": "TPP",
+            "PMD": "31751 Kg",
+            "Último voo": "26/06/2026",
+            "Folha do diário": "557"
+          }
+        },
         "totalHours": 2204.8,
         "totalLandings": 646.0,
         "registration": "PP-VEL",

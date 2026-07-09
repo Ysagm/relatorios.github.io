@@ -1,9 +1,52 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "N918LL": {
       "info": {
         "model": "GULFSTREAM G450",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "G450",
+              "sn": "4177",
+              "hours": "4832",
+              "cycles": "1249"
+            },
+            {
+              "label": "Motor 1",
+              "model": "TAY611-8C",
+              "pn": "DER201",
+              "sn": "85361",
+              "hours": "4832",
+              "cycles": "1249"
+            },
+            {
+              "label": "Motor 2",
+              "model": "TAY611-8C",
+              "pn": "DER201",
+              "sn": "85362",
+              "hours": "4832",
+              "cycles": "1249"
+            },
+            {
+              "label": "APU",
+              "model": "36-150",
+              "pn": "3800794-1",
+              "sn": "P-301",
+              "hours": "1726.5",
+              "cycles": "2166"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "N918LL",
+            "Fabricação": "09/10/2009",
+            "Regulamento": "FAR 91.409(F)3",
+            "Último voo": "03/07/2026",
+            "Folha do diário": "739"
+          }
+        },
         "totalHours": 4832.0,
         "totalLandings": 1249.0,
         "flightLog": {
@@ -7503,119 +7546,119 @@
       "tasks": [
         {
           "id": "2.0",
-          "task": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
-          "description": "",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-3 ciclos",
+          "dueDaysStr": "-3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "3.0",
-          "task": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
-          "description": "",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "9 ciclos",
+          "dueDaysStr": "9 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "4.0",
-          "task": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
-          "description": "",
+          "task": "",
+          "description": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "24 ciclos",
+          "dueDaysStr": "24 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "7.0",
-          "task": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
-          "description": "",
+          "task": "",
+          "description": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "1 ciclos",
+          "dueDaysStr": "1 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "181.0",
-          "task": "Fuel Tank - Sumping\n280007",
-          "description": "",
+          "task": "",
+          "description": "Fuel Tank - Sumping\n280007",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "3 ciclos",
+          "dueDaysStr": "3 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "737.0",
-          "task": "VOR CHECK\nFAR 91.171\n345004",
-          "description": "",
+          "task": "",
+          "description": "VOR CHECK\nFAR 91.171\n345004",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "23 ciclos",
+          "dueDaysStr": "23 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "745.0",
-          "task": "G450-PlaneBook \nSoftware-App\nsubscription",
-          "description": "",
+          "task": "",
+          "description": "G450-PlaneBook \nSoftware-App\nsubscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-2333 ciclos",
+          "dueDaysStr": "-2333 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "747.0",
-          "task": "FMS data renewal",
-          "description": "",
+          "task": "",
+          "description": "FMS data renewal",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-45847 ciclos",
+          "dueDaysStr": "-45847 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {
           "id": "748.0",
-          "task": "Jeppesen Charts subscription",
-          "description": "",
+          "task": "",
+          "description": "Jeppesen Charts subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": "-4549 ciclos",
+          "dueDaysStr": "-4549 dias",
+          "dueCyclesStr": null,
           "alertTypes": [
-            "cycles"
+            "days"
           ]
         },
         {

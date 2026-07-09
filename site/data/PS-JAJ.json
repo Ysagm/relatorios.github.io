@@ -1,9 +1,50 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PS-JAJ": {
       "info": {
         "model": "EMBRAER PRAETOR 600",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "PRAETOR 600",
+              "pn": "EMB-550",
+              "sn": "55000070",
+              "hours": "1568.3",
+              "cycles": "835"
+            },
+            {
+              "label": "Motor 1",
+              "model": "AS907-3-1E-A3",
+              "pn": "70040119-1",
+              "sn": "P131325",
+              "hours": "1375.3",
+              "cycles": "700"
+            },
+            {
+              "label": "Motor 2",
+              "model": "AS907-3-1E-A3",
+              "pn": "70040119-1",
+              "sn": "P131326",
+              "hours": "1375.3",
+              "cycles": "700"
+            },
+            {
+              "label": "APU",
+              "model": "GTCP36-150(EMB)",
+              "hours": "1240.5",
+              "cycles": "1100"
+            }
+          ],
+          "record": {
+            "Data do relatório": "08/07/2026",
+            "Matrícula": "PS-JAJ",
+            "Fabricação": "17/04/2019",
+            "Categoria": "TPP",
+            "Último voo": "04/06/2026"
+          }
+        },
         "totalHours": 1568.3,
         "totalLandings": 835.0,
         "registration": "PS-JAJ",

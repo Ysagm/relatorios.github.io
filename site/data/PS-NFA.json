@@ -1,9 +1,44 @@
 {
-  "generated_at": "09/07/2026 15:40",
+  "generated_at": "09/07/2026 18:49",
   "aircraft": {
     "PS-NFA": {
       "info": {
         "model": "EMBRAER PHENOM 300",
+        "airframeSpec": {
+          "components": [
+            {
+              "label": "Célula",
+              "model": "EMB-505",
+              "sn": "50500879",
+              "hours": "215.2",
+              "cycles": "216"
+            },
+            {
+              "label": "Motor 1",
+              "model": "PW535E1",
+              "sn": "PCE-DK0539",
+              "hours": "215.2",
+              "cycles": "216"
+            },
+            {
+              "label": "Motor 2",
+              "model": "PW535E1",
+              "sn": "PCE-DK0540",
+              "hours": "215.2",
+              "cycles": "216"
+            }
+          ],
+          "record": {
+            "Data do relatório": "09/07/2026",
+            "Matrícula": "PS-NFA",
+            "Fabricação": "10/07/2025",
+            "Categoria": "TPP",
+            "Último voo": "24/06/2026",
+            "PMD": "8340 Kg",
+            "PAX": "9",
+            "Trip": "2"
+          }
+        },
         "totalHours": 215.2,
         "totalLandings": 216.0,
         "registration": "PS-NFA",
@@ -3117,7 +3152,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3260,7 +3295,7 @@
           "pn": "1400-1/1500-1",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3273,7 +3308,7 @@
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3565,7 +3600,7 @@
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-231 dias",
+          "dueDaysStr": "-232 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3589,7 +3624,7 @@
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-169 dias",
+          "dueDaysStr": "-170 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3624,7 +3659,7 @@
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-231 dias",
+          "dueDaysStr": "-232 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3637,7 +3672,7 @@
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-169 dias",
+          "dueDaysStr": "-170 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -4200,7 +4235,7 @@
           "pn": "505-22-0006 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -5478,7 +5513,7 @@
           "pn": "505-27-0030",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46211 dias",
+          "dueDaysStr": "-46212 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -6019,7 +6054,7 @@
           "pn": "505-31-0029 R2",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
