@@ -1,5 +1,5 @@
 {
-  "generated_at": "07/07/2026 22:39",
+  "generated_at": "08/07/2026 21:44",
   "aircraft": {
     "PP-AGN": {
       "info": {
@@ -2648,9 +2648,9 @@
             },
             {
               "year": 2022,
-              "hours": "88.9",
-              "landings": "157",
-              "legCount": 63,
+              "hours": "90.2",
+              "landings": "160",
+              "legCount": 64,
               "months": [
                 {
                   "month": 12,
@@ -3501,9 +3501,9 @@
                 {
                   "month": 4,
                   "monthLabel": "Abril",
-                  "hours": "7",
-                  "landings": "13",
-                  "legCount": 5,
+                  "hours": "8.3",
+                  "landings": "16",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
@@ -3593,6 +3593,24 @@
                       "lhIMP": "720",
                       "rhCT": "1193",
                       "rhPT": "1349",
+                      "rhIMP": "719"
+                    },
+                    {
+                      "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
+                      "folha": "133",
+                      "date": "07/04/2022",
+                      "celulaEtapa": "1.3",
+                      "celulaTotal": "1229.4",
+                      "pousoEtapa": "3",
+                      "pousoTotal": "2541",
+                      "motorEtapa": "1.3",
+                      "lh": "1106.7",
+                      "rh": "1126.1",
+                      "lhCT": "1172",
+                      "lhPT": "1306",
+                      "lhIMP": "720",
+                      "rhCT": "1192",
+                      "rhPT": "1348",
                       "rhIMP": "719"
                     }
                   ]
@@ -8166,41 +8184,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "year": 2002,
-              "hours": "1.3",
-              "landings": "3",
-              "legCount": 1,
-              "months": [
-                {
-                  "month": 4,
-                  "monthLabel": "Abril",
-                  "hours": "1.3",
-                  "landings": "3",
-                  "legCount": 1,
-                  "legs": [
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
-                      "folha": "133",
-                      "date": "07/04/2002",
-                      "celulaEtapa": "1.3",
-                      "celulaTotal": "1229.4",
-                      "pousoEtapa": "3",
-                      "pousoTotal": "2541",
-                      "motorEtapa": "1.3",
-                      "lh": "1106.7",
-                      "rh": "1126.1",
-                      "lhCT": "1172",
-                      "lhPT": "1306",
-                      "lhIMP": "720",
-                      "rhCT": "1192",
-                      "rhPT": "1348",
-                      "rhIMP": "719"
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -8208,13 +8191,27 @@
       },
       "tasks": [
         {
+          "id": "44.0",
+          "task": "",
+          "description": "50-hour / 60-day inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "49.4h",
+          "dueDaysStr": "28 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "57.0",
           "task": "26-02",
           "description": "Portable fire\nextinguisherPerform a\ngeneral visual\ninspection of\nthe portable\nfire\nextinguisher for\ndamage,\ncorrosion,\nleakage and\ncondition.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-1 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8240,7 +8237,7 @@
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-100 dias",
+          "dueDaysStr": "-101 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8266,7 +8263,7 @@
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-100 dias",
+          "dueDaysStr": "-101 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8279,7 +8276,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-102 dias",
+          "dueDaysStr": "-103 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8292,7 +8289,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-101 dias",
+          "dueDaysStr": "-102 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8305,7 +8302,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8318,7 +8315,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8331,7 +8328,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8344,7 +8341,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8357,7 +8354,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8370,7 +8367,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8383,7 +8380,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8396,7 +8393,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-447 dias",
+          "dueDaysStr": "-448 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8409,7 +8406,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-134 dias",
+          "dueDaysStr": "-135 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8422,7 +8419,7 @@
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -9116,7 +9113,7 @@
           "pn": "BT109SP-170",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46500 dias",
+          "dueDaysStr": "-300 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

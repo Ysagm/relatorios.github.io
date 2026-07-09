@@ -2,8 +2,8 @@ name: Atualizar dados do dashboard
 
 on:
   schedule:
-    # 09:00 UTC = 06:00 horario de Brasilia (ajuste se necessario)
-    - cron: '0 9 * * *'
+    # A cada 3 horas
+    - cron: '0 */3 * * *'
   workflow_dispatch: {}
 
 jobs:

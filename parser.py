@@ -39,6 +39,9 @@ AIRCRAFT_FOLDERS = [
 ]
 
 
+DATED_FILENAME_RE = re.compile(r"\d{2}-\d{2}-\d{4}")
+
+
 def find_latest_spreadsheet(folder: Path):
     candidates = [
         f for f in folder.glob("*")
@@ -46,7 +49,14 @@ def find_latest_spreadsheet(folder: Path):
     ]
     if not candidates:
         return None
-    return max(candidates, key=lambda f: f.stat().st_mtime)
+    # A planilha principal de cada aeronave e sempre salva com uma data
+    # DD-MM-AAAA no nome (renomeada a cada atualizacao). Pastas as vezes tem
+    # arquivos avulsos sem essa data (ex: "Tarefas OUTUBRO-2026.xlsx",
+    # "WORKSCOPE - ATUALIZADO.xlsx") que nao devem ser escolhidos so por
+    # terem uma data de modificacao mais recente por coincidencia.
+    dated = [f for f in candidates if DATED_FILENAME_RE.search(f.name)]
+    pool = dated if dated else candidates
+    return max(pool, key=lambda f: f.stat().st_mtime)
 
 SITE_DIR = Path(__file__).resolve().parent / "site"
 DATA_DIR  = SITE_DIR / "data"       # per-aircraft JSON files served via Worker
@@ -83,12 +93,14 @@ def excel_date_to_py(serial):
         return None
 
 
-def to_date(val):
+def to_date(val, min_serial=0):
     if isinstance(val, datetime):
         return val.date()
     if isinstance(val, date):
         return val
     if isinstance(val, (int, float)):
+        if val < min_serial:
+            return None
         return excel_date_to_py(val)
     if isinstance(val, str):
         for fmt in ("%d/%m/%Y", "%Y-%m-%d", "%d-%m-%Y"):
@@ -101,7 +113,13 @@ def to_date(val):
 
 
 def date_diff_days(val):
-    d = to_date(val)
+    # Algumas linhas da planilha guardam nessa coluna a contagem de dias ja
+    # calculada (ex: "-300") em vez de uma data para comparar com hoje.
+    # min_serial evita reinterpretar esse numero pequeno como serial de data
+    # do Excel (o que geraria uma data absurda em ~1899 e um diff gigante).
+    # Datas reais de aeronaves sempre caem bem acima desse limiar (serial
+    # 10000 = ano 1927).
+    d = to_date(val, min_serial=10000)
     if d is None:
         return None
     today = date.today()
@@ -243,6 +261,19 @@ def parse_workbook(sheets, acft_name):
                         n = num(get(row, j + 1))
                         if n is not None:
                             info["totalCycles"] = n
+                    # Modelo de cabecalho alternativo (aeronaves a jato mais
+                    # novas): usa TSN/LSN (Time/Landings Since New) em vez de
+                    # "HORAS TOTAIS"/"POUSOS TOTAIS". TSN tambem aparece nas
+                    # colunas de motor/APU na mesma linha, entao so aceitamos
+                    # a primeira ocorrencia (coluna da CELULA, mais a esquerda).
+                    if v == "TSN" and "totalHours" not in info:
+                        n = num(get(row, j + 1))
+                        if n is not None:
+                            info["totalHours"] = n
+                    if v == "LSN" and "totalLandings" not in info:
+                        n = num(get(row, j + 1))
+                        if n is not None:
+                            info["totalLandings"] = n
                     if "registration" not in info:
                         cell_str = str(get(row, j) or "")
                         rm = re.match(r"^([A-Z]{2}-[A-Z0-9]{3})$", cell_str, re.IGNORECASE)
@@ -618,7 +649,17 @@ def _export_leg(leg):
 def build_flight_log(legs, twin, apu_mode):
     dated = [l for l in legs if l.get("_date")]
     if not dated:
-        return None
+        # Nenhuma etapa tem data preenchida (ex: aeronave recem-entregue,
+        # ainda sem voos registrados) mas ha linhas com saldo acumulado —
+        # mostra os totais mesmo assim, so sem o historico ano/mes.
+        last = legs[-1]
+        return {
+            "totalHours": last.get("celulaTotal"),
+            "totalLandings": last.get("pousoTotal"),
+            "twin": twin,
+            "apuMode": apu_mode,
+            "years": [],
+        }
     dated.sort(key=lambda l: l["_date"])  # ascendente (estavel -> ordem original nos empates)
 
     last = dated[-1]

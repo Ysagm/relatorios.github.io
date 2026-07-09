@@ -1,9 +1,11 @@
 {
-  "generated_at": "07/07/2026 22:39",
+  "generated_at": "08/07/2026 21:44",
   "aircraft": {
     "PS-STP": {
       "info": {
         "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
+        "totalHours": 1917.2,
+        "totalLandings": 682.0,
         "registration": "PS-STP",
         "flightLog": {
           "totalHours": "1917.2",
@@ -3029,8 +3031,6 @@
             }
           ]
         },
-        "totalHours": null,
-        "totalLandings": null,
         "totalCycles": null
       },
       "tasks": [
@@ -3085,7 +3085,7 @@
           "pn": "700-53-5011",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-47033 dias",
+          "dueDaysStr": "-823 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -3329,7 +3329,7 @@
           "pn": "700-32-5022",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46253 dias",
+          "dueDaysStr": "-43 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

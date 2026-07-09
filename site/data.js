@@ -1,5 +1,5 @@
 window.EMBEDDED_DATA = {
-  "generated_at": "07/07/2026 22:39",
+  "generated_at": "08/07/2026 21:44",
   "aircraft": {
     "PP-AGN": {
       "info": {
@@ -2648,9 +2648,9 @@ window.EMBEDDED_DATA = {
             },
             {
               "year": 2022,
-              "hours": "88.9",
-              "landings": "157",
-              "legCount": 63,
+              "hours": "90.2",
+              "landings": "160",
+              "legCount": 64,
               "months": [
                 {
                   "month": 12,
@@ -3501,9 +3501,9 @@ window.EMBEDDED_DATA = {
                 {
                   "month": 4,
                   "monthLabel": "Abril",
-                  "hours": "7",
-                  "landings": "13",
-                  "legCount": 5,
+                  "hours": "8.3",
+                  "landings": "16",
+                  "legCount": 6,
                   "legs": [
                     {
                       "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
@@ -3593,6 +3593,24 @@ window.EMBEDDED_DATA = {
                       "lhIMP": "720",
                       "rhCT": "1193",
                       "rhPT": "1349",
+                      "rhIMP": "719"
+                    },
+                    {
+                      "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
+                      "folha": "133",
+                      "date": "07/04/2022",
+                      "celulaEtapa": "1.3",
+                      "celulaTotal": "1229.4",
+                      "pousoEtapa": "3",
+                      "pousoTotal": "2541",
+                      "motorEtapa": "1.3",
+                      "lh": "1106.7",
+                      "rh": "1126.1",
+                      "lhCT": "1172",
+                      "lhPT": "1306",
+                      "lhIMP": "720",
+                      "rhCT": "1192",
+                      "rhPT": "1348",
                       "rhIMP": "719"
                     }
                   ]
@@ -8166,41 +8184,6 @@ window.EMBEDDED_DATA = {
                   ]
                 }
               ]
-            },
-            {
-              "year": 2002,
-              "hours": "1.3",
-              "landings": "3",
-              "legCount": 1,
-              "months": [
-                {
-                  "month": 4,
-                  "monthLabel": "Abril",
-                  "hours": "1.3",
-                  "landings": "3",
-                  "legCount": 1,
-                  "legs": [
-                    {
-                      "book": "DIÁRIO DE BORDO NO. 16/PP-AGN/2021",
-                      "folha": "133",
-                      "date": "07/04/2002",
-                      "celulaEtapa": "1.3",
-                      "celulaTotal": "1229.4",
-                      "pousoEtapa": "3",
-                      "pousoTotal": "2541",
-                      "motorEtapa": "1.3",
-                      "lh": "1106.7",
-                      "rh": "1126.1",
-                      "lhCT": "1172",
-                      "lhPT": "1306",
-                      "lhIMP": "720",
-                      "rhCT": "1192",
-                      "rhPT": "1348",
-                      "rhIMP": "719"
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -8208,13 +8191,27 @@ window.EMBEDDED_DATA = {
       },
       "tasks": [
         {
+          "id": "44.0",
+          "task": "",
+          "description": "50-hour / 60-day inspections",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": "49.4h",
+          "dueDaysStr": "28 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours",
+            "days"
+          ]
+        },
+        {
           "id": "57.0",
           "task": "26-02",
           "description": "Portable fire\nextinguisherPerform a\ngeneral visual\ninspection of\nthe portable\nfire\nextinguisher for\ndamage,\ncorrosion,\nleakage and\ncondition.",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-1 dias",
+          "dueDaysStr": "-2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8240,7 +8237,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-100 dias",
+          "dueDaysStr": "-101 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8266,7 +8263,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW207C",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-100 dias",
+          "dueDaysStr": "-101 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8279,7 +8276,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-102 dias",
+          "dueDaysStr": "-103 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8292,7 +8289,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-101 dias",
+          "dueDaysStr": "-102 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8305,7 +8302,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8318,7 +8315,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8331,7 +8328,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8344,7 +8341,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8357,7 +8354,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "16 dias",
+          "dueDaysStr": "15 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8370,7 +8367,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8383,7 +8380,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8396,7 +8393,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-447 dias",
+          "dueDaysStr": "-448 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8409,7 +8406,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-134 dias",
+          "dueDaysStr": "-135 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -8422,7 +8419,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
+          "dueDaysStr": "1 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -9116,7 +9113,7 @@ window.EMBEDDED_DATA = {
           "pn": "BT109SP-170",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46500 dias",
+          "dueDaysStr": "-300 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17603,7 +17600,7 @@ window.EMBEDDED_DATA = {
           "pn": "if the aircraft has performed more than 20FH since the\nlast treatment",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17616,7 +17613,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17629,7 +17626,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17642,7 +17639,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17655,7 +17652,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17668,7 +17665,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17681,7 +17678,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17694,7 +17691,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17707,7 +17704,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17720,7 +17717,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17733,7 +17730,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-8 dias",
+          "dueDaysStr": "-9 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17746,7 +17743,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "49 dias",
+          "dueDaysStr": "48 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17759,7 +17756,7 @@ window.EMBEDDED_DATA = {
           "pn": "PKG 2",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-7 dias",
+          "dueDaysStr": "-8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17772,7 +17769,7 @@ window.EMBEDDED_DATA = {
           "pn": "FSA-28-00-013-R00-A",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17785,7 +17782,7 @@ window.EMBEDDED_DATA = {
           "pn": "FSA-28-00-013-R00-A",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "5 dias",
+          "dueDaysStr": "4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17798,7 +17795,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "18 dias",
+          "dueDaysStr": "17 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17811,7 +17808,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "18 dias",
+          "dueDaysStr": "17 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17824,7 +17821,7 @@ window.EMBEDDED_DATA = {
           "pn": "406AFN2",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17837,7 +17834,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-278 dias",
+          "dueDaysStr": "-279 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17850,7 +17847,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-553 dias",
+          "dueDaysStr": "-554 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17863,7 +17860,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-727 dias",
+          "dueDaysStr": "-728 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17876,7 +17873,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-710 dias",
+          "dueDaysStr": "-711 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17889,7 +17886,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-710 dias",
+          "dueDaysStr": "-711 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17928,7 +17925,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-41 dias",
+          "dueDaysStr": "-42 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17941,7 +17938,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-27 dias",
+          "dueDaysStr": "-28 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -17954,7 +17951,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-67 dias",
+          "dueDaysStr": "-68 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -18255,7 +18252,7 @@ window.EMBEDDED_DATA = {
           "pn": "357 R3",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-48643 dias",
+          "dueDaysStr": "-2433 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -18268,7 +18265,7 @@ window.EMBEDDED_DATA = {
           "pn": "358 R3",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-48643 dias",
+          "dueDaysStr": "-2433 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -18371,7 +18368,7 @@ window.EMBEDDED_DATA = {
           "pn": "413A",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46360 dias",
+          "dueDaysStr": "-150 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -18551,7 +18548,7 @@ window.EMBEDDED_DATA = {
           "pn": "502",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-47396 dias",
+          "dueDaysStr": "-1186 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -18564,7 +18561,7 @@ window.EMBEDDED_DATA = {
           "pn": "514 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46391 dias",
+          "dueDaysStr": "-181 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -18764,7 +18761,7 @@ window.EMBEDDED_DATA = {
           "pn": "597 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46633 dias",
+          "dueDaysStr": "-423 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -21140,48 +21137,20 @@ window.EMBEDDED_DATA = {
     "PS-FLC": {
       "info": {
         "model": "AGUSTA AW169",
+        "totalHours": 420.9,
+        "totalLandings": 1066.0,
         "registration": "PS-FLC",
         "flightLog": {
-          "totalHours": "391.9",
-          "totalLandings": "986",
+          "totalHours": "420.9",
+          "totalLandings": "1066",
           "twin": false,
           "apuMode": "none",
           "years": [
             {
-              "year": 2027,
-              "hours": "1",
-              "landings": "3",
-              "legCount": 1,
-              "months": [
-                {
-                  "month": 3,
-                  "monthLabel": "Março",
-                  "hours": "1",
-                  "landings": "3",
-                  "legCount": 1,
-                  "legs": [
-                    {
-                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
-                      "folha": "355",
-                      "date": "10/03/2027",
-                      "celulaEtapa": "1",
-                      "celulaTotal": "391.9",
-                      "pousoEtapa": "3",
-                      "pousoTotal": "986",
-                      "motorEtapa": "1",
-                      "motorTotal": "391.9",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "482"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "year": 2026,
-              "hours": "41.8",
-              "landings": "104",
-              "legCount": 31,
+              "hours": "42.8",
+              "landings": "107",
+              "legCount": 32,
               "months": [
                 {
                   "month": 7,
@@ -21430,9 +21399,9 @@ window.EMBEDDED_DATA = {
                 {
                   "month": 3,
                   "monthLabel": "Março",
-                  "hours": "10.6",
-                  "landings": "27",
-                  "legCount": 9,
+                  "hours": "11.6",
+                  "landings": "30",
+                  "legCount": 10,
                   "legs": [
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
@@ -21511,6 +21480,19 @@ window.EMBEDDED_DATA = {
                       "motorTotal": "392.9",
                       "cicloEtapa": "2",
                       "cicloTotal": "484"
+                    },
+                    {
+                      "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
+                      "folha": "355",
+                      "date": "10/03/2026",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "391.9",
+                      "pousoEtapa": "3",
+                      "pousoTotal": "986",
+                      "motorEtapa": "1",
+                      "motorTotal": "391.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "482"
                     },
                     {
                       "book": "FLIGHT LOGBOOK NO. 02/PS-FLC/2020",
@@ -26771,8 +26753,6 @@ window.EMBEDDED_DATA = {
             }
           ]
         },
-        "totalHours": null,
-        "totalLandings": null,
         "totalCycles": null
       },
       "tasks": [
@@ -26952,7 +26932,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -26979,7 +26959,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "158.8h",
-          "dueDaysStr": "21 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -26993,7 +26973,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "119.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27020,7 +27000,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27034,7 +27014,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "1119.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27048,7 +27028,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -27061,7 +27041,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "21 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -27074,7 +27054,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -27230,7 +27210,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27244,7 +27224,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "49.4h",
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27323,7 +27303,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341, K422",
           "sheet": "Manutenção",
           "dueHoursStr": "158.8h",
-          "dueDaysStr": "21 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27337,7 +27317,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341, K422",
           "sheet": "Manutenção",
           "dueHoursStr": "158.8h",
-          "dueDaysStr": "21 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27351,7 +27331,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "119.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27664,7 +27644,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27678,7 +27658,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27692,7 +27672,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27706,7 +27686,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27720,7 +27700,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27734,7 +27714,7 @@ window.EMBEDDED_DATA = {
           "pn": "K064, K171",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27748,7 +27728,7 @@ window.EMBEDDED_DATA = {
           "pn": "K083",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27762,7 +27742,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27776,7 +27756,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27790,7 +27770,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27804,7 +27784,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27818,7 +27798,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27832,7 +27812,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27846,7 +27826,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27860,7 +27840,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27874,7 +27854,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27888,7 +27868,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27902,7 +27882,7 @@ window.EMBEDDED_DATA = {
           "pn": "K054, K153,\nK341",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27916,7 +27896,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27930,7 +27910,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27944,7 +27924,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27958,7 +27938,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27972,7 +27952,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -27986,7 +27966,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28000,7 +27980,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28014,7 +27994,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28028,7 +28008,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28042,7 +28022,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28056,7 +28036,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28070,7 +28050,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28084,7 +28064,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28098,7 +28078,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28112,7 +28092,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28126,7 +28106,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28140,7 +28120,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28154,7 +28134,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28168,7 +28148,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28182,7 +28162,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28196,7 +28176,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28210,7 +28190,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28224,7 +28204,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28238,7 +28218,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28252,7 +28232,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "1119.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28266,7 +28246,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "17 dias",
+          "dueDaysStr": "16 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28279,7 +28259,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "21 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28292,7 +28272,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "21 dias",
+          "dueDaysStr": "20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28305,7 +28285,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28318,7 +28298,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28331,7 +28311,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28344,7 +28324,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28357,7 +28337,7 @@ window.EMBEDDED_DATA = {
           "pn": "33181-002",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28370,7 +28350,7 @@ window.EMBEDDED_DATA = {
           "pn": "33296-001",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28383,7 +28363,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28396,7 +28376,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28409,7 +28389,7 @@ window.EMBEDDED_DATA = {
           "pn": "K008",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28422,7 +28402,7 @@ window.EMBEDDED_DATA = {
           "pn": "K008",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28435,7 +28415,7 @@ window.EMBEDDED_DATA = {
           "pn": "K010, K109",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28448,7 +28428,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28461,7 +28441,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28474,7 +28454,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28487,7 +28467,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28500,7 +28480,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28513,7 +28493,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28526,7 +28506,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28539,7 +28519,7 @@ window.EMBEDDED_DATA = {
           "pn": "D51701-001",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28552,7 +28532,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28565,7 +28545,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28578,7 +28558,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28591,7 +28571,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28604,7 +28584,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28617,7 +28597,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28630,7 +28610,7 @@ window.EMBEDDED_DATA = {
           "pn": "K096",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28643,7 +28623,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28656,7 +28636,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28695,7 +28675,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28708,7 +28688,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28721,7 +28701,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28748,7 +28728,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28762,7 +28742,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28776,7 +28756,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28790,7 +28770,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28804,7 +28784,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28831,7 +28811,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28844,7 +28824,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28857,7 +28837,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28884,7 +28864,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28898,7 +28878,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28912,7 +28892,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28926,7 +28906,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28940,7 +28920,7 @@ window.EMBEDDED_DATA = {
           "pn": "PW210A1",
           "sheet": "Manutenção",
           "dueHoursStr": "319.4h",
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -28954,7 +28934,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28967,7 +28947,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28980,7 +28960,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -28993,7 +28973,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "4 dias",
+          "dueDaysStr": "3 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29006,7 +28986,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "25 dias",
+          "dueDaysStr": "24 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29019,7 +28999,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29032,7 +29012,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "26 dias",
+          "dueDaysStr": "25 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29045,7 +29025,7 @@ window.EMBEDDED_DATA = {
           "pn": "453-5061-710",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "23 dias",
+          "dueDaysStr": "22 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29058,7 +29038,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-575 dias",
+          "dueDaysStr": "-576 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29071,7 +29051,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-1608 dias",
+          "dueDaysStr": "-1609 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29084,7 +29064,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": "-45481 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29097,7 +29077,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": "-45481 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29110,7 +29090,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46209 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29123,7 +29103,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Componentes",
           "dueHoursStr": null,
-          "dueDaysStr": "-46209 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29522,7 +29502,7 @@ window.EMBEDDED_DATA = {
           "pn": "169-204",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-47285 dias",
+          "dueDaysStr": "-1077 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29601,7 +29581,7 @@ window.EMBEDDED_DATA = {
           "pn": "169-230",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46954 dias",
+          "dueDaysStr": "-746 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -29825,46 +29805,16 @@ window.EMBEDDED_DATA = {
         "totalLandings": 216.0,
         "registration": "PS-NFA",
         "flightLog": {
-          "totalHours": "144.2",
-          "totalLandings": "131",
+          "totalHours": "215.2",
+          "totalLandings": "216",
           "twin": false,
           "apuMode": "none",
           "years": [
             {
-              "year": 2029,
-              "hours": "0.5",
-              "landings": "1",
-              "legCount": 1,
-              "months": [
-                {
-                  "month": 3,
-                  "monthLabel": "Março",
-                  "hours": "0.5",
-                  "landings": "1",
-                  "legCount": 1,
-                  "legs": [
-                    {
-                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
-                      "folha": "21",
-                      "date": "29/03/2029",
-                      "celulaEtapa": "0.5",
-                      "celulaTotal": "144.2",
-                      "pousoEtapa": "1",
-                      "pousoTotal": "131",
-                      "motorEtapa": "0.5",
-                      "motorTotal": "144.2",
-                      "cicloEtapa": "1",
-                      "cicloTotal": "131"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "year": 2026,
-              "hours": "139.4",
-              "landings": "147",
-              "legCount": 147,
+              "hours": "139.9",
+              "landings": "148",
+              "legCount": 148,
               "months": [
                 {
                   "month": 6,
@@ -30936,9 +30886,9 @@ window.EMBEDDED_DATA = {
                 {
                   "month": 3,
                   "monthLabel": "Março",
-                  "hours": "25.3",
-                  "landings": "27",
-                  "legCount": 27,
+                  "hours": "25.8",
+                  "landings": "28",
+                  "legCount": 28,
                   "legs": [
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -30991,6 +30941,19 @@ window.EMBEDDED_DATA = {
                       "motorTotal": "145.4",
                       "cicloEtapa": "1",
                       "cicloTotal": "133"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
+                      "folha": "21",
+                      "date": "29/03/2026",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "144.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "131",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "144.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "131"
                     },
                     {
                       "book": "FLIGHT LOG NO. 01/PS-NFA/2025",
@@ -32646,7 +32609,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32659,7 +32622,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -32673,7 +32636,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -32687,7 +32650,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32700,7 +32663,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32713,7 +32676,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32726,7 +32689,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32739,7 +32702,7 @@ window.EMBEDDED_DATA = {
           "pn": "011-01904-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32752,7 +32715,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32765,7 +32728,7 @@ window.EMBEDDED_DATA = {
           "pn": "7639-34",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32778,7 +32741,7 @@ window.EMBEDDED_DATA = {
           "pn": "7638-48P",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32791,7 +32754,7 @@ window.EMBEDDED_DATA = {
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32804,7 +32767,7 @@ window.EMBEDDED_DATA = {
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-6 dias",
+          "dueDaysStr": "-7 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32817,7 +32780,7 @@ window.EMBEDDED_DATA = {
           "pn": "S6-01-0005-320",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32830,7 +32793,7 @@ window.EMBEDDED_DATA = {
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -32844,7 +32807,7 @@ window.EMBEDDED_DATA = {
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -32858,7 +32821,7 @@ window.EMBEDDED_DATA = {
           "pn": "3200 FH / 60 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": "2984.8h",
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -32872,7 +32835,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32885,7 +32848,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32898,7 +32861,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32911,7 +32874,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32924,7 +32887,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32937,7 +32900,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE\n5013-6100-50",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32950,7 +32913,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -32963,7 +32926,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -32977,7 +32940,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -32991,7 +32954,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33004,7 +32967,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -33018,7 +32981,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": "434 ciclos",
           "alertTypes": [
             "days",
@@ -33032,7 +32995,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33045,7 +33008,7 @@ window.EMBEDDED_DATA = {
           "pn": "7450LS-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33058,7 +33021,7 @@ window.EMBEDDED_DATA = {
           "pn": "7450LS-00",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "14 dias",
+          "dueDaysStr": "13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33071,7 +33034,7 @@ window.EMBEDDED_DATA = {
           "pn": "KCA0120W",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33084,7 +33047,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "-36 dias",
+          "dueDaysStr": "-37 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33098,7 +33061,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE\nMC40-11",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33111,7 +33074,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE\nMC40-11",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33124,7 +33087,7 @@ window.EMBEDDED_DATA = {
           "pn": "12 MO PACKAGE",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33137,7 +33100,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33151,7 +33114,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33165,7 +33128,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33179,7 +33142,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33193,7 +33156,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33207,7 +33170,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33221,7 +33184,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33235,7 +33198,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33249,7 +33212,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33263,7 +33226,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33277,7 +33240,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33291,7 +33254,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33305,7 +33268,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33319,7 +33282,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33333,7 +33296,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33347,7 +33310,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33361,7 +33324,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33375,7 +33338,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33389,7 +33352,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33403,7 +33366,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33417,7 +33380,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33431,7 +33394,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33445,7 +33408,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33459,7 +33422,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33473,7 +33436,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33487,7 +33450,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33501,7 +33464,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33515,7 +33478,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": "414.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33529,7 +33492,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33542,7 +33505,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33555,7 +33518,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33569,7 +33532,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33583,7 +33546,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33597,7 +33560,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33611,7 +33574,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33625,7 +33588,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33639,7 +33602,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33653,7 +33616,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33667,7 +33630,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33681,7 +33644,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33695,7 +33658,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33709,7 +33672,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33723,7 +33686,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33737,7 +33700,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33751,7 +33714,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33765,7 +33728,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33779,7 +33742,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33793,7 +33756,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33807,7 +33770,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33821,7 +33784,7 @@ window.EMBEDDED_DATA = {
           "pn": "800 FH/12 MO\nENGINE",
           "sheet": "Manutenção",
           "dueHoursStr": "584.8h",
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "hours",
@@ -33835,7 +33798,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "95 dias",
+          "dueDaysStr": "94 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33848,7 +33811,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-39 dias",
+          "dueDaysStr": "-40 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33861,7 +33824,7 @@ window.EMBEDDED_DATA = {
           "pn": "S1821502-02",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "3 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33874,7 +33837,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "72 dias",
+          "dueDaysStr": "71 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33887,7 +33850,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33900,7 +33863,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "86 dias",
+          "dueDaysStr": "85 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33913,7 +33876,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33926,7 +33889,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-46210 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33939,7 +33902,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45844 dias",
+          "dueDaysStr": "-45845 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33952,7 +33915,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": "-45481 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33965,7 +33928,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": "-45481 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33978,7 +33941,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -33991,7 +33954,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34004,7 +33967,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34017,7 +33980,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-12 dias",
+          "dueDaysStr": "-13 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34030,7 +33993,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "9 dias",
+          "dueDaysStr": "8 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34043,7 +34006,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "71 dias",
+          "dueDaysStr": "70 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34056,7 +34019,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "71 dias",
+          "dueDaysStr": "70 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34322,7 +34285,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46440 dias",
+          "dueDaysStr": "-231 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34346,7 +34309,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46378 dias",
+          "dueDaysStr": "-169 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34381,7 +34344,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46440 dias",
+          "dueDaysStr": "-231 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34394,7 +34357,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46378 dias",
+          "dueDaysStr": "-169 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -34957,7 +34920,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-22-0006 R1",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-92420 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -36235,7 +36198,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-27-0030",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-92420 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -36776,7 +36739,7 @@ window.EMBEDDED_DATA = {
           "pn": "505-31-0029 R2",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46207 dias",
+          "dueDaysStr": "2 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -40196,733 +40159,6210 @@ window.EMBEDDED_DATA = {
     },
     "PS-KNG": {
       "info": {
-        "model": null,
-        "totalHours": null,
-        "totalLandings": null,
-        "totalCycles": null,
-        "flightLog": null
-      },
-      "tasks": []
-    },
-    "N444R": {
-      "info": {
-        "model": "GULFSTREAM G700",
-        "totalHours": null,
-        "totalLandings": null,
-        "totalCycles": null,
-        "flightLog": null
+        "model": "BEECHCRAFT KING AIR B300",
+        "totalHours": 1554.6,
+        "totalLandings": 1097.0,
+        "registration": "PS-KNG",
+        "flightLog": {
+          "totalHours": "1554.6",
+          "totalLandings": "1097",
+          "twin": false,
+          "apuMode": "none",
+          "years": [
+            {
+              "year": 2026,
+              "hours": "42.5",
+              "landings": "30",
+              "legCount": 29,
+              "months": [
+                {
+                  "month": 6,
+                  "monthLabel": "Junho",
+                  "hours": "10.5",
+                  "landings": "9",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "19",
+                      "date": "20/06/2026",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1551.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1095",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1551.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1082"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "19",
+                      "date": "20/06/2026",
+                      "celulaEtapa": "1.8",
+                      "celulaTotal": "1553.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1096",
+                      "motorEtapa": "1.8",
+                      "motorTotal": "1553.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1083"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "20",
+                      "date": "20/06/2026",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1554.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1097",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1554.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1084"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "2",
+                      "date": "17/06/2026",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1415.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "999",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1415.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "987"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "19",
+                      "date": "16/06/2026",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1548.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1092",
+                      "motorEtapa": "1",
+                      "motorTotal": "1548.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1079"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "19",
+                      "date": "16/06/2026",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1550.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1093",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1550.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1080"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "19",
+                      "date": "16/06/2026",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1551",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1094",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1551",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1081"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "19",
+                      "date": "08/06/2026",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1547.3",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "1091",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1547.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1078"
+                    }
+                  ]
+                },
+                {
+                  "month": 4,
+                  "monthLabel": "Abril",
+                  "hours": "5.3",
+                  "landings": "4",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "17",
+                      "date": "24/04/2026",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1546.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1089",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1546.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1077"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "17",
+                      "date": "21/04/2026",
+                      "celulaEtapa": "1.7",
+                      "celulaTotal": "1545.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1087",
+                      "motorEtapa": "1.7",
+                      "motorTotal": "1545.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1075"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "17",
+                      "date": "21/04/2026",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1546.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1088",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1546.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1076"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "16",
+                      "date": "18/04/2026",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1543.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1086",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1543.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1074"
+                    }
+                  ]
+                },
+                {
+                  "month": 3,
+                  "monthLabel": "Março",
+                  "hours": "7",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "16",
+                      "date": "20/03/2026",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1538.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1083",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1538.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1071"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "16",
+                      "date": "20/03/2026",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1540.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1084",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1540.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1072"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "16",
+                      "date": "20/03/2026",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1541.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1085",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1541.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1073"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "15",
+                      "date": "16/03/2026",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1535.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1080",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1535.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1068"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "16",
+                      "date": "16/03/2026",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "1537.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1081",
+                      "motorEtapa": "2",
+                      "motorTotal": "1537.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1069"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "16",
+                      "date": "16/03/2026",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1537.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1082",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1537.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1070"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "15",
+                      "date": "03/03/2026",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1534.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1078",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1534.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1066"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "15",
+                      "date": "03/03/2026",
+                      "celulaEtapa": "0.1",
+                      "celulaTotal": "1534.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1079",
+                      "motorEtapa": "0.1",
+                      "motorTotal": "1534.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1067"
+                    }
+                  ]
+                },
+                {
+                  "month": 1,
+                  "monthLabel": "Janeiro",
+                  "hours": "19.7",
+                  "landings": "9",
+                  "legCount": 9,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "15",
+                      "date": "13/01/2026",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1534.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1077",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1534.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1065"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "15",
+                      "date": "12/01/2026",
+                      "celulaEtapa": "3.2",
+                      "celulaTotal": "1531.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1076",
+                      "motorEtapa": "3.2",
+                      "motorTotal": "1531.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1064"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "14",
+                      "date": "11/01/2026",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1524.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1074",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1524.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1062"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "15",
+                      "date": "11/01/2026",
+                      "celulaEtapa": "3.3",
+                      "celulaTotal": "1528.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1075",
+                      "motorEtapa": "3.3",
+                      "motorTotal": "1528.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1063"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "14",
+                      "date": "10/01/2026",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1522",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1073",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1522",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1061"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "14",
+                      "date": "06/01/2026",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1519.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1071",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1519.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1059"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "14",
+                      "date": "06/01/2026",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1519.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1072",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1519.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1060"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "14",
+                      "date": "03/01/2026",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1515.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1069",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1515.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1057"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "14",
+                      "date": "03/01/2026",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1516.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1070",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1516.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1058"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2025,
+              "hours": "133.9",
+              "landings": "100",
+              "legCount": 97,
+              "months": [
+                {
+                  "month": 12,
+                  "monthLabel": "Dezembro",
+                  "hours": "17.4",
+                  "landings": "17",
+                  "legCount": 17,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "13",
+                      "date": "28/12/2025",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1513.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1067",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1513.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1055"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "13",
+                      "date": "28/12/2025",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1514.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1068",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1514.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1056"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "13",
+                      "date": "27/12/2025",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1510.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1065",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1510.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1053"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "13",
+                      "date": "27/12/2025",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1513",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1066",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1513",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1054"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "13",
+                      "date": "19/12/2025",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1506.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1063",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1506.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1051"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "13",
+                      "date": "19/12/2025",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1507.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1064",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1507.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1052"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "12",
+                      "date": "18/12/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1504.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1059",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1504.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1047"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "12",
+                      "date": "18/12/2025",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1504.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1060",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1504.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1048"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "12",
+                      "date": "18/12/2025",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1505.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1061",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1505.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1049"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "12",
+                      "date": "18/12/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1505.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1062",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1505.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1050"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "11",
+                      "date": "12/12/2025",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1501.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1055",
+                      "motorEtapa": "1",
+                      "motorTotal": "1501.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1043"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "11",
+                      "date": "12/12/2025",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1503.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1056",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1503.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1044"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "11",
+                      "date": "12/12/2025",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1503.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1057",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1503.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1045"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "12",
+                      "date": "12/12/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1503.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1058",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1503.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1046"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "11",
+                      "date": "07/12/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1497.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1052",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1497.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1040"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "11",
+                      "date": "07/12/2025",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1499.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1053",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1499.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1041"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "11",
+                      "date": "07/12/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1500.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1054",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1500.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1042"
+                    }
+                  ]
+                },
+                {
+                  "month": 11,
+                  "monthLabel": "Novembro",
+                  "hours": "23.9",
+                  "landings": "16",
+                  "legCount": 16,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "10",
+                      "date": "11/11/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1494.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1048",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1494.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1036"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "10",
+                      "date": "11/11/2025",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1496.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1049",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1496.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1037"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "10",
+                      "date": "11/11/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1497.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1050",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1497.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1038"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "10",
+                      "date": "11/11/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1497.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1051",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1497.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1039"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "9",
+                      "date": "10/11/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1493",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1045",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1493",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1033"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "10",
+                      "date": "10/11/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1493.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1046",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1493.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1034"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "10",
+                      "date": "10/11/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1493.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1047",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1493.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1035"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "9",
+                      "date": "09/11/2025",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "1492.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1044",
+                      "motorEtapa": "3",
+                      "motorTotal": "1492.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1032"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "9",
+                      "date": "08/11/2025",
+                      "celulaEtapa": "4.4",
+                      "celulaTotal": "1489.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1043",
+                      "motorEtapa": "4.4",
+                      "motorTotal": "1489.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1031"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "9",
+                      "date": "07/11/2025",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1482.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1040",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1482.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1028"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "9",
+                      "date": "07/11/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1482.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1041",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1482.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1029"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "9",
+                      "date": "07/11/2025",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1485.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1042",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1485.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1030"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "8",
+                      "date": "05/11/2025",
+                      "celulaEtapa": "3.6",
+                      "celulaTotal": "1478.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1037",
+                      "motorEtapa": "3.6",
+                      "motorTotal": "1478.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1025"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "8",
+                      "date": "05/11/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1478.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1038",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1478.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1026"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "8",
+                      "date": "05/11/2025",
+                      "celulaEtapa": "1.7",
+                      "celulaTotal": "1480.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1039",
+                      "motorEtapa": "1.7",
+                      "motorTotal": "1480.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1027"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "8",
+                      "date": "04/11/2025",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1474.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1036",
+                      "motorEtapa": "1",
+                      "motorTotal": "1474.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1024"
+                    }
+                  ]
+                },
+                {
+                  "month": 10,
+                  "monthLabel": "Outubro",
+                  "hours": "16.6",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "8",
+                      "date": "29/10/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1473.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1035",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1473.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1023"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "8",
+                      "date": "19/10/2025",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1473.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1034",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1473.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1022"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "7",
+                      "date": "18/10/2025",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1470.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1033",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1470.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1021"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "7",
+                      "date": "17/10/2025",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1468.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1032",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1468.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1020"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "7",
+                      "date": "15/10/2025",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1464.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1030",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1464.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1018"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "7",
+                      "date": "15/10/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1465.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1031",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1465.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1019"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "6",
+                      "date": "10/10/2025",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1459.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1028",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1459.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1016"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "7",
+                      "date": "10/10/2025",
+                      "celulaEtapa": "3.2",
+                      "celulaTotal": "1462.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1029",
+                      "motorEtapa": "3.2",
+                      "motorTotal": "1462.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1017"
+                    }
+                  ]
+                },
+                {
+                  "month": 9,
+                  "monthLabel": "Setembro",
+                  "hours": "0.7",
+                  "landings": "3",
+                  "legCount": 3,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "6",
+                      "date": "18/09/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1456.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1026",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1456.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1014"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "6",
+                      "date": "18/09/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1456.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1027",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1456.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1015"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "6",
+                      "date": "15/09/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1456.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1025",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1456.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1013"
+                    }
+                  ]
+                },
+                {
+                  "month": 8,
+                  "monthLabel": "Agosto",
+                  "hours": "13",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "6",
+                      "date": "20/08/2025",
+                      "celulaEtapa": "1.7",
+                      "celulaTotal": "1456.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1024",
+                      "motorEtapa": "1.7",
+                      "motorTotal": "1456.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1012"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "6",
+                      "date": "19/08/2025",
+                      "celulaEtapa": "1.8",
+                      "celulaTotal": "1454.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1023",
+                      "motorEtapa": "1.8",
+                      "motorTotal": "1454.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1011"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "5",
+                      "date": "16/08/2025",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1452.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1022",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1452.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1010"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "5",
+                      "date": "15/08/2025",
+                      "celulaEtapa": "1.7",
+                      "celulaTotal": "1450.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1021",
+                      "motorEtapa": "1.7",
+                      "motorTotal": "1450.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1009"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "5",
+                      "date": "03/08/2025",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1445.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1018",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1445.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1006"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "5",
+                      "date": "03/08/2025",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1447.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1019",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1447.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1007"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "5",
+                      "date": "03/08/2025",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1448.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1020",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1448.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1008"
+                    }
+                  ]
+                },
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "16.8",
+                  "landings": "11",
+                  "legCount": 11,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "4",
+                      "date": "30/07/2025",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1440.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1015",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1440.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1003"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "4",
+                      "date": "30/07/2025",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1441.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1016",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1441.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1004"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "5",
+                      "date": "30/07/2025",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "1443.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1017",
+                      "motorEtapa": "2",
+                      "motorTotal": "1443.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1005"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "4",
+                      "date": "26/07/2025",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1433.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1012",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1433.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1000"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "4",
+                      "date": "26/07/2025",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1435.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1013",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1435.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1001"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "4",
+                      "date": "26/07/2025",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "1438.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1014",
+                      "motorEtapa": "3",
+                      "motorTotal": "1438.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "1002"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "4",
+                      "date": "21/07/2025",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1432.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1011",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1432.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "999"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "3",
+                      "date": "15/07/2025",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1426.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1007",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1426.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "995"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "3",
+                      "date": "15/07/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1427.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1008",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1427.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "996"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "3",
+                      "date": "15/07/2025",
+                      "celulaEtapa": "1.6",
+                      "celulaTotal": "1428.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1009",
+                      "motorEtapa": "1.6",
+                      "motorTotal": "1428.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "997"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "3",
+                      "date": "07/07/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1424.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1006",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1424.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "994"
+                    }
+                  ]
+                },
+                {
+                  "month": 6,
+                  "monthLabel": "Junho",
+                  "hours": "8.4",
+                  "landings": "7",
+                  "legCount": 6,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "2",
+                      "date": "30/06/2025",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1422.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1003",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1422.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "991"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "2",
+                      "date": "30/06/2025",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1424",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1004",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1424",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "992"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "2",
+                      "date": "25/06/2025",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1421",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1001",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1421",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "989"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "2",
+                      "date": "25/06/2025",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1421.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1002",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1421.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "990"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 04/PS-KNG/2025",
+                      "folha": "2",
+                      "date": "22/06/2025",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1418.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "1000",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1418.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "988"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "14",
+                      "date": "05/06/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1413.3",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "998",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1413.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "986"
+                    }
+                  ]
+                },
+                {
+                  "month": 5,
+                  "monthLabel": "Maio",
+                  "hours": "6.5",
+                  "landings": "9",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "14",
+                      "date": "27/05/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1413.1",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "996",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1413.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "985"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "23/05/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1410",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "991",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1410",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "981"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "14",
+                      "date": "23/05/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1410.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "992",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1410.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "982"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "14",
+                      "date": "23/05/2025",
+                      "celulaEtapa": "1.8",
+                      "celulaTotal": "1412.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "993",
+                      "motorEtapa": "1.8",
+                      "motorTotal": "1412.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "983"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "14",
+                      "date": "23/05/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1412.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "994",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1412.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "984"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "19/05/2025",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1407.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "988",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1407.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "978"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "19/05/2025",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1409.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "989",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1409.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "979"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "19/05/2025",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1409.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "990",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1409.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "980"
+                    }
+                  ]
+                },
+                {
+                  "month": 4,
+                  "monthLabel": "Abril",
+                  "hours": "6.9",
+                  "landings": "4",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "21/04/2025",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1406.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "987",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1406.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "977"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "18/04/2025",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1403.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "986",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1403.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "976"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "13/04/2025",
+                      "celulaEtapa": "1.3",
+                      "celulaTotal": "1401.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "985",
+                      "motorEtapa": "1.3",
+                      "motorTotal": "1401.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "975"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "13",
+                      "date": "11/04/2025",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1400.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "984",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1400.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "974"
+                    }
+                  ]
+                },
+                {
+                  "month": 3,
+                  "monthLabel": "Março",
+                  "hours": "6.8",
+                  "landings": "6",
+                  "legCount": 5,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "11",
+                      "date": "27/03/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1399.7",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "983",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1399.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "973"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "11",
+                      "date": "25/03/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1399.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "981",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1399.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "972"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "11",
+                      "date": "08/03/2025",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1398.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "980",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1398.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "971"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "49",
+                      "date": "07/03/2025",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1280.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "903",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1280.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "896"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "11",
+                      "date": "02/03/2025",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1396.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "979",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1396.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "970"
+                    }
+                  ]
+                },
+                {
+                  "month": 2,
+                  "monthLabel": "Fevereiro",
+                  "hours": "9.9",
+                  "landings": "5",
+                  "legCount": 5,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "11",
+                      "date": "16/02/2025",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1391.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "977",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1391.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "968"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "11",
+                      "date": "16/02/2025",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1393.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "978",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1393.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "969"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "09/02/2025",
+                      "celulaEtapa": "3.8",
+                      "celulaTotal": "1390.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "975",
+                      "motorEtapa": "3.8",
+                      "motorTotal": "1390.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "966"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "09/02/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1390.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "976",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1390.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "967"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "04/02/2025",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1386.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "974",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1386.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "965"
+                    }
+                  ]
+                },
+                {
+                  "month": 1,
+                  "monthLabel": "Janeiro",
+                  "hours": "7",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "31/01/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1383.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "973",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1383.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "964"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "27/01/2025",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1383.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "972",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1383.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "963"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "12/01/2025",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1382.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "970",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1382.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "961"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "10",
+                      "date": "12/01/2025",
+                      "celulaEtapa": "1.2",
+                      "celulaTotal": "1383.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "971",
+                      "motorEtapa": "1.2",
+                      "motorTotal": "1383.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "962"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "09/01/2025",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1379",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "967",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1379",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "958"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "09/01/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1379.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "968",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1379.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "959"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "09/01/2025",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1380",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "969",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1380",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "960"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2024,
+              "hours": "104.2",
+              "landings": "67",
+              "legCount": 65,
+              "months": [
+                {
+                  "month": 12,
+                  "monthLabel": "Dezembro",
+                  "hours": "7",
+                  "landings": "6",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "26/12/2024",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1373.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "965",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1373.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "956"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "26/12/2024",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1376.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "966",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1376.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "957"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "16/12/2024",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1370.8",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "962",
+                      "motorEtapa": "1",
+                      "motorTotal": "1370.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "954"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "9",
+                      "date": "16/12/2024",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1371.2",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "964",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1371.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "955"
+                    }
+                  ]
+                },
+                {
+                  "month": 10,
+                  "monthLabel": "Outubro",
+                  "hours": "6.3",
+                  "landings": "3",
+                  "legCount": 3,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "8",
+                      "date": "27/10/2024",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "1369.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "960",
+                      "motorEtapa": "3",
+                      "motorTotal": "1369.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "953"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "8",
+                      "date": "21/10/2024",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1364.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "958",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1364.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "951"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "8",
+                      "date": "21/10/2024",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1366.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "959",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1366.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "952"
+                    }
+                  ]
+                },
+                {
+                  "month": 9,
+                  "monthLabel": "Setembro",
+                  "hours": "12.6",
+                  "landings": "9",
+                  "legCount": 9,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "8",
+                      "date": "20/09/2024",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "1360.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "956",
+                      "motorEtapa": "2",
+                      "motorTotal": "1360.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "949"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "8",
+                      "date": "20/09/2024",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1363.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "957",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1363.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "950"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "19/09/2024",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1355.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "952",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1355.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "945"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "19/09/2024",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1355.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "953",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1355.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "946"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "19/09/2024",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1358",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "954",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1358",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "947"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "19/09/2024",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1358.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "955",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1358.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "948"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "15/09/2024",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1351.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "949",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1351.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "942"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "15/09/2024",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1354.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "950",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1354.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "943"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "15/09/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1354.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "951",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1354.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "944"
+                    }
+                  ]
+                },
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "19.5",
+                  "landings": "10",
+                  "legCount": 10,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "7",
+                      "date": "28/07/2024",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1350.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "948",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1350.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "941"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "26/07/2024",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1348",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "947",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1348",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "940"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "25/07/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1343.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "944",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1343.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "937"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "25/07/2024",
+                      "celulaEtapa": "1.7",
+                      "celulaTotal": "1344.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "945",
+                      "motorEtapa": "1.7",
+                      "motorTotal": "1344.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "938"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "25/07/2024",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1345.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "946",
+                      "motorEtapa": "1",
+                      "motorTotal": "1345.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "939"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "23/07/2024",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1342.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "943",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1342.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "936"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "14/07/2024",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1340.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "942",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1340.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "935"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "13/07/2024",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1338.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "941",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1338.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "934"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "6",
+                      "date": "10/07/2024",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1335.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "940",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1335.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "933"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "01/07/2024",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1334",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "939",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1334",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "932"
+                    }
+                  ]
+                },
+                {
+                  "month": 6,
+                  "monthLabel": "Junho",
+                  "hours": "9",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "21/06/2024",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1328.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "937",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1328.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "930"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "21/06/2024",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1331.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "938",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1331.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "931"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "17/06/2024",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1326",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "934",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1326",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "927"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "17/06/2024",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1328.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "935",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1328.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "928"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "17/06/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1328.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "936",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1328.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "929"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "02/06/2024",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1324.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "932",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1324.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "925"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "5",
+                      "date": "02/06/2024",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1325.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "933",
+                      "motorEtapa": "1",
+                      "motorTotal": "1325.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "926"
+                    }
+                  ]
+                },
+                {
+                  "month": 5,
+                  "monthLabel": "Maio",
+                  "hours": "23",
+                  "landings": "16",
+                  "legCount": 16,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "30/05/2024",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1322.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "931",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1322.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "924"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "29/05/2024",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1320.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "930",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1320.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "923"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "27/05/2024",
+                      "celulaEtapa": "3.7",
+                      "celulaTotal": "1317",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "928",
+                      "motorEtapa": "3.7",
+                      "motorTotal": "1317",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "921"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "27/05/2024",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1317.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "929",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1317.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "922"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "26/05/2024",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1311.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "926",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1311.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "919"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "26/05/2024",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1313.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "927",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1313.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "920"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "23/05/2024",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1309.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "924",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1309.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "917"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "4",
+                      "date": "23/05/2024",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1310.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "925",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1310.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "918"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "17/05/2024",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1305.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "921",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1305.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "914"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "17/05/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1305.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "922",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1305.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "915"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "17/05/2024",
+                      "celulaEtapa": "1.8",
+                      "celulaTotal": "1307.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "923",
+                      "motorEtapa": "1.8",
+                      "motorTotal": "1307.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "916"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "15/05/2024",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1304.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "919",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1304.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "912"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "15/05/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1304.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "920",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1304.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "913"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "05/05/2024",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1301.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "918",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1301.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "911"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "03/05/2024",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1300.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "917",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1300.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "910"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "3",
+                      "date": "01/05/2024",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1299.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "916",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1299.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "909"
+                    }
+                  ]
+                },
+                {
+                  "month": 4,
+                  "monthLabel": "Abril",
+                  "hours": "7.4",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "23/04/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1299.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "915",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1299.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "908"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "06/04/2024",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1296.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "912",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1296.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "905"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "06/04/2024",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1298.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "913",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1298.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "906"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "06/04/2024",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1298.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "914",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1298.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "907"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "01/04/2024",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1292.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "909",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1292.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "902"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "01/04/2024",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1294.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "910",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1294.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "903"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "01/04/2024",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1295.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "911",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1295.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "904"
+                    }
+                  ]
+                },
+                {
+                  "month": 3,
+                  "monthLabel": "Março",
+                  "hours": "11.7",
+                  "landings": "5",
+                  "legCount": 5,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 03/PS-KNG/2024",
+                      "folha": "2",
+                      "date": "31/03/2024",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1292",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "908",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1292",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "901"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "49",
+                      "date": "28/03/2024",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1289.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "907",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1289.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "900"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "49",
+                      "date": "17/03/2024",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1286.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "906",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1286.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "899"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "49",
+                      "date": "09/03/2024",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1284",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "905",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1284",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "898"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "49",
+                      "date": "07/03/2024",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1281.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "904",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1281.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "897"
+                    }
+                  ]
+                },
+                {
+                  "month": 1,
+                  "monthLabel": "Janeiro",
+                  "hours": "7.7",
+                  "landings": "4",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "49",
+                      "date": "28/01/2024",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1279.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "902",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1279.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "895"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "48",
+                      "date": "20/01/2024",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1277",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "901",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1277",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "894"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "48",
+                      "date": "07/01/2024",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1273.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "899",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1273.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "892"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "48",
+                      "date": "07/01/2024",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1274.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "900",
+                      "motorEtapa": "1",
+                      "motorTotal": "1274.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "893"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2023,
+              "hours": "131",
+              "landings": "83",
+              "legCount": 83,
+              "months": [
+                {
+                  "month": 12,
+                  "monthLabel": "Dezembro",
+                  "hours": "2.3",
+                  "landings": "1",
+                  "legCount": 1,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "48",
+                      "date": "27/12/2023",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1271.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "898",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1271.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "891"
+                    }
+                  ]
+                },
+                {
+                  "month": 11,
+                  "monthLabel": "Novembro",
+                  "hours": "8.7",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "47",
+                      "date": "17/11/2023",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1266.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "895",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1266.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "888"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "48",
+                      "date": "17/11/2023",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1268.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "896",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1268.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "889"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "48",
+                      "date": "17/11/2023",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1269.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "897",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1269.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "890"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "47",
+                      "date": "13/11/2023",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1263.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "892",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1263.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "885"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "47",
+                      "date": "13/11/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1265.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "893",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1265.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "886"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "47",
+                      "date": "13/11/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1265.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "894",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1265.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "887"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "47",
+                      "date": "05/11/2023",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1262.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "891",
+                      "motorEtapa": "1",
+                      "motorTotal": "1262.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "884"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "47",
+                      "date": "02/11/2023",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1261.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "890",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1261.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "883"
+                    }
+                  ]
+                },
+                {
+                  "month": 10,
+                  "monthLabel": "Outubro",
+                  "hours": "17.7",
+                  "landings": "13",
+                  "legCount": 13,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "46",
+                      "date": "29/10/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1257.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "886",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1257.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "879"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "46",
+                      "date": "29/10/2023",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1258.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "887",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1258.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "880"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "46",
+                      "date": "29/10/2023",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1258.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "888",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1258.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "881"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "46",
+                      "date": "29/10/2023",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1260.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "889",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1260.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "882"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "45",
+                      "date": "26/10/2023",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1253.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "881",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1253.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "874"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "45",
+                      "date": "26/10/2023",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1255.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "882",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1255.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "875"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "45",
+                      "date": "26/10/2023",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1256.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "883",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1256.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "876"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "46",
+                      "date": "26/10/2023",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1256.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "884",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1256.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "877"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "46",
+                      "date": "26/10/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1257.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "885",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1257.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "878"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "45",
+                      "date": "17/10/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1250.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "879",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1250.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "872"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "45",
+                      "date": "17/10/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1250.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "880",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1250.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "873"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "45",
+                      "date": "13/10/2023",
+                      "celulaEtapa": "3.9",
+                      "celulaTotal": "1249.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "878",
+                      "motorEtapa": "3.9",
+                      "motorTotal": "1249.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "871"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "44",
+                      "date": "08/10/2023",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1245.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "877",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1245.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "870"
+                    }
+                  ]
+                },
+                {
+                  "month": 9,
+                  "monthLabel": "Setembro",
+                  "hours": "22",
+                  "landings": "14",
+                  "legCount": 14,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "44",
+                      "date": "29/09/2023",
+                      "celulaEtapa": "1.2",
+                      "celulaTotal": "1243.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "876",
+                      "motorEtapa": "1.2",
+                      "motorTotal": "1243.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "869"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "44",
+                      "date": "27/09/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1238.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "872",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1238.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "865"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "44",
+                      "date": "27/09/2023",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1239.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "873",
+                      "motorEtapa": "1",
+                      "motorTotal": "1239.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "866"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "44",
+                      "date": "27/09/2023",
+                      "celulaEtapa": "1.5",
+                      "celulaTotal": "1241",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "874",
+                      "motorEtapa": "1.5",
+                      "motorTotal": "1241",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "867"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "44",
+                      "date": "27/09/2023",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1241.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "875",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1241.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "868"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "42",
+                      "date": "19/09/2023",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1235.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "870",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1235.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "863"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "42",
+                      "date": "19/09/2023",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1238",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "871",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1238",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "864"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "42",
+                      "date": "15/09/2023",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1234.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "869",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1234.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "862"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "42",
+                      "date": "10/09/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1229.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "867",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1229.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "860"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "42",
+                      "date": "10/09/2023",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1232.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "868",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1232.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "861"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "42",
+                      "date": "07/09/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1229.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "866",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1229.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "859"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "41",
+                      "date": "06/09/2023",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1223.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "863",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1223.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "856"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "41",
+                      "date": "06/09/2023",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1226.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "864",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1226.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "857"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "41",
+                      "date": "06/09/2023",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1228.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "865",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1228.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "858"
+                    }
+                  ]
+                },
+                {
+                  "month": 8,
+                  "monthLabel": "Agosto",
+                  "hours": "5",
+                  "landings": "3",
+                  "legCount": 3,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "41",
+                      "date": "20/08/2023",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1218.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "861",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1218.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "854"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "41",
+                      "date": "20/08/2023",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1221.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "862",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1221.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "855"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "40",
+                      "date": "14/08/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1218.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "860",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1218.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "853"
+                    }
+                  ]
+                },
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "10",
+                  "landings": "5",
+                  "legCount": 5,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "40",
+                      "date": "23/07/2023",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1216.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "859",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1216.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "852"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "40",
+                      "date": "22/07/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1213.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "858",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1213.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "851"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "40",
+                      "date": "16/07/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1210.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "856",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1210.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "849"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "40",
+                      "date": "16/07/2023",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1211.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "857",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1211.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "850"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "40",
+                      "date": "08/07/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1208.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "855",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1208.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "848"
+                    }
+                  ]
+                },
+                {
+                  "month": 6,
+                  "monthLabel": "Junho",
+                  "hours": "7.4",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "39",
+                      "date": "16/06/2023",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1203.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "852",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1203.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "845"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "39",
+                      "date": "16/06/2023",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1205.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "853",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1205.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "846"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "39",
+                      "date": "16/06/2023",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1206.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "854",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1206.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "847"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "39",
+                      "date": "12/06/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1202.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "850",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1202.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "843"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "39",
+                      "date": "12/06/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1203.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "851",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1203.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "844"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "38",
+                      "date": "11/06/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1199.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "848",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1199.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "841"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "39",
+                      "date": "11/06/2023",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1200.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "849",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1200.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "842"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "38",
+                      "date": "08/06/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1199.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "847",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1199.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "840"
+                    }
+                  ]
+                },
+                {
+                  "month": 4,
+                  "monthLabel": "Abril",
+                  "hours": "7.9",
+                  "landings": "4",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "38",
+                      "date": "09/04/2023",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1198.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "846",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1198.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "839"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "38",
+                      "date": "06/04/2023",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1196",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "845",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1196",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "838"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "38",
+                      "date": "05/04/2023",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1193.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "843",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1193.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "836"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "38",
+                      "date": "05/04/2023",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1193.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "844",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1193.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "837"
+                    }
+                  ]
+                },
+                {
+                  "month": 3,
+                  "monthLabel": "Março",
+                  "hours": "19.7",
+                  "landings": "11",
+                  "legCount": 11,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "37",
+                      "date": "19/03/2023",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1187.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "839",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1187.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "832"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "37",
+                      "date": "18/03/2023",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1185.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "838",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1185.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "831"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "36",
+                      "date": "17/03/2023",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1180.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "835",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1180.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "828"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "36",
+                      "date": "17/03/2023",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1182.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "836",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1182.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "829"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "37",
+                      "date": "17/03/2023",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1183.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "837",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1183.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "830"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "36",
+                      "date": "16/03/2023",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1175.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "833",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1175.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "826"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "36",
+                      "date": "16/03/2023",
+                      "celulaEtapa": "4.2",
+                      "celulaTotal": "1179.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "834",
+                      "motorEtapa": "4.2",
+                      "motorTotal": "1179.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "827"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "35",
+                      "date": "13/03/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1168.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "829",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1168.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "822"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "35",
+                      "date": "13/03/2023",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "1170.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "830",
+                      "motorEtapa": "2",
+                      "motorTotal": "1170.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "823"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "35",
+                      "date": "13/03/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1171.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "831",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1171.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "824"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "36",
+                      "date": "13/03/2023",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1173.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "832",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1173.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "825"
+                    }
+                  ]
+                },
+                {
+                  "month": 2,
+                  "monthLabel": "Fevereiro",
+                  "hours": "21.8",
+                  "landings": "10",
+                  "legCount": 10,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "35",
+                      "date": "26/02/2023",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1168.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "828",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1168.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "821"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "35",
+                      "date": "24/02/2023",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1165.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "827",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1165.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "820"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "35",
+                      "date": "23/02/2023",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1163.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "826",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1163.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "819"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "34",
+                      "date": "18/02/2023",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1159.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "824",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1159.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "817"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "34",
+                      "date": "18/02/2023",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1160.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "825",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1160.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "818"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "34",
+                      "date": "17/02/2023",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1154.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "822",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1154.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "815"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "34",
+                      "date": "17/02/2023",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1157.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "823",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1157.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "816"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "34",
+                      "date": "10/02/2023",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1151.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "821",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1151.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "814"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "33",
+                      "date": "06/02/2023",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1148.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "819",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1148.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "812"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "34",
+                      "date": "06/02/2023",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1149.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "820",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1149.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "813"
+                    }
+                  ]
+                },
+                {
+                  "month": 1,
+                  "monthLabel": "Janeiro",
+                  "hours": "8.5",
+                  "landings": "6",
+                  "legCount": 6,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "33",
+                      "date": "29/01/2023",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1146.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "818",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1146.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "811"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "33",
+                      "date": "25/01/2023",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1145.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "817",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1145.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "810"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "33",
+                      "date": "11/01/2023",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1144.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "816",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1144.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "809"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "32",
+                      "date": "10/01/2023",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1138.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "813",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1138.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "806"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "33",
+                      "date": "10/01/2023",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1141",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "814",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1141",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "807"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "33",
+                      "date": "10/01/2023",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1141.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "815",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1141.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "808"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2022,
+              "hours": "97.2",
+              "landings": "67",
+              "legCount": 67,
+              "months": [
+                {
+                  "month": 12,
+                  "monthLabel": "Dezembro",
+                  "hours": "11.6",
+                  "landings": "9",
+                  "legCount": 9,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "32",
+                      "date": "29/12/2022",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1135.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "811",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1135.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "804"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "32",
+                      "date": "29/12/2022",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1137.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "812",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1137.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "805"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "31",
+                      "date": "10/12/2022",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1129.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "807",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1129.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "800"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "32",
+                      "date": "10/12/2022",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1130.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "808",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1130.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "801"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "32",
+                      "date": "10/12/2022",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "1132.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "809",
+                      "motorEtapa": "2",
+                      "motorTotal": "1132.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "802"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "32",
+                      "date": "10/12/2022",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1132.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "810",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1132.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "803"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "31",
+                      "date": "05/12/2022",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "1126.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "804",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "1126.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "797"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "31",
+                      "date": "05/12/2022",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1128.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "805",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1128.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "798"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "31",
+                      "date": "05/12/2022",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1129.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "806",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1129.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "799"
+                    }
+                  ]
+                },
+                {
+                  "month": 10,
+                  "monthLabel": "Outubro",
+                  "hours": "6.7",
+                  "landings": "3",
+                  "legCount": 3,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "31",
+                      "date": "15/10/2022",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1126.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "803",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1126.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "796"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "31",
+                      "date": "08/10/2022",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1123.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "802",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1123.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "795"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "30",
+                      "date": "02/10/2022",
+                      "celulaEtapa": "1.3",
+                      "celulaTotal": "1120.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "801",
+                      "motorEtapa": "1.3",
+                      "motorTotal": "1120.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "794"
+                    }
+                  ]
+                },
+                {
+                  "month": 9,
+                  "monthLabel": "Setembro",
+                  "hours": "6.3",
+                  "landings": "5",
+                  "legCount": 5,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "30",
+                      "date": "29/09/2022",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1119.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "800",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1119.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "793"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "30",
+                      "date": "25/09/2022",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1116.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "798",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1116.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "791"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "30",
+                      "date": "25/09/2022",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1118.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "799",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1118.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "792"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "30",
+                      "date": "15/09/2022",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1114.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "797",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1114.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "790"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "30",
+                      "date": "14/09/2022",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1114",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "796",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1114",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "789"
+                    }
+                  ]
+                },
+                {
+                  "month": 8,
+                  "monthLabel": "Agosto",
+                  "hours": "11.9",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "29",
+                      "date": "31/08/2022",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1113.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "795",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1113.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "788"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "29",
+                      "date": "30/08/2022",
+                      "celulaEtapa": "0.1",
+                      "celulaTotal": "1110.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "793",
+                      "motorEtapa": "0.1",
+                      "motorTotal": "1110.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "786"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "29",
+                      "date": "30/08/2022",
+                      "celulaEtapa": "0.1",
+                      "celulaTotal": "1110.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "794",
+                      "motorEtapa": "0.1",
+                      "motorTotal": "1110.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "787"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "29",
+                      "date": "29/08/2022",
+                      "celulaEtapa": "3.3",
+                      "celulaTotal": "1110.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "792",
+                      "motorEtapa": "3.3",
+                      "motorTotal": "1110.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "785"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "29",
+                      "date": "11/08/2022",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1106.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "791",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1106.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "784"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "28",
+                      "date": "05/08/2022",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "1103.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "789",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "1103.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "782"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "29",
+                      "date": "05/08/2022",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1104.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "790",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1104.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "783"
+                    }
+                  ]
+                },
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "10.7",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "28",
+                      "date": "27/07/2022",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1101.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "788",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1101.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "781"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "28",
+                      "date": "20/07/2022",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1096.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "786",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1096.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "779"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "28",
+                      "date": "20/07/2022",
+                      "celulaEtapa": "1.7",
+                      "celulaTotal": "1098.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "787",
+                      "motorEtapa": "1.7",
+                      "motorTotal": "1098.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "780"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "28",
+                      "date": "13/07/2022",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1094.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "784",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1094.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "777"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "28",
+                      "date": "13/07/2022",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1096.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "785",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1096.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "778"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "27",
+                      "date": "12/07/2022",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1093.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "783",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1093.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "776"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "27",
+                      "date": "04/07/2022",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1093",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "781",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1093",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "774"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "27",
+                      "date": "04/07/2022",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1093.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "782",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1093.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "775"
+                    }
+                  ]
+                },
+                {
+                  "month": 5,
+                  "monthLabel": "Maio",
+                  "hours": "11.1",
+                  "landings": "10",
+                  "legCount": 10,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "27",
+                      "date": "26/05/2022",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1088.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "779",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1088.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "772"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "27",
+                      "date": "26/05/2022",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1090.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "780",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1090.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "773"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "26",
+                      "date": "22/05/2022",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1085.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "776",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1085.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "769"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "26",
+                      "date": "22/05/2022",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1087.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "777",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1087.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "770"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "27",
+                      "date": "22/05/2022",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1088",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "778",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1088",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "771"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "26",
+                      "date": "18/05/2022",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "1082.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "774",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "1082.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "767"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "26",
+                      "date": "18/05/2022",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1084.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "775",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1084.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "768"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "26",
+                      "date": "16/05/2022",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1081.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "773",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1081.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "766"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "25",
+                      "date": "01/05/2022",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1077.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "770",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1077.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "763"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "25",
+                      "date": "01/05/2022",
+                      "celulaEtapa": "1.2",
+                      "celulaTotal": "1078.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "771",
+                      "motorEtapa": "1.2",
+                      "motorTotal": "1078.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "764"
+                    }
+                  ]
+                },
+                {
+                  "month": 4,
+                  "monthLabel": "Abril",
+                  "hours": "16.5",
+                  "landings": "11",
+                  "legCount": 11,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "25",
+                      "date": "30/04/2022",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1075.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "768",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1075.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "761"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "25",
+                      "date": "30/04/2022",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1076.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "769",
+                      "motorEtapa": "1",
+                      "motorTotal": "1076.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "762"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "25",
+                      "date": "25/04/2022",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1074.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "767",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1074.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "760"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "23",
+                      "date": "24/04/2022",
+                      "celulaEtapa": "1.6",
+                      "celulaTotal": "1068.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "763",
+                      "motorEtapa": "1.6",
+                      "motorTotal": "1068.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "756"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "23",
+                      "date": "24/04/2022",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1070.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "764",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1070.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "757"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "23",
+                      "date": "24/04/2022",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1071.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "765",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1071.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "758"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "23",
+                      "date": "24/04/2022",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "1071.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "766",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "1071.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "759"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "23",
+                      "date": "22/04/2022",
+                      "celulaEtapa": "1.8",
+                      "celulaTotal": "1067",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "762",
+                      "motorEtapa": "1.8",
+                      "motorTotal": "1067",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "755"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "22",
+                      "date": "20/04/2022",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "1062.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "760",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "1062.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "753"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "23",
+                      "date": "20/04/2022",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "1065.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "761",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "1065.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "754"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "22",
+                      "date": "19/04/2022",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "1060.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "759",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "1060.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "752"
+                    }
+                  ]
+                },
+                {
+                  "month": 2,
+                  "monthLabel": "Fevereiro",
+                  "hours": "12.8",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "22",
+                      "date": "16/02/2022",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "1054.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "755",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "1054.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "748"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "22",
+                      "date": "16/02/2022",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "1057.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "756",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "1057.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "749"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "22",
+                      "date": "16/02/2022",
+                      "celulaEtapa": "1.1",
+                      "celulaTotal": "1058.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "757",
+                      "motorEtapa": "1.1",
+                      "motorTotal": "1058.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "750"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "22",
+                      "date": "16/02/2022",
+                      "celulaEtapa": "1.4",
+                      "celulaTotal": "1060",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "758",
+                      "motorEtapa": "1.4",
+                      "motorTotal": "1060",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "751"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "21",
+                      "date": "12/02/2022",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1052.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "754",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1052.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "747"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "21",
+                      "date": "06/02/2022",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1047.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "751",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1047.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "744"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "21",
+                      "date": "06/02/2022",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "1049.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "752",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "1049.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "745"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "21",
+                      "date": "06/02/2022",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1050.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "753",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1050.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "746"
+                    }
+                  ]
+                },
+                {
+                  "month": 1,
+                  "monthLabel": "Janeiro",
+                  "hours": "9.6",
+                  "landings": "6",
+                  "legCount": 6,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "21",
+                      "date": "30/01/2022",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1047.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "750",
+                      "motorEtapa": "1",
+                      "motorTotal": "1047.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "743"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "21",
+                      "date": "25/01/2022",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "1046.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "749",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "1046.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "742"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "20",
+                      "date": "11/01/2022",
+                      "celulaEtapa": "3.7",
+                      "celulaTotal": "1041.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "746",
+                      "motorEtapa": "3.7",
+                      "motorTotal": "1041.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "739"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "20",
+                      "date": "11/01/2022",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1044",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "747",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1044",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "740"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "20",
+                      "date": "11/01/2022",
+                      "celulaEtapa": "1.3",
+                      "celulaTotal": "1045.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "748",
+                      "motorEtapa": "1.3",
+                      "motorTotal": "1045.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "741"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "20",
+                      "date": "10/01/2022",
+                      "celulaEtapa": "0.3",
+                      "celulaTotal": "1037.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "745",
+                      "motorEtapa": "0.3",
+                      "motorTotal": "1037.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "738"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2021,
+              "hours": "148.3",
+              "landings": "88",
+              "legCount": 87,
+              "months": [
+                {
+                  "month": 12,
+                  "monthLabel": "Dezembro",
+                  "hours": "10.7",
+                  "landings": "4",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "20",
+                      "date": "19/12/2021",
+                      "celulaEtapa": "3.1",
+                      "celulaTotal": "1037.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "744",
+                      "motorEtapa": "3.1",
+                      "motorTotal": "1037.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "737"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "20",
+                      "date": "18/12/2021",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1034.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "743",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1034.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "736"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "19",
+                      "date": "15/12/2021",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1032.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "742",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1032.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "735"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "19",
+                      "date": "11/12/2021",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "1029.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "741",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "1029.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "734"
+                    }
+                  ]
+                },
+                {
+                  "month": 11,
+                  "monthLabel": "Novembro",
+                  "hours": "10.6",
+                  "landings": "6",
+                  "legCount": 6,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "19",
+                      "date": "20/11/2021",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1024.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "738",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1024.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "731"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "19",
+                      "date": "20/11/2021",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1026.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "739",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1026.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "732"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "19",
+                      "date": "20/11/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "1026.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "740",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "1026.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "733"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "18",
+                      "date": "15/11/2021",
+                      "celulaEtapa": "1.6",
+                      "celulaTotal": "1023.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "737",
+                      "motorEtapa": "1.6",
+                      "motorTotal": "1023.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "730"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "18",
+                      "date": "12/11/2021",
+                      "celulaEtapa": "3.9",
+                      "celulaTotal": "1021.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "736",
+                      "motorEtapa": "3.9",
+                      "motorTotal": "1021.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "729"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "18",
+                      "date": "11/11/2021",
+                      "celulaEtapa": "1.5",
+                      "celulaTotal": "1017.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "735",
+                      "motorEtapa": "1.5",
+                      "motorTotal": "1017.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "728"
+                    }
+                  ]
+                },
+                {
+                  "month": 10,
+                  "monthLabel": "Outubro",
+                  "hours": "6",
+                  "landings": "4",
+                  "legCount": 4,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "18",
+                      "date": "13/10/2021",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "1015.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "733",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "1015.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "726"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "18",
+                      "date": "13/10/2021",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "1016.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "734",
+                      "motorEtapa": "1",
+                      "motorTotal": "1016.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "727"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "17",
+                      "date": "08/10/2021",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "1011.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "731",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "1011.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "724"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "18",
+                      "date": "08/10/2021",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "1013.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "732",
+                      "motorEtapa": "2",
+                      "motorTotal": "1013.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "725"
+                    }
+                  ]
+                },
+                {
+                  "month": 9,
+                  "monthLabel": "Setembro",
+                  "hours": "18.7",
+                  "landings": "6",
+                  "legCount": 6,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "17",
+                      "date": "28/09/2021",
+                      "celulaEtapa": "2.9",
+                      "celulaTotal": "1010.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "730",
+                      "motorEtapa": "2.9",
+                      "motorTotal": "1010.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "723"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "17",
+                      "date": "22/09/2021",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "1007.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "729",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "1007.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "722"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "16",
+                      "date": "03/09/2021",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "993.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "725",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "993.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "718"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "17",
+                      "date": "03/09/2021",
+                      "celulaEtapa": "4.2",
+                      "celulaTotal": "998.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "726",
+                      "motorEtapa": "4.2",
+                      "motorTotal": "998.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "719"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "17",
+                      "date": "03/09/2021",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "1001.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "727",
+                      "motorEtapa": "3",
+                      "motorTotal": "1001.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "720"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "17",
+                      "date": "03/09/2021",
+                      "celulaEtapa": "3.9",
+                      "celulaTotal": "1005",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "728",
+                      "motorEtapa": "3.9",
+                      "motorTotal": "1005",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "721"
+                    }
+                  ]
+                },
+                {
+                  "month": 8,
+                  "monthLabel": "Agosto",
+                  "hours": "19.5",
+                  "landings": "10",
+                  "legCount": 10,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "16",
+                      "date": "25/08/2021",
+                      "celulaEtapa": "3.8",
+                      "celulaTotal": "981.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "721",
+                      "motorEtapa": "3.8",
+                      "motorTotal": "981.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "714"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "16",
+                      "date": "25/08/2021",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "984.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "722",
+                      "motorEtapa": "3",
+                      "motorTotal": "984.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "715"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "16",
+                      "date": "25/08/2021",
+                      "celulaEtapa": "4.4",
+                      "celulaTotal": "989.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "723",
+                      "motorEtapa": "4.4",
+                      "motorTotal": "989.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "716"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "16",
+                      "date": "25/08/2021",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "991.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "724",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "991.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "717"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "15",
+                      "date": "13/08/2021",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "975.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "718",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "975.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "711"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "15",
+                      "date": "13/08/2021",
+                      "celulaEtapa": "1.6",
+                      "celulaTotal": "977.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "719",
+                      "motorEtapa": "1.6",
+                      "motorTotal": "977.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "712"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "16",
+                      "date": "13/08/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "977.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "720",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "977.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "713"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "15",
+                      "date": "09/08/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "972.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "715",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "972.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "708"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "15",
+                      "date": "09/08/2021",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "974.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "716",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "974.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "709"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "15",
+                      "date": "09/08/2021",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "975.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "717",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "975.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "710"
+                    }
+                  ]
+                },
+                {
+                  "month": 7,
+                  "monthLabel": "Julho",
+                  "hours": "13.3",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "15",
+                      "date": "31/07/2021",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "972.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "714",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "972.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "707"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "12",
+                      "date": "30/07/2021",
+                      "celulaEtapa": "2.1",
+                      "celulaTotal": "969.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "713",
+                      "motorEtapa": "2.1",
+                      "motorTotal": "969.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "706"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "12",
+                      "date": "28/07/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "965.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "711",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "965.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "704"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "12",
+                      "date": "28/07/2021",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "967.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "712",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "967.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "705"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "12",
+                      "date": "20/07/2021",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "964.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "709",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "964.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "702"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "12",
+                      "date": "20/07/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "964.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "710",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "964.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "703"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "12",
+                      "date": "05/07/2021",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "961.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "708",
+                      "motorEtapa": "3",
+                      "motorTotal": "961.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "701"
+                    }
+                  ]
+                },
+                {
+                  "month": 6,
+                  "monthLabel": "Junho",
+                  "hours": "7.2",
+                  "landings": "6",
+                  "legCount": 6,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "10",
+                      "date": "25/06/2021",
+                      "celulaEtapa": "2.2",
+                      "celulaTotal": "958.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "707",
+                      "motorEtapa": "2.2",
+                      "motorTotal": "958.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "700"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "10",
+                      "date": "20/06/2021",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "956",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "705",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "956",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "698"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "10",
+                      "date": "20/06/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "956.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "706",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "956.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "699"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "10",
+                      "date": "19/06/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "955.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "704",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "955.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "697"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "10",
+                      "date": "18/06/2021",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "955",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "703",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "955",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "696"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "10",
+                      "date": "06/06/2021",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "954.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "702",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "954.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "695"
+                    }
+                  ]
+                },
+                {
+                  "month": 5,
+                  "monthLabel": "Maio",
+                  "hours": "12.2",
+                  "landings": "10",
+                  "legCount": 9,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "9",
+                      "date": "29/05/2021",
+                      "celulaEtapa": "3",
+                      "celulaTotal": "949.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "700",
+                      "motorEtapa": "3",
+                      "motorTotal": "949.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "693"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "9",
+                      "date": "12/05/2021",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "943.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "698",
+                      "motorEtapa": "2",
+                      "motorTotal": "943.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "691"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "9",
+                      "date": "12/05/2021",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "946.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "699",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "946.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "692"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "9",
+                      "date": "08/05/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "941.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "697",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "941.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "690"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "8",
+                      "date": "04/05/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "938.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "694",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "938.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "687"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "8",
+                      "date": "04/05/2021",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "940.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "695",
+                      "motorEtapa": "2",
+                      "motorTotal": "940.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "688"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "9",
+                      "date": "04/05/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "941.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "696",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "941.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "689"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "8",
+                      "date": "02/05/2021",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "937.8",
+                      "pousoEtapa": "2",
+                      "pousoTotal": "692",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "937.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "685"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "8",
+                      "date": "02/05/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "938.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "693",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "938.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "686"
+                    }
+                  ]
+                },
+                {
+                  "month": 4,
+                  "monthLabel": "Abril",
+                  "hours": "12.3",
+                  "landings": "12",
+                  "legCount": 12,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "8",
+                      "date": "25/04/2021",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "935.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "689",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "935.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "683"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "8",
+                      "date": "25/04/2021",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "937.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "690",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "937.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "684"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "7",
+                      "date": "21/04/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "932",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "686",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "932",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "680"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "7",
+                      "date": "21/04/2021",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "934",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "687",
+                      "motorEtapa": "2",
+                      "motorTotal": "934",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "681"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "7",
+                      "date": "21/04/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "934.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "688",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "934.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "682"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "7",
+                      "date": "18/04/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "931.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "685",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "931.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "679"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "7",
+                      "date": "17/04/2021",
+                      "celulaEtapa": "0.7",
+                      "celulaTotal": "930.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "684",
+                      "motorEtapa": "0.7",
+                      "motorTotal": "930.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "678"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "6",
+                      "date": "11/04/2021",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "929.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "682",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "929.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "676"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "7",
+                      "date": "11/04/2021",
+                      "celulaEtapa": "0.6",
+                      "celulaTotal": "930.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "683",
+                      "motorEtapa": "0.6",
+                      "motorTotal": "930.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "677"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "6",
+                      "date": "08/04/2021",
+                      "celulaEtapa": "1.4",
+                      "celulaTotal": "929.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "681",
+                      "motorEtapa": "1.4",
+                      "motorTotal": "929.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "675"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "6",
+                      "date": "04/04/2021",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "926.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "679",
+                      "motorEtapa": "2",
+                      "motorTotal": "926.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "673"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "6",
+                      "date": "04/04/2021",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "927.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "680",
+                      "motorEtapa": "1",
+                      "motorTotal": "927.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "674"
+                    }
+                  ]
+                },
+                {
+                  "month": 3,
+                  "monthLabel": "Março",
+                  "hours": "11.3",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "6",
+                      "date": "28/03/2021",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "923.2",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "677",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "923.2",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "671"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "6",
+                      "date": "28/03/2021",
+                      "celulaEtapa": "1.6",
+                      "celulaTotal": "924.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "678",
+                      "motorEtapa": "1.6",
+                      "motorTotal": "924.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "672"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "5",
+                      "date": "13/03/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "920.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "675",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "920.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "669"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "5",
+                      "date": "13/03/2021",
+                      "celulaEtapa": "2",
+                      "celulaTotal": "922.4",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "676",
+                      "motorEtapa": "2",
+                      "motorTotal": "922.4",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "670"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "5",
+                      "date": "08/03/2021",
+                      "celulaEtapa": "2.3",
+                      "celulaTotal": "918.6",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "672",
+                      "motorEtapa": "2.3",
+                      "motorTotal": "918.6",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "666"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "5",
+                      "date": "08/03/2021",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "919",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "673",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "919",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "667"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "5",
+                      "date": "08/03/2021",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "919.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "674",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "919.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "668"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "5",
+                      "date": "02/03/2021",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "916.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "671",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "916.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "665"
+                    }
+                  ]
+                },
+                {
+                  "month": 2,
+                  "monthLabel": "Fevereiro",
+                  "hours": "14",
+                  "landings": "7",
+                  "legCount": 7,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "4",
+                      "date": "26/02/2021",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "913.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "670",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "913.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "664"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "4",
+                      "date": "21/02/2021",
+                      "celulaEtapa": "1.9",
+                      "celulaTotal": "909.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "668",
+                      "motorEtapa": "1.9",
+                      "motorTotal": "909.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "662"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "4",
+                      "date": "21/02/2021",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "910.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "669",
+                      "motorEtapa": "1",
+                      "motorTotal": "910.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "663"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "4",
+                      "date": "13/02/2021",
+                      "celulaEtapa": "1",
+                      "celulaTotal": "906.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "666",
+                      "motorEtapa": "1",
+                      "motorTotal": "906.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "660"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "4",
+                      "date": "13/02/2021",
+                      "celulaEtapa": "1.8",
+                      "celulaTotal": "907.9",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "667",
+                      "motorEtapa": "1.8",
+                      "motorTotal": "907.9",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "661"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "4",
+                      "date": "11/02/2021",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "905.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "665",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "905.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "659"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "3",
+                      "date": "03/02/2021",
+                      "celulaEtapa": "2.8",
+                      "celulaTotal": "902.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "664",
+                      "motorEtapa": "2.8",
+                      "motorTotal": "902.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "658"
+                    }
+                  ]
+                },
+                {
+                  "month": 1,
+                  "monthLabel": "Janeiro",
+                  "hours": "12.5",
+                  "landings": "8",
+                  "legCount": 8,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "3",
+                      "date": "29/01/2021",
+                      "celulaEtapa": "0.8",
+                      "celulaTotal": "899.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "663",
+                      "motorEtapa": "0.8",
+                      "motorTotal": "899.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "657"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "3",
+                      "date": "28/01/2021",
+                      "celulaEtapa": "0.9",
+                      "celulaTotal": "898.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "662",
+                      "motorEtapa": "0.9",
+                      "motorTotal": "898.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "656"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "3",
+                      "date": "18/01/2021",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "897.8",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "661",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "897.8",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "655"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "3",
+                      "date": "17/01/2021",
+                      "celulaEtapa": "2.4",
+                      "celulaTotal": "895.1",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "659",
+                      "motorEtapa": "2.4",
+                      "motorTotal": "895.1",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "653"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "3",
+                      "date": "17/01/2021",
+                      "celulaEtapa": "0.2",
+                      "celulaTotal": "895.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "660",
+                      "motorEtapa": "0.2",
+                      "motorTotal": "895.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "654"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "2",
+                      "date": "10/01/2021",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "892.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "658",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "892.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "652"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "2",
+                      "date": "08/01/2021",
+                      "celulaEtapa": "2.5",
+                      "celulaTotal": "889.5",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "656",
+                      "motorEtapa": "2.5",
+                      "motorTotal": "889.5",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "650"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "2",
+                      "date": "08/01/2021",
+                      "celulaEtapa": "0.5",
+                      "celulaTotal": "890",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "657",
+                      "motorEtapa": "0.5",
+                      "motorTotal": "890",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "651"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "year": 2020,
+              "hours": "5.7",
+              "landings": "3",
+              "legCount": 3,
+              "months": [
+                {
+                  "month": 12,
+                  "monthLabel": "Dezembro",
+                  "hours": "5.7",
+                  "landings": "3",
+                  "legCount": 3,
+                  "legs": [
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "2",
+                      "date": "29/12/2020",
+                      "celulaEtapa": "0.4",
+                      "celulaTotal": "881.7",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "653",
+                      "motorEtapa": "0.4",
+                      "motorTotal": "881.7",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "647"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "2",
+                      "date": "29/12/2020",
+                      "celulaEtapa": "2.6",
+                      "celulaTotal": "884.3",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "654",
+                      "motorEtapa": "2.6",
+                      "motorTotal": "884.3",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "648"
+                    },
+                    {
+                      "book": "FLIGHT LOG NO. 02/PS-KNG/2020",
+                      "folha": "2",
+                      "date": "29/12/2020",
+                      "celulaEtapa": "2.7",
+                      "celulaTotal": "887",
+                      "pousoEtapa": "1",
+                      "pousoTotal": "655",
+                      "motorEtapa": "2.7",
+                      "motorTotal": "887",
+                      "cicloEtapa": "1",
+                      "cicloTotal": "649"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "totalCycles": null
       },
       "tasks": [
         {
-          "id": "2.0",
-          "task": "",
-          "description": "Flight Ready Storage - Inspection\nDetails 3 day interval inspection, service and\noperational test requirements.",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46207 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "3.0",
-          "task": "",
-          "description": "Flight Ready Storage - Inspection\nDetails 15 day interval inspection, service and\noperational test requirements.",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46195 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "4.0",
-          "task": "",
-          "description": "Flight Ready Storage - Inspection\nDetails 30 day interval inspection, service and\noperational test requirements.",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46180 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "5.0",
-          "task": "",
-          "description": "Flight Ready Storage - Inspection\nDetails 60 day interval inspection, service and\noperational test requirements.",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46150 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "6.0",
-          "task": "",
-          "description": "Flight Ready Storage - Inspection\nDetails 90 day interval inspection, service and\noperational test requirements.",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46120 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "7.0",
-          "task": "",
-          "description": "Engine preservation  \n(indoor)\n3 MO\n7 days engine run",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46203 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "8.0",
-          "task": "",
-          "description": "Engine preservation  \n(indoor)\n3 MO to 6 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46120 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "9.0",
-          "task": "",
-          "description": "Engine preservation  \n(indoor)\n6 MO to 36 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "10.0",
-          "task": "",
-          "description": "APU Preservation 1 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46180 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "11.0",
-          "task": "",
-          "description": "APU Preservation 2 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46150 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "12.0",
-          "task": "",
-          "description": "APU Preservation 3 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46120 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "13.0",
-          "task": "",
-          "description": "APU Preservation 6 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "14.0",
-          "task": "",
-          "description": "APU Preservation 12 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "15.0",
-          "task": "",
-          "description": "APU Preservation 24 MO",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "21.0",
-          "task": "",
-          "description": "Nose Landing Gear Shock Absorber - Servicing\n122210",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "22.0",
-          "task": "",
-          "description": "Nose Wheel Steering Unit - Lubrication\n122211",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "23.0",
-          "task": "",
-          "description": "Nose Wheel Steering Collar Assembly / Slave Gear -\nLubrication\n122212",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "24.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Actuator - Lubrication \n122315",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "25.0",
-          "task": "",
-          "description": "Aileron Actuator Toggle Links (Left) - Lubrication \n122323",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "26.0",
-          "task": "",
-          "description": "Aileron Actuator Toggle Links (Right) - Lubrication \n122324",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "27.0",
-          "task": "",
-          "description": "Rudder Actuator Toggle Links - Lubrication \n122325",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "28.0",
-          "task": "",
-          "description": "Elevator Actuator Toggle Links (Left) - Lubrication \n122326",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "29.0",
-          "task": "",
-          "description": "Elevator Actuator Toggle Links (Right) - Lubrication \n122327",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "30.0",
-          "task": "",
-          "description": "Flap Actuator Ball Nut (Left) - Lubrication \n122328",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "31.0",
-          "task": "",
-          "description": "Flap Actuator Ball Nut (Right) - Lubrication \n122329",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "32.0",
-          "task": "",
-          "description": "Outboard Spoiler Actuator Toggle Link (Left) - Lubrication \n122330",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "33.0",
-          "task": "",
-          "description": "Outboard Spoiler Actuator Toggle Link (Right) -\nLubrication \n122331",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-46209 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "35.0",
-          "task": "",
-          "description": "Aileron Hinge Fitting (Left) - Lubrication \n122333",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "36.0",
-          "task": "",
-          "description": "Aileron Hinge Fitting (Right) - Lubrication \n122334",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "37.0",
-          "task": "",
-          "description": "Rudder Hinge Fitting - Lubrication \n122335",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "38.0",
-          "task": "",
-          "description": "Elevator Hinge Fitting (Left) - Lubrication \n122336",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "39.0",
-          "task": "",
-          "description": "Elevator Hinge Fitting (Right) - Lubrication \n122337",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "40.0",
-          "task": "",
-          "description": "External Baggage Door - Lubrication \n122500",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "41.0",
-          "task": "",
-          "description": "Main Entrance Door - Lubrication \n122501",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "42.0",
-          "task": "",
-          "description": "Ram AIR Turbine - Lubrication \n122600",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "54.0",
-          "task": "",
-          "description": "Static Discharging (Left Wing) - Functional Check \n236130",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "55.0",
-          "task": "",
-          "description": "Static Discharging (Right Wing) - Functional Check \n236131",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "56.0",
-          "task": "",
-          "description": "Static Discharging (Left Horizontal Stablizer) - Functional\nCheck \n236132",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "57.0",
-          "task": "",
-          "description": "Static Discharging (Right Horizontal Stablizer) - Functional\nCheck \n266133",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "58.0",
-          "task": "",
-          "description": "Static Discharging (Center Horizontal Stablizer) -\nFunctional Check \n266134",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "59.0",
-          "task": "",
-          "description": "Static Discharging (Tail Cone) - Functional Check \n266135",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "60.0",
-          "task": "",
-          "description": "Cockpit Voice Recorder System -\nOperational Check \n237202",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "61.0",
-          "task": "",
-          "description": "Cockpit Voice Recorder Impact Switch - Operational\nCheck \n237213",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-280 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "62.0",
-          "task": "",
-          "description": "Cockpit Voice Recorder Underwater Locator Beacon -\nOperational Check \n237216",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-249 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "63.0",
-          "task": "",
-          "description": "Cockpit Voice Recorder Underwater Locator Beacon -\nCleaning\n237217",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "64.0",
-          "task": "",
-          "description": "Idg Oil Cooler and Lines (Left) -\nGeneral Visual Inspection\n241212",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "65.0",
-          "task": "",
-          "description": "Idg Oil Cooler and Lines (Right) -\nGeneral Visual Inspection \n241213",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "68.0",
-          "task": "",
-          "description": "Ram AIR Turbine Ground - Functional Check \n242308",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-310 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "69.0",
-          "task": "",
-          "description": "Ram AIR Turbine - General Visual Inspection \n242312",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-310 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "70.0",
-          "task": "",
-          "description": "Ram AIR Turbine Built-In Test Switch - Operational Check  \n242351",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "71.0",
-          "task": "",
-          "description": "Main Battery (Left) - Restore \n243404",
-          "pn": "1159SCAV519-1",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "72.0",
-          "task": "",
-          "description": "Main Battery (Right) - Restore\n243405",
-          "pn": "1159SCAV519-1",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "73.0",
-          "task": "",
-          "description": "Emergency Battery Power System\n(Forward) - Operational Check \n243500",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
           "id": "74.0",
           "task": "",
-          "description": "Emergency Battery Power System (Aft)\n- Operational Check \n243501",
+          "description": "7 DAYS PRESERVATION",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-10 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -40931,50 +46371,11 @@ window.EMBEDDED_DATA = {
         {
           "id": "75.0",
           "task": "",
-          "description": "Emergency Battery (Forward) - Functional Check (Level\nTest) \n243502",
+          "description": "28 DAYS PRESERVATION",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "76.0",
-          "task": "",
-          "description": "Emergency Battery (Aft) - Functional Check (Level Test)\n243503",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "77.0",
-          "task": "",
-          "description": "Electrical Backup Hydraulic Actuator\nNicad Battery - Restore \n243607",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "78.0",
-          "task": "",
-          "description": "Uninterruptible Power Supply Sealed\nLead ACID Battery - Functional Check \n243903",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "11 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -40983,3483 +46384,11 @@ window.EMBEDDED_DATA = {
         {
           "id": "79.0",
           "task": "",
-          "description": "Crew Seats Locking Mechanism and Seat Tracks (Pilot) -\nDetailed Inspection \n251111",
+          "description": "VOR CHECK\nFAR 91.171",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "81.0",
-          "task": "",
-          "description": "Crew Seats Locking Mechanism and Seat Tracks\n(Observer) - Detailed Inspection \n251113",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "82.0",
-          "task": "",
-          "description": "Crew Seat Restraints (Pilot) - Detailed Inspection\n251114",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "83.0",
-          "task": "",
-          "description": "Crew Seat Restraints (Copilot) - Detailed Inspection \n251115",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "84.0",
-          "task": "",
-          "description": "Crew Seat Restraints (Observer) - Detailed Inspection \n251116",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "85.0",
-          "task": "",
-          "description": "Crew Seat Inertia Reels (Pilot) - Operational Check \n251117",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "86.0",
-          "task": "",
-          "description": "Crew Seat Inertia Reels (Copilot) - Operational Check \n251118",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "87.0",
-          "task": "",
-          "description": "Crew Seat Inertia Reels (Observer) - Operational Check \n251119",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "88.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Left Seat No.\n1) - Detailed Inspection \n252100",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "89.0",
-          "task": "",
-          "description": "Passenger Seats Restraints - Detailed Inspection \n252101",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "90.0",
-          "task": "",
-          "description": "Passenger Seats Inertia Reels - Operational Check\n252102",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "91.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Left Seat No.\n2) - Detailed Inspection \n252129",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "92.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Right Seat\nNo. 1) - Detailed Inspection \n252134",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "93.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Right Seat\nNo. 2) - Detailed Inspection \n252135",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "94.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Forward Inboard Seat) - Detailed Inspection \n252140",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "95.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Forward Outboard Seat) - Detailed Inspection \n252141",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "96.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Aft Inboard Seat) - Detailed Inspection \n252142",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "97.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Conference\nTable, Aft Outboard Seat) - Detailed Inspection \n252143",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "98.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Left Divan\nSeat No. 1) - Detailed Inspection \n252144",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "99.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Left Divan\nSeat No. 2) - Detailed Inspection \n252145",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "100.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Left Divan\nSeat No. 3) - Detailed Inspection \n252146",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "101.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Right Divan\nSeat No. 1) - Detailed Inspection \n252148",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "102.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Right Divan\nSeat No. 2) - Detailed Inspection \n252149",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "103.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Right Divan\nSeat No. 3) - Detailed Inspection \n252150",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "104.0",
-          "task": "",
-          "description": "Passenger Seats Attachments and Locking (Crew\nCompartment Seat) - Detailed Inspection \n252152",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "105.0",
-          "task": "",
-          "description": "Flashlight (Pilot) - Operational Check\n256007",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "106.0",
-          "task": "",
-          "description": "Flashlight (Copilot) - Operational Check \n256014",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "107.0",
-          "task": "",
-          "description": "Flashlight (Baggage Compartment) -\nOperational Check \n256015",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "108.0",
-          "task": "",
-          "description": "Flashlight (Baggage Compartment) -\nOperational Check \n256018",
-          "pn": "FLOX42421",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "109.0",
-          "task": "",
-          "description": "Life Raft (No. 1) - Detailed Inspection \n256147",
-          "pn": "1320FAUL-6K4-1-904",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "110.0",
-          "task": "",
-          "description": "Life Raft (No. 2) - Detailed Inspection \n256148",
-          "pn": "1320FAUL-6K4-1-904",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "111.0",
-          "task": "",
-          "description": "Life Vest(S) - Detailed Inspection \n256181",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "112.0",
-          "task": "",
-          "description": "Emergency Vision Assurance System\n(Pilot) - Detailed Inspection\n256191",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46150 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "113.0",
-          "task": "",
-          "description": "Emergency Vision Assurance System\n(Copilot) - Detailed Inspection \n256192",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46150 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "114.0",
-          "task": "",
-          "description": "Emergency Vision Assurance System\n(Pilot) - Operational Check\n256209",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46150 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "115.0",
-          "task": "",
-          "description": "Emergency Vision Assurance System (Copilot) -\nOperational Check \n256210",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46150 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "122.0",
-          "task": "",
-          "description": "Smoke Hood / Protective Breathing\nEquipment (Pbe) (Observer) - Visual\nCheck \n256273",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-668 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "123.0",
-          "task": "",
-          "description": "Smoke Hood Tamper-Evident Seals\n(Aft Lavatory) - Detailed Inspection \n256296",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "124.0",
-          "task": "",
-          "description": "Emergency Locator Transmitter -\nDetailed Inspection \n256307",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "125.0",
-          "task": "",
-          "description": "Emergency Locator Transmitter -\nOperational Check \n(FAR 91.207) \n256309",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "129.0",
-          "task": "",
-          "description": "First AID Kit (No. 1) - Detailed\nInspection\n256404",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "130.0",
-          "task": "",
-          "description": "Medical Kit (No. 1) - Detailed Inspection \n256412",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-691 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "131.0",
-          "task": "",
-          "description": "Defibrillator - Detailed Inspection\n256418",
-          "pn": "AED SAM HEARTSINE 450P",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "132.0",
-          "task": "",
-          "description": "Ditching Line - Detailed Inspection \n256608",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "133.0",
-          "task": "",
-          "description": "Underwater Acoustic Beacon Cleaning (Aft Equipment\nBay) - Restore \n257019",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "134.0",
-          "task": "",
-          "description": "Underwater Acoustic Beacon Cleaning (Baggage\nCompartment) - Restore \n257020",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "135.0",
-          "task": "",
-          "description": "Underwater Acoustic Beacon (Aft Equipment Bay) -\nOperational Check \n257052",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "136.0",
-          "task": "",
-          "description": "Baggage Compartment Smoke Evacuation System -\nOperational Check \n260302",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "137.0",
-          "task": "",
-          "description": "Pylon Thermal Switch (Left) - Functional Check \n261202",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "138.0",
-          "task": "",
-          "description": "Pylon Thermal Switch (Right) - Functional Check \n261203",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "141.0",
-          "task": "",
-          "description": "Aft Baggage Eer Overheat Thermal Switch - Functional\nCheck \n261450",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "142.0",
-          "task": "",
-          "description": "Baggage Compartment Below Floor Overheat Thermal\nSwitch - Functional Check \n261451",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "143.0",
-          "task": "",
-          "description": "Aft Equipment Overheat Thermal Switch - Functional\nCheck \n261452",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "144.0",
-          "task": "",
-          "description": "Engine FIRE Extinguisher Bottle (Left) - Weight Check \n262104",
-          "pn": "33600102-1",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "145.0",
-          "task": "",
-          "description": "Engine FIRE Extinguisher Bottle (Right) - Weight Check \n262105",
-          "pn": "33600102-1",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "146.0",
-          "task": "",
-          "description": "Engine FIRE Bottle Pressure Switch (Left) - Operational\nCheck \n262108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "147.0",
-          "task": "",
-          "description": "Engine FIRE Bottle Pressure Switch (Right) - Operational\nCheck \n262109",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "148.0",
-          "task": "",
-          "description": "Engine FIRE Extinguishing Firing Circuitry Integrity (Left) -\nOperational Check \n262150",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "149.0",
-          "task": "",
-          "description": "Engine FIRE Extinguishing Firing Circuitry Integrity (Right)\n- Operational Check \n262151",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "150.0",
-          "task": "",
-          "description": "APU FIRE Extinguishing Firing Circuitry Integrity -\nOperational Check \n262152",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "153.0",
-          "task": "",
-          "description": "Portable FIRE Extinguisher (Cockpit) -\nDetailed Inspection \n262402",
-          "pn": "898052",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "154.0",
-          "task": "",
-          "description": "Portable FIRE Extinguisher (Cockpit) -\nWeight Check \n262403",
-          "pn": "898052",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "155.0",
-          "task": "",
-          "description": "Portable FIRE Extinguisher (Forward\nCabin) - Detailed Inspection \n262414",
-          "pn": "C354TS",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "156.0",
-          "task": "",
-          "description": "Portable FIRE Extinguisher (Forward\nCabin) - Weight Check \n262415",
-          "pn": "C354TS",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "157.0",
-          "task": "",
-          "description": "Portable FIRE Extinguisher (Aft\nLavatory) - Detailed Inspection \n262438",
-          "pn": "B371",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "158.0",
-          "task": "",
-          "description": "Portable FIRE Extinguisher (Aft\nLavatory) - Weight Check \n262439",
-          "pn": "B371",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "159.0",
-          "task": "",
-          "description": "Portable Water FIRE Extinguisher -\nDetailed Inspection \n262450",
-          "pn": "892480",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "160.0",
-          "task": "",
-          "description": "Trash Receptacle Enclosure (Forward\nLavatory) - Detailed Inspection \n262500",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "161.0",
-          "task": "",
-          "description": "Trash Receptacle Enclosure (Forward\nGalley / Annex) - Detailed Inspection \n262501",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "162.0",
-          "task": "",
-          "description": "Trash Receptacle Enclosure (Aft\nLavatory) - Detailed Inspection \n262505",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "164.0",
-          "task": "",
-          "description": "Aileron Attachment (Left) - Detailed Inspection \n271007",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "165.0",
-          "task": "",
-          "description": "Aileron Attachment (Right) - Detailed Inspection \n271008",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "169.0",
-          "task": "",
-          "description": "Cockpit Flight Control Cable - Detailed Inspection \n271128",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "170.0",
-          "task": "",
-          "description": "Aileron Free Play Backlash (Left) - Functional Check \n271182",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "171.0",
-          "task": "",
-          "description": "Aileron Free Play Backlash (Right) - Functional Check \n271183",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "172.0",
-          "task": "",
-          "description": "Rudder Free Play Backlash - Functional Check \n272002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "176.0",
-          "task": "",
-          "description": "Rudder Attachment - Detailed Inspection \n272010",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "178.0",
-          "task": "",
-          "description": "Elevator Free Play Backlash (Left) - Functional Check \n273008",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "179.0",
-          "task": "",
-          "description": "Elevator Free Play Backlash (Right) - Functional Check \n273009",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "180.0",
-          "task": "",
-          "description": "Elevator Attachment (Left) - Detailed Inspection\n273010",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "181.0",
-          "task": "",
-          "description": "Elevator Attachment (Right) - Detailed Inspection \n273011",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "187.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Trim Actuator Structure - Detailed\nInspection \n274005",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-41830 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "189.0",
-          "task": "",
-          "description": "Flap Drive System - General Visual Inspection \n275000",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "190.0",
-          "task": "",
-          "description": "Flap Attaching Points - Detailed Inspection \n275009",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "193.0",
-          "task": "",
-          "description": "Flap Track and Roller - Detailed\nInspection \n275108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "194.0",
-          "task": "",
-          "description": "Flap Actuator No-Back Mechanism (Left Inboard) -\nFunctional Check \n275341",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "8430.0h",
-          "dueDaysStr": "-38601 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "195.0",
-          "task": "",
-          "description": "Flap Actuator No-Back Mechanism (Right Inboard) -\nFunctional Check \n275342",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "8430.0h",
-          "dueDaysStr": "-38601 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "196.0",
-          "task": "",
-          "description": "Flap Actuator No-Back Mechanism (Left Outboard) -\nFunctional Check \n275343",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "8430.0h",
-          "dueDaysStr": "-38601 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "197.0",
-          "task": "",
-          "description": "Flap Actuator No-Back Mechanism (Right Outboard) -\nFunctional Check \n275344",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "8430.0h",
-          "dueDaysStr": "-38601 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "198.0",
-          "task": "",
-          "description": "Flap Actuator Force Limiter (Left Inboard) - Functional\nCheck \n275358",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-38910 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "199.0",
-          "task": "",
-          "description": "Flap Actuator Force Limiter (Left Outboard) - Functional\nCheck \n275359",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-38910 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "200.0",
-          "task": "",
-          "description": "Flap Actuator Force Limiter (Right Inboard) - Functional\nCheck \n275360",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-38910 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "201.0",
-          "task": "",
-          "description": "Flap Actuator Force Limiter (Right Outboard) - Functional\nCheck \n275361",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-38910 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "202.0",
-          "task": "",
-          "description": "Spoiler Attachment Fittings (Corrosion) - Detailed\nInspection \n276003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "204.0",
-          "task": "",
-          "description": "Microbiological Contamination Test of Fuel Tank - Special\nDetail Inspection \n280007",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46090 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "205.0",
-          "task": "280005.004",
-          "description": "Fuel Tank - Sumping",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-3 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "206.0",
-          "task": "",
-          "description": "Wing Vent Float Valve (Left) - Operational Check\n281528",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "4730.0h",
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "207.0",
-          "task": "",
-          "description": "Wing Vent Float Valve (Right) - Operational Check\n281529",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "4730.0h",
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "208.0",
-          "task": "",
-          "description": "Fuel Vent System (Left) - Operational Check \n281530",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "209.0",
-          "task": "",
-          "description": "Fuel Vent System (Right) - Operational Check \n281531",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "210.0",
-          "task": "",
-          "description": "Flame Arrestor (Left) - Detailed Inspection \n281532",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "4730.0h",
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "211.0",
-          "task": "",
-          "description": "Flame Arrestor (Right) - Detailed Inspection \n281533",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "4730.0h",
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "212.0",
-          "task": "",
-          "description": "Flame Arrestor (Left) - Operational Check \n281537",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "213.0",
-          "task": "",
-          "description": "Flame Arrestor (Right) - Operational Check \n281538",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "214.0",
-          "task": "",
-          "description": "Wing Tank Pressure Relief Valve (Left) - Operational\nCheck \n281541",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "215.0",
-          "task": "",
-          "description": "Wing Tank Pressure Relief Valve (Right) - Operational\nCheck \n281542",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "216.0",
-          "task": "",
-          "description": "Heated Fuel Return System Valve - Operational Check\n281602",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "217.0",
-          "task": "",
-          "description": "Pylon Heated Fuel Return System (Hfrs) Shut-Off Valve\nFIRE Shield (Left) - General Visual Inspection \n281615",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "218.0",
-          "task": "",
-          "description": "Pylon Heated Fuel Return System (Hfrs) Shut-Off Valve\nFIRE Shield (Right) - General Visual Inspection \n281616",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "219.0",
-          "task": "",
-          "description": "APU Fuel Shut-Off Valve - Operational Check\n282632",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "220.0",
-          "task": "",
-          "description": "Engine Fuel Shut-Off Valve (Left) - Operational Check \n282633",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "221.0",
-          "task": "",
-          "description": "Engine Fuel Shut-Off Valve (Right) - Operational Check \n282634",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "222.0",
-          "task": "",
-          "description": "Dual Wall Fuel Line Shroud (Left Engine) - Functional\nCheck \n282642",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "223.0",
-          "task": "",
-          "description": "Dual Wall Fuel Line Shroud (Right Engine) - Functional\nCheck \n282643",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "224.0",
-          "task": "",
-          "description": "Dual Wall Fuel Line Shroud (APU) - Functional Check \n282644",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "225.0",
-          "task": "",
-          "description": "Dual Wall Fuel Line Shroud (Left Engine Heated Return) -\nFunctional Check \n282645",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "226.0",
-          "task": "",
-          "description": "Dual Wall Fuel Line Shroud (Right Engine Heated Return)\n- Functional Check \n282646",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "227.0",
-          "task": "",
-          "description": "Hydraulic System Shut-Off Valves - Operational Check \n291524",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "228.0",
-          "task": "",
-          "description": "Hydraulic System Accumulator Precharge (Left Hydraulic\nSystem) - Detailed Inspection \n291708",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "229.0",
-          "task": "",
-          "description": "Hydraulic System Accumulator Precharge (Right Hydraulic\nSystem) - Detailed Inspection \n291709",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "230.0",
-          "task": "",
-          "description": "Hydraulic System Accumulator Precharge (Inboard Brake\nSystem) - Detailed Inspection \n291710",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "231.0",
-          "task": "",
-          "description": "Hydraulic System Accumulator Precharge (Outboard\nBrake System) - Detailed Inspection \n291711",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "232.0",
-          "task": "",
-          "description": "Hydraulic System Accumulator Precharge (Autobrake\nSystem) - Detailed Inspection \n291712",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "233.0",
-          "task": "",
-          "description": "Wing Anti-Ice Temperature Switch - Temperature Trip\nPoint Functional Check \n301137",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "234.0",
-          "task": "",
-          "description": "Windshield Surface Seal (Left) -\nDetailed Inspection \n304118",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "235.0",
-          "task": "",
-          "description": "Windshield Surface Seal (Right) -\nDetailed Inspection \n304119",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "236.0",
-          "task": "",
-          "description": "FDR - Functional / Reasonableness Check \n313104",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "237.0",
-          "task": "",
-          "description": "FDR Fail Message - Operational Check \n313105",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "238.0",
-          "task": "",
-          "description": "FDR Impact Switch - Operational Check \n313108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "239.0",
-          "task": "",
-          "description": "FDR Underwater Locator Beacon - Operational Check \n313113",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "240.0",
-          "task": "",
-          "description": "FDR Underwater Locator Beacon - Operational Check \n313113",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "241.0",
-          "task": "",
-          "description": "Aircraft Configuration Message - Operational Check \n315400",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "243.0",
-          "task": "",
-          "description": "Nose and Main Landing Gear and\nDoors - General Visual Inspection \n320002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "244.0",
-          "task": "",
-          "description": "Nose and Main Landing Gear and Doors - Zonal\nInspection \n320003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "245.0",
-          "task": "",
-          "description": "Main Landing Gear and Components (Left) - Detailed\nInspection \n321050",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "246.0",
-          "task": "",
-          "description": "Main Landing Gear and Components (Right) - Detailed\nInspection\n321051",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "247.0",
-          "task": "",
-          "description": "Main Landing Gear Corrosion Inhibiting Compound\nReapplication (Left)\n321052",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "248.0",
-          "task": "",
-          "description": "Main Landing Gear Corrosion Inhibiting Compound\nReapplication (Right)\n321053",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "249.0",
-          "task": "",
-          "description": "Nose Landing Gear Components - Detailed Inspection\n322004",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "250.0",
-          "task": "",
-          "description": "Nose Landing Gear Corrosion Inhibiting Compound\nReapplication\n322005",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "251.0",
-          "task": "",
-          "description": "Landing Gear Emergency Extension System - Operational\nCheck\n323916",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1730.0h",
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "252.0",
-          "task": "",
-          "description": "Landing Gear Emergency Extension System - General\nVisual Inspection \n323917",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "257.0",
-          "task": "",
-          "description": "Brake Control System Hydraulic Fuse (Left, Outboard No.\n1) - Operational Check\n324607",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-42406 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "258.0",
-          "task": "",
-          "description": "Brake Control System Hydraulic Fuse (Left, Inboard No.\n2) - Operational Check\n324610",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-42406 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "259.0",
-          "task": "",
-          "description": "Brake Control System Hydraulic Fuse (Right, Inboard No.\n3) - Operational Check\n324611",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-42406 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "260.0",
-          "task": "",
-          "description": "Brake Control System Hydraulic Fuse (Right, Outboard\nNo. 4) - Operational Check\n324612",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-42406 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "261.0",
-          "task": "",
-          "description": "Tire Pressure Monitor System - Functional Check\n324701",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "262.0",
-          "task": "",
-          "description": "Navigation Lights - Operational Check \n334211",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "263.0",
-          "task": "",
-          "description": "Anticollision Lights - Operational Test \n334212",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "264.0",
-          "task": "",
-          "description": "Exterior Emergency Lighting - Operational Check\n335000",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "265.0",
-          "task": "",
-          "description": "Cabin Emergency Lighting - Operational Check\n335100",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "267.0",
-          "task": "",
-          "description": "AIR Data System (No. 1 - Left Upper) - Functional / Leak Test \n341300",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "268.0",
-          "task": "",
-          "description": "AIR Data System (No. 2 - Right Upper) - Functional / Leak Test \n341301",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "269.0",
-          "task": "",
-          "description": "AIR Data System (No. 3 - Left Lower) - Functional / Leak Test \n341302",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "270.0",
-          "task": "",
-          "description": "AIR Data System (No. 4 / Standby - Right Lower) - Functional / Leak Test \n341303",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "271.0",
-          "task": "",
-          "description": "Multi-Function Probe / AIR Data Computer (No. 1 - Left\nUpper) - Certification \n341311",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "272.0",
-          "task": "",
-          "description": "Multi-Function Probe / AIR Data Computer (No. 2 - Left\nUpper) - Certification \n341312",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "273.0",
-          "task": "",
-          "description": "Multi-Function Probe / AIR Data Computer (No. 3 - Left\nLower) - Certification \n341313",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "274.0",
-          "task": "",
-          "description": "Multi-Function Probe / AIR Data Computer (No. 4 /\nStandby - Right Lower) - Certification \n341314",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "275.0",
-          "task": "",
-          "description": "ATC (No. 1) - Operational Check \n345512",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "276.0",
-          "task": "",
-          "description": "ATC (No. 2) - Operational Check \n345513",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "277.0",
-          "task": "346020.024",
-          "description": "Charts Database - Update",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "8 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "278.0",
-          "task": "315114.024",
-          "description": "Airport MAP Database (Amdb) - Update",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "279.0",
-          "task": "346019.024",
-          "description": "FMS Navigation Database - Update",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "2 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "280.0",
-          "task": "",
-          "description": "Crew Oxygen Mask and Regulator\n(Pilot) - Operational Check\n351106",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-522 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "281.0",
-          "task": "",
-          "description": "Crew Oxygen Mask and Regulator\n(Copilot) - Operational Check\n351107",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-522 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "282.0",
-          "task": "",
-          "description": "Crew Oxygen Mask and Regulator\n(Observer) - Operational Check\n351108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-522 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "283.0",
-          "task": "",
-          "description": "Crew Oxygen Mask / Regulator and Stowage Box (Pilot) -\nDetailed Inspection\n351112",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "284.0",
-          "task": "",
-          "description": "Crew Oxygen Mask / Regulator and Stowage Box\n(Copilot) - Detailed Inspection \n351113",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "285.0",
-          "task": "",
-          "description": "Crew Oxygen Mask / Regulator and Stowage Box\n(Observer) - Detailed Inspection \n351114",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "286.0",
-          "task": "",
-          "description": "Passenger Oxygen Drop-Down Mask\nAssemblies - Detailed Inspection \n352100",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "287.0",
-          "task": "",
-          "description": "Drop Down Oxygen Box Assembly - Detailed Inspection \n352101",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "288.0",
-          "task": "",
-          "description": "Passenger Oxygen System (Manual\nMODE) - Operational Check \n352403",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "289.0",
-          "task": "",
-          "description": "Passenger Oxygen System (Auto MODE) - Functional\nCheck \n352404",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "290.0",
-          "task": "",
-          "description": "Therapeutic Oxygen System - Functional Check \n352604",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "291.0",
-          "task": "",
-          "description": "Therapeutic Oxygen Mask - Detailed Inspection \n352605",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45115 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "294.0",
-          "task": "",
-          "description": "Water Tank - General Visual Inspection\n381424",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "295.0",
-          "task": "",
-          "description": "Vacuum Toilet System (Forward) -\nCleaning \n383104",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "296.0",
-          "task": "",
-          "description": "Vacuum Toilet System (Aft) - Cleaning \n383105",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "297.0",
-          "task": "",
-          "description": "APU AIR Inlet Duct Door and Actuator - Detailed\nInspection \n491217",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "298.0",
-          "task": "",
-          "description": "APU Turbine Plenum Drain - Operational Check\n491300",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "299.0",
-          "task": "",
-          "description": "APU Compartment Drains - General Visual Inspection\n491302",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "300.0",
-          "task": "",
-          "description": "Interior and Exterior Surfaces of APU Compartment (APU\nBox) - Detailed Inspection 491303",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "301.0",
-          "task": "",
-          "description": "APU Compartment Drains - Operational Check \n491304",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "309.0",
-          "task": "",
-          "description": "Main Entrance Door (Internal) - Zonal Inspection\n521001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "310.0",
-          "task": "",
-          "description": "Main Entrance Door Cockpit Overhead Panel Safety\nSwitch - Operational Check\n521004",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "312.0",
-          "task": "",
-          "description": "Main Entrance Door Inner and Outer\nSeal - General Visual Inspection \n521500",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44385 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "313.0",
-          "task": "",
-          "description": "Emergency Exit Doors - Functional Check\n522000",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "314.0",
-          "task": "",
-          "description": "Emergency Exit Door Seals - Detailed Inspection\n522001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "315.0",
-          "task": "",
-          "description": "Baggage Door Seal FS 824.5 - FS 867- Detailed\nInspection\n523400",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "316.0",
-          "task": "",
-          "description": "Auxiliary Pressure Bulkhead Door Seal \n525102\n- Detailed Inspection",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "317.0",
-          "task": "",
-          "description": "Acoustic Door Automatic Opening -\nOperational Check \n525200",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-675 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "318.0",
-          "task": "",
-          "description": "Auxiliary Pressure Bulkhead Door Warning Indication -\nOperational Check\n527103",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "319.0",
-          "task": "",
-          "description": "Antenna Interface - Detailed Inspection\n530001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "320.0",
-          "task": "",
-          "description": "Cabin Fixed Windows Internal - Detailed Inspection \n530002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-41830 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "321.0",
-          "task": "",
-          "description": "Exterior Skin Panel Installations (Enclosed By Pylons) FS\n838 - FS 1059.625 - Detailed Inspection \n530003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "322.0",
-          "task": "",
-          "description": "External Lower Fuselage FS 100 - FS 886 - Zonal\nInspection \n530004",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "323.0",
-          "task": "",
-          "description": "Radome (Interior) and Equipment AREA Behind Radome -\nZonal Inspection \n530005",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-41830 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "324.0",
-          "task": "",
-          "description": "Lower Forward Cabin and Midcabin Sections FS 245.5 -\nFS 511.5 - Zonal Inspection\n530006",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "325.0",
-          "task": "",
-          "description": "Aft Midcabin Fuselage Below Floor Level FS 739 - FS 886\n- Zonal Inspection\n530007",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "326.0",
-          "task": "",
-          "description": "External Upper Fuselage (Viewed from Platform) FS\n148.5 - FS 886 - Zonal Inspection\n530008",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "327.0",
-          "task": "",
-          "description": "Cabin Above Floor from Vestibule to Baggage\nCompartment FS 245.5 - FS 886 - Zonal Inspection \n530009",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-41830 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "328.0",
-          "task": "",
-          "description": "External Aft Fuselage and Empennage FS 886 - FS\n1199.475 - Zonal Inspection \n530010",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "329.0",
-          "task": "",
-          "description": "Lower Forward Cabin and Midcabin Sections FS 245.5 -\nFS 511.5 - Enhanced Zonal Inspection\n530011",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "330.0",
-          "task": "",
-          "description": "Lower Forward Cabin and Midcabin Cleaning and Dust\nRemoval - Enhanced Zonal Inspection\n530012",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "331.0",
-          "task": "",
-          "description": "Aft Midcabin Fuselage Below Floor Level FS 739 - FS 886\n- Enhanced Zonal Inspection\n530013",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "333.0",
-          "task": "",
-          "description": "Internal Left and Right Fuselage Below Cockpit Floor AT\nFS 223 - FS 243 - Zonal Inspection\n531015",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-310 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "334.0",
-          "task": "",
-          "description": "Cockpit Below Floor Cleaning and Dust Removal -\nEnhanced Zonal Inspection\n531021",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-310 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "335.0",
-          "task": "",
-          "description": "Nose Landing Gear Wheel Well FS 148.5 - FS 223 - Zonal\nInspection \n531024",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "336.0",
-          "task": "",
-          "description": "Radome Assembly - General Visual Inspection \n531026",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-42560 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "337.0",
-          "task": "",
-          "description": "Radome to Structure Perimeter Steps - Detailed\nInspection\n531036",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "338.0",
-          "task": "",
-          "description": "Cockpit Windshields and Side Windows\nPolished Exterior Surrounds - Detailed\nInspection \n531711",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-706 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "339.0",
-          "task": "",
-          "description": "Cockpit Windshields and Side Windows Polished Exterior\nSurrounds Corrosion Inhibiting Coating - Restore \n531712",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "340.0",
-          "task": "",
-          "description": "Leer FS 246 - FS 270 - Zonal Inspection\n532600",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "341.0",
-          "task": "",
-          "description": "Leer FS 246 - FS 270 - Enhanced Zonal Inspection\n532601",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "342.0",
-          "task": "",
-          "description": "Reer FS 251.5 - FS 285 - Zonal Inspection\n532602",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "343.0",
-          "task": "",
-          "description": "Reer FS 251.5 - FS 285 - Enhanced Zonal Inspection\n532603",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "344.0",
-          "task": "",
-          "description": "Leer Cleaning and Dust Removal - Enhanced Zonal\nInspection\n532604",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "345.0",
-          "task": "",
-          "description": "Reer Cleaning and Dust Removal - Enhanced Zonal\nInspection\n532605",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "346.0",
-          "task": "",
-          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Left) - Zonal Inspection\n533000",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "347.0",
-          "task": "",
-          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Right) - Zonal Inspection \n533001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "348.0",
-          "task": "",
-          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Left) - Enhanced Zonal Inspection \n533002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "349.0",
-          "task": "",
-          "description": "Main Landing Gear Wheel Well and Torque Box FS\n671.411 - FS 739 (Right) - Enhanced Zonal Inspection \n533003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "350.0",
-          "task": "",
-          "description": "Pressure Floor Structure Forward of Wheel Wells Below Floor FS 669 - FS 739 - Detailed Inspection\n533504",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "351.0",
-          "task": "",
-          "description": "Torque Box Internal Side (FS 680 - FS 735) - Zonal\nInspection\n533903",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "352.0",
-          "task": "",
-          "description": "Wiring and Fuel Installations Located Inside Torque Box\nUpper Portion (FS 680 - FS 735) - Enhanced Zonal\nInspection \n533904",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "353.0",
-          "task": "",
-          "description": "Baggage Compartment Below Floor Hirf/L - Detailed\nInspection\n534001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "354.0",
-          "task": "",
-          "description": "APU Enclosure FS 886 - FS 951.3 - General Visual\nInspection \n534600",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "355.0",
-          "task": "",
-          "description": "Baggage Compartment Aft Electronic Equipment Rack\nInternal - Zonal Inspection \n534802",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "356.0",
-          "task": "",
-          "description": "APU and Aft Fuselage Below Floor - Zonal Inspection \n535000",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "357.0",
-          "task": "",
-          "description": "APU Interior and Exterior Enclosure - Zonal Inspection \n535001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "358.0",
-          "task": "",
-          "description": "Aft Fuselage Above Floor FS 886 - FS 1083.46 - Zonal Inspection\n535003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "359.0",
-          "task": "",
-          "description": "External Lower Fuselage FS 100 - FS 886 - Zonal\nInspection \n535004",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "360.0",
-          "task": "",
-          "description": "Forward Wtbf Drain Holes - Enhanced Zonal Inspection \n539104",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "361.0",
-          "task": "",
-          "description": "Lower Mid Wtbf Drain Holes - Enhanced Zonal Inspection \n539303",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "362.0",
-          "task": "",
-          "description": "Aft Wtbf Drain Holes - Enhanced Zonal Inspection \n539503",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "363.0",
-          "task": "",
-          "description": "Pylons (Internal) - Zonal Inspection\n545001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "364.0",
-          "task": "",
-          "description": "Idg Feeder Cables and Wiring Installations - Enhanced\nZonal Inspection\n545004",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "365.0",
-          "task": "",
-          "description": "Pylon Leading Edge (Left) - Polishing\n545005",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "366.0",
-          "task": "",
-          "description": "Pylon Leading Edge (Right) - Polishing \n545006",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "367.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Assembly (External) Left - General\nVisual Inspection \n551002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "368.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Assembly (External) Right - General\nVisual Inspection\n551003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "369.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Assembly (External) - Detailed Inspection\n551004",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "370.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Assembly (External) - Detailed Inspection\n551005",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "371.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Leading Edge - Polishing\n551108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "372.0",
-          "task": "",
-          "description": "Horizontal Stabilizer Pivot Fitting - Detailed Inspection\n551502",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "373.0",
-          "task": "",
-          "description": "Elevator (External) Left - Detailed Inspection \n552008",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "374.0",
-          "task": "",
-          "description": "Elevator (External) Right - Detailed Inspection \n552009",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "375.0",
-          "task": "",
-          "description": "(Left) Elevator Hinge - Detailed Inspection\n552300",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "376.0",
-          "task": "",
-          "description": "(Right) Elevator Hinge - Detailed Inspection\n552301",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "377.0",
-          "task": "",
-          "description": "Vertical Stabilizer (External) - General Visual Inspection \n553006",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "378.0",
-          "task": "",
-          "description": "Vertical Stabilizer Leading Edge -\nPolishing\n553011",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "379.0",
-          "task": "",
-          "description": "Rudder Assembly Hinge Brackets and Swivel Links - Detailed Inspection\n554001",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-43290 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "380.0",
-          "task": "",
-          "description": "Rudder (External) - Detailed Inspection \n554002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "381.0",
-          "task": "",
-          "description": "Windshield Weather Seals (Humpseal) (Left) - Detailed\nInspection \n561111",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "382.0",
-          "task": "",
-          "description": "Windshield Weather Seals (Humpseal) (Right) - Detailed\nInspection \n561112",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "530.0h",
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "383.0",
-          "task": "",
-          "description": "Primary and Auxiliary Pressure Bulkhead Viewport - Operational Check \n564000",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "384.0",
-          "task": "",
-          "description": "Wing (Upper Surface External) from Wtbf to Winglet (Left)\n- Zonal Inspection \n570007",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "385.0",
-          "task": "",
-          "description": "Wing (Upper Surface External) from Wtbf to Winglet\n(Right) - Zonal Inspection \n570008",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "386.0",
-          "task": "",
-          "description": "Wing (Lower Surface External) from Wtbf to Winglet (Left)\n- Zonal Inspection \n570009",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "387.0",
-          "task": "",
-          "description": "Wing (Lower Surface External) from Wtbf to Winglet\n(Right) - Zonal Inspection\n570010",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "388.0",
-          "task": "",
-          "description": "Wing (External) Flaps, Spoilers and Ailerons (Left) - Zonal\nInspection \n570011",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "389.0",
-          "task": "",
-          "description": "Wing (External) Flaps, Spoilers and Ailerons (Right) -\nZonal Inspection \n570012",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "390.0",
-          "task": "",
-          "description": "Wing Tank (Internal) Bl 0 - Rbs 135 (Left) - Detailed\nInspection\n571027",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "391.0",
-          "task": "",
-          "description": "Wing Tank (Internal) Bl 0 - Rbs 135 (Right) - Detailed\nInspection\n571028",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-341 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "392.0",
-          "task": "",
-          "description": "Main Landing Gear Sponsons and Support Fittings (Left) -\nDetailed Inspection \n571031",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
+          "dueDaysStr": "0 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -44467,129 +46396,194 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "393.0",
-          "task": "",
-          "description": "Main Landing Gear Sponsons and Support Fittings (Right) -\nDetailed Inspection \n571032",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-24-05",
+          "description": "ELECTRICAL POWER- REPLACEMENT OF THE GENERATOR/BATTERY BUS TIE RELAYS AND ELECTRICAL CONNECTORS",
+          "pn": "MTB-24-05",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "394.0",
-          "task": "",
-          "description": "Wing Rear Beam Wiring Harness Installation (Left) -\nEnhanced Zonal Inspection \n571200",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "395.0",
-          "task": "",
-          "description": "Wing Rear Beam Wiring Harness Installation (Right) -\nEnhanced Zonal Inspection \n571201",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-26-01 R2",
+          "description": "FIRE PROTECTION- REPLACEMENT OF THE HALON TYPE1211 PORTABLE FIRE EXTINGUISHERS",
+          "pn": "MTB-26-01 R2",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "396.0",
-          "task": "",
-          "description": "Wing Rear Beam Spar and Aileron (Left) - Zonal\nInspection \n571204",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-27-03",
+          "description": "FLIGHT CONTROLS - RUDDER PEDAL FORCE \nTRANSDUCER INTERFERENCE IMPROVEMENT",
+          "pn": "MTB-27-03",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "397.0",
-          "task": "",
-          "description": "Wing Rear Beam Spar and Aileron (Right) - Zonal\nInspection \n571205",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "398.0",
-          "task": "",
-          "description": "Wing Rear Spar / Flap / Spoiler (Left) - Zonal Inspection \n571206",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-31-03",
+          "description": "INDICATING/RECORDING SYSTEMS - POTENTIOMETER REPLACEMENT",
+          "pn": "MTB-31-03",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "399.0",
-          "task": "",
-          "description": "Wing Rear Spar / Flap / Spoiler (Right) - Zonal Inspection \n571207",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "400.0",
-          "task": "",
-          "description": "Wing Rear Beam Rbs 135.66 - Rbs 441 Hirf/L (Left) -\nDetailed Inspection \n571208",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-32-02",
+          "description": "LANDING GEAR - MAIN-LANDING-GEAR TORQUE-KNEE PINS REPLACEMENT",
+          "pn": "MTB-32-02",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "401.0",
-          "task": "",
-          "description": "Wing Rear Beam Rbs 135.66 - Rbs 441 Hirf/L (Right) -\nDetailed Inspection \n571209",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-33-03 R2",
+          "description": "LIGHTS - LED TAIL STROBE LIGHT INSTALLATION",
+          "pn": "MTB-33-03 R2",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "402.0",
-          "task": "",
-          "description": "Winglet Exterior Surfaces (Left) - Zonal Inspection 573206",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "MTB-33-05",
+          "description": "LIGHTS - LED TAIL STROBE LIGHT INSTALLATION WITH 130-3070-0001 KIT INSTALLED",
+          "pn": "MTB-33-05",
+          "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "404.0",
+          "task": "MTB-34-05",
+          "description": "AD",
+          "pn": "MTB-34-05",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "407.0",
+          "task": "MTB-56-01",
+          "description": "WINDOWS- STORM WEATHER \nWINDOW IMPROVEMENT",
+          "pn": "MTB-56-01",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "408.0",
+          "task": "MTB-56-03",
+          "description": "WINDOWS-MODELB300/B300C COOLVIEW WINDOW \nWITH TINTED FROST PANE INSTALLATION FOR COCKPIT, CABIN, OR BAGGAGE \"AREA\" WINDOWS",
+          "pn": "MTB-56-03",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "409.0",
+          "task": "MTB-56-05",
+          "description": "WINDOWS- MODEL B300/B300C COOLVIEW WINDOW \nWITH CLEAR FROST PANE INSTALLATION FOR PASSENGER (ROUND) WINDOWS",
+          "pn": "MTB-56-05",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "417.0",
+          "task": "MTL-21-03",
+          "description": "AIR CONDITIONING - COCKPIT FOOT WARMER DUCT INSPECTION",
+          "pn": "MTL-21-03",
+          "sheet": "DIR",
+          "dueHoursStr": "-138.5h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "423.0",
+          "task": "MTL-26-01 R1",
+          "description": "FIRE PROTECTION- FUSELAGE BLEED AIR WARNING LINE INSPECTION",
+          "pn": "MTL-26-01 R1",
+          "sheet": "DIR",
+          "dueHoursStr": "15.2h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "424.0",
+          "task": "MTL-26-02",
+          "description": "FIRE PROTECTION - CENTER WING AND NACELLE BLEED AIR WARNING LINE INSPECTION",
+          "pn": "MTL-26-02",
+          "sheet": "DIR",
+          "dueHoursStr": "15.2h",
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "hours"
+          ]
+        },
+        {
+          "id": "433.0",
+          "task": "MTL-30-02",
+          "description": "ICE AND RAIN PROTECTION - MAIN LANDING GEAR (MLG) DEICE TUBING BOND CLAMP INSTALLATION",
+          "pn": "MTL-30-02",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "441.0",
+          "task": "MTL-36-02",
+          "description": "PNEUMATIC - FLOW CONTROL VALVE INSULATION INSPECTION",
+          "pn": "MTL-36-02",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        },
+        {
+          "id": "449.0",
+          "task": "MTL-53-04 R2",
+          "description": "FUSELAGE - FORWARD FUSELAGE FASTENER INSPECTION",
+          "pn": "MTL-53-04 R2",
+          "sheet": "DIR",
+          "dueHoursStr": null,
+          "dueDaysStr": "-798 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -44597,1388 +46591,430 @@ window.EMBEDDED_DATA = {
         },
         {
           "id": "403.0",
-          "task": "",
-          "description": "Winglet Exterior Surfaces (Right) - Zonal Inspection \n573207",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "CF-1996-24R1",
+          "description": "Compressor Bleed-off Valve Cover \nAssembly Inspection/Replacement",
+          "pn": "SB 13354",
+          "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-44020 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "404.0",
-          "task": "",
-          "description": "Wing Leading Edge (Left) - Polishing\n574010",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "405.0",
-          "task": "",
-          "description": "Wing Leading Edge (Right) - Polishing\n574011",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "DA 80-05-01",
+          "description": "Bomba de combustível",
+          "pn": "AD80-08-12\nSB1316\nSB3139\nSB12025",
+          "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "406.0",
-          "task": "",
-          "description": "Wing Leading Edge and Gap Bands (External) (Left) -\nZonal Inspection \n574026",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "407.0",
-          "task": "",
-          "description": "Wing Leading Edge and Gap Bands (External) (Right) -\nZonal Inspection \n574027",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "408.0",
-          "task": "",
-          "description": "Flap Upper Surface (Left) - Detailed Inspection \n575301",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "CF-1996-24R1",
+          "description": "Compressor Bleed-off Valve Cover \nAssembly Inspection/Replacement",
+          "pn": "SB 13354",
+          "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "409.0",
-          "task": "",
-          "description": "Flap Upper Surface (Right) - Detailed Inspection \n575302",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "410.0",
-          "task": "",
-          "description": "Nacelle, T/Rev and Exhaust External (Left, Viewed from\nPlatform) - Zonal Inspection\n710035",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "2330.0h",
-          "dueDaysStr": "-44750 dias",
+          "task": "DA 80-05-01",
+          "description": "Bomba de combustível",
+          "pn": "AD80-08-12\nSB1316\nSB3139\nSB12025",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "411.0",
-          "task": "",
-          "description": "Nacelle, T/Rev and Exhaust External (Right, Viewed from\nPlatform) - Zonal Inspection \n710036",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "2330.0h",
-          "dueDaysStr": "-44750 dias",
+          "task": "13163 R7",
+          "description": "AD",
+          "pn": "13163 R7",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "414.0",
-          "task": "",
-          "description": "Engine Internal (Left) - Zonal Inspection \n711002",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "415.0",
-          "task": "",
-          "description": "Engine Internal (Right) - Zonal Inspection \n711003",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
+          "task": "13540.0",
+          "description": "AD",
+          "pn": "13540.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "418.0",
-          "task": "",
-          "description": "Inlet Cowl Lipskin (Left) - Nonabrasive\nPolish\n711108",
-          "pn": "",
-          "sheet": "Manutenção",
+          "id": "417.0",
+          "task": "13543.0",
+          "description": "AD",
+          "pn": "13543.0",
+          "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "419.0",
-          "task": "",
-          "description": "Inlet Cowl Lipskin (Right) - Nonabrasive\nPolish\n711109",
-          "pn": "",
-          "sheet": "Manutenção",
+          "task": "13546.0",
+          "description": "AD",
+          "pn": "13546.0",
+          "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46030 dias",
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "422.0",
-          "task": "",
-          "description": "No. 1 Engine - Drains Tubes and Fittings - Detailed\nInspection \n717108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
+          "id": "420.0",
+          "task": "13547.0",
+          "description": "AD",
+          "pn": "13547.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "423.0",
-          "task": "",
-          "description": "No. 2 Engine - Drains Tubes and Fittings - Detailed\nInspection \n717108",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
+          "id": "421.0",
+          "task": "13163 R7",
+          "description": "AD",
+          "pn": "13163 R7",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "426.0",
-          "task": "",
-          "description": "No. 1 Engine - Variable Stator Vane Actuating Mechanism\n- Functional Check\n723334",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
+          "id": "425.0",
+          "task": "13540.0",
+          "description": "AD",
+          "pn": "13540.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "427.0",
-          "task": "",
-          "description": "No. 2 Engine - Variable Stator Vane Actuating Mechanism\n- Functional Check\n723334",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
+          "task": "13543.0",
+          "description": "AD",
+          "pn": "13543.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
-        },
-        {
-          "id": "428.0",
-          "task": "",
-          "description": "No. 1 Engine - Variable Stator Vane Actuation Mechanism\n- Lubrication \n723335",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
           "id": "429.0",
-          "task": "",
-          "description": "No. 2 Engine - Variable Stator Vane Actuation Mechanism\n- Lubrication \n723335",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "1130.0h",
-          "dueDaysStr": "-44750 dias",
+          "task": "13546.0",
+          "description": "AD",
+          "pn": "13546.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "436.0",
-          "task": "",
-          "description": "T/Rev and Exhaust Internal (Left) - Zonal Inspection\n783112",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "2330.0h",
-          "dueDaysStr": "-44750 dias",
+          "id": "430.0",
+          "task": "13547.0",
+          "description": "AD",
+          "pn": "13547.0",
+          "sheet": "DIR MOTOR",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "437.0",
-          "task": "",
-          "description": "T/Rev and Exhaust Internal (Right) - Zonal Inspection\n783113",
+          "id": "692.0",
+          "task": "AD 94-03-11",
+          "description": "Hub Arm Assembly",
           "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": "2330.0h",
-          "dueDaysStr": "-44750 dias",
+          "sheet": "DIR HÉLICE",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
           "dueCyclesStr": null,
-          "alertTypes": [
-            "hours",
-            "days"
-          ]
+          "alertTypes": []
         },
         {
-          "id": "448.0",
-          "task": "",
-          "description": "Anual Inspection (CVA)",
+          "id": "699.0",
+          "task": "AD 94-03-11",
+          "description": "Hub Arm Assembly",
+          "pn": "",
+          "sheet": "DIR HÉLICE",
+          "dueHoursStr": null,
+          "dueDaysStr": null,
+          "dueCyclesStr": null,
+          "alertTypes": []
+        }
+      ]
+    },
+    "N444R": {
+      "info": {
+        "model": "GULFSTREAM G700",
+        "totalHours": 70.0,
+        "totalLandings": 28.0,
+        "flightLog": {
+          "totalHours": "0",
+          "totalLandings": "12",
+          "twin": false,
+          "apuMode": "single",
+          "years": []
+        },
+        "totalCycles": null
+      },
+      "tasks": [
+        {
+          "id": "23",
+          "task": "280005.004",
+          "description": "Fuel Tank - Sumping",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45844 dias",
+          "dueDaysStr": "-4 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "450.0",
+          "id": "23",
+          "task": "346020.024",
+          "description": "Charts Database - Update",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "7 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "23",
+          "task": "315114.024",
+          "description": "Airport MAP Database (Amdb) - Update",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "23",
+          "task": "346019.024",
+          "description": "FMS Navigation Database - Update",
+          "pn": "",
+          "sheet": "Manutenção",
+          "dueHoursStr": null,
+          "dueDaysStr": "1 dias",
+          "dueCyclesStr": null,
+          "alertTypes": [
+            "days"
+          ]
+        },
+        {
+          "id": "23",
           "task": "",
           "description": "C of A Revalidation\n258000",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-280 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "451.0",
+          "id": "23",
           "task": "",
           "description": "VOR CHECK\nFAR 91.171\n345004",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-46180 dias",
+          "dueDaysStr": "-46181 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "452.0",
+          "id": "23",
           "task": "",
           "description": "ELT inspection\nFAR 91.207\n256306",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "453.0",
+          "id": "23",
           "task": "",
           "description": "ELT register\n406 MHz\n58C7C93CA2FFBFF\n256312",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
+          "dueDaysStr": "-45481 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "454.0",
+          "id": "23",
           "task": "",
           "description": "WEIGHT AND BALANCE",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-44383 dias",
+          "dueDaysStr": "-44384 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "455.0",
+          "id": "23",
           "task": "",
           "description": "Certificate of Insurance\nRETA",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-598 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "456.0",
+          "id": "23",
           "task": "",
           "description": "Certificate of Insurance\nAIRFRAME",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "457.0",
+          "id": "23",
           "task": "",
           "description": "TRAXXALL subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-44383 dias",
+          "dueDaysStr": "-44384 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "458.0",
+          "id": "23",
           "task": "",
           "description": "Gulfstream publication subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-656 dias",
+          "dueDaysStr": "-46211 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "459.0",
+          "id": "23",
           "task": "",
           "description": "G650ER-PlaneBook \nSoftware-App\nsubscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "460.0",
+          "id": "23",
           "task": "",
           "description": "Rolls-Royce engine publications subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "462.0",
+          "id": "23",
           "task": "",
           "description": "FMS data renewal",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "463.0",
+          "id": "23",
           "task": "",
           "description": "Jeppesen Charts subscription",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
         },
         {
-          "id": "464.0",
+          "id": "23",
           "task": "",
           "description": "Honeywell FORGE",
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
           ]
-        },
-        {
-          "id": "466.0",
-          "task": "",
-          "description": "LAUDO PBN",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "469.0",
-          "task": "",
-          "description": "LAUDO RVSM",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45480 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "472.0",
-          "task": "",
-          "description": "OVERFLIGHT EXEMPTION LETTER",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45479 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "473.0",
-          "task": "",
-          "description": "CPB DECAL",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "475.0",
-          "task": "",
-          "description": "ANATEL TAX",
-          "pn": "",
-          "sheet": "Manutenção",
-          "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "2.0",
-          "task": "AD 2003-26-14",
-          "description": "Hand-Held Halon Fire Extinguishers\n(P/N: 898052)",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3.0",
-          "task": "AD 2011-21-08",
-          "description": "Slcma Aero Seat 88xx. 89xx, 90xx, 91xx. 92xx. 93xx, 95xx,\nand 96xx series passenger seat assemblies",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "4.0",
-          "task": "AD 2012-02-08",
-          "description": "Aviation Communication & Surveillance Systems (ACSS),\nTraffic Alert and Collision Avoidance System (TCAS) Units",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "5.0",
-          "task": "AD 2012-08-07",
-          "description": "Sicma Aero Seats, Model 9401, 9402, 9404, 9405, 9406,\n9407, 9408, and 9409 series passenger seat assemblies",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "6.0",
-          "task": "AD 2012-11-09 R1",
-          "description": "Various Transport Category Airplanes",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "7.0",
-          "task": "AD 2012-14-15",
-          "description": "Model KGS200 Mercury2 wide area augmentation system (WAAS)\nglobal navigation satellite sensor units (GNSSU)",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "8.0",
-          "task": "AD 2012-17-01",
-          "description": "Goodyear Aviation Tires",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "9.0",
-          "task": "AD 2012-26-15",
-          "description": "Honeywell International Inc. Air Data Pressure \nTransducers",
-          "pn": "ADM/ADC/ADAHRS-34-A01",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "10.0",
-          "task": "AD 2012-26-15 R1",
-          "description": "HONEYWELL INTERNATIONAL INC. AIR DATA PRESSURE TRANSDUCERS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "11.0",
-          "task": "AD 2013-18-09",
-          "description": "Honeywell ASCa Inc. EL Ts",
-          "pn": "ADM/ADC/ADAHRS-34-A01",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "12.0",
-          "task": "AD 2014-05-27",
-          "description": "ROCKWELL COLLINS, INC. TRANSPONDERS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "13.0",
-          "task": "AD 2014-17-02",
-          "description": "HONEYWELL ASCA INC. EMERGENCY LOCATOR TRANSMITTERS INSTALLED ON VARIOUS TRANSPORT CATEGORY AIRPLANES",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "14.0",
-          "task": "AD 2014-18-01",
-          "description": "ROCKWELL COLLINS, INC. TRANSPONDERS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "15.0",
-          "task": "AD 2014-20-11",
-          "description": "ZODIAC SEATS FRANCE (FORMERLY SICMA AERO SEAT) PASSENGER SEAT ASSEMBLIES",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "16.0",
-          "task": "AD 2015-08-07",
-          "description": "Oxygen - Oxygen Mask Regulator Inflatable Harness - Identification / Replacement",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "17.0",
-          "task": "AD 2015-10-02",
-          "description": "Zodiac Seats France (formerly Sicma Aero Seat):",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "18.0",
-          "task": "AD 2015-10-51",
-          "description": "Avydine Integrated Flight Displays",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "19.0",
-          "task": "AD 2015-16-04",
-          "description": "Kiddie Graviner hand-operated fire extinguishers",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "20.0",
-          "task": "AD 2015-23-09",
-          "description": "Zodiac Aerotechnics Flightcrew Oxygen Mask Regulators",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "21.0",
-          "task": "AD 2015-24-06",
-          "description": "AD 2015-24-06",
-          "pn": "Alert Customer\nBulletin 4A",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "22.0",
-          "task": "AD 2016-11-20",
-          "description": "B/E Aerospace Protective Breathing Equipment Part Number 119003-11",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "23.0",
-          "task": "AD 2016-18-11",
-          "description": "MLG actuator end cap fitting",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "24.0",
-          "task": "AD 2017-04-06",
-          "description": "United Instruments, Inc. 5934 series altimeters",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "25.0",
-          "task": "AD 2017-09-09",
-          "description": "Zodiac Seats California LLC",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "26.0",
-          "task": "AD 2017-11-11",
-          "description": "NavWorx, Inc.,\nAutomatic Dependent Surveillance-Broadcast (ADS-B)",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "27.0",
-          "task": "AD 2017-16-01",
-          "description": "AMERI-KING CORPORATION EMERGENCY LOCATOR TRANSMITTERS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "28.0",
-          "task": "AD 2017-18-12",
-          "description": "B/E AEROSPACE PROTECTIVE BREATHING EQUIPMENT PART NUMBER 119003-11 AND PART NUMBER 119003-21",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "29.0",
-          "task": "FAA AD 2017-19-05",
-          "description": "FAA AD 2017-19-05 - SIEMENS S.A.S. SMOKE DETECTORS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "30.0",
-          "task": "FAA AD 2017-22-02",
-          "description": "lpeco Holdings Ltd.",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "31.0",
-          "task": "FAA AD 2017-22-14",
-          "description": "Rockwell Collins, Inc. TSSA-4100 Field Loadable Software",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "32.0",
-          "task": "FAA AD 2018-03-04",
-          "description": "Rosemount Aerospace, Inc",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "33.0",
-          "task": "FAA AD 2018-16-13",
-          "description": "Zodiac Seats France (formerly SICMA Aero Seat):",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "34.0",
-          "task": "AD 2018-19-15",
-          "description": "GEVEN S.p.A Seats:",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "35.0",
-          "task": "AD 2018-21-14",
-          "description": "ZODIAC AEROTECHNICS OXYGEN MASK REGULATORS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "36.0",
-          "task": "AD 2018-23-01",
-          "description": "Zodiac Seats France (formerly SICMA Aero Seat):",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "37.0",
-          "task": "AD 2018-23-12",
-          "description": "Zodiac Aero Evacuation Systems (also known as Air\nCruisers Company):",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "38.0",
-          "task": "AD 2019-01-02",
-          "description": "Aspen Avionics, Inc.",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "39.0",
-          "task": "AD 2019-07-03",
-          "description": "Zodiac Seats France (formerly SICMA Aero Seat)",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "40.0",
-          "task": "AD 2019-07-10",
-          "description": "Northrop Grumman LITEF GmbH LCR-100 Attitude and Heading Reference System",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "41.0",
-          "task": "AD 2019-08-01",
-          "description": "RECARO Aircraft Seating GmbH & Co. KG:",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "42.0",
-          "task": "AD 2019-12-09",
-          "description": "ROCKWELL COLLINS) FLIGHT DISPLAY SYSTEM APPLICATION FDSA-6500",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "43.0",
-          "task": "AD 2019-13-03",
-          "description": "TRIG AVIONICS LIMITED TRANSPONDERS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "44.0",
-          "task": "AD 2019-15-10",
-          "description": "SAFRAN AEROSYSTEMS LIFE JACKETS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "45.0",
-          "task": "AD 2019-20-08",
-          "description": "FLIGHT CONTROLS - REVISING THE MAINTENANCE OR INSPECTION PROGRAM",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "46.0",
-          "task": "AD 2019-21-09",
-          "description": "EQUIPMENT / FURNISHINGS - LIFE\nVEST POUCH - INSPECTION /\nREPLACEMENT",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "48.0",
-          "task": "AD 2020-08-02",
-          "description": "NAVIGATION - THALES AVS FRANCE\nSAS - GLOBAL NAVIGATION SATELLITE\nSYSTEM - OPERATIONAL LIMITATIONS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "49.0",
-          "task": "AD 2020-10-05",
-          "description": "ROCKWELL COLLINS, INC. FLIGHT MANAGEMENT SYSTEMS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "50.0",
-          "task": "AD 2020-18-51",
-          "description": "BENDIX ATTITUDE INDICATORS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "51.0",
-          "task": "AD 2020-21-02",
-          "description": "KIDDE AEROSPACE & DEFENSE CARGO FIRE EXTINGUISHER",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "52.0",
-          "task": "AD 2021-05-17",
-          "description": "ROCKWELL COLLINS, INC. FLIGHT DISPLAY SYSTEM APPLICATION",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "53.0",
-          "task": "AD 2021-07-13",
-          "description": "PACIFIC SCIENTIFIC COMPANY SEAT RESTRAINT SYSTEM ROTARY BUCKLE ASSEMBLIES",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "54.0",
-          "task": "AD 2021-08-07",
-          "description": "ROCKWELL COLLINS, INC., GLOBAL POSITIONING SYSTEMS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "55.0",
-          "task": "AD 2021-08-15",
-          "description": "GARMIN INTERNATIONAL GMN-00962 GTS PROCESSOR UNITS",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "56.0",
-          "task": "AD 2021-22-07",
-          "description": "FIRE\nPROTECTION - HAND-OPERATED FIRE\nEXTINGUISHERS - INSPECTION /",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "57.0",
-          "task": "AD 2021-23-12",
-          "description": "INDICATING/RECORDING SYSTEM, NAVIGATION - RADIO ALTIMETER (TRANSPORT AND COMMUTER CATEGORY AIRPLANES)",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "58.0",
-          "task": "AD 2022-01-03",
-          "description": "FIRE\nPROTECTION - HAND-HELD FIRE\nEXTINGUISHERS - REPLACEMENT",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "59.0",
-          "task": "AD 2022-04-09",
-          "description": "AVOX Systems Inc. (formerly Scott Aviation) oxygen cylinder and valve\nassemblies",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "63.0",
-          "task": "AD 2023-12-25",
-          "description": "EQUIPMENT / FURNISHINGS -\nSURVITEC GROUP LIMITED (RFD\nBEAUFOT LTD.) TYPE 102 MK 3, 102 MK\n4 AND TYPE 105 MK 1 LIFE JACKETS -",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "64.0",
-          "task": "AD 2023-13-11",
-          "description": "AVOX SYSTEMS INC. - Oxygen Cylinder and Valve Assemblies - Inspection / Replacement",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "66.0",
-          "task": "AD 2023-21-05",
-          "description": "THALES AVS FRANCE SAS FLIGHT MANAGEMENT COMPUTER NAVIGATION MODULES",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "73.0",
-          "task": "DA 2012-08-04",
-          "description": "GERADOR QUÍMICO DE OXIGÊNIO",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "74.0",
-          "task": "DA 2024-04-01",
-          "description": "REVISÃO DO AFM - INTERFERÊNCIA DO 5G",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": "-92419 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "75.0",
-          "task": "DA 2024-05-08",
-          "description": "PARTES OU COMPONENTES SEM RASTREABILIDADE",
-          "pn": "",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "191.0",
-          "task": "111",
-          "description": "Flight Controls (ATA 27) – Remote ElectronicsUnit (REU) Software Label 41 – Update (ASC006)",
-          "pn": "111",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": "-92419 dias",
-          "dueCyclesStr": null,
-          "alertTypes": [
-            "days"
-          ]
-        },
-        {
-          "id": "199.0",
-          "task": "ASC 005",
-          "description": "AD",
-          "pn": "ASC 005",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "200.0",
-          "task": "ASC 006",
-          "description": "AD",
-          "pn": "ASC 006",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "201.0",
-          "task": "ASC 007",
-          "description": "AD",
-          "pn": "ASC 007",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "205.0",
-          "task": "ASC 012A",
-          "description": "AD",
-          "pn": "ASC 012A",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "207.0",
-          "task": "ASC 014A",
-          "description": "AD",
-          "pn": "ASC 014A",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "222.0",
-          "task": "ASC 030",
-          "description": "AD",
-          "pn": "ASC 030",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "223.0",
-          "task": "ASC 031",
-          "description": "AD",
-          "pn": "ASC 031",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "235.0",
-          "task": "ASC 047A",
-          "description": "AD",
-          "pn": "ASC 047A",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "239.0",
-          "task": "ASC 052",
-          "description": "AD",
-          "pn": "ASC 052",
-          "sheet": "DIR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "2.0",
-          "task": "CF-2025-71",
-          "description": "Time Limits/Maintenance Checks (TLMC) – New Airworthiness Limitations",
-          "pn": "",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "3.0",
-          "task": "CF-2023-73",
-          "description": "Time Limits/Maintenance Checks (TLMC) – New Airworthiness Limitations",
-          "pn": "",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
-        },
-        {
-          "id": "4.0",
-          "task": "CF-2025-71",
-          "description": "Time Limits/Maintenance Checks (TLMC) – New Airworthiness Limitations",
-          "pn": "",
-          "sheet": "DIR MOTOR",
-          "dueHoursStr": null,
-          "dueDaysStr": null,
-          "dueCyclesStr": null,
-          "alertTypes": []
         }
       ]
     },
@@ -50402,7 +51438,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50415,7 +51451,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-433 dias",
+          "dueDaysStr": "-434 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50441,7 +51477,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-45845 dias",
+          "dueDaysStr": "-45846 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50454,7 +51490,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-19 dias",
+          "dueDaysStr": "-20 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50467,7 +51503,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50480,7 +51516,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50493,7 +51529,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-26 dias",
+          "dueDaysStr": "-27 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50506,7 +51542,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "-5 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50519,7 +51555,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "57 dias",
+          "dueDaysStr": "56 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50532,7 +51568,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "Manutenção",
           "dueHoursStr": null,
-          "dueDaysStr": "57 dias",
+          "dueDaysStr": "56 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50545,7 +51581,7 @@ window.EMBEDDED_DATA = {
           "pn": "",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46354 dias",
+          "dueDaysStr": "-144 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50613,7 +51649,7 @@ window.EMBEDDED_DATA = {
           "pn": "550-25-0081",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46283 dias",
+          "dueDaysStr": "-73 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50670,7 +51706,7 @@ window.EMBEDDED_DATA = {
           "pn": "550-34-0035",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46289 dias",
+          "dueDaysStr": "-79 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50727,7 +51763,7 @@ window.EMBEDDED_DATA = {
           "pn": "SB AS907-72-9084 R03",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46216 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -50883,7 +51919,7 @@ window.EMBEDDED_DATA = {
           "pn": "SB AS907-72-9084 R03",
           "sheet": "DIR MOTOR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46216 dias",
+          "dueDaysStr": "-6 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -51092,6 +52128,8 @@ window.EMBEDDED_DATA = {
     "PS-STP": {
       "info": {
         "model": "BOMBARDIER GLOBAL EXPRESS BD-700-1A11",
+        "totalHours": 1917.2,
+        "totalLandings": 682.0,
         "registration": "PS-STP",
         "flightLog": {
           "totalHours": "1917.2",
@@ -54117,8 +55155,6 @@ window.EMBEDDED_DATA = {
             }
           ]
         },
-        "totalHours": null,
-        "totalLandings": null,
         "totalCycles": null
       },
       "tasks": [
@@ -54173,7 +55209,7 @@ window.EMBEDDED_DATA = {
           "pn": "700-53-5011",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-47033 dias",
+          "dueDaysStr": "-823 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -54417,7 +55453,7 @@ window.EMBEDDED_DATA = {
           "pn": "700-32-5022",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46253 dias",
+          "dueDaysStr": "-43 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -54747,6 +55783,8 @@ window.EMBEDDED_DATA = {
     "N918LL": {
       "info": {
         "model": "GULFSTREAM G450",
+        "totalHours": 4819.2,
+        "totalLandings": 1246.0,
         "flightLog": {
           "totalHours": "4819.2",
           "totalLandings": "1246",
@@ -62321,8 +63359,6 @@ window.EMBEDDED_DATA = {
             }
           ]
         },
-        "totalHours": null,
-        "totalLandings": null,
         "totalCycles": null
       },
       "tasks": [
@@ -62377,7 +63413,7 @@ window.EMBEDDED_DATA = {
           "pn": "ASC 074",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46392 dias",
+          "dueDaysStr": "-182 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -62401,7 +63437,7 @@ window.EMBEDDED_DATA = {
           "pn": "ASC 109",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46392 dias",
+          "dueDaysStr": "-182 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"

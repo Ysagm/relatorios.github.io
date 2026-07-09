@@ -171,7 +171,7 @@
 
     .section-title { font-size: 13px; font-weight: 500; color: var(--text-secondary); margin-bottom: 10px; text-transform: uppercase; letter-spacing: .05em; }
 
-    .task-table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+    .task-table { width: 100%; min-width: 640px; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
     .task-table th {
       font-size: 11px; color: var(--text-muted); text-transform: uppercase;
       letter-spacing: .04em; padding: 6px 10px; text-align: left;
@@ -251,6 +251,25 @@
     .fl-table td.num { text-align: right; font-family: var(--font-mono); color: var(--text-secondary); }
     .fl-table td.num.strong { font-weight: 500; color: var(--text-primary); }
     .fl-table tr:hover td { background: var(--surface-1); }
+
+    /* ── Responsivo (celular) ── */
+    @media (max-width: 640px) {
+      #navbar { height: 60px; padding: 0 12px; }
+      #navbar img { height: 42px; }
+      .theme-btn span { display: none; }
+      .theme-btn { padding: 6px 8px; }
+      #app { padding: 0 12px 1.5rem; }
+      .header { padding: 1.1rem 0 0.75rem; }
+      .aircraft-title { font-size: 17px; }
+      .stats-grid { grid-template-columns: repeat(auto-fit, minmax(120px,1fr)); gap: 8px; }
+      .stat-card { padding: 10px 12px; }
+      .stat-value { font-size: 19px; }
+      .acft-btn { font-size: 12px; padding: 5px 10px; }
+      .login-card { padding: 1.75rem 1.25rem; }
+      .fl-year-head, .fl-month-head { flex-wrap: wrap; gap: 4px 10px; }
+      .fl-meta { font-size: 11px; }
+      .fl-month { margin-left: 8px; }
+    }
 
     /* ── App footer wrapper ── */
     #app-footer-wrap { display: none; }
@@ -528,9 +547,13 @@ function excelDateToJS(serial) {
   return new Date((serial - 25569) * 86400000);
 }
 function dateDiffDays(val) {
+  // Algumas linhas guardam aqui a contagem de dias ja calculada (ex: "-300")
+  // em vez de uma data. min_serial evita reinterpretar esse numero pequeno
+  // como serial de data do Excel (serial 10000 = ano 1927; datas reais de
+  // aeronaves sempre caem bem acima disso).
   let d;
   if (val instanceof Date)        d = val;
-  else if (typeof val==='number') d = excelDateToJS(val);
+  else if (typeof val==='number') { if (val < 10000) return null; d = excelDateToJS(val); }
   else if (typeof val==='string') d = new Date(val);
   else return null;
   if (!d || isNaN(d)) return null;
@@ -671,7 +694,13 @@ function exportLeg(leg) {
 
 function buildFlightLog(legs, twin, apuMode) {
   const dated = legs.filter(l => l._date);
-  if (!dated.length) return null;
+  if (!dated.length) {
+    // Nenhuma etapa tem data preenchida (ex: aeronave recém-entregue, ainda
+    // sem voos registrados) mas há linhas com saldo acumulado — mostra os
+    // totais mesmo assim, só sem o histórico ano/mês.
+    const last = legs[legs.length - 1];
+    return { totalHours: last.celulaTotal, totalLandings: last.pousoTotal, twin, apuMode, years: [] };
+  }
   dated.sort((a,b) => a._date - b._date);
   const last = dated[dated.length - 1];
 
@@ -810,6 +839,11 @@ function parseWorkbook(wb, acftName) {
           if (v==='HORAS TOTAIS')  info.totalHours    = Number(row[j+1]);
           if (v==='POUSOS TOTAIS') info.totalLandings = Number(row[j+1]);
           if (v==='CICLOS TOTAIS') info.totalCycles   = Number(row[j+1]);
+          // Modelo alternativo (aeronaves a jato mais novas): TSN/LSN em vez
+          // de HORAS TOTAIS/POUSOS TOTAIS. TSN repete por motor/APU na mesma
+          // linha, então só aceitamos a primeira ocorrência (célula).
+          if (v==='TSN' && info.totalHours==null)    { const n=Number(row[j+1]); if(!isNaN(n)) info.totalHours=n; }
+          if (v==='LSN' && info.totalLandings==null) { const n=Number(row[j+1]); if(!isNaN(n)) info.totalLandings=n; }
           if (!info.registration) {
             const rm = String(row[j]||'').match(/^([A-Z]{2}-[A-Z0-9]{3})$/i);
             if (rm) info.registration = rm[1].toUpperCase();
@@ -908,7 +942,8 @@ function setValidity(v,el) {
 function renderAcftSelector() {
   const wrap=document.getElementById('acft-selector-wrap');
   const names=Object.keys(allData);
-  if (names.length<=1){wrap.style.display='none';return;}
+  wrap.style.display = names.length<=1 ? 'none' : 'flex';
+  if (names.length<=1){return;}
   wrap.innerHTML=names.map(n=>{
     const cnt=allData[n].tasks.length;
     const model=allData[n].info?.model||'';
@@ -1052,6 +1087,11 @@ function renderFlightLog(data) {
     <div class="stat-card"><div class="stat-label">Horas totais de voo</div><div class="stat-value">${fl.totalHours ?? '—'}</div></div>
     <div class="stat-card"><div class="stat-label">Total de pousos</div><div class="stat-value">${fl.totalLandings ?? '—'}</div></div>
   </div>`;
+
+  if (!fl.years.length) {
+    wrap.innerHTML = stats + `<div class="empty-state"><i class="ti ti-calendar-off" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhuma etapa com data registrada ainda no Diário de Bordo</div>`;
+    return;
+  }
 
   const yearsHtml = fl.years.map((y,yi) => {
     const monthsHtml = y.months.map((m,mi) => {

@@ -1,9 +1,11 @@
 {
-  "generated_at": "07/07/2026 22:39",
+  "generated_at": "08/07/2026 21:44",
   "aircraft": {
     "N918LL": {
       "info": {
         "model": "GULFSTREAM G450",
+        "totalHours": 4819.2,
+        "totalLandings": 1246.0,
         "flightLog": {
           "totalHours": "4819.2",
           "totalLandings": "1246",
@@ -7578,8 +7580,6 @@
             }
           ]
         },
-        "totalHours": null,
-        "totalLandings": null,
         "totalCycles": null
       },
       "tasks": [
@@ -7634,7 +7634,7 @@
           "pn": "ASC 074",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46392 dias",
+          "dueDaysStr": "-182 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
@@ -7658,7 +7658,7 @@
           "pn": "ASC 109",
           "sheet": "DIR",
           "dueHoursStr": null,
-          "dueDaysStr": "-46392 dias",
+          "dueDaysStr": "-182 dias",
           "dueCyclesStr": null,
           "alertTypes": [
             "days"
