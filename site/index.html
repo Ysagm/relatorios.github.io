@@ -117,7 +117,7 @@
     .login-card p { font-size: 13px; color: var(--text-secondary); margin-bottom: 1.5rem; text-align: center; }
     .login-card input {
       width: 100%; padding: 10px 12px; border: 0.5px solid var(--border-strong);
-      border-radius: var(--radius); font-size: 14px; margin-bottom: 10px;
+      border-radius: var(--radius); font-size: 16px; margin-bottom: 10px;
       background: var(--surface-2); color: var(--text-primary); outline: none;
       transition: border-color .15s;
     }
@@ -270,6 +270,19 @@
       .fl-year-head, .fl-month-head { flex-wrap: wrap; gap: 4px 10px; }
       .fl-meta { font-size: 11px; }
       .fl-month { margin-left: 8px; }
+
+      /* Tabela de tarefas vira lista de cartões — evita rolagem horizontal
+         escondendo a coluna mais importante (Tipo de validade/Overdue). */
+      .task-table { min-width: 0; width: 100%; }
+      .task-table thead { display: none; }
+      .task-table, .task-table tbody, .task-table tr, .task-table td { display: block; width: 100%; }
+      .task-table tr {
+        border: 0.5px solid var(--border); border-radius: 10px;
+        margin-bottom: 10px; padding: 10px 12px;
+      }
+      .task-table tr:last-child { margin-bottom: 0; }
+      .task-table td { border-bottom: none; padding: 3px 0; }
+      .task-table td.col-sheet, .task-table td.col-due, .task-table td.col-type { margin-top: 6px; }
     }
 
     /* ── App footer wrapper ── */
