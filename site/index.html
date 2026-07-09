@@ -183,9 +183,10 @@
     .task-code  { font-family: var(--font-mono); font-size: 11px; color: var(--text-secondary); display: block; margin-bottom: 2px; }
     .desc-text  { font-size: 12px; }
     .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; margin: 1px; }
-    .badge-hours  { background: var(--bg-warning); color: var(--text-warning); }
-    .badge-days   { background: var(--bg-accent);  color: var(--text-accent); }
-    .badge-cycles { background: var(--bg-success); color: var(--text-success); }
+    .badge-hours   { background: var(--bg-warning); color: var(--text-warning); }
+    .badge-days    { background: var(--bg-accent);  color: var(--text-accent); }
+    .badge-cycles  { background: var(--bg-success); color: var(--text-success); }
+    .badge-overdue { background: var(--bg-danger);  color: var(--text-danger); }
     .sheet-tag {
       display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: 10px;
       background: var(--surface-1); color: var(--text-muted); border: 0.5px solid var(--border);
@@ -991,12 +992,16 @@ function renderTable() {
   if (!tasks.length){wrap.innerHTML=`<div class="empty-state"><i class="ti ti-circle-check" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhum alerta nesta categoria</div>`;return;}
   const countLabel=`<div class="section-title">${tasks.length} tarefa${tasks.length!==1?'s':''} em alerta</div>`;
   const rows=tasks.map(t=>{
-    const typeBadges=t.alertTypes.map(type=>{
-      if(type==='hours') return `<span class="badge badge-hours"><i class="ti ti-clock"></i> &lt; 30 horas</span>`;
-      if(type==='days')  return `<span class="badge badge-days"><i class="ti ti-calendar"></i> &lt; 30 dias</span>`;
-      if(type==='cycles')return `<span class="badge badge-cycles"><i class="ti ti-repeat"></i> &lt; 30 ciclos</span>`;
-      return '';
-    }).join(' ');
+    const overdueStr={hours:t.dueHoursStr,days:t.dueDaysStr,cycles:t.dueCyclesStr};
+    const isOverdue=type=>{const s=overdueStr[type];return typeof s==='string'&&s.trim().startsWith('-');};
+    const hasOverdue=t.alertTypes.some(isOverdue);
+    const typeBadges=(hasOverdue?['<span class="badge badge-overdue"><i class="ti ti-alert-triangle"></i> Overdue</span>']:[])
+      .concat(t.alertTypes.filter(type=>!isOverdue(type)).map(type=>{
+        if(type==='hours') return `<span class="badge badge-hours"><i class="ti ti-clock"></i> &lt; 30 horas</span>`;
+        if(type==='days')  return `<span class="badge badge-days"><i class="ti ti-calendar"></i> &lt; 30 dias</span>`;
+        if(type==='cycles')return `<span class="badge badge-cycles"><i class="ti ti-repeat"></i> &lt; 30 ciclos</span>`;
+        return '';
+      })).join(' ');
     const dueParts=[];
     if(t.dueHoursStr) dueParts.push(t.dueHoursStr);
     if(t.dueCyclesStr)dueParts.push(t.dueCyclesStr);
