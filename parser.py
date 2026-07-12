@@ -842,6 +842,18 @@ def _export_leg(leg):
     return {k: v for k, v in leg.items() if not k.startswith("_")}
 
 
+def _leg_order_key(l):
+    """Ordena as etapas pela sequencia da FOLHA (pagina), do maior para o
+    menor. Como folha e total acumulado crescem juntos, o total serve de
+    desempate robusto (ex: mesma folha em livros diferentes)."""
+    f = num(l.get("folha"))
+    t = num(l.get("celulaTotal"))
+    return (
+        f if f is not None else float("-inf"),
+        t if t is not None else float("-inf"),
+    )
+
+
 def build_flight_log(legs, twin, apu_mode):
     dated = [l for l in legs if l.get("_date")]
     if not dated:
@@ -870,7 +882,7 @@ def build_flight_log(legs, twin, apu_mode):
         months = []
         year_hours, year_landings, year_legs = 0.0, 0.0, 0
         for m in sorted(months_map.keys(), reverse=True):
-            month_legs = sorted(months_map[m], key=lambda l: l["_date"], reverse=True)
+            month_legs = sorted(months_map[m], key=_leg_order_key, reverse=True)
             mh = sum(l["_hoursDelta"] for l in month_legs if l["_hoursDelta"] is not None)
             ml = sum(l["_landingsDelta"] for l in month_legs if l["_landingsDelta"] is not None)
             year_hours += mh
