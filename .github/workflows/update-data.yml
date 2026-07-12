@@ -2,8 +2,10 @@ name: Atualizar dados do dashboard
 
 on:
   schedule:
-    # A cada 3 horas
-    - cron: '0 */3 * * *'
+    # A cada 2 horas, alinhado ao horario de Brasilia (UTC-3).
+    # GitHub Actions usa UTC: horas impares em UTC (01,03,...,23) caem em
+    # horas pares no horario de Brasilia (22,00,02,...,20).
+    - cron: '0 1-23/2 * * *'
   workflow_dispatch: {}
 
 jobs:
@@ -51,6 +53,36 @@ jobs:
         env:
           ONEDRIVE_BASE: ${{ github.workspace }}/onedrive_sync
         run: python parser.py
+
+      - name: Copiar documentos PDF do OneDrive (PS-NFA)
+        continue-on-error: true
+        run: |
+          # Baixa os PDFs da pasta de documentos e os publica com nomes
+          # ESTAVEIS dentro do site, para que os links dos botoes nao quebrem
+          # quando o nome do arquivo de origem mudar (ex: a etiqueta de
+          # liberacao troca a cada release).
+          mkdir -p onedrive_docs site/docs/PS-NFA
+          rclone copy "onedrive:Documentos/Aerobyte/Docs" onedrive_docs --include "*.pdf"
+
+          # Documentos de Bordo: arquivo "Documentos de Bordo - PS-NFA*.pdf".
+          bordo=$(find onedrive_docs -maxdepth 1 -type f -iname "Documentos de Bordo - PS-NFA*.pdf" -printf '%T@ %p\n' | sort -rn | head -n1 | cut -d' ' -f2- || true)
+          if [ -n "$bordo" ]; then
+            cp "$bordo" site/docs/PS-NFA/documentos-de-bordo.pdf
+            echo "Documentos de Bordo -> $bordo"
+          else
+            echo "AVISO: nenhum 'Documentos de Bordo - PS-NFA*.pdf' encontrado"
+          fi
+
+          # Ultima Liberacao: o ETIQUETA_*.pdf mais recente (por data de modificacao).
+          etiqueta=$(find onedrive_docs -maxdepth 1 -type f -iname "ETIQUETA_*.pdf" -printf '%T@ %p\n' | sort -rn | head -n1 | cut -d' ' -f2- || true)
+          if [ -n "$etiqueta" ]; then
+            cp "$etiqueta" site/docs/PS-NFA/ultima-liberacao.pdf
+            echo "Ultima Liberacao -> $etiqueta"
+          else
+            echo "AVISO: nenhum 'ETIQUETA_*.pdf' encontrado"
+          fi
+
+          ls -la site/docs/PS-NFA/
 
       - name: Publicar no Cloudflare Pages
         uses: cloudflare/pages-action@v1

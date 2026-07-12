@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aerobyte | Relatórios de Manutenção</title>
+  <title>Aerobyte | Maintenance & Planning Center</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
   <style>
     /* ── Light mode ── */
@@ -156,6 +156,21 @@
       cursor: pointer; display: flex; justify-content: space-between; align-items: center;
       padding: 9px 12px; background: var(--surface-1); border-radius: var(--radius); margin-top: 12px;
     }
+    .spec-header {
+      display: flex; align-items: center;
+      padding: 9px 12px; background: var(--surface-1); border-radius: var(--radius); margin-top: 12px;
+    }
+
+    /* ── Botões de documentos (PDF) da aeronave ── */
+    .acft-docs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+    .doc-btn {
+      display: inline-flex; align-items: center; gap: 6px; font-size: 13px;
+      color: var(--text-accent); background: var(--bg-accent);
+      border: 0.5px solid var(--border-strong); padding: 6px 12px;
+      border-radius: var(--radius); text-decoration: none; transition: background .15s;
+    }
+    .doc-btn:hover { background: var(--surface-1); }
+    .doc-btn i.ti-external-link { font-size: 13px; opacity: .7; }
     .spec-toggle-label { font-size: 12px; font-weight: 500; color: var(--text-secondary); text-transform: uppercase; letter-spacing: .05em; }
     .spec-toggle-label i { font-size: 14px; margin-right: 6px; vertical-align: -2px; transition: transform .15s; }
     .spec-toggle-label i.open { transform: rotate(90deg); }
@@ -317,11 +332,15 @@
 <nav id="navbar">
   <img src="./logo-header.png" alt="Aerobyte Consultoria Aeronáutica">
   <div class="navbar-right">
+    <button class="theme-btn" id="lang-btn" onclick="toggleLang()" title="Language / Idioma">
+      <i class="ti ti-language"></i>
+      <span id="lang-label">EN</span>
+    </button>
     <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">
       <i class="ti ti-moon" id="theme-icon"></i>
       <span id="theme-label">Escuro</span>
     </button>
-    <button class="navbar-sair" onclick="doLogout()">Sair</button>
+    <button class="navbar-sair" onclick="doLogout()" data-i18n="logout">Sair</button>
   </div>
 </nav>
 
@@ -330,10 +349,10 @@
   <div class="login-content">
     <div class="login-card">
       <img src="./logo-login.png" alt="Aerobyte" class="login-logo">
-      <h1>Aerobyte | Relatórios de Manutenção</h1>
-      <p>Acesse com sua senha</p>
-      <input type="password" id="pwd-input" placeholder="Senha de acesso" onkeydown="if(event.key==='Enter')doLogin()">
-      <button onclick="doLogin()">Entrar</button>
+      <h1>Aerobyte | Maintenance &amp; Planning Center</h1>
+      <p data-i18n="loginSubtitle">Acesse com sua senha</p>
+      <input type="password" id="pwd-input" placeholder="Senha de acesso" data-i18n-ph="loginPlaceholder" onkeydown="if(event.key==='Enter')doLogin()">
+      <button onclick="doLogin()" data-i18n="loginBtn">Entrar</button>
       <div class="login-error" id="login-error"></div>
     </div>
   </div>
@@ -349,13 +368,13 @@
   <div class="header">
     <div class="header-top">
       <div class="header-left">
-        <span class="aircraft-title" id="main-title">Painel de manutenção</span>
+        <span class="aircraft-title" id="main-title" data-i18n="mainTitleDefault">Painel de manutenção</span>
       </div>
     </div>
-    <div class="aircraft-sub" id="main-sub">Carregue os relatórios Excel para visualizar os alertas</div>
-    <div id="spec-toggle" class="spec-toggle" style="display:none" onclick="toggleAirframeSpec()">
-      <span class="spec-toggle-label"><i class="ti ti-chevron-right" id="spec-chevron"></i> Airframe and power plant specification</span>
-      <span class="spec-toggle-hint" id="spec-hint">clique para expandir</span>
+    <div class="aircraft-sub" id="main-sub" data-i18n="mainSubDefault">Carregue os relatórios Excel para visualizar os alertas</div>
+    <div id="acft-docs" class="acft-docs" style="display:none"></div>
+    <div id="spec-header" class="spec-header" style="display:none">
+      <span class="spec-toggle-label">Airframe and power plant specification</span>
     </div>
     <div id="spec-panel" class="spec-panel" style="display:none"></div>
   </div>
@@ -363,11 +382,11 @@
   <div id="data-mode-upload">
     <div class="upload-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
       <i class="ti ti-file-spreadsheet"></i>
-      <div style="font-weight:500;color:var(--text-primary);margin-bottom:4px;">Arraste os arquivos Excel aqui</div>
-      <div>ou clique para selecionar — múltiplos arquivos suportados</div>
-      <div style="font-size:11px;margin-top:6px;color:var(--text-muted);">.xls e .xlsx • um arquivo = uma aeronave</div>
+      <div style="font-weight:500;color:var(--text-primary);margin-bottom:4px;" data-i18n="uploadDrag">Arraste os arquivos Excel aqui</div>
+      <div data-i18n="uploadClick">ou clique para selecionar — múltiplos arquivos suportados</div>
+      <div style="font-size:11px;margin-top:6px;color:var(--text-muted);" data-i18n="uploadHint">.xls e .xlsx • um arquivo = uma aeronave</div>
       <label class="upload-btn" for="file-input" onclick="event.stopPropagation()">
-        <i class="ti ti-upload"></i> Selecionar arquivos
+        <i class="ti ti-upload"></i> <span data-i18n="uploadBtn">Selecionar arquivos</span>
       </label>
     </div>
     <input type="file" id="file-input" multiple accept=".xls,.xlsx" style="display:none">
@@ -385,22 +404,22 @@
     <div id="acft-selector-wrap" class="acft-selector"></div>
     <div class="stats-grid" id="stats-grid"></div>
     <div class="filters" style="margin-bottom:8px;">
-      <span class="filter-label">Aba:</span>
-      <span class="pill active" data-tab="all"         onclick="setTab('all',this)">Todas</span>
-      <span class="pill"        data-tab="Manutenção"  onclick="setTab('Manutenção',this)">Manutenção</span>
-      <span class="pill"        data-tab="Componentes" onclick="setTab('Componentes',this)">Componentes</span>
+      <span class="filter-label" data-i18n="tabLabel">Aba:</span>
+      <span class="pill active" data-tab="all"         onclick="setTab('all',this)"         data-i18n="tabAll">Todas</span>
+      <span class="pill"        data-tab="Manutenção"  onclick="setTab('Manutenção',this)"  data-i18n="tabManut">Manutenção</span>
+      <span class="pill"        data-tab="Componentes" onclick="setTab('Componentes',this)" data-i18n="tabComp">Componentes</span>
       <span class="pill"        data-tab="DIR"         onclick="setTab('DIR',this)">DIR</span>
-      <span class="pill"        data-tab="DIR MOTOR"   onclick="setTab('DIR MOTOR',this)">DIR Motor</span>
+      <span class="pill"        data-tab="DIR MOTOR"   onclick="setTab('DIR MOTOR',this)"   data-i18n="tabDIRM">DIR Motor</span>
       <span class="pill"        data-tab="DIR APU"     onclick="setTab('DIR APU',this)">DIR APU</span>
-      <span class="pill" id="tab-diario-bordo" data-tab="Diário de Bordo" style="display:none" onclick="setTab('Diário de Bordo',this)">Diário de Bordo</span>
+      <span class="pill" id="tab-diario-bordo" data-tab="Diário de Bordo" style="display:none" onclick="setTab('Diário de Bordo',this)" data-i18n="tabDiario">Diário de Bordo</span>
     </div>
     <div class="filters" id="validity-filters">
-      <span class="filter-label">Validade:</span>
-      <span class="pill active" data-validity="all"    onclick="setValidity('all',this)">Todas</span>
-      <span class="pill"        data-validity="hours"  onclick="setValidity('hours',this)">&lt; 30 horas</span>
-      <span class="pill"        data-validity="days"   onclick="setValidity('days',this)">&lt; 30 dias</span>
-      <span class="pill"        data-validity="cycles" onclick="setValidity('cycles',this)">&lt; 30 ciclos</span>
-      <span class="pill"        data-validity="overdue" onclick="setValidity('overdue',this)">Overdue</span>
+      <span class="filter-label" data-i18n="validityLabel">Validade:</span>
+      <span class="pill active" data-validity="all"    onclick="setValidity('all',this)"     data-i18n="valAll">Todas</span>
+      <span class="pill"        data-validity="hours"  onclick="setValidity('hours',this)"   data-i18n="valHours">&lt; 30 horas</span>
+      <span class="pill"        data-validity="days"   onclick="setValidity('days',this)"    data-i18n="valDays">&lt; 30 dias</span>
+      <span class="pill"        data-validity="cycles" onclick="setValidity('cycles',this)"  data-i18n="valCycles">&lt; 30 ciclos</span>
+      <span class="pill"        data-validity="overdue" onclick="setValidity('overdue',this)" data-i18n="valOverdue">Overdue</span>
     </div>
     <div id="table-wrap"></div>
   </div>
@@ -417,6 +436,102 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
+// ── I18N (EN / PT-BR) ───────────────────────────────────────────────────────
+// Chaves usadas tanto por elementos estáticos (atributo data-i18n / data-i18n-ph)
+// quanto pelas funções de render (via t('chave')). Dados vindos das planilhas
+// (modelo, S/N, P/N, datas, números) não são traduzidos — só o texto da interface.
+const MESES = {
+  pt: ['','Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+  en: ['','January','February','March','April','May','June','July','August','September','October','November','December'],
+};
+const I18N = {
+  pt: {
+    logout:'Sair',
+    loginSubtitle:'Acesse com sua senha', loginPlaceholder:'Senha de acesso', loginBtn:'Entrar',
+    themeDark:'Escuro', themeLight:'Claro',
+    mainTitleDefault:'Painel de manutenção',
+    mainSubDefault:'Carregue os relatórios Excel para visualizar os alertas',
+    uploadDrag:'Arraste os arquivos Excel aqui',
+    uploadClick:'ou clique para selecionar — múltiplos arquivos suportados',
+    uploadHint:'.xls e .xlsx • um arquivo = uma aeronave',
+    uploadBtn:'Selecionar arquivos', loadingText:'Lendo arquivos...',
+    tabLabel:'Aba:', tabAll:'Todas', tabManut:'Manutenção', tabComp:'Componentes', tabDIRM:'DIR Motor', tabDiario:'Diário de Bordo',
+    validityLabel:'Validade:', valAll:'Todas', valHours:'< 30 horas', valDays:'< 30 dias', valCycles:'< 30 ciclos', valOverdue:'Overdue',
+    statTotalAlerts:'Total de alertas', statTotalAlertsSub:'tarefas em atenção',
+    statHours:'< 30 horas', statHoursSub:'alertas por horas',
+    statDays:'< 30 dias', statDaysSub:'alertas por data',
+    statCycles:'< 30 ciclos', statCyclesSub:'alertas por ciclos',
+    thTask:'Tarefa / Descrição', thSheet:'Aba', thDue:'Saldo restante', thType:'Tipo de validade',
+    thTypeTip:'Clique para ordenar por prioridade (Overdue primeiro)',
+    badgeOverdue:'Overdue', badgeHours:'< 30 horas', badgeDays:'< 30 dias', badgeCycles:'< 30 ciclos',
+    emptyNoAlerts:'Nenhum alerta nesta categoria',
+    hoursTotal:'horas totais', landingsWord:'pousos', cyclesWord:'ciclos', reportDefault:'Relatório de manutenção',
+    specModel:'Modelo', specHours:'Horas', specCycles:'Ciclos',
+    flTotalHours:'Horas totais de voo', flTotalLandings:'Total de pousos',
+    flNoData:'Diário de Bordo não disponível para esta aeronave',
+    flNoLegs:'Nenhuma etapa com data registrada ainda no Diário de Bordo',
+    flFolha:'Folha', flData:'Data', flCelulaTime:'Tempo de voo célula', flEtapa:'Etapa', flTotal:'Total',
+    flPousos:'Pousos', flMotorTime:'Tempo de voo motores', flCiclosMotor:'Ciclos motores',
+    flCiclosLH:'Ciclos motor LH', flCiclosRH:'Ciclos motor RH',
+    tasksInAlert:n=>`${n} tarefa${n!==1?'s':''} em alerta`,
+    dataSource:d=>'Dados gerados automaticamente em '+d+' (horário de Brasília)',
+    flMeta:(h,l,n)=>`${h}h · ${l} pousos · ${n} etapa(s)`,
+    loadingCount:(a,b)=>`Lendo ${a} de ${b} arquivo(s)...`,
+  },
+  en: {
+    logout:'Log out',
+    loginSubtitle:'Sign in with your password', loginPlaceholder:'Access password', loginBtn:'Sign in',
+    themeDark:'Dark', themeLight:'Light',
+    mainTitleDefault:'Maintenance dashboard',
+    mainSubDefault:'Upload the Excel reports to view the alerts',
+    uploadDrag:'Drag the Excel files here',
+    uploadClick:'or click to select — multiple files supported',
+    uploadHint:'.xls and .xlsx • one file = one aircraft',
+    uploadBtn:'Select files', loadingText:'Reading files...',
+    tabLabel:'Sheet:', tabAll:'All', tabManut:'Maintenance', tabComp:'Components', tabDIRM:'DIR Engine', tabDiario:'Flight Log',
+    validityLabel:'Validity:', valAll:'All', valHours:'< 30 hours', valDays:'< 30 days', valCycles:'< 30 cycles', valOverdue:'Overdue',
+    statTotalAlerts:'Total alerts', statTotalAlertsSub:'tasks flagged',
+    statHours:'< 30 hours', statHoursSub:'hour-based alerts',
+    statDays:'< 30 days', statDaysSub:'date-based alerts',
+    statCycles:'< 30 cycles', statCyclesSub:'cycle-based alerts',
+    thTask:'Task / Description', thSheet:'Sheet', thDue:'Remaining', thType:'Validity type',
+    thTypeTip:'Click to sort by priority (Overdue first)',
+    badgeOverdue:'Overdue', badgeHours:'< 30 hours', badgeDays:'< 30 days', badgeCycles:'< 30 cycles',
+    emptyNoAlerts:'No alerts in this category',
+    hoursTotal:'total hours', landingsWord:'landings', cyclesWord:'cycles', reportDefault:'Maintenance report',
+    specModel:'Model', specHours:'Hours', specCycles:'Cycles',
+    flTotalHours:'Total flight hours', flTotalLandings:'Total landings',
+    flNoData:'Flight Log not available for this aircraft',
+    flNoLegs:'No leg with a recorded date yet in the Flight Log',
+    flFolha:'Page', flData:'Date', flCelulaTime:'Airframe flight time', flEtapa:'Leg', flTotal:'Total',
+    flPousos:'Landings', flMotorTime:'Engine flight time', flCiclosMotor:'Engine cycles',
+    flCiclosLH:'LH engine cycles', flCiclosRH:'RH engine cycles',
+    tasksInAlert:n=>`${n} task${n!==1?'s':''} in alert`,
+    dataSource:d=>'Data generated automatically at '+d+' (Brasília time)',
+    flMeta:(h,l,n)=>`${h}h · ${l} landings · ${n} leg(s)`,
+    loadingCount:(a,b)=>`Reading ${a} of ${b} file(s)...`,
+  },
+};
+let currentLang = localStorage.getItem('aerobyte-lang') || 'pt';
+function t(key) {
+  const v = I18N[currentLang]?.[key];
+  return v != null ? v : (I18N.pt[key] != null ? I18N.pt[key] : key);
+}
+function applyStaticI18n() {
+  document.documentElement.setAttribute('lang', currentLang === 'en' ? 'en' : 'pt-BR');
+  document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
+  document.querySelectorAll('[data-i18n-ph]').forEach(el => { el.placeholder = t(el.dataset.i18nPh); });
+  const ll = document.getElementById('lang-label');
+  if (ll) ll.textContent = currentLang === 'en' ? 'PT' : 'EN'; // mostra o idioma p/ o qual troca
+}
+function toggleLang() {
+  currentLang = currentLang === 'en' ? 'pt' : 'en';
+  localStorage.setItem('aerobyte-lang', currentLang);
+  applyStaticI18n();
+  updateThemeBtn(document.documentElement.getAttribute('data-theme'));
+  if (currentAcft && allData[currentAcft]) renderDashboard();
+}
+
 // ── THEME ─────────────────────────────────────────────────────────────────
 (function() {
   const saved = localStorage.getItem('aerobyte-theme');
@@ -432,12 +547,15 @@ function updateThemeBtn(theme) {
   if (!icon) return;
   if (theme === 'dark') {
     icon.className  = 'ti ti-sun';
-    label.textContent = 'Claro';
+    label.textContent = t('themeLight');
   } else {
     icon.className  = 'ti ti-moon';
-    label.textContent = 'Escuro';
+    label.textContent = t('themeDark');
   }
 }
+
+// Aplica o idioma salvo aos elementos estáticos assim que o script carrega.
+applyStaticI18n();
 
 function toggleTheme() {
   const current = document.documentElement.getAttribute('data-theme');
@@ -508,8 +626,8 @@ function applyJSON(json) {
   document.getElementById('dashboard-section').style.display = 'block';
   if (json.generated_at) {
     document.getElementById('data-source-note').style.display = 'flex';
-    document.getElementById('data-source-text').textContent =
-      'Dados gerados automaticamente em ' + json.generated_at + ' (horário de Brasília)';
+    document.getElementById('data-source-note').dataset.generatedAt = json.generated_at;
+    document.getElementById('data-source-text').textContent = t('dataSource')(json.generated_at);
   }
   currentAcft = Object.keys(allData)[0];
   renderAcftSelector();
@@ -540,7 +658,29 @@ let currentAcft     = null;
 let currentTab        = 'all';
 let currentValidity   = 'all';
 let currentPrioritySort = false;
-let airframeSpecExpanded = false;
+
+// ── DOCUMENTOS (PDF) POR AERONAVE ───────────────────────────────────────────
+// Cada item vira um botão abaixo do modelo que abre o PDF numa aba nova.
+// Só aparece nas aeronaves listadas aqui (por enquanto, teste na PS-NFA).
+// `pt`/`en` = texto do botão em cada idioma; `url` = endereço do PDF.
+// Os PDFs são servidos pelo próprio site (pasta site/docs/<AERONAVE>/) com
+// nomes estáveis — assim o link não quebra se o arquivo de origem mudar de nome.
+const AIRCRAFT_DOCS = {
+  'PS-NFA': [
+    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-NFA/documentos-de-bordo.pdf' },
+    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-NFA/ultima-liberacao.pdf' },
+  ],
+};
+function renderAircraftDocs(acft) {
+  const box = document.getElementById('acft-docs');
+  const docs = AIRCRAFT_DOCS[acft] || [];
+  if (!docs.length) { box.style.display = 'none'; box.innerHTML = ''; return; }
+  box.style.display = 'flex';
+  box.innerHTML = docs.map(d =>
+    `<a class="doc-btn" href="${d.url}" target="_blank" rel="noopener">` +
+    `<i class="ti ti-file-text"></i> ${d[currentLang] || d.pt} <i class="ti ti-external-link"></i></a>`
+  ).join('');
+}
 
 // ── UPLOAD (modo manual) ──────────────────────────────────────────────────
 const dropZone = document.getElementById('drop-zone');
@@ -565,7 +705,7 @@ function handleFiles(files) {
       } catch(err) { console.error('Erro:', file.name, err); }
       done++;
       document.getElementById('progress-fill').style.width = (done/xls.length*100)+'%';
-      document.getElementById('loading-text').textContent  = `Lendo ${done} de ${xls.length} arquivo(s)...`;
+      document.getElementById('loading-text').textContent  = t('loadingCount')(done, xls.length);
       if (done === xls.length) {
         setTimeout(() => {
           document.getElementById('data-mode-upload').style.display  = 'none';
@@ -1153,7 +1293,7 @@ function renderAcftSelector() {
   }).join('');
 }
 function switchAcft(name) {
-  currentAcft=name; currentTab='all'; currentValidity='all'; currentPrioritySort=false; airframeSpecExpanded=false;
+  currentAcft=name; currentTab='all'; currentValidity='all'; currentPrioritySort=false;
   document.querySelectorAll('[data-tab]').forEach(p=>p.classList.toggle('active',p.dataset.tab==='all'));
   document.querySelectorAll('[data-validity]').forEach(p=>p.classList.toggle('active',p.dataset.validity==='all'));
   document.getElementById('validity-filters').style.display = 'flex';
@@ -1168,51 +1308,64 @@ function renderDashboard() {
   const model=info.model||'';
   document.getElementById('main-title').textContent=(model?`✈ ${model} ${currentAcft}`:`✈ ${currentAcft}`);
   const sub=[
-    info.totalHours!=null?info.totalHours.toFixed(1)+' horas totais':null,
-    info.totalLandings!=null?info.totalLandings+' pousos':null,
-    info.totalCycles!=null?info.totalCycles+' ciclos':null,
+    info.totalHours!=null?info.totalHours.toFixed(1)+' '+t('hoursTotal'):null,
+    info.totalLandings!=null?info.totalLandings+' '+t('landingsWord'):null,
+    info.totalCycles!=null?info.totalCycles+' '+t('cyclesWord'):null,
   ].filter(Boolean).join(' · ');
-  document.getElementById('main-sub').textContent=sub||'Relatório de manutenção';
-  const specToggle=document.getElementById('spec-toggle');
+  document.getElementById('main-sub').textContent=sub||t('reportDefault');
+  renderAircraftDocs(currentAcft);
+  // Retraduz o aviso de origem dos dados (fica fora do fluxo de render estático).
+  const note=document.getElementById('data-source-note');
+  if (note && note.dataset.generatedAt) {
+    document.getElementById('data-source-text').textContent = t('dataSource')(note.dataset.generatedAt);
+  }
+  // Ficha técnica sempre visível (painel fixo, não é mais dropdown).
+  const specHeader=document.getElementById('spec-header');
   if (info.airframeSpec) {
-    specToggle.style.display='flex';
+    specHeader.style.display='flex';
     renderAirframeSpec(info.airframeSpec);
-    document.getElementById('spec-panel').style.display = airframeSpecExpanded ? 'block' : 'none';
-    document.getElementById('spec-chevron').classList.toggle('open', airframeSpecExpanded);
-    document.getElementById('spec-hint').textContent = airframeSpecExpanded ? 'clique para recolher' : 'clique para expandir';
+    document.getElementById('spec-panel').style.display = 'block';
   } else {
-    specToggle.style.display='none';
+    specHeader.style.display='none';
     document.getElementById('spec-panel').style.display='none';
   }
   const tasks=data.tasks;
   document.getElementById('stats-grid').innerHTML=`
-    <div class="stat-card"><div class="stat-label">Total de alertas</div><div class="stat-value danger">${tasks.length}</div><div class="stat-sub">tarefas em atenção</div></div>
-    <div class="stat-card"><div class="stat-label"><i class="ti ti-clock"></i> &lt; 30 horas</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('hours')).length}</div><div class="stat-sub">alertas por horas</div></div>
-    <div class="stat-card"><div class="stat-label"><i class="ti ti-calendar"></i> &lt; 30 dias</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('days')).length}</div><div class="stat-sub">alertas por data</div></div>
-    <div class="stat-card"><div class="stat-label"><i class="ti ti-repeat"></i> &lt; 30 ciclos</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('cycles')).length}</div><div class="stat-sub">alertas por ciclos</div></div>`;
+    <div class="stat-card"><div class="stat-label">${t('statTotalAlerts')}</div><div class="stat-value danger">${tasks.length}</div><div class="stat-sub">${t('statTotalAlertsSub')}</div></div>
+    <div class="stat-card"><div class="stat-label"><i class="ti ti-clock"></i> ${t('statHours')}</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('hours')).length}</div><div class="stat-sub">${t('statHoursSub')}</div></div>
+    <div class="stat-card"><div class="stat-label"><i class="ti ti-calendar"></i> ${t('statDays')}</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('days')).length}</div><div class="stat-sub">${t('statDaysSub')}</div></div>
+    <div class="stat-card"><div class="stat-label"><i class="ti ti-repeat"></i> ${t('statCycles')}</div><div class="stat-value">${tasks.filter(t=>t.alertTypes.includes('cycles')).length}</div><div class="stat-sub">${t('statCyclesSub')}</div></div>`;
   renderTable();
 }
+// Rótulos da ficha técnica saem do parser em português; mapeamos PT→EN aqui
+// para que o painel também troque de idioma (dados como modelo/S/N não mudam).
+const SPEC_COMPONENT_EN = {
+  'Célula':'Airframe','Motor 1':'Engine 1','Motor 2':'Engine 2','Motor 3':'Engine 3','APU':'APU',
+  'Hélice 1':'Propeller 1','Hélice 2':'Propeller 2','Rotor principal':'Main rotor','Rotor auxiliar':'Aux rotor',
+  'Pás RP':'MR blades','Pás RA':'TR blades','Compressor A/C':'A/C compressor','WTU':'WTU',
+};
+const SPEC_RECORD_EN = {
+  'Data do relatório':'Report date','Matrícula':'Registration','Fabricação':'Manuf. date',
+  'Categoria':'Category','Regulamento':'Regulation','PMD':'PMD','Último voo':'Last flight',
+  'Folha do diário':'Flight log page','PAX':'PAX','Trip':'Trip',
+};
+function specCompLabel(l){ return currentLang==='en' ? (SPEC_COMPONENT_EN[l] || l) : l; }
+function specRecordKey(k){ return currentLang==='en' ? (SPEC_RECORD_EN[k] || k) : k; }
 function specCard(c) {
   const rows = [];
-  if (c.model) rows.push(`<div class="spec-card-row"><span class="k">Modelo</span> <span class="v">${c.model}</span></div>`);
+  if (c.model) rows.push(`<div class="spec-card-row"><span class="k">${t('specModel')}</span> <span class="v">${c.model}</span></div>`);
   if (c.pn)    rows.push(`<div class="spec-card-row"><span class="k">P/N</span> <span class="v mono">${c.pn}</span></div>`);
   if (c.sn)    rows.push(`<div class="spec-card-row"><span class="k">S/N</span> <span class="v mono">${c.sn}</span></div>`);
   const totals = [];
-  if (c.hours)  totals.push(`<span class="k">Horas</span> <span class="v">${c.hours}</span>`);
-  if (c.cycles) totals.push(`<span class="k">Ciclos</span> <span class="v">${c.cycles}</span>`);
+  if (c.hours)  totals.push(`<span class="k">${t('specHours')}</span> <span class="v">${c.hours}</span>`);
+  if (c.cycles) totals.push(`<span class="k">${t('specCycles')}</span> <span class="v">${c.cycles}</span>`);
   const totalsHtml = totals.length ? `<div class="spec-card-row spec-card-totals">${totals.join(' ')}</div>` : '';
-  return `<div class="spec-card"><div class="spec-card-label">${c.label}</div>${rows.join('')}${totalsHtml}</div>`;
+  return `<div class="spec-card"><div class="spec-card-label">${specCompLabel(c.label)}</div>${rows.join('')}${totalsHtml}</div>`;
 }
 function renderAirframeSpec(spec) {
   const cards = spec.components.map(specCard).join('');
-  const record = Object.entries(spec.record).map(([k,v]) => `<span class="item"><span class="k">${k}</span> <strong>${v}</strong></span>`).join('');
+  const record = Object.entries(spec.record).map(([k,v]) => `<span class="item"><span class="k">${specRecordKey(k)}</span> <strong>${v}</strong></span>`).join('');
   document.getElementById('spec-panel').innerHTML = `<div class="spec-cards">${cards}</div>${record?`<div class="spec-record">${record}</div>`:''}`;
-}
-function toggleAirframeSpec() {
-  airframeSpecExpanded = !airframeSpecExpanded;
-  document.getElementById('spec-panel').style.display = airframeSpecExpanded ? 'block' : 'none';
-  document.getElementById('spec-chevron').classList.toggle('open', airframeSpecExpanded);
-  document.getElementById('spec-hint').textContent = airframeSpecExpanded ? 'clique para recolher' : 'clique para expandir';
 }
 function parseNum(str) {
   if (typeof str !== 'string') return null;
@@ -1238,6 +1391,7 @@ function togglePrioritySort() {
   renderTable();
 }
 function renderTable() {
+  const L = t; // alias: dentro do .map(t=>...) o parametro 't' sombreia a funcao t()
   const data=allData[currentAcft]; if(!data)return;
   if (currentTab === 'Diário de Bordo') { renderFlightLog(data); return; }
   let tasks=data.tasks;
@@ -1246,15 +1400,15 @@ function renderTable() {
   else if (currentValidity!=='all') tasks=tasks.filter(t=>t.alertTypes.includes(currentValidity) && !taskIsOverdue(t));
   if (currentPrioritySort) tasks=tasks.slice().sort((a,b)=>taskPriorityValue(a)-taskPriorityValue(b));
   const wrap=document.getElementById('table-wrap');
-  if (!tasks.length){wrap.innerHTML=`<div class="empty-state"><i class="ti ti-circle-check" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhum alerta nesta categoria</div>`;return;}
-  const countLabel=`<div class="section-title">${tasks.length} tarefa${tasks.length!==1?'s':''} em alerta</div>`;
+  if (!tasks.length){wrap.innerHTML=`<div class="empty-state"><i class="ti ti-circle-check" style="font-size:32px;display:block;margin-bottom:8px;"></i>${L('emptyNoAlerts')}</div>`;return;}
+  const countLabel=`<div class="section-title">${L('tasksInAlert')(tasks.length)}</div>`;
   const rows=tasks.map(t=>{
     const hasOverdue=taskIsOverdue(t);
-    const typeBadges=(hasOverdue?['<span class="badge badge-overdue"><i class="ti ti-alert-triangle"></i> Overdue</span>']:[])
+    const typeBadges=(hasOverdue?[`<span class="badge badge-overdue"><i class="ti ti-alert-triangle"></i> ${L('badgeOverdue')}</span>`]:[])
       .concat(t.alertTypes.filter(type=>!typeIsOverdue(t,type)).map(type=>{
-        if(type==='hours') return `<span class="badge badge-hours"><i class="ti ti-clock"></i> &lt; 30 horas</span>`;
-        if(type==='days')  return `<span class="badge badge-days"><i class="ti ti-calendar"></i> &lt; 30 dias</span>`;
-        if(type==='cycles')return `<span class="badge badge-cycles"><i class="ti ti-repeat"></i> &lt; 30 ciclos</span>`;
+        if(type==='hours') return `<span class="badge badge-hours"><i class="ti ti-clock"></i> ${L('badgeHours')}</span>`;
+        if(type==='days')  return `<span class="badge badge-days"><i class="ti ti-calendar"></i> ${L('badgeDays')}</span>`;
+        if(type==='cycles')return `<span class="badge badge-cycles"><i class="ti ti-repeat"></i> ${L('badgeCycles')}</span>`;
         return '';
       })).join(' ');
     const dueParts=[];
@@ -1273,11 +1427,11 @@ function renderTable() {
   }).join('');
   wrap.innerHTML=`${countLabel}<div style="overflow-x:auto;"><table class="task-table">
     <thead><tr>
-      <th class="col-task">Tarefa / Descrição</th>
-      <th class="col-sheet">Aba</th>
-      <th class="col-due">Saldo restante</th>
-      <th class="col-type" style="cursor:pointer;user-select:none;${currentPrioritySort?'color:var(--text-danger);':''}" onclick="togglePrioritySort()" title="Clique para ordenar por prioridade (Overdue primeiro)">
-        Tipo de validade <i class="ti ${currentPrioritySort?'ti-sort-ascending-2':'ti-arrows-sort'}" style="font-size:12px;"></i>
+      <th class="col-task">${L('thTask')}</th>
+      <th class="col-sheet">${L('thSheet')}</th>
+      <th class="col-due">${L('thDue')}</th>
+      <th class="col-type" style="cursor:pointer;user-select:none;${currentPrioritySort?'color:var(--text-danger);':''}" onclick="togglePrioritySort()" title="${L('thTypeTip')}">
+        ${L('thType')} <i class="ti ${currentPrioritySort?'ti-sort-ascending-2':'ti-arrows-sort'}" style="font-size:12px;"></i>
       </th>
     </tr></thead><tbody>${rows}</tbody></table></div>`;
 }
@@ -1296,17 +1450,17 @@ function flTd(v,strong) { const val=(v===''||v==null)?'—':v; return `<td class
 function flTdLeft(v) { return `<td>${v ?? ''}</td>`; }
 
 function buildFlightLogTable(fl, legs) {
-  let groupRow = '<th rowspan="2">Folha</th><th rowspan="2">Data</th>';
+  let groupRow = `<th rowspan="2">${t('flFolha')}</th><th rowspan="2">${t('flData')}</th>`;
   let subRow = '';
-  groupRow += flTh('Tempo de voo célula',2); subRow += flTh('Etapa')+flTh('Total');
-  groupRow += flTh('Pousos',2); subRow += flTh('Etapa')+flTh('Total');
+  groupRow += flTh(t('flCelulaTime'),2); subRow += flTh(t('flEtapa'))+flTh(t('flTotal'));
+  groupRow += flTh(t('flPousos'),2); subRow += flTh(t('flEtapa'))+flTh(t('flTotal'));
   if (fl.twin) {
-    groupRow += flTh('Tempo de voo motores',3); subRow += flTh('Etapa')+flTh('LH')+flTh('RH');
-    groupRow += flTh('Ciclos motor LH',3); subRow += flTh('CT')+flTh('PT')+flTh('IMP');
-    groupRow += flTh('Ciclos motor RH',3); subRow += flTh('CT')+flTh('PT')+flTh('IMP');
+    groupRow += flTh(t('flMotorTime'),3); subRow += flTh(t('flEtapa'))+flTh('LH')+flTh('RH');
+    groupRow += flTh(t('flCiclosLH'),3); subRow += flTh('CT')+flTh('PT')+flTh('IMP');
+    groupRow += flTh(t('flCiclosRH'),3); subRow += flTh('CT')+flTh('PT')+flTh('IMP');
   } else {
-    groupRow += flTh('Tempo de voo motores',2); subRow += flTh('Etapa')+flTh('Total');
-    groupRow += flTh('Ciclos motores',2); subRow += flTh('Etapa')+flTh('Total');
+    groupRow += flTh(t('flMotorTime'),2); subRow += flTh(t('flEtapa'))+flTh(t('flTotal'));
+    groupRow += flTh(t('flCiclosMotor'),2); subRow += flTh(t('flEtapa'))+flTh(t('flTotal'));
   }
   if (fl.apuMode === 'single') {
     groupRow += flTh('APU',2); subRow += flTh('AH')+flTh('AC');
@@ -1341,17 +1495,17 @@ function renderFlightLog(data) {
   const fl = data.info.flightLog;
   const wrap = document.getElementById('table-wrap');
   if (!fl) {
-    wrap.innerHTML = `<div class="empty-state"><i class="ti ti-notebook" style="font-size:32px;display:block;margin-bottom:8px;"></i>Diário de Bordo não disponível para esta aeronave</div>`;
+    wrap.innerHTML = `<div class="empty-state"><i class="ti ti-notebook" style="font-size:32px;display:block;margin-bottom:8px;"></i>${t('flNoData')}</div>`;
     return;
   }
 
   const stats = `<div class="stats-grid" style="margin-bottom:1.5rem;">
-    <div class="stat-card"><div class="stat-label">Horas totais de voo</div><div class="stat-value">${fl.totalHours ?? '—'}</div></div>
-    <div class="stat-card"><div class="stat-label">Total de pousos</div><div class="stat-value">${fl.totalLandings ?? '—'}</div></div>
+    <div class="stat-card"><div class="stat-label">${t('flTotalHours')}</div><div class="stat-value">${fl.totalHours ?? '—'}</div></div>
+    <div class="stat-card"><div class="stat-label">${t('flTotalLandings')}</div><div class="stat-value">${fl.totalLandings ?? '—'}</div></div>
   </div>`;
 
   if (!fl.years.length) {
-    wrap.innerHTML = stats + `<div class="empty-state"><i class="ti ti-calendar-off" style="font-size:32px;display:block;margin-bottom:8px;"></i>Nenhuma etapa com data registrada ainda no Diário de Bordo</div>`;
+    wrap.innerHTML = stats + `<div class="empty-state"><i class="ti ti-calendar-off" style="font-size:32px;display:block;margin-bottom:8px;"></i>${t('flNoLegs')}</div>`;
     return;
   }
 
@@ -1359,10 +1513,11 @@ function renderFlightLog(data) {
     const monthsHtml = y.months.map((m,mi) => {
       const table = buildFlightLogTable(fl, m.legs);
       const displayMonth = (yi===0 && mi===0) ? 'block' : 'none';
+      const monthLabel = MESES[currentLang][m.month] || m.monthLabel;
       return `<div class="fl-month">
         <div class="fl-month-head" onclick="toggleFLMonth(${yi},${mi})">
-          <span class="fl-title"><i class="ti ti-chevron-down" style="font-size:14px;margin-right:6px;vertical-align:-2px;"></i>${m.monthLabel}</span>
-          <span class="fl-meta">${m.hours ?? '0'}h · ${m.landings ?? '0'} pousos · ${m.legCount} etapa(s)</span>
+          <span class="fl-title"><i class="ti ti-chevron-down" style="font-size:14px;margin-right:6px;vertical-align:-2px;"></i>${monthLabel}</span>
+          <span class="fl-meta">${t('flMeta')(m.hours ?? '0', m.landings ?? '0', m.legCount)}</span>
         </div>
         <div id="fl-month-body-${yi}-${mi}" style="display:${displayMonth};">${table}</div>
       </div>`;
@@ -1371,7 +1526,7 @@ function renderFlightLog(data) {
     return `<div class="fl-year">
       <div class="fl-year-head" onclick="toggleFLYear(${yi})">
         <span class="fl-title"><i class="ti ti-chevron-down" style="font-size:15px;margin-right:6px;vertical-align:-2px;"></i>${y.year}</span>
-        <span class="fl-meta">${y.hours ?? '0'}h · ${y.landings ?? '0'} pousos · ${y.legCount} etapa(s)</span>
+        <span class="fl-meta">${t('flMeta')(y.hours ?? '0', y.landings ?? '0', y.legCount)}</span>
       </div>
       <div id="fl-year-body-${yi}" style="display:${displayYear};">${monthsHtml}</div>
     </div>`;

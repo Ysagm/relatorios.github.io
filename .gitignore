@@ -1,3 +1,7 @@
 .claude/
 __pycache__/
 *.pyc
+
+# PDFs dos documentos por aeronave: baixados do OneDrive pelo GitHub Action
+# a cada execucao e publicados junto com o site. Nao versionamos os binarios.
+site/docs/**/*.pdf
