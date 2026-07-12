@@ -670,6 +670,10 @@ const AIRCRAFT_DOCS = {
     { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-NFA/documentos-de-bordo.pdf' },
     { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-NFA/ultima-liberacao.pdf' },
   ],
+  'PS-STP': [
+    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-STP/documentos-de-bordo.pdf' },
+    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-STP/ultima-liberacao.pdf' },
+  ],
 };
 function renderAircraftDocs(acft) {
   const box = document.getElementById('acft-docs');
@@ -1042,7 +1046,7 @@ const AIRFRAME_RECORD_LABELS = {
   'MATRICULA':'Matrícula','REGISTRATION':'Matrícula',
   'FABRICACAO':'Fabricação','MANUF DATE':'Fabricação','MANUF. DATE':'Fabricação',
   'CATEGORIA':'Categoria','REGULATION':'Regulamento',
-  'PMD':'PMD',
+  'PMD':'MTOW',
   'ULTIMO VOO':'Último voo','LAST FLIGHT':'Último voo',
   'FOLHA DIARIO':'Folha do diário','FLIGHT LOG PAGE':'Folha do diário','FLIGHT LOG':'Folha do diário',
   'PAX':'PAX','TRIP':'Trip',
@@ -1346,7 +1350,7 @@ const SPEC_COMPONENT_EN = {
 };
 const SPEC_RECORD_EN = {
   'Data do relatório':'Report date','Matrícula':'Registration','Fabricação':'Manuf. date',
-  'Categoria':'Category','Regulamento':'Regulation','PMD':'PMD','Último voo':'Last flight',
+  'Categoria':'Category','Regulamento':'Regulation','PMD':'MTOW','Último voo':'Last flight',
   'Folha do diário':'Flight log page','PAX':'PAX','Trip':'Trip',
 };
 function specCompLabel(l){ return currentLang==='en' ? (SPEC_COMPONENT_EN[l] || l) : l; }
