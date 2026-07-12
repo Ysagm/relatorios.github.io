@@ -666,6 +666,10 @@ let currentPrioritySort = false;
 // Os PDFs são servidos pelo próprio site (pasta site/docs/<AERONAVE>/) com
 // nomes estáveis — assim o link não quebra se o arquivo de origem mudar de nome.
 const AIRCRAFT_DOCS = {
+  'PP-VEL': [
+    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PP-VEL/documentos-de-bordo.pdf' },
+    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PP-VEL/ultima-liberacao.pdf' },
+  ],
   'PS-NFA': [
     { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-NFA/documentos-de-bordo.pdf' },
     { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-NFA/ultima-liberacao.pdf' },
@@ -987,27 +991,31 @@ function parseFlightLogSheet(rows) {
   });
 
   if (!legs.length) return null;
-  return buildFlightLog(dedupeSameDateLegs(legs), twin, apuMode);
+  return buildFlightLog(dedupeSameFolhaLegs(legs), twin, apuMode);
 }
 
-function dedupeSameDateLegs(legs) {
-  // Se houver mais de uma etapa com a mesma data (ex: correção/duplicata
-  // lançada na planilha), mantém só a que tiver o maior total acumulado de
-  // célula — a entrada mais atualizada — preservando a posição original.
+function dedupeSameFolhaLegs(legs) {
+  // Uma linha por FOLHA do diário: quando a mesma folha aparece em várias
+  // linhas (ex: totais parciais lançados ao longo da página), mantém só a de
+  // maior TOTAL acumulado de célula — o estado final da folha — preservando a
+  // posição original. A folha é escopada pelo livro (No do diário), pois a
+  // numeração recomeça a cada livro. Folhas distintas na mesma data são mantidas.
+  const keyOf = leg => (leg.book || '') + '|' + (leg.folha ?? '');
   const winners = new Map();
   legs.forEach(leg => {
-    if (!leg._date) return;
-    const key = leg._date.getTime();
+    const key = keyOf(leg);
     const cur = winners.get(key);
     const curTotal = cur ? numOrNull(cur.celulaTotal) : null;
     const newTotal = numOrNull(leg.celulaTotal);
-    if (!cur || (newTotal != null && (curTotal == null || newTotal > curTotal))) winners.set(key, leg);
+    const better = !cur
+      || (newTotal != null && (curTotal == null || newTotal > curTotal))
+      || (newTotal != null && newTotal === curTotal && !cur._date && leg._date);
+    if (better) winners.set(key, leg);
   });
   const seen = new Set();
   const result = [];
   legs.forEach(leg => {
-    if (!leg._date) { result.push(leg); return; }
-    const key = leg._date.getTime();
+    const key = keyOf(leg);
     if (seen.has(key)) return;
     seen.add(key);
     result.push(winners.get(key));

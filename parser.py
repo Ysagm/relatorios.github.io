@@ -799,32 +799,38 @@ def parse_flight_log(rows):
     if not legs:
         return None
 
-    legs = dedupe_same_date_legs(legs)
+    legs = dedupe_same_folha_legs(legs)
     return build_flight_log(legs, twin, apu_mode)
 
 
-def dedupe_same_date_legs(legs):
-    """Se houver mais de uma etapa com a mesma data (ex: correcao/duplicata
-    lancada na planilha), mantem so a que tiver o maior total acumulado de
-    celula — a entrada mais atualizada — preservando a posicao original."""
+def dedupe_same_folha_legs(legs):
+    """Uma linha por FOLHA do diario: quando a mesma folha aparece em varias
+    linhas (ex: totais parciais lancados ao longo da pagina), mantem so a de
+    maior TOTAL acumulado de celula — o estado final da folha — preservando a
+    posicao original. A folha e escopada pelo livro (No do diario), pois a
+    numeracao recomeca a cada livro. Folhas distintas na mesma data sao mantidas."""
+    def key_of(leg):
+        return (leg.get("book") or "", leg.get("folha"))
+
     winners = {}
     for leg in legs:
-        key = leg.get("_date")
-        if key is None:
-            continue
+        key = key_of(leg)
         cur = winners.get(key)
         cur_total = num(cur.get("celulaTotal")) if cur else None
         new_total = num(leg.get("celulaTotal"))
-        if cur is None or (new_total is not None and (cur_total is None or new_total > cur_total)):
+        better = (
+            cur is None
+            or (new_total is not None and (cur_total is None or new_total > cur_total))
+            or (new_total is not None and new_total == cur_total
+                and cur.get("_date") is None and leg.get("_date") is not None)
+        )
+        if better:
             winners[key] = leg
 
     result = []
     seen = set()
     for leg in legs:
-        key = leg.get("_date")
-        if key is None:
-            result.append(leg)
-            continue
+        key = key_of(leg)
         if key in seen:
             continue
         seen.add(key)
