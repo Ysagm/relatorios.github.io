@@ -809,15 +809,12 @@ def _export_leg(leg):
 
 
 def _leg_order_key(l):
-    """Ordena as etapas pela sequencia da FOLHA (pagina), do maior para o
-    menor. Como folha e total acumulado crescem juntos, o total serve de
-    desempate robusto (ex: mesma folha em livros diferentes)."""
-    f = num(l.get("folha"))
+    """Ordena por DATA (mais recente primeiro) e, em datas iguais, pelo maior
+    TOTAL acumulado de celula — igual a ordenacao natural do Excel. Nao usa a
+    folha, pois pode haver mais de um livro com folhas de datas intercaladas.
+    So e aplicada a etapas com data (garantido por build_flight_log)."""
     t = num(l.get("celulaTotal"))
-    return (
-        f if f is not None else float("-inf"),
-        t if t is not None else float("-inf"),
-    )
+    return (l.get("_date"), t if t is not None else float("-inf"))
 
 
 def build_flight_log(legs, twin, apu_mode):

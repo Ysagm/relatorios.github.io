@@ -907,9 +907,10 @@ function buildFlightLog(legs, twin, apuMode) {
     const monthsMap = yearsMap[y];
     let yearHours = 0, yearLandings = 0, yearLegs = 0;
     const months = Object.keys(monthsMap).map(Number).sort((a,b)=>b-a).map(m => {
-      // Ordena pela sequência da FOLHA (página), do maior para o menor; o total
-      // acumulado (que cresce junto) serve de desempate robusto.
-      const orderKey = l => [numOrNull(l.folha) ?? -Infinity, numOrNull(l.celulaTotal) ?? -Infinity];
+      // Ordena por DATA (mais recente primeiro) e, em datas iguais, pelo maior
+      // TOTAL acumulado — igual ao Excel. Não usa folha, pois pode haver mais de
+      // um livro com folhas de datas intercaladas.
+      const orderKey = l => [l._date ? l._date.getTime() : -Infinity, numOrNull(l.celulaTotal) ?? -Infinity];
       const monthLegs = monthsMap[m].slice().sort((a,b) => {
         const ka=orderKey(a), kb=orderKey(b);
         return (kb[0]-ka[0]) || (kb[1]-ka[1]);
