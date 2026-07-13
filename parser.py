@@ -799,43 +799,9 @@ def parse_flight_log(rows):
     if not legs:
         return None
 
-    legs = dedupe_same_folha_legs(legs)
+    # Mostra TODAS as linhas originais do Excel — sem deduplicar por dia ou
+    # folha. A ordenacao (mais nova -> mais velha) e feita em build_flight_log.
     return build_flight_log(legs, twin, apu_mode)
-
-
-def dedupe_same_folha_legs(legs):
-    """Uma linha por FOLHA do diario: quando a mesma folha aparece em varias
-    linhas (ex: totais parciais lancados ao longo da pagina), mantem so a de
-    maior TOTAL acumulado de celula — o estado final da folha — preservando a
-    posicao original. A folha e escopada pelo livro (No do diario), pois a
-    numeracao recomeca a cada livro. Folhas distintas na mesma data sao mantidas."""
-    def key_of(leg):
-        return (leg.get("book") or "", leg.get("folha"))
-
-    winners = {}
-    for leg in legs:
-        key = key_of(leg)
-        cur = winners.get(key)
-        cur_total = num(cur.get("celulaTotal")) if cur else None
-        new_total = num(leg.get("celulaTotal"))
-        better = (
-            cur is None
-            or (new_total is not None and (cur_total is None or new_total > cur_total))
-            or (new_total is not None and new_total == cur_total
-                and cur.get("_date") is None and leg.get("_date") is not None)
-        )
-        if better:
-            winners[key] = leg
-
-    result = []
-    seen = set()
-    for leg in legs:
-        key = key_of(leg)
-        if key in seen:
-            continue
-        seen.add(key)
-        result.append(winners[key])
-    return result
 
 
 def _export_leg(leg):
