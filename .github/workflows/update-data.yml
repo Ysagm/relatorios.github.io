@@ -75,10 +75,11 @@ jobs:
           }
           copiar_docs "PP-AGN" "onedrive:LAST RELEASE-ON BOARD DOCS-PP-AGN"
           copiar_docs "PP-VEL" "onedrive:LAST RELEASE-ON BOARD DOCS-PP-VEL"
+          copiar_docs "PS-FLC" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-FLC"
           copiar_docs "PS-KNG" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-KNG"
           copiar_docs "PS-NFA" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-NFA"
           copiar_docs "PS-STP" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-STP"
-          ls -la site/docs/PP-AGN/ site/docs/PP-VEL/ site/docs/PS-KNG/ site/docs/PS-NFA/ site/docs/PS-STP/
+          ls -la site/docs/PP-AGN/ site/docs/PP-VEL/ site/docs/PS-FLC/ site/docs/PS-KNG/ site/docs/PS-NFA/ site/docs/PS-STP/
 
       - name: Publicar no Cloudflare Pages
         uses: cloudflare/pages-action@v1
