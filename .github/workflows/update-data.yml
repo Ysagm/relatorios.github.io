@@ -54,7 +54,7 @@ jobs:
           ONEDRIVE_BASE: ${{ github.workspace }}/onedrive_sync
         run: python parser.py
 
-      - name: Copiar documentos PDF do OneDrive (PS-NFA, PS-STP)
+      - name: Copiar documentos PDF do OneDrive (por aeronave)
         continue-on-error: true
         run: |
           # Baixa os PDFs da pasta de documentos de cada aeronave e os publica
@@ -79,7 +79,46 @@ jobs:
           copiar_docs "PS-KNG" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-KNG"
           copiar_docs "PS-NFA" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-NFA"
           copiar_docs "PS-STP" "onedrive:LAST RELEASE-ON BOARD DOCS-PS-STP"
-          ls -la site/docs/PP-AGN/ site/docs/PP-VEL/ site/docs/PS-FLC/ site/docs/PS-KNG/ site/docs/PS-NFA/ site/docs/PS-STP/
+          # N918LL fica numa subpasta do OneDrive (nao na raiz).
+          copiar_docs "N918LL" "onedrive:Gulfstream G450-N918LL/LAST RELEASE-ON BOARD DOCS-N918LL"
+          ls -la site/docs/PP-AGN/ site/docs/PP-VEL/ site/docs/PS-FLC/ site/docs/PS-KNG/ site/docs/PS-NFA/ site/docs/PS-STP/ site/docs/N918LL/
+
+      - name: Comprimir PDFs acima do limite do Cloudflare (25 MiB)
+        run: |
+          # O Cloudflare Pages rejeita arquivos > 25 MiB. Aqui comprimimos com
+          # Ghostscript SOMENTE os PDFs acima do limite (tenta /ebook e, se
+          # preciso, /screen). Se ainda passar do limite, o arquivo e removido
+          # para nao quebrar o deploy (o botao correspondente fica sem PDF).
+          # Escrito de forma defensiva: o passo sempre termina com sucesso.
+          set +e
+          LIMIT=26214400   # 25 MiB em bytes
+          sudo apt-get update -qq && sudo apt-get install -y -qq ghostscript
+          comprimir () {
+            f="$1"; setting="$2"
+            gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dPDFSETTINGS="$setting" \
+               -dNOPAUSE -dQUIET -dBATCH -sOutputFile="$f.tmp" "$f"
+            if [ -s "$f.tmp" ]; then
+              ns=$(stat -c%s "$f.tmp"); os=$(stat -c%s "$f")
+              if [ "$ns" -gt 0 ] && [ "$ns" -lt "$os" ]; then mv -f "$f.tmp" "$f"; else rm -f "$f.tmp"; fi
+            else
+              rm -f "$f.tmp"
+            fi
+          }
+          find site/docs -type f -iname "*.pdf" | while read -r f; do
+            sz=$(stat -c%s "$f")
+            [ "$sz" -le "$LIMIT" ] && continue
+            echo "Grande: $f ($sz bytes) — comprimindo com /ebook..."
+            comprimir "$f" /ebook
+            sz=$(stat -c%s "$f")
+            if [ "$sz" -gt "$LIMIT" ]; then echo "  ainda $sz bytes — tentando /screen..."; comprimir "$f" /screen; sz=$(stat -c%s "$f"); fi
+            if [ "$sz" -gt "$LIMIT" ]; then
+              echo "AVISO: $f ainda $sz bytes (> 25 MiB) apos compressao; removendo para nao quebrar o deploy."
+              rm -f "$f"
+            else
+              echo "OK: $f agora $sz bytes"
+            fi
+          done
+          exit 0
 
       - name: Publicar no Cloudflare Pages
         uses: cloudflare/pages-action@v1
