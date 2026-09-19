@@ -1,0 +1,13 @@
+# Cabecalhos de seguranca aplicados a todo o site.
+# O Cloudflare Pages le este arquivo automaticamente da pasta publicada.
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  Cross-Origin-Opener-Policy: same-origin
+
+# Nunca deixar cache/CDN guardar os dados protegidos (defesa extra alem do JWT).
+/data/*
+  Cache-Control: no-store
