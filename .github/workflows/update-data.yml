@@ -121,12 +121,11 @@ jobs:
           exit 0
 
       - name: Publicar no Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        env:
-          CI: 'true'
+        # A cloudflare/pages-action foi descontinuada/arquivada pela Cloudflare
+        # (por isso "Unable to resolve action ... not found"). O substituto
+        # oficial e a wrangler-action rodando "pages deploy".
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
-          projectName: ${{ secrets.CF_PROJECT_NAME }}
-          directory: site
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: pages deploy site --project-name=${{ secrets.CF_PROJECT_NAME }} --branch=main

@@ -62,9 +62,7 @@ def find_latest_spreadsheet(folder: Path):
     return max(pool, key=lambda f: f.stat().st_mtime)
 
 SITE_DIR = Path(__file__).resolve().parent / "site"
-DATA_DIR  = SITE_DIR / "data"       # per-aircraft JSON files served via Worker
-OUTPUT_PATH    = SITE_DIR / "data.json"   # kept for legacy / local testing
-OUTPUT_JS_PATH = SITE_DIR / "data.js"     # kept for legacy / local testing
+DATA_DIR  = SITE_DIR / "data"       # per-aircraft JSON files served via Worker (JWT)
 
 TARGET_SHEETS = ["Manutenção", "Manutenao", "Componentes", "DIR", "DIR MOTOR", "DIR APU", "Diário de Bordo"]
 
@@ -911,12 +909,10 @@ def main():
 
     json_text = json.dumps(output, ensure_ascii=False, indent=2)
 
-    # Legacy files (kept for local testing / fallback)
-    OUTPUT_PATH.write_text(json_text, encoding="utf-8")
-    OUTPUT_JS_PATH.write_text(f"window.EMBEDDED_DATA = {json_text};\n", encoding="utf-8")
-    print(f"\nGerado (legado): {OUTPUT_PATH}")
-
-    # Per-aircraft files served via Cloudflare Worker auth
+    # IMPORTANTE: nao gerar data.json / data.js na RAIZ do site. Eles ficariam
+    # fora do middleware (que so protege /data/*) e exporiam TODOS os dados de
+    # manutencao sem login. Toda a saida vai apenas para site/data/, protegida
+    # por JWT no functions/_middleware.js.
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     owner_path = DATA_DIR / "owner.json"
