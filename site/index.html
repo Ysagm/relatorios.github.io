@@ -595,7 +595,8 @@ async function doLogin() {
   }
 }
 
-function doLogout() {
+async function doLogout() {
+  try { await fetch('/api/logout', { method: 'POST' }); } catch {}
   sessionStorage.removeItem('_s');
   location.reload();
 }

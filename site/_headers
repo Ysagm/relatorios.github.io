@@ -8,6 +8,9 @@
   Permissions-Policy: geolocation=(), camera=(), microphone=()
   Cross-Origin-Opener-Policy: same-origin
 
-# Nunca deixar cache/CDN guardar os dados protegidos (defesa extra alem do JWT).
+# Nunca deixar cache/CDN guardar os recursos protegidos (defesa extra alem do JWT).
 /data/*
+  Cache-Control: no-store
+
+/docs/*
   Cache-Control: no-store

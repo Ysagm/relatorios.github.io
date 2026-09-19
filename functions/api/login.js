@@ -42,7 +42,14 @@ export async function onRequestPost(context) {
   if (!session) return json({ error: 'Senha incorreta. Tente novamente.' }, 401);
 
   const token = await createJWT(session, env.JWT_SECRET);
-  return json({ token, session });
+  // Cookie HttpOnly para autenticar a navegacao direta aos PDFs em /docs/*
+  // (o token em JSON continua sendo usado como Bearer para os fetch de /data/*).
+  const maxAge = 86400 * 7;   // 7 dias, igual a validade do JWT
+  const cookie = `ab_session=${token}; HttpOnly; Secure; SameSite=Lax; Path=/; Max-Age=${maxAge}`;
+  return new Response(JSON.stringify({ token, session }), {
+    status: 200,
+    headers: { 'Content-Type': 'application/json', 'Set-Cookie': cookie },
+  });
 }
 
 function json(data, status = 200) {
