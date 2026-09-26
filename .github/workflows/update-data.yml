@@ -120,6 +120,29 @@ jobs:
           done
           exit 0
 
+      - name: Minificar index.html (remove comentarios/espacos do front publicado)
+        continue-on-error: true
+        run: |
+          # Publica uma versao minificada (sem comentarios, sem espacos, JS/CSS
+          # compactados) SO no deploy — o index.html legivel continua no repo.
+          # Ofuscacao leve: dificulta a leitura casual do codigo-fonte; nao e
+          # seguranca. Fallback: se falhar, publica o index.html original.
+          set +e
+          # minify-js conservador (sem compress/mangle) so remove comentarios e
+          # espacos do JS, sem reescrever a logica — mais seguro contra quebra.
+          npx -y html-minifier-terser@7 \
+            --collapse-whitespace --remove-comments \
+            --minify-css true \
+            --minify-js '{"compress":false,"mangle":false}' \
+            -o site/index.min.html site/index.html
+          if [ -s site/index.min.html ]; then
+            mv -f site/index.min.html site/index.html
+            echo "index.html minificado: $(stat -c%s site/index.html) bytes"
+          else
+            rm -f site/index.min.html
+            echo "AVISO: minificacao falhou; publicando index.html original."
+          fi
+
       - name: Publicar no Cloudflare Pages
         # A cloudflare/pages-action foi descontinuada/arquivada pela Cloudflare
         # (por isso "Unable to resolve action ... not found"). O substituto
