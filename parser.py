@@ -64,6 +64,25 @@ def find_latest_spreadsheet(folder: Path):
 SITE_DIR = Path(__file__).resolve().parent / "site"
 DATA_DIR  = SITE_DIR / "data"       # per-aircraft JSON files served via Worker (JWT)
 
+# Aeronaves que possuem os PDFs (Documentos de Bordo / Ultima Liberacao).
+# Fica AQUI (no build, server-side) e nao no index.html, para que a lista de
+# matriculas nao apareca no codigo-fonte publico. Os botoes sao montados no
+# front-end a partir do payload autenticado /data/*.
+AIRCRAFT_WITH_DOCS = {
+    "PP-AGN", "PP-VEL", "PS-FLC", "PS-KNG", "PS-NFA", "PS-STP", "N918LL",
+}
+
+
+def docs_for(reg):
+    """Lista de documentos (bilingue) de uma aeronave, ou None se nao tiver."""
+    if reg not in AIRCRAFT_WITH_DOCS:
+        return None
+    base = f"./docs/{reg}"
+    return [
+        {"pt": "Documentos de Bordo", "en": "On Board Documentation", "url": f"{base}/documentos-de-bordo.pdf"},
+        {"pt": "Última Liberação",    "en": "Last Release",           "url": f"{base}/ultima-liberacao.pdf"},
+    ]
+
 TARGET_SHEETS = ["Manutenção", "Manutenao", "Componentes", "DIR", "DIR MOTOR", "DIR APU", "Diário de Bordo"]
 
 # Matches ANAC registrations (PP-AGN) and FAA registrations (N444R, N918LL)
@@ -895,7 +914,11 @@ def main():
         try:
             sheets = read_workbook(str(p))
             data = parse_workbook(sheets, acft_name)
-            aircraft[acft_name] = {"info": data["info"], "tasks": data["tasks"]}
+            entry = {"info": data["info"], "tasks": data["tasks"]}
+            docs = docs_for(acft_name)
+            if docs:
+                entry["docs"] = docs
+            aircraft[acft_name] = entry
             print(f"  {len(data['tasks'])} alerta(s) encontrado(s)")
         except Exception as e:
             print(f"[ERRO] falha ao processar {p.name}: {e}")

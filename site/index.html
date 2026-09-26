@@ -661,44 +661,13 @@ let currentValidity   = 'all';
 let currentPrioritySort = false;
 
 // ── DOCUMENTOS (PDF) POR AERONAVE ───────────────────────────────────────────
-// Cada item vira um botão abaixo do modelo que abre o PDF numa aba nova.
-// Só aparece nas aeronaves listadas aqui (por enquanto, teste na PS-NFA).
-// `pt`/`en` = texto do botão em cada idioma; `url` = endereço do PDF.
-// Os PDFs são servidos pelo próprio site (pasta site/docs/<AERONAVE>/) com
-// nomes estáveis — assim o link não quebra se o arquivo de origem mudar de nome.
-const AIRCRAFT_DOCS = {
-  'N918LL': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/N918LL/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/N918LL/ultima-liberacao.pdf' },
-  ],
-  'PS-FLC': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-FLC/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-FLC/ultima-liberacao.pdf' },
-  ],
-  'PP-AGN': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PP-AGN/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PP-AGN/ultima-liberacao.pdf' },
-  ],
-  'PS-KNG': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-KNG/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-KNG/ultima-liberacao.pdf' },
-  ],
-  'PP-VEL': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PP-VEL/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PP-VEL/ultima-liberacao.pdf' },
-  ],
-  'PS-NFA': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-NFA/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-NFA/ultima-liberacao.pdf' },
-  ],
-  'PS-STP': [
-    { pt: 'Documentos de Bordo', en: 'On Board Documentation', url: './docs/PS-STP/documentos-de-bordo.pdf' },
-    { pt: 'Última Liberação',    en: 'Last Release',           url: './docs/PS-STP/ultima-liberacao.pdf' },
-  ],
-};
+// A lista de documentos vem DENTRO do payload autenticado (allData[acft].docs),
+// gerado por parser.py. Assim as matrículas não ficam no HTML público — só
+// aparecem depois do login. Cada item: { pt, en, url }. Os PDFs em /docs/* são
+// protegidos pelo middleware (exigem sessão).
 function renderAircraftDocs(acft) {
   const box = document.getElementById('acft-docs');
-  const docs = AIRCRAFT_DOCS[acft] || [];
+  const docs = (allData[acft] && allData[acft].docs) || [];
   if (!docs.length) { box.style.display = 'none'; box.innerHTML = ''; return; }
   box.style.display = 'flex';
   box.innerHTML = docs.map(d =>
@@ -1213,7 +1182,7 @@ function parseWorkbook(wb, acftName) {
       // sempre aparecem juntos na linha de sub-cabeçalho real, em português
       // ou inglês). Busca limitada às primeiras linhas para não casar por
       // acidente com uma descrição de tarefa contendo essas palavras soltas
-      // mais abaixo na planilha (ex: PS-STP, N918LL perdiam centenas de
+      // mais abaixo na planilha (algumas aeronaves perdiam centenas de
       // linhas reais de manutenção por causa disso).
       let hdr = -1;
       for (let i = 0; i < Math.min(25, rows.length); i++) {
